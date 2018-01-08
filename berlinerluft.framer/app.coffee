@@ -13,6 +13,7 @@ scroll = ScrollComponent.wrap(figma.content)
 scroll.scrollHorizontal = false
 scroll.mouseWheelEnabled = true
 
+
 originX = figma.Locations.x
 originY = figma.Locations.y
 
@@ -25,35 +26,31 @@ figma.Locations.draggable.constraints = {
 	height: 80
 }
 
-startx = 0
-deltx = 0
 originX = figma.Locations.x
 
-figma.Locations.on Events.DragStart, ->
-	startx = event.x
-	deltx = startx
-
-figma.Locations.on Events.DragMove, ->
-	deltx = startx - event.x
-	##Numbers.html = figma.Locations.x
+pluspos = -235
+fhpos = 130
 
 figma.Locations.on Events.DragEnd, ->
   if figma.Locations.x < (originX - 100)
     figma.Locations.animate
       properties:
-        x: -285
+        x: pluspos
+        y: 20
       curve: "ease"
       time: 0.3
   else if figma.Locations.x > (originX + 100)
     figma.Locations.animate
       properties:
-        x: 110
+        x: fhpos
+        y: 20
       curve: "ease"
       time: 0.3
   else
     figma.Locations.animate
       properties:
         x: originX
+        y: 20
       curve: "ease"
       time: 0.3
 
@@ -65,13 +62,18 @@ Numbers.html = figma.Locations.x
 figma.Group.onClick (event, layer) ->
 	figma.Locations.animate
 		properties:
-			x: 110
+			x: fhpos
+			y: 20
 		curve: "ease"
 		time: 0.3
 
-figma.Group_2_10.onClick (event, layer) ->
+figma.plus.onClick (event, layer) ->
 	figma.Locations.animate
 		properties:
-			x: -285
+			x: pluspos
+			y: 20
 		curve: "ease"
 		time: 0.3
+
+figma.Grafik_Skala.opacity = 0
+
