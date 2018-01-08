@@ -1,7 +1,7 @@
 window.__imported__ = window.__imported__ || {};
 window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
    {
-      "objectId" : "41",
+      "objectId" : "42",
       "name" : "Übersichtsscreen_Grafik_komplett",
       "visible" : true,
       "maskFrame" : {
@@ -18,7 +18,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "40",
+            "objectId" : "41",
             "name" : "UI_Bars___Status_Bars___White___Base",
             "visible" : true,
             "maskFrame" : null,
@@ -30,7 +30,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "39",
+                  "objectId" : "40",
                   "name" : "Battery_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -42,7 +42,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "38",
+                        "objectId" : "39",
                         "name" : "Battery",
                         "visible" : true,
                         "maskFrame" : null,
@@ -56,7 +56,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/38.png",
+                           "path" : "images/39.png",
                            "frame" : {
                               "x" : 346,
                               "y" : 5,
@@ -69,7 +69,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/39.png",
+                     "path" : "images/40.png",
                      "frame" : {
                         "x" : 313,
                         "y" : 5,
@@ -82,7 +82,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/40.png",
+               "path" : "images/41.png",
                "frame" : {
                   "x" : 0,
                   "y" : 0,
@@ -92,76 +92,91 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "37",
-            "name" : "Group",
+            "objectId" : "38",
+            "name" : "Locations",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
                "x" : -129,
-               "y" : 44,
-               "width" : 166,
-               "height" : 12
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/37.png",
-               "frame" : {
-                  "x" : -129,
-                  "y" : 44,
-                  "width" : 166,
-                  "height" : 12
-               }
-            }
-         },
-         {
-            "objectId" : "36",
-            "name" : "Group_2_11",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 109,
                "y" : 43,
-               "width" : 159,
+               "width" : 477,
                "height" : 13
             },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/36.png",
-               "frame" : {
-                  "x" : 109,
-                  "y" : 43,
-                  "width" : 159,
-                  "height" : 13
+            "children" : [
+               {
+                  "objectId" : "37",
+                  "name" : "Group",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : -129,
+                     "y" : 44,
+                     "width" : 166,
+                     "height" : 12
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/37.png",
+                     "frame" : {
+                        "x" : -129,
+                        "y" : 44,
+                        "width" : 166,
+                        "height" : 12
+                     }
+                  }
+               },
+               {
+                  "objectId" : "36",
+                  "name" : "Group_2_11",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 109,
+                     "y" : 43,
+                     "width" : 159,
+                     "height" : 13
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/36.png",
+                     "frame" : {
+                        "x" : 109,
+                        "y" : 43,
+                        "width" : 159,
+                        "height" : 13
+                     }
+                  }
+               },
+               {
+                  "objectId" : "35",
+                  "name" : "Group_2_10",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 339,
+                     "y" : 45,
+                     "width" : 9,
+                     "height" : 9
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/35.png",
+                     "frame" : {
+                        "x" : 339,
+                        "y" : 45,
+                        "width" : 9,
+                        "height" : 9
+                     }
+                  }
                }
-            }
-         },
-         {
-            "objectId" : "35",
-            "name" : "Group_2_10",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 339,
-               "y" : 45,
-               "width" : 9,
-               "height" : 9
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/35.png",
-               "frame" : {
-                  "x" : 339,
-                  "y" : 45,
-                  "width" : 9,
-                  "height" : 9
-               }
-            }
+            ],
+            "kind" : "group"
          },
          {
             "objectId" : "34",
@@ -998,7 +1013,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "42",
+      "objectId" : "43",
       "name" : "quickstart1i",
       "visible" : true,
       "maskFrame" : null,
@@ -1012,7 +1027,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "kind" : "group",
       "imageType" : "png",
       "image" : {
-         "path" : "images/42.png",
+         "path" : "images/43.png",
          "frame" : {
             "x" : 2292,
             "y" : 26737,
@@ -1022,7 +1037,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       }
    },
    {
-      "objectId" : "43",
+      "objectId" : "44",
       "name" : "quickstart2i",
       "visible" : true,
       "maskFrame" : null,
@@ -1036,7 +1051,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "kind" : "group",
       "imageType" : "png",
       "image" : {
-         "path" : "images/43.png",
+         "path" : "images/44.png",
          "frame" : {
             "x" : 2295,
             "y" : 26511,
@@ -1046,7 +1061,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       }
    },
    {
-      "objectId" : "56",
+      "objectId" : "57",
       "name" : "Detailans._blau",
       "visible" : true,
       "maskFrame" : {
@@ -1063,7 +1078,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "55",
+            "objectId" : "56",
             "name" : "Group_13.1",
             "visible" : true,
             "maskFrame" : null,
@@ -1077,7 +1092,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/55.png",
+               "path" : "images/56.png",
                "frame" : {
                   "x" : 33,
                   "y" : 422,
@@ -1087,7 +1102,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "54",
+            "objectId" : "55",
             "name" : "Group_9",
             "visible" : true,
             "maskFrame" : null,
@@ -1101,7 +1116,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/54.png",
+               "path" : "images/55.png",
                "frame" : {
                   "x" : 330,
                   "y" : 599,
@@ -1111,7 +1126,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "53",
+            "objectId" : "54",
             "name" : "Group_10_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1125,7 +1140,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/53.png",
+               "path" : "images/54.png",
                "frame" : {
                   "x" : 281,
                   "y" : 599,
@@ -1135,7 +1150,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "52",
+            "objectId" : "53",
             "name" : "Group_11_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1149,7 +1164,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/52.png",
+               "path" : "images/53.png",
                "frame" : {
                   "x" : 229,
                   "y" : 600,
@@ -1159,7 +1174,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "51",
+            "objectId" : "52",
             "name" : "Group_12_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1173,7 +1188,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/51.png",
+               "path" : "images/52.png",
                "frame" : {
                   "x" : 178,
                   "y" : 600,
@@ -1183,7 +1198,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "50",
+            "objectId" : "51",
             "name" : "Group_14_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1197,7 +1212,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/50.png",
+               "path" : "images/51.png",
                "frame" : {
                   "x" : 81,
                   "y" : 600,
@@ -1207,7 +1222,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "49",
+            "objectId" : "50",
             "name" : "Group_13_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1221,7 +1236,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/49.png",
+               "path" : "images/50.png",
                "frame" : {
                   "x" : 128,
                   "y" : 599,
@@ -1231,7 +1246,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "48",
+            "objectId" : "49",
             "name" : "Group_6.2_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1245,7 +1260,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/48.png",
+               "path" : "images/49.png",
                "frame" : {
                   "x" : 24,
                   "y" : 598,
@@ -1255,7 +1270,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "47",
+            "objectId" : "48",
             "name" : "UI_Bars___Status_Bars___White___Base_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1267,7 +1282,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "46",
+                  "objectId" : "47",
                   "name" : "Battery_4",
                   "visible" : true,
                   "maskFrame" : null,
@@ -1279,7 +1294,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "45",
+                        "objectId" : "46",
                         "name" : "Battery_3",
                         "visible" : true,
                         "maskFrame" : null,
@@ -1293,7 +1308,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/45.png",
+                           "path" : "images/46.png",
                            "frame" : {
                               "x" : 346,
                               "y" : 5,
@@ -1306,7 +1321,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/46.png",
+                     "path" : "images/47.png",
                      "frame" : {
                         "x" : 313,
                         "y" : 5,
@@ -1319,7 +1334,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/47.png",
+               "path" : "images/48.png",
                "frame" : {
                   "x" : 0,
                   "y" : 0,
@@ -1329,7 +1344,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "44",
+            "objectId" : "45",
             "name" : "Group_8",
             "visible" : true,
             "maskFrame" : null,
@@ -1343,7 +1358,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/44.png",
+               "path" : "images/45.png",
                "frame" : {
                   "x" : 175,
                   "y" : 213,
@@ -1357,7 +1372,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
       "imageType" : "png",
       "image" : {
-         "path" : "images/56.png",
+         "path" : "images/57.png",
          "frame" : {
             "x" : 2740,
             "y" : 28107,
@@ -1367,7 +1382,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       }
    },
    {
-      "objectId" : "70",
+      "objectId" : "71",
       "name" : "Detailans._grau",
       "visible" : true,
       "maskFrame" : {
@@ -1384,7 +1399,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "69",
+            "objectId" : "70",
             "name" : "Group_13.1_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1398,7 +1413,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/69.png",
+               "path" : "images/70.png",
                "frame" : {
                   "x" : 33,
                   "y" : 422,
@@ -1408,7 +1423,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "68",
+            "objectId" : "69",
             "name" : "Group_9_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1422,7 +1437,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/68.png",
+               "path" : "images/69.png",
                "frame" : {
                   "x" : 330,
                   "y" : 599,
@@ -1432,7 +1447,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "67",
+            "objectId" : "68",
             "name" : "Group_10_3",
             "visible" : true,
             "maskFrame" : null,
@@ -1446,7 +1461,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/67.png",
+               "path" : "images/68.png",
                "frame" : {
                   "x" : 281,
                   "y" : 599,
@@ -1456,7 +1471,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "66",
+            "objectId" : "67",
             "name" : "Group_11_3",
             "visible" : true,
             "maskFrame" : null,
@@ -1470,7 +1485,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/66.png",
+               "path" : "images/67.png",
                "frame" : {
                   "x" : 229,
                   "y" : 600,
@@ -1480,7 +1495,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "65",
+            "objectId" : "66",
             "name" : "Group_12_3",
             "visible" : true,
             "maskFrame" : null,
@@ -1494,7 +1509,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/65.png",
+               "path" : "images/66.png",
                "frame" : {
                   "x" : 178,
                   "y" : 600,
@@ -1504,7 +1519,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "64",
+            "objectId" : "65",
             "name" : "Group_14_3",
             "visible" : true,
             "maskFrame" : null,
@@ -1518,7 +1533,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/64.png",
+               "path" : "images/65.png",
                "frame" : {
                   "x" : 81,
                   "y" : 600,
@@ -1528,7 +1543,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "63",
+            "objectId" : "64",
             "name" : "Group_13_3",
             "visible" : true,
             "maskFrame" : null,
@@ -1542,7 +1557,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/63.png",
+               "path" : "images/64.png",
                "frame" : {
                   "x" : 128,
                   "y" : 599,
@@ -1552,7 +1567,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "62",
+            "objectId" : "63",
             "name" : "Group_6.2_3",
             "visible" : true,
             "maskFrame" : null,
@@ -1566,7 +1581,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/62.png",
+               "path" : "images/63.png",
                "frame" : {
                   "x" : 24,
                   "y" : 598,
@@ -1576,7 +1591,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "61",
+            "objectId" : "62",
             "name" : "UI_Bars___Status_Bars___White___Base_3",
             "visible" : true,
             "maskFrame" : null,
@@ -1588,7 +1603,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "60",
+                  "objectId" : "61",
                   "name" : "Battery_6",
                   "visible" : true,
                   "maskFrame" : null,
@@ -1600,7 +1615,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "59",
+                        "objectId" : "60",
                         "name" : "Battery_5",
                         "visible" : true,
                         "maskFrame" : null,
@@ -1614,7 +1629,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/59.png",
+                           "path" : "images/60.png",
                            "frame" : {
                               "x" : 346,
                               "y" : 5,
@@ -1627,7 +1642,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/60.png",
+                     "path" : "images/61.png",
                      "frame" : {
                         "x" : 313,
                         "y" : 5,
@@ -1640,7 +1655,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/61.png",
+               "path" : "images/62.png",
                "frame" : {
                   "x" : 0,
                   "y" : 0,
@@ -1650,7 +1665,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "58",
+            "objectId" : "59",
             "name" : "Group_8_2",
             "visible" : true,
             "maskFrame" : null,
@@ -1664,7 +1679,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/58.png",
+               "path" : "images/59.png",
                "frame" : {
                   "x" : 175,
                   "y" : 213,
@@ -1674,7 +1689,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "57",
+            "objectId" : "58",
             "name" : "Group_10.1",
             "visible" : true,
             "maskFrame" : null,
@@ -1688,7 +1703,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/57.png",
+               "path" : "images/58.png",
                "frame" : {
                   "x" : -183,
                   "y" : -400,
@@ -1702,7 +1717,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
       "imageType" : "png",
       "image" : {
-         "path" : "images/70.png",
+         "path" : "images/71.png",
          "frame" : {
             "x" : 3194,
             "y" : 28107,
@@ -1712,7 +1727,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       }
    },
    {
-      "objectId" : "84",
+      "objectId" : "85",
       "name" : "Detailans._rot",
       "visible" : true,
       "maskFrame" : {
@@ -1729,7 +1744,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "83",
+            "objectId" : "84",
             "name" : "Group_13.1_3",
             "visible" : true,
             "maskFrame" : null,
@@ -1743,7 +1758,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/83.png",
+               "path" : "images/84.png",
                "frame" : {
                   "x" : 33,
                   "y" : 422,
@@ -1753,7 +1768,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "82",
+            "objectId" : "83",
             "name" : "Group_9_3",
             "visible" : true,
             "maskFrame" : null,
@@ -1767,7 +1782,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/82.png",
+               "path" : "images/83.png",
                "frame" : {
                   "x" : 330,
                   "y" : 599,
@@ -1777,7 +1792,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "81",
+            "objectId" : "82",
             "name" : "Group_10_4",
             "visible" : true,
             "maskFrame" : null,
@@ -1791,7 +1806,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/81.png",
+               "path" : "images/82.png",
                "frame" : {
                   "x" : 281,
                   "y" : 599,
@@ -1801,7 +1816,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "80",
+            "objectId" : "81",
             "name" : "Group_11_4",
             "visible" : true,
             "maskFrame" : null,
@@ -1815,7 +1830,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/80.png",
+               "path" : "images/81.png",
                "frame" : {
                   "x" : 229,
                   "y" : 600,
@@ -1825,7 +1840,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "79",
+            "objectId" : "80",
             "name" : "Group_12_4",
             "visible" : true,
             "maskFrame" : null,
@@ -1839,7 +1854,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/79.png",
+               "path" : "images/80.png",
                "frame" : {
                   "x" : 178,
                   "y" : 600,
@@ -1849,7 +1864,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "78",
+            "objectId" : "79",
             "name" : "Group_14_4",
             "visible" : true,
             "maskFrame" : null,
@@ -1863,7 +1878,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/78.png",
+               "path" : "images/79.png",
                "frame" : {
                   "x" : 81,
                   "y" : 600,
@@ -1873,7 +1888,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "77",
+            "objectId" : "78",
             "name" : "Group_13_4",
             "visible" : true,
             "maskFrame" : null,
@@ -1887,7 +1902,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/77.png",
+               "path" : "images/78.png",
                "frame" : {
                   "x" : 128,
                   "y" : 599,
@@ -1897,7 +1912,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "76",
+            "objectId" : "77",
             "name" : "Group_6.2_4",
             "visible" : true,
             "maskFrame" : null,
@@ -1911,7 +1926,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/76.png",
+               "path" : "images/77.png",
                "frame" : {
                   "x" : 24,
                   "y" : 598,
@@ -1921,7 +1936,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "75",
+            "objectId" : "76",
             "name" : "UI_Bars___Status_Bars___White___Base_4",
             "visible" : true,
             "maskFrame" : null,
@@ -1933,7 +1948,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "74",
+                  "objectId" : "75",
                   "name" : "Battery_8",
                   "visible" : true,
                   "maskFrame" : null,
@@ -1945,7 +1960,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "73",
+                        "objectId" : "74",
                         "name" : "Battery_7",
                         "visible" : true,
                         "maskFrame" : null,
@@ -1959,7 +1974,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/73.png",
+                           "path" : "images/74.png",
                            "frame" : {
                               "x" : 346,
                               "y" : 5,
@@ -1972,7 +1987,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/74.png",
+                     "path" : "images/75.png",
                      "frame" : {
                         "x" : 313,
                         "y" : 5,
@@ -1985,7 +2000,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/75.png",
+               "path" : "images/76.png",
                "frame" : {
                   "x" : 0,
                   "y" : 0,
@@ -1995,7 +2010,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "72",
+            "objectId" : "73",
             "name" : "Group_8_3",
             "visible" : true,
             "maskFrame" : null,
@@ -2009,7 +2024,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/72.png",
+               "path" : "images/73.png",
                "frame" : {
                   "x" : 164,
                   "y" : 213,
@@ -2019,7 +2034,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "71",
+            "objectId" : "72",
             "name" : "Group_10.1_2",
             "visible" : true,
             "maskFrame" : null,
@@ -2033,7 +2048,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/71.png",
+               "path" : "images/72.png",
                "frame" : {
                   "x" : -175,
                   "y" : -471,
@@ -2047,7 +2062,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
       "imageType" : "png",
       "image" : {
-         "path" : "images/84.png",
+         "path" : "images/85.png",
          "frame" : {
             "x" : 3653,
             "y" : 28107,
@@ -2057,7 +2072,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       }
    },
    {
-      "objectId" : "103",
+      "objectId" : "104",
       "name" : "Übersichtsscreen_Grafik_kompackt",
       "visible" : true,
       "maskFrame" : {
@@ -2074,7 +2089,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "102",
+            "objectId" : "103",
             "name" : "UI_Bars___Status_Bars___White___Base_5",
             "visible" : true,
             "maskFrame" : null,
@@ -2086,7 +2101,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "101",
+                  "objectId" : "102",
                   "name" : "Battery_10",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2098,7 +2113,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "100",
+                        "objectId" : "101",
                         "name" : "Battery_9",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2112,7 +2127,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/100.png",
+                           "path" : "images/101.png",
                            "frame" : {
                               "x" : 346,
                               "y" : 5,
@@ -2125,7 +2140,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/101.png",
+                     "path" : "images/102.png",
                      "frame" : {
                         "x" : 313,
                         "y" : 5,
@@ -2138,7 +2153,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/102.png",
+               "path" : "images/103.png",
                "frame" : {
                   "x" : 0,
                   "y" : 0,
@@ -2148,7 +2163,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "99",
+            "objectId" : "100",
             "name" : "Wertegruppe_2",
             "visible" : true,
             "maskFrame" : null,
@@ -2160,7 +2175,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "98",
+                  "objectId" : "99",
                   "name" : "Group_9.2_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2174,7 +2189,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/98.png",
+                     "path" : "images/99.png",
                      "frame" : {
                         "x" : 210,
                         "y" : 728,
@@ -2184,7 +2199,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "97",
+                  "objectId" : "98",
                   "name" : "Union_10",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2198,7 +2213,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/97.png",
+                     "path" : "images/98.png",
                      "frame" : {
                         "x" : 246,
                         "y" : 699,
@@ -2208,7 +2223,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "96",
+                  "objectId" : "97",
                   "name" : "Group_9.1_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2222,7 +2237,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/96.png",
+                     "path" : "images/97.png",
                      "frame" : {
                         "x" : 197,
                         "y" : 524,
@@ -2232,7 +2247,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "95",
+                  "objectId" : "96",
                   "name" : "Group_6.2_5",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2246,7 +2261,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/95.png",
+                     "path" : "images/96.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 629,
@@ -2256,7 +2271,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "94",
+                  "objectId" : "95",
                   "name" : "Ellipse_8",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2268,7 +2283,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "93",
+                        "objectId" : "94",
                         "name" : "Union_9",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2282,7 +2297,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/93.png",
+                           "path" : "images/94.png",
                            "frame" : {
                               "x" : 72,
                               "y" : 600,
@@ -2295,7 +2310,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/94.png",
+                     "path" : "images/95.png",
                      "frame" : {
                         "x" : -21,
                         "y" : 448,
@@ -2305,7 +2320,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "92",
+                  "objectId" : "93",
                   "name" : "Group_6_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2319,7 +2334,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/92.png",
+                     "path" : "images/93.png",
                      "frame" : {
                         "x" : 197,
                         "y" : 342,
@@ -2329,7 +2344,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "91",
+                  "objectId" : "92",
                   "name" : "Union_8",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2343,7 +2358,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/91.png",
+                     "path" : "images/92.png",
                      "frame" : {
                         "x" : 71,
                         "y" : 408,
@@ -2353,7 +2368,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "90",
+                  "objectId" : "91",
                   "name" : "Ellipse_7",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2365,7 +2380,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "89",
+                        "objectId" : "90",
                         "name" : "Union_7",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2379,7 +2394,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/89.png",
+                           "path" : "images/90.png",
                            "frame" : {
                               "x" : 237,
                               "y" : 496,
@@ -2392,7 +2407,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/90.png",
+                     "path" : "images/91.png",
                      "frame" : {
                         "x" : 139,
                         "y" : 349,
@@ -2402,7 +2417,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "88",
+                  "objectId" : "89",
                   "name" : "Union_6",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2416,7 +2431,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/88.png",
+                     "path" : "images/89.png",
                      "frame" : {
                         "x" : 276,
                         "y" : 313,
@@ -2426,7 +2441,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "87",
+                  "objectId" : "88",
                   "name" : "Ellipse_6",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2440,7 +2455,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/87.png",
+                     "path" : "images/88.png",
                      "frame" : {
                         "x" : -27,
                         "y" : 249,
@@ -2450,7 +2465,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "86",
+                  "objectId" : "87",
                   "name" : "Ellipse_5",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2464,7 +2479,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/86.png",
+                     "path" : "images/87.png",
                      "frame" : {
                         "x" : 143,
                         "y" : 161,
@@ -2477,7 +2492,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/99.png",
+               "path" : "images/100.png",
                "frame" : {
                   "x" : -27,
                   "y" : 161,
@@ -2487,7 +2502,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "85",
+            "objectId" : "86",
             "name" : "BG_2",
             "visible" : true,
             "maskFrame" : null,
@@ -2501,7 +2516,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/85.png",
+               "path" : "images/86.png",
                "frame" : {
                   "x" : -155,
                   "y" : -406,
@@ -2515,7 +2530,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
       "imageType" : "png",
       "image" : {
-         "path" : "images/103.png",
+         "path" : "images/104.png",
          "frame" : {
             "x" : 3194,
             "y" : 26586,
@@ -2525,7 +2540,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       }
    },
    {
-      "objectId" : "123",
+      "objectId" : "124",
       "name" : "Übersichtsscreen_2_Grafik_kompackt",
       "visible" : true,
       "maskFrame" : {
@@ -2542,7 +2557,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "122",
+            "objectId" : "123",
             "name" : "UI_Bars___Status_Bars___White___Base_6",
             "visible" : true,
             "maskFrame" : null,
@@ -2554,7 +2569,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "121",
+                  "objectId" : "122",
                   "name" : "Battery_12",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2566,7 +2581,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "120",
+                        "objectId" : "121",
                         "name" : "Battery_11",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2580,7 +2595,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/120.png",
+                           "path" : "images/121.png",
                            "frame" : {
                               "x" : 346,
                               "y" : 5,
@@ -2593,7 +2608,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/121.png",
+                     "path" : "images/122.png",
                      "frame" : {
                         "x" : 313,
                         "y" : 5,
@@ -2606,7 +2621,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/122.png",
+               "path" : "images/123.png",
                "frame" : {
                   "x" : 0,
                   "y" : 0,
@@ -2616,7 +2631,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "119",
+            "objectId" : "120",
             "name" : "Wertegruppe_3",
             "visible" : true,
             "maskFrame" : null,
@@ -2628,7 +2643,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "118",
+                  "objectId" : "119",
                   "name" : "Group_9.2_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2642,7 +2657,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/118.png",
+                     "path" : "images/119.png",
                      "frame" : {
                         "x" : 210,
                         "y" : 728,
@@ -2652,7 +2667,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "117",
+                  "objectId" : "118",
                   "name" : "Union_15",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2666,7 +2681,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/117.png",
+                     "path" : "images/118.png",
                      "frame" : {
                         "x" : 246,
                         "y" : 699,
@@ -2676,7 +2691,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "116",
+                  "objectId" : "117",
                   "name" : "Group_9.1_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2690,7 +2705,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/116.png",
+                     "path" : "images/117.png",
                      "frame" : {
                         "x" : 197,
                         "y" : 524,
@@ -2700,7 +2715,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "115",
+                  "objectId" : "116",
                   "name" : "Group_6.2_6",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2714,7 +2729,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/115.png",
+                     "path" : "images/116.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 629,
@@ -2724,7 +2739,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "114",
+                  "objectId" : "115",
                   "name" : "Ellipse_12",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2736,7 +2751,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "113",
+                        "objectId" : "114",
                         "name" : "Union_14",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2750,7 +2765,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/113.png",
+                           "path" : "images/114.png",
                            "frame" : {
                               "x" : 72,
                               "y" : 600,
@@ -2763,7 +2778,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/114.png",
+                     "path" : "images/115.png",
                      "frame" : {
                         "x" : -21,
                         "y" : 448,
@@ -2773,7 +2788,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "112",
+                  "objectId" : "113",
                   "name" : "Group_6_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2787,7 +2802,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/112.png",
+                     "path" : "images/113.png",
                      "frame" : {
                         "x" : 197,
                         "y" : 342,
@@ -2797,7 +2812,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "111",
+                  "objectId" : "112",
                   "name" : "Union_13",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2811,7 +2826,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/111.png",
+                     "path" : "images/112.png",
                      "frame" : {
                         "x" : 71,
                         "y" : 408,
@@ -2821,7 +2836,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "110",
+                  "objectId" : "111",
                   "name" : "Ellipse_11",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2833,7 +2848,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "109",
+                        "objectId" : "110",
                         "name" : "Union_12",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2847,7 +2862,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/109.png",
+                           "path" : "images/110.png",
                            "frame" : {
                               "x" : 237,
                               "y" : 496,
@@ -2860,7 +2875,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/110.png",
+                     "path" : "images/111.png",
                      "frame" : {
                         "x" : 139,
                         "y" : 349,
@@ -2870,7 +2885,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "108",
+                  "objectId" : "109",
                   "name" : "Union_11",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2884,7 +2899,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/108.png",
+                     "path" : "images/109.png",
                      "frame" : {
                         "x" : 276,
                         "y" : 313,
@@ -2894,7 +2909,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "107",
+                  "objectId" : "108",
                   "name" : "Ellipse_10",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2908,7 +2923,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/107.png",
+                     "path" : "images/108.png",
                      "frame" : {
                         "x" : -27,
                         "y" : 249,
@@ -2918,7 +2933,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "106",
+                  "objectId" : "107",
                   "name" : "Ellipse_9",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2932,7 +2947,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/106.png",
+                     "path" : "images/107.png",
                      "frame" : {
                         "x" : 143,
                         "y" : 161,
@@ -2942,7 +2957,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "105",
+                  "objectId" : "106",
                   "name" : "BG_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2954,7 +2969,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "104",
+                        "objectId" : "105",
                         "name" : "Group_10_5",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2968,7 +2983,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/104.png",
+                           "path" : "images/105.png",
                            "frame" : {
                               "x" : -167,
                               "y" : -471,
@@ -2981,7 +2996,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/105.png",
+                     "path" : "images/106.png",
                      "frame" : {
                         "x" : -167,
                         "y" : -471,
@@ -2994,7 +3009,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/119.png",
+               "path" : "images/120.png",
                "frame" : {
                   "x" : -167,
                   "y" : -471,
@@ -3008,7 +3023,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
       "imageType" : "png",
       "image" : {
-         "path" : "images/123.png",
+         "path" : "images/124.png",
          "frame" : {
             "x" : 4080,
             "y" : 26586,
@@ -3018,500 +3033,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       }
    },
    {
-      "objectId" : "143",
-      "name" : "Pulldown_Orte",
-      "visible" : true,
-      "maskFrame" : {
-         "x" : 4523,
-         "y" : 26586,
-         "width" : 375,
-         "height" : 667
-      },
-      "layerFrame" : {
-         "x" : 4523,
-         "y" : 26586,
-         "width" : 375,
-         "height" : 667
-      },
-      "children" : [
-         {
-            "objectId" : "142",
-            "name" : "UI_Bars___Status_Bars___White___Base_7",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 0,
-               "y" : 0,
-               "width" : 375,
-               "height" : 20
-            },
-            "children" : [
-               {
-                  "objectId" : "141",
-                  "name" : "Battery_14",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 313,
-                     "y" : 5,
-                     "width" : 55,
-                     "height" : 11
-                  },
-                  "children" : [
-                     {
-                        "objectId" : "140",
-                        "name" : "Battery_13",
-                        "visible" : true,
-                        "maskFrame" : null,
-                        "layerFrame" : {
-                           "x" : 346,
-                           "y" : 5,
-                           "width" : 22,
-                           "height" : 11
-                        },
-                        "children" : [],
-                        "kind" : "group",
-                        "imageType" : "png",
-                        "image" : {
-                           "path" : "images/140.png",
-                           "frame" : {
-                              "x" : 346,
-                              "y" : 5,
-                              "width" : 22,
-                              "height" : 11
-                           }
-                        }
-                     }
-                  ],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/141.png",
-                     "frame" : {
-                        "x" : 313,
-                        "y" : 5,
-                        "width" : 55,
-                        "height" : 11
-                     }
-                  }
-               }
-            ],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/142.png",
-               "frame" : {
-                  "x" : 0,
-                  "y" : 0,
-                  "width" : 375,
-                  "height" : 20
-               }
-            }
-         },
-         {
-            "objectId" : "139",
-            "name" : "Wertegruppe_4",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : -167,
-               "y" : -471,
-               "width" : 1028,
-               "height" : 1290
-            },
-            "children" : [
-               {
-                  "objectId" : "138",
-                  "name" : "Group_9.2_4",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 210,
-                     "y" : 728,
-                     "width" : 152,
-                     "height" : 12
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/138.png",
-                     "frame" : {
-                        "x" : 210,
-                        "y" : 728,
-                        "width" : 152,
-                        "height" : 12
-                     }
-                  }
-               },
-               {
-                  "objectId" : "137",
-                  "name" : "Union_20",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 246,
-                     "y" : 699,
-                     "width" : 15,
-                     "height" : 16
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/137.png",
-                     "frame" : {
-                        "x" : 246,
-                        "y" : 699,
-                        "width" : 15,
-                        "height" : 16
-                     }
-                  }
-               },
-               {
-                  "objectId" : "136",
-                  "name" : "Group_9.1_4",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 197,
-                     "y" : 524,
-                     "width" : 151,
-                     "height" : 13
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/136.png",
-                     "frame" : {
-                        "x" : 197,
-                        "y" : 524,
-                        "width" : 151,
-                        "height" : 13
-                     }
-                  }
-               },
-               {
-                  "objectId" : "135",
-                  "name" : "Group_6.2_7",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 38,
-                     "y" : 629,
-                     "width" : 45,
-                     "height" : 12
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/135.png",
-                     "frame" : {
-                        "x" : 38,
-                        "y" : 629,
-                        "width" : 45,
-                        "height" : 12
-                     }
-                  }
-               },
-               {
-                  "objectId" : "134",
-                  "name" : "Ellipse_16",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : -21,
-                     "y" : 448,
-                     "width" : 254,
-                     "height" : 248
-                  },
-                  "children" : [
-                     {
-                        "objectId" : "133",
-                        "name" : "Union_19",
-                        "visible" : true,
-                        "maskFrame" : null,
-                        "layerFrame" : {
-                           "x" : 72,
-                           "y" : 600,
-                           "width" : 19,
-                           "height" : 15
-                        },
-                        "children" : [],
-                        "kind" : "group",
-                        "imageType" : "png",
-                        "image" : {
-                           "path" : "images/133.png",
-                           "frame" : {
-                              "x" : 72,
-                              "y" : 600,
-                              "width" : 19,
-                              "height" : 15
-                           }
-                        }
-                     }
-                  ],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/134.png",
-                     "frame" : {
-                        "x" : -21,
-                        "y" : 448,
-                        "width" : 254,
-                        "height" : 248
-                     }
-                  }
-               },
-               {
-                  "objectId" : "132",
-                  "name" : "Group_6_4",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 197,
-                     "y" : 342,
-                     "width" : 56,
-                     "height" : 12
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/132.png",
-                     "frame" : {
-                        "x" : 197,
-                        "y" : 342,
-                        "width" : 56,
-                        "height" : 12
-                     }
-                  }
-               },
-               {
-                  "objectId" : "131",
-                  "name" : "Union_18",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 71,
-                     "y" : 408,
-                     "width" : 15,
-                     "height" : 16
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/131.png",
-                     "frame" : {
-                        "x" : 71,
-                        "y" : 408,
-                        "width" : 15,
-                        "height" : 16
-                     }
-                  }
-               },
-               {
-                  "objectId" : "130",
-                  "name" : "Ellipse_15",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 139,
-                     "y" : 349,
-                     "width" : 264,
-                     "height" : 266
-                  },
-                  "children" : [
-                     {
-                        "objectId" : "129",
-                        "name" : "Union_17",
-                        "visible" : true,
-                        "maskFrame" : null,
-                        "layerFrame" : {
-                           "x" : 237,
-                           "y" : 496,
-                           "width" : 24,
-                           "height" : 15
-                        },
-                        "children" : [],
-                        "kind" : "group",
-                        "imageType" : "png",
-                        "image" : {
-                           "path" : "images/129.png",
-                           "frame" : {
-                              "x" : 237,
-                              "y" : 496,
-                              "width" : 24,
-                              "height" : 15
-                           }
-                        }
-                     }
-                  ],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/130.png",
-                     "frame" : {
-                        "x" : 139,
-                        "y" : 349,
-                        "width" : 264,
-                        "height" : 266
-                     }
-                  }
-               },
-               {
-                  "objectId" : "128",
-                  "name" : "Union_16",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 276,
-                     "y" : 313,
-                     "width" : 15,
-                     "height" : 16
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/128.png",
-                     "frame" : {
-                        "x" : 276,
-                        "y" : 313,
-                        "width" : 15,
-                        "height" : 16
-                     }
-                  }
-               },
-               {
-                  "objectId" : "127",
-                  "name" : "Ellipse_14",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : -27,
-                     "y" : 249,
-                     "width" : 255,
-                     "height" : 259
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/127.png",
-                     "frame" : {
-                        "x" : -27,
-                        "y" : 249,
-                        "width" : 255,
-                        "height" : 259
-                     }
-                  }
-               },
-               {
-                  "objectId" : "126",
-                  "name" : "Ellipse_13",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 143,
-                     "y" : 161,
-                     "width" : 254,
-                     "height" : 248
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/126.png",
-                     "frame" : {
-                        "x" : 143,
-                        "y" : 161,
-                        "width" : 254,
-                        "height" : 248
-                     }
-                  }
-               },
-               {
-                  "objectId" : "125",
-                  "name" : "BG_4",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : -167,
-                     "y" : -471,
-                     "width" : 1028,
-                     "height" : 1154
-                  },
-                  "children" : [
-                     {
-                        "objectId" : "124",
-                        "name" : "Group_10_6",
-                        "visible" : true,
-                        "maskFrame" : null,
-                        "layerFrame" : {
-                           "x" : -167,
-                           "y" : -471,
-                           "width" : 1028,
-                           "height" : 1028
-                        },
-                        "children" : [],
-                        "kind" : "group",
-                        "imageType" : "png",
-                        "image" : {
-                           "path" : "images/124.png",
-                           "frame" : {
-                              "x" : -167,
-                              "y" : -471,
-                              "width" : 1028,
-                              "height" : 1028
-                           }
-                        }
-                     }
-                  ],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/125.png",
-                     "frame" : {
-                        "x" : -167,
-                        "y" : -471,
-                        "width" : 1028,
-                        "height" : 1154
-                     }
-                  }
-               }
-            ],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/139.png",
-               "frame" : {
-                  "x" : -167,
-                  "y" : -471,
-                  "width" : 1028,
-                  "height" : 1290
-               }
-            }
-         }
-      ],
-      "kind" : "artboard",
-      "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
-      "imageType" : "png",
-      "image" : {
-         "path" : "images/143.png",
-         "frame" : {
-            "x" : 4523,
-            "y" : 26586,
-            "width" : 375,
-            "height" : 667
-         }
-      }
-   },
-   {
-      "objectId" : "169",
+      "objectId" : "150",
       "name" : "Übersichtsscreen_2_Grafik_komplett",
       "visible" : true,
       "maskFrame" : {
@@ -3528,8 +3050,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "168",
-            "name" : "UI_Bars___Status_Bars___White___Base_8",
+            "objectId" : "149",
+            "name" : "UI_Bars___Status_Bars___White___Base_7",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3540,8 +3062,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "167",
-                  "name" : "Battery_16",
+                  "objectId" : "148",
+                  "name" : "Battery_14",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -3552,8 +3074,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "166",
-                        "name" : "Battery_15",
+                        "objectId" : "147",
+                        "name" : "Battery_13",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
@@ -3566,7 +3088,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/166.png",
+                           "path" : "images/147.png",
                            "frame" : {
                               "x" : 346,
                               "y" : 5,
@@ -3579,7 +3101,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/167.png",
+                     "path" : "images/148.png",
                      "frame" : {
                         "x" : 313,
                         "y" : 5,
@@ -3592,7 +3114,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/168.png",
+               "path" : "images/149.png",
                "frame" : {
                   "x" : 0,
                   "y" : 0,
@@ -3602,7 +3124,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "165",
+            "objectId" : "146",
             "name" : "i_2",
             "visible" : true,
             "maskFrame" : null,
@@ -3616,7 +3138,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/165.png",
+               "path" : "images/146.png",
                "frame" : {
                   "x" : 284,
                   "y" : 256,
@@ -3626,7 +3148,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "164",
+            "objectId" : "145",
             "name" : "Grafik_Skala",
             "visible" : true,
             "maskFrame" : null,
@@ -3638,7 +3160,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "163",
+                  "objectId" : "144",
                   "name" : "Group_2_12",
                   "visible" : true,
                   "maskFrame" : null,
@@ -3652,7 +3174,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/163.png",
+                     "path" : "images/144.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 116,
@@ -3662,7 +3184,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "162",
+                  "objectId" : "143",
                   "name" : "Group_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -3676,7 +3198,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/162.png",
+                     "path" : "images/143.png",
                      "frame" : {
                         "x" : 60,
                         "y" : 140,
@@ -3689,7 +3211,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "161",
+            "objectId" : "142",
             "name" : "Settings_icon_2",
             "visible" : true,
             "maskFrame" : null,
@@ -3701,7 +3223,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "160",
+                  "objectId" : "141",
                   "name" : "Group_11.1_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -3715,7 +3237,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/160.png",
+                     "path" : "images/141.png",
                      "frame" : {
                         "x" : 129,
                         "y" : 211,
@@ -3728,7 +3250,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/161.png",
+               "path" : "images/142.png",
                "frame" : {
                   "x" : 129,
                   "y" : 211,
@@ -3738,8 +3260,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "159",
-            "name" : "Wertegruppe_5",
+            "objectId" : "140",
+            "name" : "Wertegruppe_4",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3750,8 +3272,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "158",
-                  "name" : "Group_9.2_5",
+                  "objectId" : "139",
+                  "name" : "Group_9.2_4",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -3764,7 +3286,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/158.png",
+                     "path" : "images/139.png",
                      "frame" : {
                         "x" : 210,
                         "y" : 893,
@@ -3774,8 +3296,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "157",
-                  "name" : "Union_25",
+                  "objectId" : "138",
+                  "name" : "Union_20",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -3788,7 +3310,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/157.png",
+                     "path" : "images/138.png",
                      "frame" : {
                         "x" : 246,
                         "y" : 864,
@@ -3798,8 +3320,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "156",
-                  "name" : "Group_9.1_5",
+                  "objectId" : "137",
+                  "name" : "Group_9.1_4",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -3812,7 +3334,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/156.png",
+                     "path" : "images/137.png",
                      "frame" : {
                         "x" : 197,
                         "y" : 689,
@@ -3822,8 +3344,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "155",
-                  "name" : "Group_6.2_8",
+                  "objectId" : "136",
+                  "name" : "Group_6.2_7",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -3836,7 +3358,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/155.png",
+                     "path" : "images/136.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 793,
@@ -3846,8 +3368,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "154",
-                  "name" : "Ellipse_20",
+                  "objectId" : "135",
+                  "name" : "Ellipse_16",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -3858,8 +3380,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "153",
-                        "name" : "Union_24",
+                        "objectId" : "134",
+                        "name" : "Union_19",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
@@ -3872,7 +3394,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/153.png",
+                           "path" : "images/134.png",
                            "frame" : {
                               "x" : 75,
                               "y" : 764,
@@ -3885,7 +3407,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/154.png",
+                     "path" : "images/135.png",
                      "frame" : {
                         "x" : -17,
                         "y" : 613,
@@ -3895,8 +3417,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "152",
-                  "name" : "Group_6_5",
+                  "objectId" : "133",
+                  "name" : "Group_6_4",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -3909,7 +3431,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/152.png",
+                     "path" : "images/133.png",
                      "frame" : {
                         "x" : 197,
                         "y" : 506,
@@ -3919,8 +3441,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "151",
-                  "name" : "Union_23",
+                  "objectId" : "132",
+                  "name" : "Union_18",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -3933,7 +3455,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/151.png",
+                     "path" : "images/132.png",
                      "frame" : {
                         "x" : 69,
                         "y" : 573,
@@ -3943,8 +3465,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "150",
-                  "name" : "Ellipse_19",
+                  "objectId" : "131",
+                  "name" : "Ellipse_15",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -3955,8 +3477,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "149",
-                        "name" : "Union_22",
+                        "objectId" : "130",
+                        "name" : "Union_17",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
@@ -3969,7 +3491,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/149.png",
+                           "path" : "images/130.png",
                            "frame" : {
                               "x" : 246,
                               "y" : 660,
@@ -3982,7 +3504,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/150.png",
+                     "path" : "images/131.png",
                      "frame" : {
                         "x" : 139,
                         "y" : 514,
@@ -3992,8 +3514,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "148",
-                  "name" : "Union_21",
+                  "objectId" : "129",
+                  "name" : "Union_16",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -4006,7 +3528,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/148.png",
+                     "path" : "images/129.png",
                      "frame" : {
                         "x" : 274,
                         "y" : 475,
@@ -4016,8 +3538,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "147",
-                  "name" : "Ellipse_18",
+                  "objectId" : "128",
+                  "name" : "Ellipse_14",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -4030,7 +3552,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/147.png",
+                     "path" : "images/128.png",
                      "frame" : {
                         "x" : -27,
                         "y" : 414,
@@ -4040,8 +3562,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "146",
-                  "name" : "Ellipse_17",
+                  "objectId" : "127",
+                  "name" : "Ellipse_13",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -4054,7 +3576,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/146.png",
+                     "path" : "images/127.png",
                      "frame" : {
                         "x" : 143,
                         "y" : 326,
@@ -4064,8 +3586,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "145",
-                  "name" : "BG_5",
+                  "objectId" : "126",
+                  "name" : "BG_4",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -4076,8 +3598,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "144",
-                        "name" : "Group_10_7",
+                        "objectId" : "125",
+                        "name" : "Group_10_6",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
@@ -4090,7 +3612,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/144.png",
+                           "path" : "images/125.png",
                            "frame" : {
                               "x" : -167,
                               "y" : -471,
@@ -4103,7 +3625,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/145.png",
+                     "path" : "images/126.png",
                      "frame" : {
                         "x" : -167,
                         "y" : -471,
@@ -4116,7 +3638,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/159.png",
+               "path" : "images/140.png",
                "frame" : {
                   "x" : -167,
                   "y" : -471,
@@ -4130,7 +3652,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
       "imageType" : "png",
       "image" : {
-         "path" : "images/169.png",
+         "path" : "images/150.png",
          "frame" : {
             "x" : 3637,
             "y" : 26586,
@@ -4140,30 +3662,30 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       }
    },
    {
-      "objectId" : "178",
+      "objectId" : "159",
       "name" : "Einstellungen",
       "visible" : true,
       "maskFrame" : {
-         "x" : 2740,
+         "x" : 3177,
          "y" : 27358,
          "width" : 375,
          "height" : 667
       },
       "layerFrame" : {
-         "x" : 2740,
+         "x" : 3177,
          "y" : 27358,
          "width" : 375,
          "height" : 667
       },
       "children" : [
          {
-            "objectId" : "177",
-            "name" : "Group_6.2_9",
+            "objectId" : "158",
+            "name" : "Group_6.2_8",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
                "x" : 176,
-               "y" : 570,
+               "y" : 607,
                "width" : 26,
                "height" : 31
             },
@@ -4171,17 +3693,17 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/177.png",
+               "path" : "images/158.png",
                "frame" : {
                   "x" : 176,
-                  "y" : 570,
+                  "y" : 607,
                   "width" : 26,
                   "height" : 31
                }
             }
          },
          {
-            "objectId" : "176",
+            "objectId" : "157",
             "name" : "Group_7.4",
             "visible" : true,
             "maskFrame" : null,
@@ -4193,7 +3715,233 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "175",
+                  "objectId" : "156",
+                  "name" : "Group_6_5",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 38,
+                     "y" : 813,
+                     "width" : 55,
+                     "height" : 13
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/156.png",
+                     "frame" : {
+                        "x" : 38,
+                        "y" : 813,
+                        "width" : 55,
+                        "height" : 13
+                     }
+                  }
+               }
+            ],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/157.png",
+               "frame" : {
+                  "x" : 38,
+                  "y" : 780,
+                  "width" : 75,
+                  "height" : 46
+               }
+            }
+         },
+         {
+            "objectId" : "155",
+            "name" : "Group_9.1_5",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 195,
+               "y" : 676,
+               "width" : 152,
+               "height" : 45
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/155.png",
+               "frame" : {
+                  "x" : 195,
+                  "y" : 676,
+                  "width" : 152,
+                  "height" : 45
+               }
+            }
+         },
+         {
+            "objectId" : "154",
+            "name" : "UI_Bars___Status_Bars___White___Base_8",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 0,
+               "y" : 0,
+               "width" : 375,
+               "height" : 20
+            },
+            "children" : [
+               {
+                  "objectId" : "153",
+                  "name" : "Battery_16",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 313,
+                     "y" : 5,
+                     "width" : 58,
+                     "height" : 11
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "152",
+                        "name" : "Battery_15",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 346,
+                           "y" : 5,
+                           "width" : 25,
+                           "height" : 11
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/152.png",
+                           "frame" : {
+                              "x" : 346,
+                              "y" : 5,
+                              "width" : 25,
+                              "height" : 11
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/153.png",
+                     "frame" : {
+                        "x" : 313,
+                        "y" : 5,
+                        "width" : 58,
+                        "height" : 11
+                     }
+                  }
+               }
+            ],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/154.png",
+               "frame" : {
+                  "x" : 0,
+                  "y" : 0,
+                  "width" : 375,
+                  "height" : 20
+               }
+            }
+         },
+         {
+            "objectId" : "151",
+            "name" : "Union_21",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 333,
+               "y" : 684,
+               "width" : 15,
+               "height" : 16
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/151.png",
+               "frame" : {
+                  "x" : 333,
+                  "y" : 684,
+                  "width" : 15,
+                  "height" : 16
+               }
+            }
+         }
+      ],
+      "kind" : "artboard",
+      "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
+      "imageType" : "png",
+      "image" : {
+         "path" : "images/159.png",
+         "frame" : {
+            "x" : 3177,
+            "y" : 27358,
+            "width" : 375,
+            "height" : 667
+         }
+      }
+   },
+   {
+      "objectId" : "168",
+      "name" : "Profil",
+      "visible" : true,
+      "maskFrame" : {
+         "x" : 3614,
+         "y" : 27358,
+         "width" : 375,
+         "height" : 667
+      },
+      "layerFrame" : {
+         "x" : 3614,
+         "y" : 27358,
+         "width" : 375,
+         "height" : 667
+      },
+      "children" : [
+         {
+            "objectId" : "167",
+            "name" : "Group_6.2_9",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 176,
+               "y" : 607,
+               "width" : 26,
+               "height" : 31
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/167.png",
+               "frame" : {
+                  "x" : 176,
+                  "y" : 607,
+                  "width" : 26,
+                  "height" : 31
+               }
+            }
+         },
+         {
+            "objectId" : "166",
+            "name" : "Group_7.4_2",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 38,
+               "y" : 780,
+               "width" : 75,
+               "height" : 46
+            },
+            "children" : [
+               {
+                  "objectId" : "165",
                   "name" : "Group_6_6",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4207,7 +3955,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/175.png",
+                     "path" : "images/165.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 813,
@@ -4220,7 +3968,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/176.png",
+               "path" : "images/166.png",
                "frame" : {
                   "x" : 38,
                   "y" : 780,
@@ -4230,7 +3978,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "174",
+            "objectId" : "164",
             "name" : "Group_9.1_6",
             "visible" : true,
             "maskFrame" : null,
@@ -4244,7 +3992,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/174.png",
+               "path" : "images/164.png",
                "frame" : {
                   "x" : 195,
                   "y" : 676,
@@ -4254,7 +4002,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "173",
+            "objectId" : "163",
             "name" : "UI_Bars___Status_Bars___White___Base_9",
             "visible" : true,
             "maskFrame" : null,
@@ -4266,7 +4014,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "172",
+                  "objectId" : "162",
                   "name" : "Battery_18",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4278,7 +4026,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "171",
+                        "objectId" : "161",
                         "name" : "Battery_17",
                         "visible" : true,
                         "maskFrame" : null,
@@ -4292,7 +4040,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/171.png",
+                           "path" : "images/161.png",
                            "frame" : {
                               "x" : 346,
                               "y" : 5,
@@ -4305,7 +4053,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/172.png",
+                     "path" : "images/162.png",
                      "frame" : {
                         "x" : 313,
                         "y" : 5,
@@ -4318,7 +4066,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/173.png",
+               "path" : "images/163.png",
                "frame" : {
                   "x" : 0,
                   "y" : 0,
@@ -4328,8 +4076,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "170",
-            "name" : "Union_26",
+            "objectId" : "160",
+            "name" : "Union_22",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4342,7 +4090,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/170.png",
+               "path" : "images/160.png",
                "frame" : {
                   "x" : 333,
                   "y" : 684,
@@ -4356,9 +4104,9 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
       "imageType" : "png",
       "image" : {
-         "path" : "images/178.png",
+         "path" : "images/168.png",
          "frame" : {
-            "x" : 2740,
+            "x" : 3614,
             "y" : 27358,
             "width" : 375,
             "height" : 667
@@ -4366,30 +4114,30 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       }
    },
    {
-      "objectId" : "187",
-      "name" : "Einstellungen_2",
+      "objectId" : "177",
+      "name" : "Grenzwerte",
       "visible" : true,
       "maskFrame" : {
-         "x" : 3177,
+         "x" : 4051,
          "y" : 27358,
          "width" : 375,
          "height" : 667
       },
       "layerFrame" : {
-         "x" : 3177,
+         "x" : 4051,
          "y" : 27358,
          "width" : 375,
          "height" : 667
       },
       "children" : [
          {
-            "objectId" : "186",
+            "objectId" : "176",
             "name" : "Group_6.2_10",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
                "x" : 176,
-               "y" : 570,
+               "y" : 607,
                "width" : 26,
                "height" : 31
             },
@@ -4397,18 +4145,18 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/186.png",
+               "path" : "images/176.png",
                "frame" : {
                   "x" : 176,
-                  "y" : 570,
+                  "y" : 607,
                   "width" : 26,
                   "height" : 31
                }
             }
          },
          {
-            "objectId" : "185",
-            "name" : "Group_7.4_2",
+            "objectId" : "175",
+            "name" : "Group_7.4_3",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4419,7 +4167,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "184",
+                  "objectId" : "174",
                   "name" : "Group_6_7",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4433,7 +4181,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/184.png",
+                     "path" : "images/174.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 813,
@@ -4446,7 +4194,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/185.png",
+               "path" : "images/175.png",
                "frame" : {
                   "x" : 38,
                   "y" : 780,
@@ -4456,7 +4204,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "183",
+            "objectId" : "173",
             "name" : "Group_9.1_7",
             "visible" : true,
             "maskFrame" : null,
@@ -4470,7 +4218,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/183.png",
+               "path" : "images/173.png",
                "frame" : {
                   "x" : 195,
                   "y" : 676,
@@ -4480,7 +4228,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "182",
+            "objectId" : "172",
             "name" : "UI_Bars___Status_Bars___White___Base_10",
             "visible" : true,
             "maskFrame" : null,
@@ -4492,37 +4240,37 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "181",
+                  "objectId" : "171",
                   "name" : "Battery_20",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
                      "x" : 313,
                      "y" : 5,
-                     "width" : 58,
+                     "width" : 55,
                      "height" : 11
                   },
                   "children" : [
                      {
-                        "objectId" : "180",
+                        "objectId" : "170",
                         "name" : "Battery_19",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
                            "x" : 346,
                            "y" : 5,
-                           "width" : 25,
+                           "width" : 22,
                            "height" : 11
                         },
                         "children" : [],
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/180.png",
+                           "path" : "images/170.png",
                            "frame" : {
                               "x" : 346,
                               "y" : 5,
-                              "width" : 25,
+                              "width" : 22,
                               "height" : 11
                            }
                         }
@@ -4531,11 +4279,11 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/181.png",
+                     "path" : "images/171.png",
                      "frame" : {
                         "x" : 313,
                         "y" : 5,
-                        "width" : 58,
+                        "width" : 55,
                         "height" : 11
                      }
                   }
@@ -4544,7 +4292,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/182.png",
+               "path" : "images/172.png",
                "frame" : {
                   "x" : 0,
                   "y" : 0,
@@ -4554,8 +4302,8 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "179",
-            "name" : "Union_27",
+            "objectId" : "169",
+            "name" : "Union_23",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4568,7 +4316,7 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/179.png",
+               "path" : "images/169.png",
                "frame" : {
                   "x" : 333,
                   "y" : 684,
@@ -4582,9 +4330,9 @@ window.__imported__['Berliner Luft Framer Sync (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)",
       "imageType" : "png",
       "image" : {
-         "path" : "images/187.png",
+         "path" : "images/177.png",
          "frame" : {
-            "x" : 3177,
+            "x" : 4051,
             "y" : 27358,
             "width" : 375,
             "height" : 667
