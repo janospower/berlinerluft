@@ -98,8 +98,8 @@ figma.Heute.rotation = -heuterot
 
 skalaclip.clip = true
 ###
-gesternval = 2
-heuteval = 55
+gesternval = 100
+heuteval = 100
 
 figma.Gestern.style.webkitClipPath = "polygon(50% 50%, 0% "+gesternval+"%, 1% 100%, 100% 100%)"
 
@@ -115,6 +115,8 @@ inv.animate
 	time: 2
 
 inv.on "change:x", ->
-	gesternval = 2 * inv.x
+	gesternval = 100 - (98 * inv.x)
 	figma.Gestern.style.webkitClipPath = "polygon(50% 50%, 0% "+gesternval+"%, 1% 100%, 100% 100%)"
-	print figma.Gestern.style.webkitClipPath
+	heuteval = 100 - (45 * inv.x)
+	figma.Heute.style.webkitClipPath = "polygon(50% 50%, 0% "+heuteval+"%, 1% 100%, 100% 100%)"
+#	print figma.Gestern.style.webkitClipPath
