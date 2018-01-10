@@ -75,5 +75,38 @@ figma.plus.onClick (event, layer) ->
 		curve: "ease"
 		time: 0.3
 
-figma.Grafik_Skala.opacity = 0
+###
+heuterot = 0
 
+skalaclip = new Layer
+	width: 220
+	height: 220
+	rotation: heuterot
+	originY: 0
+#	borderRadius: "50%"
+#	backgroundColor: "transparent"
+	x: 38
+	y: 116+107
+
+# mask.style['-webkit-mask-image'] = '-webkit-radial-gradient(circle, white, black)'
+
+figma.Heute.parent = skalaclip
+figma.Heute.x = -0
+figma.Heute.y = -107
+figma.Heute.rotation = -heuterot
+
+
+skalaclip.clip = true
+###
+gesternval = 2
+heuteval = 55
+
+figma.Gestern.style.webkitClipPath = "polygon(50% 50%, 0% "+gesternval+"%, 1% 100%, 100% 100%)"
+
+figma.Heute.style.webkitClipPath = "polygon(50% 50%, 0% "+heuteval+"%, 1% 100%, 100% 100%)"
+
+figma.Gestern.animate 
+	properties: {rotation: 180}
+	curve: "ease"
+	delay: 2
+	time: 2
