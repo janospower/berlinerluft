@@ -120,3 +120,16 @@ inv.on "change:x", ->
 	heuteval = 100 - (45 * inv.x)
 	figma.Heute.style.webkitClipPath = "polygon(50% 50%, 0% "+heuteval+"%, 1% 100%, 100% 100%)"
 #	print figma.Gestern.style.webkitClipPath
+
+GLTFLayer = require 'GLTFLayer'
+
+l = new GLTFLayer
+	parent: figma.Wertegruppe
+	width: 200
+	height: 200
+	x: 20
+	y: 50
+	model: './Duck.glb'
+	backgroundColor: "transparent"
+
+figma.Ellipse_2.visible = false
