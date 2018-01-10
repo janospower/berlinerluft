@@ -105,8 +105,16 @@ figma.Gestern.style.webkitClipPath = "polygon(50% 50%, 0% "+gesternval+"%, 1% 10
 
 figma.Heute.style.webkitClipPath = "polygon(50% 50%, 0% "+heuteval+"%, 1% 100%, 100% 100%)"
 
-figma.Gestern.animate 
-	properties: {rotation: 180}
+inv = new Layer
+	backgroundColor: "transparent"
+
+inv.animate 
+	properties: {x: 1}
 	curve: "ease"
 	delay: 2
 	time: 2
+
+inv.on "change:x", ->
+	gesternval = 2 * inv.x
+	figma.Gestern.style.webkitClipPath = "polygon(50% 50%, 0% "+gesternval+"%, 1% 100%, 100% 100%)"
+	print figma.Gestern.style.webkitClipPath
