@@ -134,23 +134,21 @@ l = new GLTFLayer
 
 figma.Ellipse_2.visible = false
 
-###
-three = new Layer();
-three.html = "<canvas></canvas>"
-renderer = new THREE.WebGLRenderer({canvas: three._elementHTML.childNodes[0]});
-###
+
+
+
 
 clusterdimension = 175
-figma.Ellipse.visible = false
+figma.Ellipse.visible = true
 
 htmlLayer = new Layer(
-  x: 220
-  y: 5
+  x: 0
+  y: 0
   backgroundColor: "transparent"
   width: clusterdimension
   height: clusterdimension)
 htmlLayer.html = '<canvas></canvas>'
-htmlLayer.parent = figma.Wertegruppe
+htmlLayer.parent = figma.Ellipse
 
 
 
@@ -176,7 +174,7 @@ init = ->
 	camera.position.z = 5
 	
 
-initParticles = ->
+initParticles = (val) ->
   particleGroup = new (SPE.Group)(texture: value: THREE.ImageUtils.loadTexture('./img/smokeparticle.png'))
   # Spherical velocity distributions.
   emitter = new (SPE.Emitter)(
@@ -189,8 +187,8 @@ initParticles = ->
     velocity:
       value: new (THREE.Vector3)(3, 3, 3)
       distribution: SPE.distributions.SPHERE
-    size: value: 0.7
-    particleCount: 350)
+    size: value: 0.5
+    particleCount: val)
   particleGroup.addEmitter emitter
   scene.add particleGroup.mesh
   ###
@@ -216,7 +214,7 @@ render = (dt) ->
   return
 
 init()
-initParticles()
+initParticles 350
 setTimeout animate, 0
 
 
