@@ -190,8 +190,10 @@ partball = (parentLayer, partcount) ->
 		return
 	
 	animate = ->
-		if scrolling == false
-			requestAnimationFrame animate
+		requestAnimationFrame animate
+		#if parentLayer == figma.Carbon
+		#	print (scroll.scrollY - parentLayer.y)
+		if scrolling == false and (scroll.scrollY - parentLayer.y) > -250
 			now = Date.now() * 0.001
 			camera.position.x = Math.sin(now) * 75
 			camera.position.z = Math.cos(now) * 75
