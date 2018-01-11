@@ -191,8 +191,6 @@ partball = (parentLayer, partcount) ->
 	
 	animate = ->
 		requestAnimationFrame animate
-		#if parentLayer == figma.Carbon
-		#	print (scroll.scrollY - parentLayer.y)
 		if scrolling == false and (scroll.scrollY - parentLayer.y) > -250
 			now = Date.now() * 0.001
 			camera.position.x = Math.sin(now) * 75
@@ -210,15 +208,18 @@ partball = (parentLayer, partcount) ->
 	initParticles()
 	setTimeout animate, 0
 
-values = []
+values = [
+	[figma.Particulate_Matter,300]
+	[figma.Radon,55]
+	[figma.Carbon,4]
+	[figma.Sulfur,360]
+	[figma.Nitrogen,190]
+]
 
-spawnparts = ->
-	partball figma.Particulate_Matter, 300
-	partball figma.Radon, 55
-	partball figma.Carbon, 4
-	partball figma.Sulfur, 360
-	partball figma.Nitrogen, 190
+spawnparts = (v) ->
+	for x, i in v
+		partball v[i][0],v[i][1]
 
-spawnparts()
+spawnparts(values)
 
 
