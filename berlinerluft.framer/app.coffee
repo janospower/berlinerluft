@@ -32,27 +32,27 @@ pluspos = -235
 fhpos = 130
 
 figma.Locations.on Events.DragEnd, ->
-  if figma.Locations.x < (originX - 100)
-    figma.Locations.animate
-      properties:
-        x: pluspos
-        y: 20
-      curve: "ease"
-      time: 0.3
-  else if figma.Locations.x > (originX + 100)
-    figma.Locations.animate
-      properties:
-        x: fhpos
-        y: 20
-      curve: "ease"
-      time: 0.3
-  else
-    figma.Locations.animate
-      properties:
-        x: originX
-        y: 20
-      curve: "ease"
-      time: 0.3
+	if figma.Locations.x < (originX - 100)
+		figma.Locations.animate
+			properties:
+				x: pluspos
+				y: 20
+			curve: "ease"
+			time: 0.3
+	else if figma.Locations.x > (originX + 100)
+		figma.Locations.animate
+			properties:
+				x: fhpos
+				y: 20
+			curve: "ease"
+			time: 0.3
+	else
+		figma.Locations.animate
+			properties:
+				x: originX
+				y: 20
+			curve: "ease"
+			time: 0.3
 
 ###
 Numbers = new Layer
@@ -98,7 +98,7 @@ figma.Heute.rotation = -heuterot
 
 skalaclip.clip = true
 ###
-gesternval = 120
+gesternval = 100
 heuteval = 100
 
 figma.Gestern.style.webkitClipPath = "polygon(50% 50%, 0% "+gesternval+"%, 1% 100%, 100% 100%)"
@@ -121,100 +121,102 @@ inv.on "change:x", ->
 	figma.Heute.style.webkitClipPath = "polygon(50% 50%, 0% "+heuteval+"%, 1% 100%, 100% 100%)"
 #	print figma.Gestern.style.webkitClipPath
 
-GLTFLayer = require 'GLTFLayer'
-
-l = new GLTFLayer
-	parent: figma.Wertegruppe
-	width: 200
-	height: 200
-	x: 20
-	y: 50
-	model: './Duck.glb'
-	backgroundColor: "transparent"
-
-figma.Ellipse_2.visible = false
-
 
 
 
 
 clusterdimension = 175
-figma.Ellipse.visible = true
+scrolling = false
+scroll.onScrollStart ->
+	scrolling = true
+scroll.onScrollEnd ->
+	scrolling = false
 
-htmlLayer = new Layer(
-  x: 0
-  y: 0
-  backgroundColor: "transparent"
-  width: clusterdimension
-  height: clusterdimension)
-htmlLayer.html = '<canvas></canvas>'
-htmlLayer.parent = figma.Ellipse
-
-
-
-htmlLayer.states.animationOptions = curve: 'spring(500,12,0)'
-# On a click, go to the next state
-
-scene = undefined
-camera = undefined
-renderer = undefined
-# Used in initParticles()
-particleGroup = undefined
-clock = undefined
-
-init = ->
-	scene = new (THREE.Scene)
-	camera = new (THREE.PerspectiveCamera)(15, 1, 0.1, 1000)
-	camera.lookAt scene.position
-	renderer = new (THREE.WebGLRenderer)(
-		canvas: htmlLayer._elementHTML.childNodes[0]
-		antialias: true)
-	renderer.setSize htmlLayer.width, htmlLayer.height
-	clock = new (THREE.Clock)
-	camera.position.z = 5
+partball = (parentLayer, partcount) ->
+	htmlLayer = new Layer(
+		x: 0
+		y: 0
+		backgroundColor: "transparent"
+		width: clusterdimension
+		height: clusterdimension)
+	htmlLayer.html = '<canvas></canvas>'
+	htmlLayer.parent = parentLayer
 	
+	
+	scene = undefined
+	camera = undefined
+	renderer = undefined
+	# Used in initParticles()
+	particleGroup = undefined
+	clock = undefined
+	
+	init = ->
+		scene = new (THREE.Scene)
+		camera = new (THREE.PerspectiveCamera)(15, 1, 0.1, 1000)
+		camera.lookAt scene.position
+		renderer = new (THREE.WebGLRenderer)(
+			canvas: htmlLayer._elementHTML.childNodes[0]
+			antialias: true)
+		renderer.setSize htmlLayer.width, htmlLayer.height
+		clock = new (THREE.Clock)
+		camera.position.z = 5
+		
+	
+	initParticles = ->
+		particleGroup = new (SPE.Group)(texture: value: THREE.ImageUtils.loadTexture('./img/smokeparticle.png'))
+		# Spherical velocity distributions.
+		emitter = new (SPE.Emitter)(
+			type: 2
+			maxAge: value: 1
+			position:
+				value: new (THREE.Vector3)(-50 + 50, 0, 0)
+				#radius: partcount/100
+				radius: 5
+				spread: undefined
+			velocity:
+				value: new (THREE.Vector3)(3, 3, 3)
+				#value: new (THREE.Vector3)(1, 1, 1)
+				distribution: SPE.distributions.SPHERE
+			size: value: 0.5
+			particleCount: partcount*1)
+		particleGroup.addEmitter emitter
+		scene.add particleGroup.mesh
+		###
+		geometry = new (THREE.CubeGeometry)(1, 1, 1)
+		material = new (THREE.MeshBasicMaterial)(color: 0xffffff)
+		cube = new (THREE.Mesh)(geometry, material)
+		scene.add cube
+		###
+		return
+	
+	animate = ->
+		if scrolling == false
+			requestAnimationFrame animate
+			now = Date.now() * 0.001
+			camera.position.x = Math.sin(now) * 75
+			camera.position.z = Math.cos(now) * 75
+			camera.lookAt scene.position
+			render clock.getDelta()
+		return
+	
+	render = (dt) ->
+		particleGroup.tick dt
+		renderer.render scene, camera
+		return
+	
+	init()
+	initParticles()
+	setTimeout animate, 0
 
-initParticles = (val) ->
-  particleGroup = new (SPE.Group)(texture: value: THREE.ImageUtils.loadTexture('./img/smokeparticle.png'))
-  # Spherical velocity distributions.
-  emitter = new (SPE.Emitter)(
-    type: 2
-    maxAge: value: 1
-    position:
-      value: new (THREE.Vector3)(-50 + 50, 0, 0)
-      radius: 5
-      spread: if 2 == 1 then new (THREE.Vector3)(3, 3, 3) else undefined
-    velocity:
-      value: new (THREE.Vector3)(3, 3, 3)
-      distribution: SPE.distributions.SPHERE
-    size: value: 0.5
-    particleCount: val)
-  particleGroup.addEmitter emitter
-  scene.add particleGroup.mesh
-  ###
-  geometry = new (THREE.CubeGeometry)(1, 1, 1)
-  material = new (THREE.MeshBasicMaterial)(color: 0xffffff)
-  cube = new (THREE.Mesh)(geometry, material)
-  scene.add cube
-  ###
-  return
+values = []
 
-animate = ->
-  requestAnimationFrame animate
-  now = Date.now() * 0.001
-  camera.position.x = Math.sin(now) * 75
-  camera.position.z = Math.cos(now) * 75
-  camera.lookAt scene.position
-  render clock.getDelta()
-  return
+spawnparts = ->
+	partball figma.Particulate_Matter, 300
+	partball figma.Radon, 55
+	partball figma.Carbon, 4
+	partball figma.Sulfur, 360
+	partball figma.Nitrogen, 190
 
-render = (dt) ->
-  particleGroup.tick dt
-  renderer.render scene, camera
-  return
-
-init()
-initParticles 350
-setTimeout animate, 0
+spawnparts()
 
 
