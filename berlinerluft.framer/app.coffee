@@ -222,4 +222,6 @@ spawnparts = (v) ->
 
 spawnparts(values)
 
+figma.Grafik_Skala.scale = 1
+
 
