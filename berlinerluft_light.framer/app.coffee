@@ -10,15 +10,19 @@ Framer.Device.deviceType = "apple-iphone-8-gold"
 
 figma.criticalbg.opacity = 0
 figma.criticalbg_2.opacity = 0
+figma.BG_2.opacity = 0
+figma.BG.opacity = 0
+figma.Übersichtsscreen_Grafik_komplett.backgroundColor = 'transparent'
+figma.radon.backgroundColor = 'transparent'
 
 # Set-up FlowComponent
 flow = new FlowComponent
 flow.showNext(figma.Übersichtsscreen_Grafik_komplett)
 #flow.header = figma.Locations
-#figma.Übersichtsscreen_Grafik_komplett.opacity = 0.1
+#figma.Übersichtsscreen_Grafik_komplett.opacity = 0.5
 
-bg = new BackgroundLayer
-	backgroundColor: "transparent"
+bag = new BackgroundLayer
+	#backgroundColor: "red"
 	image: "images/bg.png"
 	parent: flow
 
@@ -282,14 +286,16 @@ scaleback = (l,s,t) ->
 overdet = (nav, layerA, layerB, overlay) ->
 	layerB.x = 0
 	layerB.y = 0
-	options = {time: 2}
+	options = {time: 0.3}
 	return transition = 
 		layerA:
 			show:
 				opacity: 1
+				scale: 1
 				options: options
 			hide:
 				opacity: 0
+				scale: 1.5
 				options: options
 		layerB:
 			show:
@@ -298,7 +304,7 @@ overdet = (nav, layerA, layerB, overlay) ->
 				options: options
 			hide:
 				opacity: 0
-				scale: 0.3
+				scale: 0.5
 				options: options
 
 
