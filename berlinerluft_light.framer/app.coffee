@@ -6,19 +6,32 @@ figma = Framer.Importer.load("imported/Framer%20Light%20Janos%20(Page%201)@2x", 
 convertTextLayers(figma, true)
 Framer.Device.deviceType = "apple-iphone-8-gold"
 
+
+
+figma.criticalbg.opacity = 0
+figma.criticalbg_2.opacity = 0
+
 # Set-up FlowComponent
 flow = new FlowComponent
 flow.showNext(figma.Übersichtsscreen_Grafik_komplett)
 #flow.header = figma.Locations
 #figma.Übersichtsscreen_Grafik_komplett.opacity = 0.1
 
-
 bg = new BackgroundLayer
 	backgroundColor: "transparent"
 	image: "images/bg.png"
 	parent: flow
-	
 
+
+values = [
+	[figma.Particulate_Matter,300]
+	[figma.Radon,55]
+	[figma.Carbon,4]
+	[figma.Sulfur,360]
+	[figma.Nitrogen,190]
+]
+
+total = 190
 
 figma.skale_s.opacity = 0
 hidden = [figma.Group_10,figma.Group_15,figma.Group_13,figma.Group_12,figma.Group_11]
@@ -92,29 +105,7 @@ figma.plus.onClick (event, layer) ->
 		curve: "ease"
 		time: 0.3
 
-###
-heuterot = 0
 
-skalaclip = new Layer
-	width: 220
-	height: 220
-	rotation: heuterot
-	originY: 0
-#	borderRadius: "50%"
-#	backgroundColor: "transparent"
-	x: 38
-	y: 116+107
-
-# mask.style['-webkit-mask-image'] = '-webkit-radial-gradient(circle, white, black)'
-
-figma.Heute.parent = skalaclip
-figma.Heute.x = -0
-figma.Heute.y = -107
-figma.Heute.rotation = -heuterot
-
-
-skalaclip.clip = true
-###
 gesternval = 100
 heuteval = 100
 
@@ -234,13 +225,15 @@ partball = (parentLayer, partcount) ->
 	initParticles()
 	setTimeout animate, 0
 
-values = [
-	[figma.Particulate_Matter,300]
-	[figma.Radon,55]
-	[figma.Carbon,4]
-	[figma.Sulfur,360]
-	[figma.Nitrogen,190]
-]
+
+
+
+if total > 250
+	figma.criticalbg.animate
+		opacity: 1
+else
+	figma.criticalbg.animate
+		opacity: 0
 
 spawnparts = (v) ->
 	for x, i in v
