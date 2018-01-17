@@ -9,6 +9,8 @@ flow.showNext(figma.Übersichtsscreen_Grafik_komplett)
 bg = new Layer
 	backgroundColor: "transparent"
 
+figma.skale_s.opacity = 0
+
 scroll = ScrollComponent.wrap(figma.content)
 scroll.scrollHorizontal = false
 scroll.mouseWheelEnabled = true
@@ -222,10 +224,19 @@ spawnparts = (v) ->
 
 spawnparts(values)
 
+figma.Skale.originY = 0
+
 cutoff = 230
 scroll.onMove ->
 	if -cutoff < scroll.content.y < 0
-		scrolled = scroll.content.y/(2*cutoff)
+		figma.Skale.originX = 0
+		scrolled = scroll.content.y/(cutoff)
+		figma.Skale.scale = 1 + 0.8 * scrolled
+		figma.Skale.opacity = 1 + scrolled
+		figma.skale_s.opacity = 0 - 0.75 - 2*scrolled
+	else if scroll.content.y > 0
+		figma.Skale.originX = 0.5
+		scrolled = 0.2 * scroll.content.y/(cutoff)
 		figma.Skale.scale = 1 + scrolled
 
 
