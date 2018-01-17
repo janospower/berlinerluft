@@ -271,19 +271,28 @@ scaleback = (l,s) ->
 	l.animate
 				properties:
 					scale: s
-				curve: "ease"
+				curve: "ease-in"
 				time: 0.3
 
-for x, i in values
-	values[i][0].pinchable.enabled = true
-	values[i][0].pinchable.threshold = 10
-	values[i][0].pinchable.centerOrigin = false
-	values[i][0].pinchable.minScale = 1
-	values[i][0].pinchable.scaleFactor = 0.3
-	values[i][0].pinchable.rotate = false
-	values[i][0].onPinchEnd (event, layer) ->
-		if layer.scale > 1.6
-			screen = switch 
+
+
+overdet = () ->
+   transition = 
+      layerA:
+          show:
+             opacity: 1
+          hide:
+             opacity: 0
+      layerB:
+          show:
+             opacity: 1
+          hide:
+             opacity: 0
+
+
+
+gotodetail = (layer) ->
+	screen = switch 
 				when layer.name=="Nitrogen" then null
 				when layer.name=="Carbon" then null
 				when layer.name=="Sulfur" then null
@@ -294,8 +303,37 @@ for x, i in values
 				scaleback(layer,6,screen)
 				layer.onAnimationEnd ->
 					#print "I'm finished"
-					flow.showNext(screen)
+					flow.transition(screen, overdet)
+					layer.scale = 1
 			else
 				scaleback(layer,1)
+
+
+for x, i in values
+	values[i][0].pinchable.enabled = true
+	values[i][0].pinchable.threshold = 10
+	values[i][0].pinchable.centerOrigin = false
+	values[i][0].pinchable.minScale = 1
+	values[i][0].pinchable.scaleFactor = 0.3
+	values[i][0].pinchable.rotate = false
+	values[i][0].onPinchEnd (event, layer) ->
+		if layer.scale > 1.6
+			gotodetail(layer)
 		else
 			scaleback(layer,1)
+	values[i][0].onClick (event, layer) ->
+		if layer.scale==1 or layer.scale>1.6
+			gotodetail(layer)
+
+
+
+
+
+
+
+
+
+
+# Radon detailansicht
+figma.overview.onClick (event, layer) ->
+	flow.showPrevious(overdet)
