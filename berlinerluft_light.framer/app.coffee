@@ -1,5 +1,10 @@
+
+{TextLayer, convertTextLayers} = require 'TextLayer'
+
 # Import file "Framer Light Janos (Page 1)"
 figma = Framer.Importer.load("imported/Framer%20Light%20Janos%20(Page%201)@2x", scale: 1)
+convertTextLayers(figma, true)
+
 
 # Set-up FlowComponent
 flow = new FlowComponent
@@ -10,6 +15,10 @@ bg = new Layer
 	backgroundColor: "transparent"
 
 figma.skale_s.opacity = 0
+hidden = [figma.Group_10,figma.Group_15,figma.Group_13,figma.Group_12,figma.Group_11]
+for x, i in hidden
+		hidden[i].visible = false
+
 
 scroll = ScrollComponent.wrap(figma.content)
 scroll.scrollHorizontal = false
@@ -143,7 +152,15 @@ partball = (parentLayer, partcount) ->
 		height: clusterdimension)
 	htmlLayer.html = '<canvas></canvas>'
 	htmlLayer.parent = parentLayer
-	
+	t = new TextLayer
+		text: partcount
+		color: 'white'
+		y: 111
+		fontFamily: 'Texta'
+		fontWeight: '900'
+		fontSize: '30'
+		paddingLeft: 3
+	t.parent = parentLayer
 	
 	scene = undefined
 	camera = undefined
@@ -238,5 +255,19 @@ scroll.onMove ->
 		figma.Skale.originX = 0.5
 		scrolled = 0.2 * scroll.content.y/(cutoff)
 		figma.Skale.scale = 1 + scrolled
-
+		
+scroll.onScrollEnd ->
+	if scroll.content.y > -100
+		scroll.scrollToPoint(
+			x: 0, y: 0
+			true
+			curve: Bezier.ease, time: 1
+		)
+	else if scroll.content.y > -200
+		scroll.scrollToPoint(
+			x: 0, y: cutoff
+			true
+			curve: Bezier.ease, time: 1
+		)
+	
 
