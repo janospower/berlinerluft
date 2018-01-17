@@ -10,10 +10,6 @@ convertTextLayers(figma, true)
 flow = new FlowComponent
 flow.showNext(figma.Übersichtsscreen_Grafik_komplett)
 
-# Background for Cover
-bg = new Layer
-	backgroundColor: "transparent"
-
 figma.skale_s.opacity = 0
 hidden = [figma.Group_10,figma.Group_15,figma.Group_13,figma.Group_12,figma.Group_11]
 for x, i in hidden
@@ -118,6 +114,7 @@ figma.Heute.style.webkitClipPath = "polygon(50% 50%, 0% "+heuteval+"%, 1% 100%, 
 
 inv = new Layer
 	backgroundColor: "transparent"
+	parent: figma.Übersichtsscreen_Grafik_komplett
 
 inv.animate 
 	properties: {x: 1}
@@ -269,5 +266,14 @@ scroll.onScrollEnd ->
 			true
 			curve: Bezier.ease, time: 1
 		)
-	
+
+for x, i in values
+	values[i][0].pinchable.enabled = true
+	values[i][0].pinchable.threshold = 10
+	values[i][0].pinchable.centerOrigin = false
+	values[i][0].pinchable.minScale = 1
+	values[i][0].pinchable.scaleFactor = 0.3
+	values[i][0].pinchable.rotate = false
+	values[i][0].onPinchEnd (event, layer) ->
+		
 
