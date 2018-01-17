@@ -276,18 +276,25 @@ scaleback = (l,s) ->
 
 
 
-overdet = () ->
-   transition = 
-      layerA:
-          show:
-             opacity: 1
-          hide:
-             opacity: 0
-      layerB:
-          show:
-             opacity: 1
-          hide:
-             opacity: 0
+overdet = (nav, layerA, layerB, overlay) ->
+	layerB.x = 0
+	layerB.y = 0
+	options = {time: 10.2}
+	return transition = 
+		layerA:
+			show:
+				opacity: 1
+				options: options
+			hide:
+				opacity: 0
+				options: options
+		layerB:
+			show:
+				opacity: 1
+				options: options
+			hide:
+				opacity: 0
+				options: options
 
 
 
