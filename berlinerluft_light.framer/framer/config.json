@@ -6,7 +6,7 @@
   "contentScale" : 1,
   "fullScreen" : false,
   "cachedDeviceWidth" : 375,
-  "deviceType" : "apple-iphone-8-space-gray",
+  "deviceType" : "apple-iphone-8-gold",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
 
@@ -14,7 +14,7 @@
   "projectId" : "FE1A0808-0FC6-422A-8E74-38CF9B802D25",
   "deviceOrientation" : 0,
   "selectedHand" : "",
-  "showBezel" : 0,
+  "showBezel" : false,
   "foldedCodeRanges" : [
 
   ],

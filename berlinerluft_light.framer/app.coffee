@@ -1,14 +1,24 @@
-
+Framer.Extras.Preloader.enable()
 {TextLayer, convertTextLayers} = require 'TextLayer'
 
 # Import file "Framer Light Janos (Page 1)"
 figma = Framer.Importer.load("imported/Framer%20Light%20Janos%20(Page%201)@2x", scale: 1)
 convertTextLayers(figma, true)
-
+Framer.Device.deviceType = "apple-iphone-8-gold"
 
 # Set-up FlowComponent
 flow = new FlowComponent
 flow.showNext(figma.Übersichtsscreen_Grafik_komplett)
+#flow.header = figma.Locations
+#figma.Übersichtsscreen_Grafik_komplett.opacity = 0.1
+
+
+bg = new BackgroundLayer
+	backgroundColor: "transparent"
+	image: "images/bg.png"
+	parent: flow
+	
+
 
 figma.skale_s.opacity = 0
 hidden = [figma.Group_10,figma.Group_15,figma.Group_13,figma.Group_12,figma.Group_11]
@@ -279,7 +289,7 @@ scaleback = (l,s) ->
 overdet = (nav, layerA, layerB, overlay) ->
 	layerB.x = 0
 	layerB.y = 0
-	options = {time: 10.2}
+	options = {time: 2}
 	return transition = 
 		layerA:
 			show:
