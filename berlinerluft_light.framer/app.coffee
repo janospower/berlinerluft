@@ -270,12 +270,12 @@ scroll.onScrollEnd ->
 			curve: Bezier.ease, time: 1
 		)
 
-scaleback = (l,s) ->
+scaleback = (l,s,t) ->
 	l.animate
 				properties:
 					scale: s
 				curve: "ease-in"
-				time: 0.3
+				time: t
 
 
 
@@ -294,9 +294,11 @@ overdet = (nav, layerA, layerB, overlay) ->
 		layerB:
 			show:
 				opacity: 1
+				scale: 1
 				options: options
 			hide:
 				opacity: 0
+				scale: 0.3
 				options: options
 
 
@@ -310,13 +312,13 @@ gotodetail = (layer) ->
 				when layer.name=="Particulate_Matter" then null
 				else null
 			if screen
-				scaleback(layer,6,screen)
+				scaleback(layer,6,0.1)
 				layer.onAnimationEnd ->
 					#print "I'm finished"
 					flow.transition(screen, overdet)
 					layer.scale = 1
 			else
-				scaleback(layer,1)
+				scaleback(layer,1,0.3)
 
 
 for x, i in values
@@ -330,7 +332,7 @@ for x, i in values
 		if layer.scale > 1.6
 			gotodetail(layer)
 		else
-			scaleback(layer,1)
+			scaleback(layer,1,0.3)
 	values[i][0].onClick (event, layer) ->
 		if layer.scale==1 or layer.scale>1.6
 			gotodetail(layer)
@@ -339,11 +341,10 @@ for x, i in values
 
 
 
-
-
-
-
-
 # Radon detailansicht
+figma.info_2.opacity = 0
 figma.overview.onClick (event, layer) ->
 	flow.showPrevious(overdet)
+
+
+
