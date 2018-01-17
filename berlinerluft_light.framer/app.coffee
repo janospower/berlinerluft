@@ -267,6 +267,13 @@ scroll.onScrollEnd ->
 			curve: Bezier.ease, time: 1
 		)
 
+scaleback = (l,s) ->
+	l.animate
+				properties:
+					scale: s
+				curve: "ease"
+				time: 0.3
+
 for x, i in values
 	values[i][0].pinchable.enabled = true
 	values[i][0].pinchable.threshold = 10
@@ -275,5 +282,20 @@ for x, i in values
 	values[i][0].pinchable.scaleFactor = 0.3
 	values[i][0].pinchable.rotate = false
 	values[i][0].onPinchEnd (event, layer) ->
-		
-
+		if layer.scale > 1.6
+			screen = switch 
+				when layer.name=="Nitrogen" then null
+				when layer.name=="Carbon" then null
+				when layer.name=="Sulfur" then null
+				when layer.name=="Radon" then figma.radon
+				when layer.name=="Particulate_Matter" then null
+				else null
+			if screen
+				scaleback(layer,6,screen)
+				layer.onAnimationEnd ->
+					#print "I'm finished"
+					flow.showNext(screen)
+			else
+				scaleback(layer,1)
+		else
+			scaleback(layer,1)
