@@ -38,7 +38,7 @@ values = [
 total = 190
 
 figma.skale_s.opacity = 0
-hidden = [figma.Group_10,figma.Group_15,figma.Group_13,figma.Group_12,figma.Group_11]
+hidden = [figma.Group_10_2,figma.Group_15,figma.Group_13,figma.Group_12,figma.Group_11]
 for x, i in hidden
 		hidden[i].visible = false
 
@@ -121,7 +121,7 @@ inv = new Layer
 	backgroundColor: "transparent"
 	parent: figma.Übersichtsscreen_Grafik_komplett
 
-inv.animate 
+inv.animate
 	properties: {x: 1}
 	curve: "ease"
 	delay: 2
@@ -158,19 +158,17 @@ partball = (parentLayer, partcount) ->
 		text: partcount
 		color: 'white'
 		y: 111
-		fontFamily: 'Texta'
-		fontWeight: '900'
 		fontSize: '30'
 		paddingLeft: 3
 	t.parent = parentLayer
-	
+
 	scene = undefined
 	camera = undefined
 	renderer = undefined
 	# Used in initParticles()
 	particleGroup = undefined
 	clock = undefined
-	
+
 	init = ->
 		scene = new (THREE.Scene)
 		camera = new (THREE.PerspectiveCamera)(15, 1, 0.1, 1000)
@@ -181,8 +179,8 @@ partball = (parentLayer, partcount) ->
 		renderer.setSize htmlLayer.width, htmlLayer.height
 		clock = new (THREE.Clock)
 		camera.position.z = 5
-		
-	
+
+
 	initParticles = ->
 		particleGroup = new (SPE.Group)(texture: value: THREE.ImageUtils.loadTexture('./img/smokeparticle.png'))
 		# Spherical velocity distributions.
@@ -209,7 +207,7 @@ partball = (parentLayer, partcount) ->
 		scene.add cube
 		###
 		return
-	
+
 	animate = ->
 		requestAnimationFrame animate
 		if scrolling == false and (scroll.scrollY - parentLayer.y) > -250
@@ -219,12 +217,12 @@ partball = (parentLayer, partcount) ->
 			camera.lookAt scene.position
 			render clock.getDelta()
 		return
-	
+
 	render = (dt) ->
 		particleGroup.tick dt
 		renderer.render scene, camera
 		return
-	
+
 	init()
 	initParticles()
 	setTimeout animate, 0
@@ -259,7 +257,7 @@ scroll.onMove ->
 		figma.Skale.originX = 0.5
 		scrolled = 0.2 * scroll.content.y/(cutoff)
 		figma.Skale.scale = 1 + scrolled
-		
+
 scroll.onScrollEnd ->
 	if scroll.content.y > -100
 		scroll.scrollToPoint(
@@ -287,7 +285,7 @@ overdet = (nav, layerA, layerB, overlay) ->
 	layerB.x = 0
 	layerB.y = 0
 	options = {time: 0.3}
-	return transition = 
+	return transition =
 		layerA:
 			show:
 				opacity: 1
@@ -310,7 +308,7 @@ overdet = (nav, layerA, layerB, overlay) ->
 
 
 gotodetail = (layer) ->
-	screen = switch 
+	screen = switch
 				when layer.name=="Nitrogen" then null
 				when layer.name=="Carbon" then null
 				when layer.name=="Sulfur" then null
@@ -341,9 +339,13 @@ for x, i in values
 			scaleback(layer,1,0.3)
 	values[i][0].onClick (event, layer) ->
 		if layer.scale==1 or layer.scale>1.6
-			gotodetail(layer)
+			unless scroll.isMoving
+				gotodetail(layer)
 
 
+#button = true
+#scroll.onMove (event, layer) ->
+#	button = false
 
 
 
@@ -351,6 +353,3 @@ for x, i in values
 figma.info_2.opacity = 0
 figma.overview.onClick (event, layer) ->
 	flow.showPrevious(overdet)
-
-
-

@@ -1,6 +1,14 @@
+@font-face {
+font-family: 'Texta-Black';
+src: url('../fonts/Texta-Black-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/Texta-Black-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Texta-Black'!important;
 	border: none;
 	-webkit-user-select: none;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -8,7 +16,7 @@
 
 body {
 	background-color: #fff;
-	font: 28px/1em "Helvetica";
+	font: 28px/1em "Texta-Black";
 	color: gray;
 	overflow: hidden;
 }
