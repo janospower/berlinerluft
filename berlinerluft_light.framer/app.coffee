@@ -41,7 +41,7 @@ total = 190
 
 figma.skale_s.opacity = 0
 hidden = [figma.Group_10_2,figma.Group_15,figma.Group_13,figma.Group_12,figma.Group_11]
-for x, i in hidden
+for xx, i in hidden
 		hidden[i].visible = false
 
 
@@ -241,7 +241,7 @@ else
 		opacity: 0
 
 spawnparts = (v) ->
-	for x, i in v
+	for xx, i in v
 		partball v[i][0],v[i][1]
 
 spawnparts(values)
@@ -328,7 +328,7 @@ gotodetail = (layer) ->
 				scaleback(layer,1,0.3)
 
 
-for x, i in values
+for xx, i in values
 	values[i][0].pinchable.enabled = true
 	values[i][0].pinchable.threshold = 10
 	values[i][0].pinchable.centerOrigin = false
@@ -389,63 +389,61 @@ d3Layer.html = '<div id="d3"></div>'
 d3Layer.parent = figma.radon
 
 
-#Add links between nodes, this matrix creates a K_6 graph. The line color and thickness is defined in style.css
-
-adjacencyMatrix = {
-	1: [2,3,4,5,6]
-	2: [1,3,4,5,6]
-	3: [1,2,4,5,6]
-	4: [1,2,3,5,6]
-	5: [1,2,3,4,6]
-	6: [1,2,3,4,5]
-}
-
-
-nodes = d3.values(adjacencyMatrix)
-
-links = d3.merge(nodes.map((source) ->
-	source.map (target) ->
-		source: source
-		target: adjacencyMatrix[target]
-))
-
-vis = d3.select(document.getElementById("d3")).append('svg:svg')
-	.attr('width', w)
-	.attr('height', h)
-
-force = d3.layout.force()
-	.nodes(nodes)
-	.links(links)
-	.size([w,h])
-	#Controls how interacting with the graph feels
-	.linkStrength(.1)
-	.linkDistance(190)
-	.charge(-20)
-	.gravity(.3)
-	.start()
-
-link = vis.selectAll('line.link')
-	.data(links)
-	.enter().append('svg:line')
+# Set the dimensions of the canvas / graph
+margin = 
+  top: 30
+  right: 20
+  bottom: 30
+  left: 50
+width = w - (margin.left) - (margin.right)
+height = h - (margin.top) - (margin.bottom)
+# Parse the date / time
+parseDate = d3.time.format('%d-%b-%y').parse
+# Set the ranges
+x = d3.time.scale().range([
+  0
+  width
+])
+y = d3.scale.linear().range([
+  height
+  0
+])
+# Define the axes
+xAxis = d3.svg.axis().scale(x).orient('bottom').ticks(2)
+yAxis = d3.svg.axis().scale(y).orient('right').ticks(3)
+# Define the line
+valueline = d3.svg.line().x((d) ->
+  x d.date
+).y((d) ->
+  y d.close
+)
+# Adds the svg canvas
+svg = d3.select(document.getElementById('d3')).append('svg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+# Get the data
+d3.csv 'data.csv', (error, data) ->
+  data.forEach (d) ->
+    d.date = parseDate(d.date)
+    d.close = +d.close
+    return
+  # Scale the range of the data
   
-node = vis.selectAll('circle.node')
-	.data(nodes)
-	.enter().append('svg:circle')
-	#Controls radius of nodes
-	.attr('r', 20)
-	.call(force.drag)
-	#Fills with random color
-	.style('fill', -> 
-		d3.hsl Math.random() * 360, 1, .5)
-
-force.on 'tick', ->
-	link.attr('x1', (d) -> d.source.x)
-		.attr('y1', (d) -> d.source.y)
-		.attr('x2', (d) -> d.target.x)
-		.attr('y2', (d) -> d.target.y)
-	node.attr('cx', (d) -> d.x)
-		.attr( 'cy', (d) -> d.y)
-
+  x.domain d3.extent(data, (d) ->
+    d.date
+  )
+  y.domain [
+    0
+    d3.max(data, (d) ->
+      d.close
+    )
+  ]
+  
+  # Add the valueline path.
+  svg.append('path').attr('class', 'line').attr 'd', valueline(data)
+  # Add the X Axis
+  svg.append('g').attr('class', 'x axis').attr('transform', 'translate(0,' + height + ')').call xAxis
+  # Add the Y Axis
+  svg.append('g').attr('class', 'y axis').call yAxis
+  return
 
 
 
@@ -473,7 +471,7 @@ hidden = [
 	figma.UI_Bars___Status_Bars___White___Base_2
 	]
 
-for x,i in hidden
+for xx,i in hidden
 	if hidden[i]
 		hidden[i].visible = false
 
@@ -493,7 +491,7 @@ screens = [
 	figma.Profil_mit_name_2
 	]
 
-for x,i in screens
+for xx,i in screens
 	screens[i].backgroundColor = 'transparent'
 
 back = new BackgroundLayer
