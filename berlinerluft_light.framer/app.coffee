@@ -6,6 +6,8 @@ figma = Framer.Importer.load("imported/Framer%20Light%20Janos%20(Page%201)@2x", 
 convertTextLayers(figma, true)
 Framer.Device.deviceType = "apple-iphone-8-gold"
 
+figma.Particulate_Matter.backgroundColor = 'transparent'
+
 
 
 figma.criticalbg.opacity = 0
@@ -175,7 +177,8 @@ partball = (parentLayer, partcount) ->
 		camera.lookAt scene.position
 		renderer = new (THREE.WebGLRenderer)(
 			canvas: htmlLayer._elementHTML.childNodes[0]
-			antialias: true)
+			antialias: true
+			alpha: true)
 		renderer.setSize htmlLayer.width, htmlLayer.height
 		clock = new (THREE.Clock)
 		camera.position.z = 5
@@ -353,3 +356,568 @@ for x, i in values
 figma.info_2.opacity = 0
 figma.overview.onClick (event, layer) ->
 	flow.showPrevious(overdet)
+
+figma.Grafik_Skala.onClick (event, layer) ->
+	flow.transition(figma.Einstellungen, closex)
+
+
+
+
+
+
+
+
+
+#Philine:
+#kritischer index?
+critical = true
+
+#hier alle ebenen, die versteckt werden sollen, insbesondere hintergründe und top bars aller screens
+hidden = [
+	figma.UI_Bars___Status_Bars___White___Base_16
+	figma.UI_Bars___Status_Bars___White___Base
+	figma.UI_Bars___Status_Bars___White___Base_2
+	]
+
+for x,i in hidden
+	if hidden[i]
+		hidden[i].visible = false
+
+#hier alle artboards die transparenten hintergrund haben sollen
+screens = [
+	figma.Einstellungen
+	figma.Profil
+	figma.Sensoreinstellungen
+	figma.Sensor_hinzufügen
+	figma.Notif_Alarme
+	figma.Grenzwerte
+	figma.Profil_voll
+	figma.Profil_Eingabe_sex
+	figma.Profil_Eingabe_name
+	figma.Profil_mit_name
+	figma.Profil_Eingabe_age
+	figma.Profil_mit_name_2
+	]
+
+for x,i in screens
+	screens[i].backgroundColor = 'transparent'
+
+back = new BackgroundLayer
+	#backgroundColor: 'red'
+	image: 'images/bgred.png'
+	parent: flow
+
+backblue = new BackgroundLayer
+	#backgroundColor: 'red'
+	image: 'images/bgblue.png'
+	parent: flow
+	opacity: 0
+
+unless critical
+	backblue.animate
+		opacity: 1
+		options:
+			time: 1
+			curve: Bezier.ease
+	back.animate
+		opacity: 0
+		options:
+			time: 1
+			curve: Bezier.ease
+	bag.animate
+		opacity: 0
+		options:
+			time: 1
+			curve: Bezier.ease
+
+
+#Transitions
+#Xschließen
+closex = (nav, layerA, layerB, overlay) ->
+	layerB.x = 0
+	layerB.y = 0
+	#options = {time: 1}
+	return transition =
+		layerA:
+			show:
+				opacity: 1
+				options: 
+					time: 1
+					curve: Bezier.ease
+			hide:
+				opacity: 0
+				options:
+					time: 1
+					curve: Bezier.ease
+		layerB:
+			show:
+				opacity: 1
+				options: 
+					time: 1
+					curve: Bezier.ease
+					delay: 1
+			hide:
+				opacity: 0
+				options: 
+					time: 1
+					curve: Bezier.ease
+
+#transition einfache screens
+screenchange = (nav, layerA, layerB, overlay) ->
+	layerB.x = 0
+	layerB.y = 0
+	#options = {curve: Bezier.ease}
+	return transition =
+		layerA:
+			show:
+				opacity: 1
+				options: 
+					time: 1
+					curve: Bezier.ease
+			hide:
+				opacity: 0
+				options: 
+					time: 1
+					curve: Bezier.ease
+		layerB:
+			show:
+				opacity: 1
+				options: 
+					time: 1
+					curve: Bezier.ease
+			hide:
+				opacity: 0
+				options: 
+					time: 1
+					curve: Bezier.ease
+					
+#transition mit delay für keyboard
+keybtransition = (nav, layerA, layerB, overlay) ->
+	layerB.x = 0
+	layerB.y = 0
+	#options = {curve: Bezier.ease}
+	return transition =
+		layerA:
+			show:
+				opacity: 1
+				options: 
+					time: 1
+					curve: Bezier.ease
+					delay: 1.3
+			hide:
+				opacity: 0
+				options: 
+					time: 1
+					
+		layerB:
+			show:
+				opacity: 1
+				options: 
+					time: 1
+					curve: Bezier.ease
+					delay: 1.3
+			hide:
+				opacity: 0
+				options: 
+					time: 1
+					curve: Bezier.ease
+					
+									
+#Animationen
+#Einstellungen on Top
+#für Sensoreinstellungen
+anim = new Animation figma.SensorLinie,
+	y: 49
+	options:
+		time: 1
+		curve: Bezier.ease
+#Linie on Top
+linie = new Animation figma.Topline_2,
+	y: 33
+	options:
+		time: 1
+		curve: Bezier.ease
+		
+#für Profil
+animp = new Animation figma.ProfilLinie,
+	y: 49
+	options:
+		time: 1
+		curve: Bezier.ease
+#Linie on Top
+liniep = new Animation figma.Topline,
+	y: 33
+	options:
+		time: 1
+		
+#für Threshold
+animt = new Animation figma.ThreshLinie,
+	y: 49
+	options:
+		time: 1
+		curve: Bezier.ease
+#Linie on Top
+liniet = new Animation figma.Topline_3,
+	y: 33
+	options:
+		time: 1	
+
+#für Alarme
+animn = new Animation figma.Notif,
+	y: 49
+	options:
+		time: 1
+		curve: Bezier.ease
+
+								
+#settings verschwinden
+fadeoutp = new Animation figma.ProfilLinie,
+	opacity: 0
+	options:
+		time: 0.5
+		curve: Bezier.easeOut
+fadeoutt = new Animation figma.ThreshLinie,
+	opacity: 0
+	options:
+		time: 0.5
+		curve: Bezier.easeOut
+fadeoutn = new Animation figma.Notif,
+	opacity: 0
+	options:
+		time: 0.5
+		curve: Bezier.easeOut
+fadeouts = new Animation figma.SensorLinie,
+	opacity: 0
+	options:
+		time: 0.5
+		curve: Bezier.easeOut
+fadeoutub = new Animation figma.Übersbutton,
+	opacity: 0
+	options:
+		time: 0.5
+		curve: Bezier.easeOut
+
+#berlina animation
+Berlina = figma.Berlina
+BerlinaA = Berlina.animate
+		opacity: 0
+		options:
+			time: 1.7
+			curve: Bezier.ease
+BerlinaB = BerlinaA.reverse()
+
+#alter 32 animation
+alteroff = figma.alter_32.animate
+	opacity: 0
+	options: 
+		time: 2
+		curve: Bezier.ease
+alterin = alteroff.reverse()
+alteroff.start()	
+				
+#Kreuzgrößen states
+figma.Kreuz_7.states = 
+	Xklein: 
+		scale: 0.5
+	Xbig:
+		scale: 0.8
+		
+figma.Kreuz_7.animate("Xbig")
+
+#Kreuz auf Originalgröße
+KreuzOS = (b) ->
+	b.animate
+		scale: 1
+		options: 
+			time: 1
+			curve: Spring (damping: 0.2)
+					
+#navigation
+#von Einstellungen
+#zum Profil
+figma.ProfilLinie.onClick (event, layer) ->
+	animp.start()
+	fadeouts.start()
+	fadeoutn.start()
+	fadeoutt.start()
+	fadeoutub.start()
+	liniep.start()
+	
+	figma.ProfilLinie.onAnimationEnd (event, layer) ->
+		flow.transition(figma.Profil,screenchange)
+		flow.on Events.TransitionEnd, ->
+			animp.reset()
+			fadeouts.reset()
+			fadeoutn.reset()
+			fadeoutt.reset()
+			fadeoutub.reset()
+			liniep.reset()
+			figma.Profil.visible=true
+			figma.Sensoreinstellungen.visible=false
+			
+		KreuzOS(figma.Kreuz)
+
+
+#Keyboard Namenseingabe states
+figma.Keyboard_Dark_Email.states =
+	keyin:
+		y: 0
+	options: 
+		time:1.5
+		curve: Bezier.ease
+	keyoff:
+		y: 220
+	options: 
+		time:1.2
+		curve: Bezier.ease
+#Keyboard Alterseingabe states
+figma.Keyb_nummern.states =
+	keyin:
+		y: 451
+	options: 
+		time:1.5
+		curve: Bezier.ease
+	keyoff:
+		y: 700
+	options: 
+		time:1.2
+		curve: Bezier.ease
+		
+figma.Keyboard_Dark_Email.animate("keyoff")
+figma.Keyb_nummern.animate("keyoff")
+
+#zu namen eingabe
+figma.Group_15_4.onClick (event, layer) ->
+	flow.transition(figma.Profil_Eingabe_name,screenchange)
+	flow.on Events.TransitionEnd, ->
+		figma.Keyboard_Dark_Email.animate("keyin")
+		BerlinaA.start()
+	
+#keyboard to name
+figma.Keyboard_Dark_Email.onClick (event, layer) ->
+	BerlinaB.start()
+
+#done
+figma.Group_10_6.onClick ->
+	figma.Keyboard_Dark_Email.animate("keyoff")
+	flow.transition(figma.Profil_mit_name,keybtransition)	
+#cancel
+figma.Group_11_4.onClick ->
+	figma.Keyboard_Dark_Email.animate("keyoff")
+	flow.transition(figma.Profil,keybtransition)
+	
+#zur Alterseingabe
+#print figma.Keyb_nummern.y
+#zu alterseingabe von ohne namen
+figma.Group_12_3.onClick ->
+	flow.transition(figma.Profil_Eingabe_age,screenchange)
+	flow.on Events.TransitionEnd, ->
+		figma.Keyb_nummern.animate("keyin")
+		alteroff.start()
+#zu alterseingabe von mit namen
+figma.Group_13_3.onClick (event, layer)->
+	flow.transition(figma.Profil_Eingabe_age,screenchange)
+	flow.on Events.TransitionEnd, ->
+		figma.Keyb_nummern.animate("keyin")
+		alteroff.start()
+
+figma.Keyb_nummern.onClick ->
+	alterin.start()
+
+#done
+figma.Group_10_8.onClick ->
+	figma.Keyb_nummern.animate("keyoff")
+	flow.transition(figma.Profil_mit_name_2,keybtransition)
+#cancel
+figma.Group_11_7.onClick ->
+	figma.Keyb_nummern.animate("keyoff")
+	flow.transition(figma.Profil_mit_name,keybtransition)
+	
+#von Profil leer zu eingabe sex
+figma.Group_11_3.onClick ->
+	femaleout.start()
+	maleout.start()
+	flow.transition(figma.Profil_Eingabe_sex,screenchange)
+#von Profil name zu eingabe sex
+figma.Group_12_5.onClick ->
+	femaleout.start()
+	maleout.start()
+	flow.transition(figma.Profil_Eingabe_sex,screenchange)
+#auf profil mit name und alter zu sex eingabe
+figma.Group_12_6.onClick ->
+	femaleout.start()
+	maleout.start()
+	flow.transition(figma.Profil_Eingabe_sex,screenchange)
+
+#von eingabe sex
+#female
+figma.Group_10_9.onClick ->
+	femalein.start()
+	maleout.start()
+	flow.transition(figma.Profil_voll,keybtransition)
+#anim female auswahl
+femalein=figma.Group_10_9.animate
+	opacity: 1
+femaleout=figma.Group_10_9.animate
+	opacity:0.6
+#male
+figma.Group_11_8.onClick ->
+	malein.start()
+	femaleout.start()
+	flow.transition(figma.Profil_voll,keybtransition)
+#anim male auswahl
+malein=figma.Group_11_8.animate
+	opacity: 1
+maleout=figma.Group_11_8.animate
+	opacity: 0.6
+#cancel
+figma.Kreuz_4.onClick ->
+	flow.transition(figma.Profil_mit_name_2,keybtransition)
+	
+#zumSensor
+figma.SensorLinie.onClick (event, layer) ->
+	anim.start()
+	fadeoutp.start()
+	fadeoutn.start()
+	fadeoutt.start()
+	fadeoutub.start()
+	linie.start()
+	
+	figma.SensorLinie.onAnimationEnd (event, layer) ->
+		flow.transition(figma.Sensoreinstellungen,screenchange)
+		flow.on Events.TransitionEnd, ->
+			anim.reset()
+			fadeoutp.reset()
+			fadeoutn.reset()
+			fadeoutt.reset()
+			fadeoutub.reset()
+			linie.reset()
+			figma.Profil.visible=false
+			figma.Sensoreinstellungen.visible=true
+		KreuzOS(figma.Kreuz_7)
+	
+#zu Threshold
+figma.ThreshLinie.onClick (event, layer) ->
+	animt.start()
+	fadeoutp.start()
+	fadeouts.start()
+	fadeoutn.start()
+	fadeoutub.start()
+	liniet.start()
+	
+	figma.ThreshLinie.onAnimationEnd (event, layer) ->
+		flow.transition(figma.Grenzwerte,screenchange)
+		flow.on Events.TransitionEnd, ->
+			animt.reset()
+			fadeouts.reset()
+			fadeoutn.reset()
+			fadeoutp.reset()
+			fadeoutub.reset()
+			liniet.reset()
+			
+		KreuzOS(figma.Kreuz_6)
+		figma.GW_offen.animate("GWinvisible")
+		figma.GW_zu.animate("GWzuvisible")
+		
+			
+#Threshold states
+figma.GW_offen.states =
+	GWinvisible:
+		visible: false
+	GWvisible:
+		visible: true
+		
+figma.GW_zu.states =
+	GWzuinvisible:
+		visible: false
+	GWzuvisible:
+		visible: true
+				
+scroll = ScrollComponent.wrap(figma.GW_offen)
+scroll.scrollHorizontal = false
+scroll.mouseWheelEnabled = true	
+
+
+#figma.GW_offen.parent=scroll.content
+
+#zu Alarme
+figma.Notif.onClick (event, layer) ->
+	animn.start()
+	fadeoutp.start()
+	fadeouts.start()
+	fadeoutt.start()
+	fadeoutub.start()
+
+	figma.Notif.onAnimationEnd (event, layer) ->
+		flow.transition(figma.Notif_Alarme,screenchange)
+		flow.on Events.TransitionEnd, ->
+			animn.reset()
+			fadeouts.reset()
+			fadeoutt.reset()
+			fadeoutp.reset()
+			fadeoutub.reset()
+				
+		KreuzOS(figma.Kreuz_9)				
+
+#Kreuz Spring anim
+Kreuzsprung = (a) ->
+	a.onTouchStart ->
+		a.animate
+			scale: 0.6
+			options:
+				time: 1 
+				curve: Bezier.ease
+		
+Kreuzsprung(figma.Kreuz)
+Kreuzsprung(figma.Kreuz_2)
+Kreuzsprung(figma.Kreuz_3)
+Kreuzsprung(figma.Kreuz_4)
+Kreuzsprung(figma.Kreuz_5)
+Kreuzsprung(figma.Kreuz_6)
+Kreuzsprung(figma.Kreuz_7)
+Kreuzsprung(figma.Kreuz_8)
+Kreuzsprung(figma.Kreuz_9)
+Kreuzsprung(figma.Kreuz_10)
+Kreuzsprung(figma.Kreuz_11)
+Kreuzsprung(figma.Kreuz_12)
+		
+#Kreuz schließen zum Screen Einstellungen	
+figma.Kreuz.onClick (event, layer) ->
+	#Kreuzsprung(figma.Kreuz)
+	flow.transition(figma.Einstellungen,closex)	
+figma.Kreuz_2.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)
+figma.Kreuz_3.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)
+figma.Kreuz_5.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)
+figma.Kreuz_6.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)
+figma.Kreuz_7.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)
+figma.Kreuz_8.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)
+figma.Kreuz_9.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)
+figma.Kreuz_10.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)
+figma.Kreuz_11.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)	
+figma.Kreuz_12.onClick (event, layer) ->
+	#flow.showPrevious()
+	flow.transition(figma.Einstellungen,closex)	
+
+figma.Übersbutton.onClick ->
+	flow.transition(figma.Übersichtsscreen_Grafik_komplett, closex)
+	#document.location = "http://127.0.0.1:8000/1a4fe2/berlinerluft_light.framer/"
+	#window.open("http://127.0.0.1:8000/1a4fe2/berlinerluft_light.framer/","_self")
+

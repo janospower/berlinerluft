@@ -1,9 +1,4 @@
-@font-face {
-font-family: 'Texta-Black';
-src: url('../fonts/Texta-Black-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-		 url('../fonts/Texta-Black-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
-
+@font-face {font-family: 'Texta-Black';src: url('../fonts/Texta-Black-webfont.eot');src: url('../fonts/Texta-Black-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/Texta-Black-webfont.woff') format('woff'),url('../fonts/Texta-Black-webfont.ttf') format('truetype');}
 
 * {
 	margin: 0;
