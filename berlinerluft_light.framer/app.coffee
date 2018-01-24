@@ -360,6 +360,29 @@ figma.overview.onClick (event, layer) ->
 figma.Grafik_Skala.onClick (event, layer) ->
 	flow.transition(figma.Einstellungen, closex)
 
+figma.info.onClick (event, layer) ->
+	figma.info_2.animate
+		opacity: 1
+	figma.detail.animate
+		opacity: 0
+figma.Group_7.onClick (event, layer) ->
+	figma.info_2.animate
+		opacity: 0
+	figma.detail.animate
+		opacity: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -833,9 +856,9 @@ figma.GW_zu.states =
 	GWzuvisible:
 		visible: true
 				
-scroll = ScrollComponent.wrap(figma.GW_offen)
-scroll.scrollHorizontal = false
-scroll.mouseWheelEnabled = true	
+scroll2 = ScrollComponent.wrap(figma.GW_offen)
+scroll2.scrollHorizontal = false
+scroll2.mouseWheelEnabled = true	
 
 
 #figma.GW_offen.parent=scroll.content

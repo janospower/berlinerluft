@@ -1,17 +1,17 @@
 {
   "orientation" : 0,
-  "updateDelay" : 0,
+  "updateDelay" : 1,
   "designModeSelected" : 0,
   "cachedDeviceHeight" : 667,
-  "contentScale" : 2,
+  "contentScale" : 1,
   "fullScreen" : false,
   "cachedDeviceWidth" : 375,
   "deviceType" : "apple-iphone-8-gold",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
-    "Filters" : false
+
   },
-  "projectId" : "58BA4F7C-24C7-46A1-8BB0-2F99E17A7DCD",
+  "projectId" : "C04A9B24-958A-4583-BA6D-341B7376E7BD",
   "deviceOrientation" : 0,
   "selectedHand" : "",
   "showBezel" : false,

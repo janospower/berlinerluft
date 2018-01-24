@@ -2223,7 +2223,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "children" : [
                {
                   "objectId" : "99",
-                  "name" : "Group_11_3",
+                  "name" : "Topline_3",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -2286,7 +2286,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "children" : [
                {
                   "objectId" : "96",
-                  "name" : "Group_12_3",
+                  "name" : "Topline_2",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -2349,7 +2349,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "children" : [
                {
                   "objectId" : "93",
-                  "name" : "Group_13_3",
+                  "name" : "Topline",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
@@ -2421,6 +2421,30 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "children" : [
          {
             "objectId" : "110",
+            "name" : "Topline_4",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/110.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
+            "objectId" : "109",
             "name" : "Kreuz",
             "visible" : true,
             "maskFrame" : null,
@@ -2434,7 +2458,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/110.png",
+               "path" : "images/109.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -2444,7 +2468,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "109",
+            "objectId" : "108",
             "name" : "Group_10_5",
             "visible" : true,
             "maskFrame" : null,
@@ -2458,7 +2482,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/109.png",
+               "path" : "images/108.png",
                "frame" : {
                   "x" : 39,
                   "y" : 381,
@@ -2468,8 +2492,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "108",
-            "name" : "Group_11_4",
+            "objectId" : "107",
+            "name" : "Group_11_3",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -2482,7 +2506,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/108.png",
+               "path" : "images/107.png",
                "frame" : {
                   "x" : 39,
                   "y" : 294,
@@ -2492,8 +2516,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "107",
-            "name" : "Group_12_4",
+            "objectId" : "106",
+            "name" : "Group_12_3",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -2506,36 +2530,12 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/107.png",
+               "path" : "images/106.png",
                "frame" : {
                   "x" : 38,
                   "y" : 209,
                   "width" : 34,
                   "height" : 12
-               }
-            }
-         },
-         {
-            "objectId" : "106",
-            "name" : "Group_13_4",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/106.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
                }
             }
          },
@@ -2592,7 +2592,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "156",
+      "objectId" : "157",
       "name" : "Profil_Eingabe_name",
       "visible" : true,
       "maskFrame" : {
@@ -2609,7 +2609,55 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
+            "objectId" : "156",
+            "name" : "Topline_5",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/156.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
             "objectId" : "155",
+            "name" : "Berlina",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 40,
+               "y" : 125,
+               "width" : 119,
+               "height" : 12
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/155.png",
+               "frame" : {
+                  "x" : 40,
+                  "y" : 125,
+                  "width" : 119,
+                  "height" : 12
+               }
+            }
+         },
+         {
+            "objectId" : "154",
             "name" : "Group_10_6",
             "visible" : true,
             "maskFrame" : null,
@@ -2623,7 +2671,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/155.png",
+               "path" : "images/154.png",
                "frame" : {
                   "x" : 294,
                   "y" : 394,
@@ -2633,8 +2681,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "154",
-            "name" : "Group_11_5",
+            "objectId" : "153",
+            "name" : "Group_11_4",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -2647,7 +2695,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/154.png",
+               "path" : "images/153.png",
                "frame" : {
                   "x" : 36,
                   "y" : 394,
@@ -2657,7 +2705,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "153",
+            "objectId" : "152",
             "name" : "Extensions___Keyboards___Dark___Email",
             "visible" : true,
             "maskFrame" : null,
@@ -2669,7 +2717,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "152",
+                  "objectId" : "151",
                   "name" : "Keyboard_Dark_Email",
                   "visible" : true,
                   "maskFrame" : null,
@@ -2681,7 +2729,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "151",
+                        "objectId" : "150",
                         "name" : "q",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2695,7 +2743,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/151.png",
+                           "path" : "images/150.png",
                            "frame" : {
                               "x" : 3,
                               "y" : 461,
@@ -2705,7 +2753,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "150",
+                        "objectId" : "149",
                         "name" : "w",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2719,7 +2767,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/150.png",
+                           "path" : "images/149.png",
                            "frame" : {
                               "x" : 40,
                               "y" : 461,
@@ -2729,7 +2777,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "149",
+                        "objectId" : "148",
                         "name" : "e",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2743,7 +2791,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/149.png",
+                           "path" : "images/148.png",
                            "frame" : {
                               "x" : 77,
                               "y" : 461,
@@ -2753,7 +2801,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "148",
+                        "objectId" : "147",
                         "name" : "r",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2767,7 +2815,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/148.png",
+                           "path" : "images/147.png",
                            "frame" : {
                               "x" : 115,
                               "y" : 461,
@@ -2777,7 +2825,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "147",
+                        "objectId" : "146",
                         "name" : "t",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2791,7 +2839,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/147.png",
+                           "path" : "images/146.png",
                            "frame" : {
                               "x" : 152,
                               "y" : 461,
@@ -2801,7 +2849,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "146",
+                        "objectId" : "145",
                         "name" : "y",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2815,7 +2863,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/146.png",
+                           "path" : "images/145.png",
                            "frame" : {
                               "x" : 190,
                               "y" : 461,
@@ -2825,7 +2873,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "145",
+                        "objectId" : "144",
                         "name" : "u",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2839,7 +2887,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/145.png",
+                           "path" : "images/144.png",
                            "frame" : {
                               "x" : 227,
                               "y" : 461,
@@ -2849,7 +2897,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "144",
+                        "objectId" : "143",
                         "name" : "i_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2863,7 +2911,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/144.png",
+                           "path" : "images/143.png",
                            "frame" : {
                               "x" : 265,
                               "y" : 461,
@@ -2873,7 +2921,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "143",
+                        "objectId" : "142",
                         "name" : "o",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2887,7 +2935,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/143.png",
+                           "path" : "images/142.png",
                            "frame" : {
                               "x" : 302,
                               "y" : 461,
@@ -2897,7 +2945,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "142",
+                        "objectId" : "141",
                         "name" : "p",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2911,7 +2959,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/142.png",
+                           "path" : "images/141.png",
                            "frame" : {
                               "x" : 340,
                               "y" : 461,
@@ -2921,7 +2969,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "141",
+                        "objectId" : "140",
                         "name" : "a",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2935,7 +2983,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/141.png",
+                           "path" : "images/140.png",
                            "frame" : {
                               "x" : 22,
                               "y" : 515,
@@ -2945,7 +2993,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "140",
+                        "objectId" : "139",
                         "name" : "s",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2959,7 +3007,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/140.png",
+                           "path" : "images/139.png",
                            "frame" : {
                               "x" : 59,
                               "y" : 515,
@@ -2969,7 +3017,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "139",
+                        "objectId" : "138",
                         "name" : "d",
                         "visible" : true,
                         "maskFrame" : null,
@@ -2983,7 +3031,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/139.png",
+                           "path" : "images/138.png",
                            "frame" : {
                               "x" : 96,
                               "y" : 515,
@@ -2993,7 +3041,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "138",
+                        "objectId" : "137",
                         "name" : "f",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3007,7 +3055,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/138.png",
+                           "path" : "images/137.png",
                            "frame" : {
                               "x" : 134,
                               "y" : 515,
@@ -3017,7 +3065,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "137",
+                        "objectId" : "136",
                         "name" : "g",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3031,7 +3079,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/137.png",
+                           "path" : "images/136.png",
                            "frame" : {
                               "x" : 171,
                               "y" : 515,
@@ -3041,7 +3089,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "136",
+                        "objectId" : "135",
                         "name" : "h",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3055,7 +3103,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/136.png",
+                           "path" : "images/135.png",
                            "frame" : {
                               "x" : 209,
                               "y" : 515,
@@ -3065,7 +3113,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "135",
+                        "objectId" : "134",
                         "name" : "j",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3079,7 +3127,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/135.png",
+                           "path" : "images/134.png",
                            "frame" : {
                               "x" : 246,
                               "y" : 515,
@@ -3089,7 +3137,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "134",
+                        "objectId" : "133",
                         "name" : "k",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3103,7 +3151,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/134.png",
+                           "path" : "images/133.png",
                            "frame" : {
                               "x" : 284,
                               "y" : 515,
@@ -3113,7 +3161,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "133",
+                        "objectId" : "132",
                         "name" : "l",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3127,7 +3175,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/133.png",
+                           "path" : "images/132.png",
                            "frame" : {
                               "x" : 321,
                               "y" : 515,
@@ -3137,7 +3185,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "132",
+                        "objectId" : "131",
                         "name" : "Shift",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3151,7 +3199,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/132.png",
+                           "path" : "images/131.png",
                            "frame" : {
                               "x" : 3,
                               "y" : 569,
@@ -3161,7 +3209,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "131",
+                        "objectId" : "130",
                         "name" : "z",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3175,7 +3223,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/131.png",
+                           "path" : "images/130.png",
                            "frame" : {
                               "x" : 59,
                               "y" : 569,
@@ -3185,7 +3233,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "130",
+                        "objectId" : "129",
                         "name" : "x",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3199,7 +3247,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/130.png",
+                           "path" : "images/129.png",
                            "frame" : {
                               "x" : 96,
                               "y" : 569,
@@ -3209,7 +3257,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "129",
+                        "objectId" : "128",
                         "name" : "c",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3223,7 +3271,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/129.png",
+                           "path" : "images/128.png",
                            "frame" : {
                               "x" : 134,
                               "y" : 569,
@@ -3233,7 +3281,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "128",
+                        "objectId" : "127",
                         "name" : "v",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3247,7 +3295,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/128.png",
+                           "path" : "images/127.png",
                            "frame" : {
                               "x" : 171,
                               "y" : 569,
@@ -3257,7 +3305,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "127",
+                        "objectId" : "126",
                         "name" : "b",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3271,7 +3319,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/127.png",
+                           "path" : "images/126.png",
                            "frame" : {
                               "x" : 209,
                               "y" : 569,
@@ -3281,7 +3329,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "126",
+                        "objectId" : "125",
                         "name" : "n",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3295,7 +3343,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/126.png",
+                           "path" : "images/125.png",
                            "frame" : {
                               "x" : 246,
                               "y" : 569,
@@ -3305,7 +3353,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "125",
+                        "objectId" : "124",
                         "name" : "m",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3319,7 +3367,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/125.png",
+                           "path" : "images/124.png",
                            "frame" : {
                               "x" : 284,
                               "y" : 569,
@@ -3329,7 +3377,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "124",
+                        "objectId" : "123",
                         "name" : "Backspace",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3343,7 +3391,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/124.png",
+                           "path" : "images/123.png",
                            "frame" : {
                               "x" : 330,
                               "y" : 569,
@@ -3353,7 +3401,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "123",
+                        "objectId" : "122",
                         "name" : "layer-123",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3367,7 +3415,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/123.png",
+                           "path" : "images/122.png",
                            "frame" : {
                               "x" : 3,
                               "y" : 621,
@@ -3377,7 +3425,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "122",
+                        "objectId" : "121",
                         "name" : "Language",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3391,7 +3439,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/122.png",
+                           "path" : "images/121.png",
                            "frame" : {
                               "x" : 49,
                               "y" : 621,
@@ -3401,7 +3449,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "121",
+                        "objectId" : "120",
                         "name" : "Space",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3415,7 +3463,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/121.png",
+                           "path" : "images/120.png",
                            "frame" : {
                               "x" : 96,
                               "y" : 621,
@@ -3425,7 +3473,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "120",
+                        "objectId" : "119",
                         "name" : "@",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3439,7 +3487,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/120.png",
+                           "path" : "images/119.png",
                            "frame" : {
                               "x" : 190,
                               "y" : 621,
@@ -3449,7 +3497,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "119",
+                        "objectId" : "118",
                         "name" : ".",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3463,7 +3511,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/119.png",
+                           "path" : "images/118.png",
                            "frame" : {
                               "x" : 237,
                               "y" : 621,
@@ -3473,7 +3521,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "118",
+                        "objectId" : "117",
                         "name" : "Return",
                         "visible" : true,
                         "maskFrame" : null,
@@ -3487,7 +3535,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/118.png",
+                           "path" : "images/117.png",
                            "frame" : {
                               "x" : 284,
                               "y" : 621,
@@ -3500,7 +3548,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/152.png",
+                     "path" : "images/151.png",
                      "frame" : {
                         "x" : 0,
                         "y" : 451,
@@ -3513,8 +3561,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "117",
-            "name" : "Group_12_5",
+            "objectId" : "116",
+            "name" : "Group_12_4",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3527,35 +3575,11 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/117.png",
+               "path" : "images/116.png",
                "frame" : {
                   "x" : 40,
                   "y" : 140,
                   "width" : 298,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "116",
-            "name" : "Group_13_5",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/116.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
                   "height" : 2
                }
             }
@@ -3662,7 +3686,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "164",
+      "objectId" : "165",
       "name" : "Profil_mit_name",
       "visible" : true,
       "maskFrame" : {
@@ -3679,8 +3703,32 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
+            "objectId" : "164",
+            "name" : "Topline_6",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/164.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
             "objectId" : "163",
-            "name" : "Group_10_7",
+            "name" : "Berlina_2",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3728,7 +3776,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "161",
-            "name" : "Group_11_6",
+            "name" : "Group_11_5",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3752,7 +3800,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "160",
-            "name" : "Group_12_6",
+            "name" : "Group_12_5",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3776,7 +3824,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "159",
-            "name" : "Group_13_6",
+            "name" : "Group_13_3",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3800,30 +3848,6 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "158",
-            "name" : "Group_14_6",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/158.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "157",
             "name" : "Group_15_5",
             "visible" : true,
             "maskFrame" : null,
@@ -3837,7 +3861,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/157.png",
+               "path" : "images/158.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -3851,7 +3875,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "172",
+      "objectId" : "173",
       "name" : "Profil_mit_name_2",
       "visible" : true,
       "maskFrame" : {
@@ -3868,8 +3892,32 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
+            "objectId" : "172",
+            "name" : "Topline_7",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/172.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
             "objectId" : "171",
-            "name" : "Group_10_8",
+            "name" : "Group_10_7",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3917,7 +3965,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "169",
-            "name" : "Group_11_7",
+            "name" : "Group_11_6",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3941,7 +3989,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "168",
-            "name" : "Group_12_7",
+            "name" : "Group_12_6",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3965,7 +4013,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "167",
-            "name" : "Group_13_7",
+            "name" : "layer-32",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -3989,30 +4037,6 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "166",
-            "name" : "Group_14_7",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/166.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "165",
             "name" : "Group_15_6",
             "visible" : true,
             "maskFrame" : null,
@@ -4026,7 +4050,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/165.png",
+               "path" : "images/166.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -4040,7 +4064,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "189",
+      "objectId" : "191",
       "name" : "Profil_Eingabe_age",
       "visible" : true,
       "maskFrame" : {
@@ -4057,8 +4081,56 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
+            "objectId" : "190",
+            "name" : "Topline_8",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/190.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
+            "objectId" : "189",
+            "name" : "alter_32",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 39,
+               "y" : 209,
+               "width" : 20,
+               "height" : 12
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/189.png",
+               "frame" : {
+                  "x" : 39,
+                  "y" : 209,
+                  "width" : 20,
+                  "height" : 12
+               }
+            }
+         },
+         {
             "objectId" : "188",
-            "name" : "Group_10_9",
+            "name" : "Group_10_8",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4082,7 +4154,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "187",
-            "name" : "Group_11_8",
+            "name" : "Group_11_7",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4106,7 +4178,31 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
          },
          {
             "objectId" : "186",
-            "name" : "System_Dark_Keyboard_Numberic",
+            "name" : "Group_12_7",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 40,
+               "y" : 223,
+               "width" : 298,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/186.png",
+               "frame" : {
+                  "x" : 40,
+                  "y" : 223,
+                  "width" : 298,
+                  "height" : 2
+               }
+            }
+         },
+         {
+            "objectId" : "185",
+            "name" : "Keyb_nummern",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4117,7 +4213,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "185",
+                  "objectId" : "184",
                   "name" : "layer-1",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4131,7 +4227,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/185.png",
+                     "path" : "images/184.png",
                      "frame" : {
                         "x" : 7,
                         "y" : 457,
@@ -4141,7 +4237,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "184",
+                  "objectId" : "183",
                   "name" : "layer-2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4155,7 +4251,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/184.png",
+                     "path" : "images/183.png",
                      "frame" : {
                         "x" : 130,
                         "y" : 457,
@@ -4165,7 +4261,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "183",
+                  "objectId" : "182",
                   "name" : "layer-3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4179,7 +4275,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/183.png",
+                     "path" : "images/182.png",
                      "frame" : {
                         "x" : 253,
                         "y" : 457,
@@ -4189,7 +4285,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "182",
+                  "objectId" : "181",
                   "name" : "layer-4",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4203,7 +4299,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/182.png",
+                     "path" : "images/181.png",
                      "frame" : {
                         "x" : 7,
                         "y" : 510,
@@ -4213,7 +4309,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "181",
+                  "objectId" : "180",
                   "name" : "layer-5",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4227,7 +4323,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/181.png",
+                     "path" : "images/180.png",
                      "frame" : {
                         "x" : 130,
                         "y" : 510,
@@ -4237,7 +4333,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "180",
+                  "objectId" : "179",
                   "name" : "layer-6",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4251,7 +4347,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/180.png",
+                     "path" : "images/179.png",
                      "frame" : {
                         "x" : 253,
                         "y" : 510,
@@ -4261,7 +4357,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "179",
+                  "objectId" : "178",
                   "name" : "layer-7",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4275,7 +4371,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/179.png",
+                     "path" : "images/178.png",
                      "frame" : {
                         "x" : 7,
                         "y" : 564,
@@ -4285,7 +4381,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "178",
+                  "objectId" : "177",
                   "name" : "layer-8",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4299,7 +4395,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/178.png",
+                     "path" : "images/177.png",
                      "frame" : {
                         "x" : 130,
                         "y" : 564,
@@ -4309,7 +4405,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "177",
+                  "objectId" : "176",
                   "name" : "layer-9",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4323,7 +4419,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/177.png",
+                     "path" : "images/176.png",
                      "frame" : {
                         "x" : 253,
                         "y" : 564,
@@ -4333,7 +4429,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "176",
+                  "objectId" : "175",
                   "name" : "layer-0",
                   "visible" : true,
                   "maskFrame" : null,
@@ -4347,7 +4443,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/176.png",
+                     "path" : "images/175.png",
                      "frame" : {
                         "x" : 130,
                         "y" : 618,
@@ -4360,7 +4456,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/186.png",
+               "path" : "images/185.png",
                "frame" : {
                   "x" : 1,
                   "y" : 451,
@@ -4370,56 +4466,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "175",
-            "name" : "Group_12_8",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 40,
-               "y" : 223,
-               "width" : 298,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/175.png",
-               "frame" : {
-                  "x" : 40,
-                  "y" : 223,
-                  "width" : 298,
-                  "height" : 2
-               }
-            }
-         },
-         {
             "objectId" : "174",
-            "name" : "Group_13_8",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/174.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "173",
-            "name" : "Group_14_8",
+            "name" : "Group_14_6",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4432,7 +4480,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/173.png",
+               "path" : "images/174.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -4446,8 +4494,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "195",
-      "name" : "Profil_Eingabe",
+      "objectId" : "197",
+      "name" : "Profil_Eingabe_sex",
       "visible" : true,
       "maskFrame" : {
          "x" : 3163,
@@ -4463,7 +4511,31 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "194",
+            "objectId" : "196",
+            "name" : "Topline_9",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/196.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
+            "objectId" : "195",
             "name" : "Kreuz_4",
             "visible" : true,
             "maskFrame" : null,
@@ -4477,7 +4549,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/194.png",
+               "path" : "images/195.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -4487,8 +4559,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "193",
-            "name" : "Group_10_10",
+            "objectId" : "194",
+            "name" : "Group_10_9",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4501,7 +4573,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/193.png",
+               "path" : "images/194.png",
                "frame" : {
                   "x" : 272,
                   "y" : 295,
@@ -4511,8 +4583,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "192",
-            "name" : "Group_11_9",
+            "objectId" : "193",
+            "name" : "Group_11_8",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4525,7 +4597,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/192.png",
+               "path" : "images/193.png",
                "frame" : {
                   "x" : 40,
                   "y" : 294,
@@ -4535,32 +4607,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "191",
-            "name" : "Group_12_9",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/191.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "190",
-            "name" : "Group_13_9",
+            "objectId" : "192",
+            "name" : "Group_13_4",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4573,7 +4621,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/190.png",
+               "path" : "images/192.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -4587,8 +4635,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "203",
-      "name" : "Profil_Eingabe_2",
+      "objectId" : "205",
+      "name" : "Profil_voll",
       "visible" : true,
       "maskFrame" : {
          "x" : 3622,
@@ -4604,7 +4652,31 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "202",
+            "objectId" : "204",
+            "name" : "Topline_10",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/204.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
+            "objectId" : "203",
             "name" : "Kreuz_5",
             "visible" : true,
             "maskFrame" : null,
@@ -4618,7 +4690,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/202.png",
+               "path" : "images/203.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -4628,8 +4700,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "201",
-            "name" : "Group_10_11",
+            "objectId" : "202",
+            "name" : "Group_10_10",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4642,7 +4714,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/201.png",
+               "path" : "images/202.png",
                "frame" : {
                   "x" : 40,
                   "y" : 292,
@@ -4652,8 +4724,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "200",
-            "name" : "Group_11_10",
+            "objectId" : "201",
+            "name" : "Group_11_9",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4666,7 +4738,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/200.png",
+               "path" : "images/201.png",
                "frame" : {
                   "x" : 39,
                   "y" : 206,
@@ -4676,8 +4748,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "199",
-            "name" : "Group_12_10",
+            "objectId" : "200",
+            "name" : "Group_12_8",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4690,7 +4762,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/199.png",
+               "path" : "images/200.png",
                "frame" : {
                   "x" : 40,
                   "y" : 125,
@@ -4700,8 +4772,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "198",
-            "name" : "Group_13_10",
+            "objectId" : "199",
+            "name" : "Group_13_5",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4714,7 +4786,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/198.png",
+               "path" : "images/199.png",
                "frame" : {
                   "x" : 39,
                   "y" : 381,
@@ -4724,31 +4796,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "197",
-            "name" : "Group_14_9",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/197.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "196",
+            "objectId" : "198",
             "name" : "Group_15_7",
             "visible" : true,
             "maskFrame" : null,
@@ -4762,7 +4810,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/196.png",
+               "path" : "images/198.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -4776,7 +4824,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "219",
+      "objectId" : "246",
       "name" : "Grenzwerte",
       "visible" : true,
       "maskFrame" : {
@@ -4793,7 +4841,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "218",
+            "objectId" : "245",
             "name" : "Kreuz_6",
             "visible" : true,
             "maskFrame" : null,
@@ -4807,7 +4855,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/218.png",
+               "path" : "images/245.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -4817,128 +4865,456 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "217",
-            "name" : "Group_10_12",
+            "objectId" : "244",
+            "name" : "Maske_Kreuz",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
-               "x" : 39,
-               "y" : 539,
-               "width" : 163,
+               "x" : -5,
+               "y" : 596,
+               "width" : 382,
+               "height" : 80
+            },
+            "children" : [
+               {
+                  "objectId" : "243",
+                  "name" : "mask_Rectangle",
+                  "visible" : true,
+                  "maskFrame" : {
+                     "x" : -18,
+                     "y" : 596,
+                     "width" : 421,
+                     "height" : 80
+                  },
+                  "layerFrame" : {
+                     "x" : -18,
+                     "y" : 596,
+                     "width" : 421,
+                     "height" : 80
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "242",
+                        "name" : "Group_16_4",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : -5,
+                           "y" : -15,
+                           "width" : 382,
+                           "height" : 698
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/242.png",
+                           "frame" : {
+                              "x" : -5,
+                              "y" : -15,
+                              "width" : 382,
+                              "height" : 698
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
+               }
+            ],
+            "kind" : "group"
+         },
+         {
+            "objectId" : "241",
+            "name" : "GW_offen",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 119,
+               "width" : 345,
+               "height" : 903
+            },
+            "children" : [
+               {
+                  "objectId" : "240",
+                  "name" : "ND_Gruppe",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 15,
+                     "y" : 931,
+                     "width" : 345,
+                     "height" : 91
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "239",
+                        "name" : "Group_22_3",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 15,
+                           "y" : 986,
+                           "width" : 345,
+                           "height" : 36
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/239.png",
+                           "frame" : {
+                              "x" : 15,
+                              "y" : 986,
+                              "width" : 345,
+                              "height" : 36
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "238",
+                        "name" : "Group_11_11",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 45,
+                           "y" : 931,
+                           "width" : 299,
+                           "height" : 19
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/238.png",
+                           "frame" : {
+                              "x" : 45,
+                              "y" : 931,
+                              "width" : 299,
+                              "height" : 19
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
+               },
+               {
+                  "objectId" : "237",
+                  "name" : "CM_Gruppe",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 15,
+                     "y" : 768,
+                     "width" : 345,
+                     "height" : 92
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "236",
+                        "name" : "Group_21_2",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 15,
+                           "y" : 824,
+                           "width" : 345,
+                           "height" : 36
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/236.png",
+                           "frame" : {
+                              "x" : 15,
+                              "y" : 824,
+                              "width" : 345,
+                              "height" : 36
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "235",
+                        "name" : "Group_13_7",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 38,
+                           "y" : 768,
+                           "width" : 300,
+                           "height" : 19
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/235.png",
+                           "frame" : {
+                              "x" : 38,
+                              "y" : 768,
+                              "width" : 300,
+                              "height" : 19
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
+               },
+               {
+                  "objectId" : "234",
+                  "name" : "SD_Gruppe",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 15,
+                     "y" : 605,
+                     "width" : 345,
+                     "height" : 93
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "233",
+                        "name" : "Group_14_8",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 38,
+                           "y" : 605,
+                           "width" : 300,
+                           "height" : 19
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/233.png",
+                           "frame" : {
+                              "x" : 38,
+                              "y" : 605,
+                              "width" : 300,
+                              "height" : 19
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/234.png",
+                     "frame" : {
+                        "x" : 15,
+                        "y" : 605,
+                        "width" : 345,
+                        "height" : 93
+                     }
+                  }
+               },
+               {
+                  "objectId" : "232",
+                  "name" : "Radon_Gruppe",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 15,
+                     "y" : 443,
+                     "width" : 345,
+                     "height" : 92
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "231",
+                        "name" : "Group_15_8",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 39,
+                           "y" : 443,
+                           "width" : 299,
+                           "height" : 18
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/231.png",
+                           "frame" : {
+                              "x" : 39,
+                              "y" : 443,
+                              "width" : 299,
+                              "height" : 18
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/232.png",
+                     "frame" : {
+                        "x" : 15,
+                        "y" : 443,
+                        "width" : 345,
+                        "height" : 92
+                     }
+                  }
+               },
+               {
+                  "objectId" : "230",
+                  "name" : "PM_Gruppe",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 15,
+                     "y" : 119,
+                     "width" : 345,
+                     "height" : 90
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "229",
+                        "name" : "Group_18.1",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 15,
+                           "y" : 173,
+                           "width" : 345,
+                           "height" : 36
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/229.png",
+                           "frame" : {
+                              "x" : 15,
+                              "y" : 173,
+                              "width" : 345,
+                              "height" : 36
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "228",
+                        "name" : "Group_12_10",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 39,
+                           "y" : 119,
+                           "width" : 299,
+                           "height" : 19
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/228.png",
+                           "frame" : {
+                              "x" : 39,
+                              "y" : 119,
+                              "width" : 299,
+                              "height" : 19
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
+               },
+               {
+                  "objectId" : "227",
+                  "name" : "Ozon_Gruppe",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 15,
+                     "y" : 282,
+                     "width" : 345,
+                     "height" : 91
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "226",
+                        "name" : "Group_18_3",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 15,
+                           "y" : 337,
+                           "width" : 345,
+                           "height" : 36
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/226.png",
+                           "frame" : {
+                              "x" : 15,
+                              "y" : 337,
+                              "width" : 345,
+                              "height" : 36
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "225",
+                        "name" : "Group_16_3",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 38,
+                           "y" : 282,
+                           "width" : 300,
+                           "height" : 18
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/225.png",
+                           "frame" : {
+                              "x" : 38,
+                              "y" : 282,
+                              "width" : 300,
+                              "height" : 18
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
+               }
+            ],
+            "kind" : "group"
+         },
+         {
+            "objectId" : "224",
+            "name" : "head_thresh",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 134,
+               "y" : 49,
+               "width" : 103,
                "height" : 13
             },
             "children" : [],
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/217.png",
+               "path" : "images/224.png",
                "frame" : {
-                  "x" : 39,
-                  "y" : 539,
-                  "width" : 163,
+                  "x" : 134,
+                  "y" : 49,
+                  "width" : 103,
                   "height" : 13
                }
             }
          },
          {
-            "objectId" : "216",
-            "name" : "Group_11_11",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 38,
-               "y" : 457,
-               "width" : 168,
-               "height" : 13
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/216.png",
-               "frame" : {
-                  "x" : 38,
-                  "y" : 457,
-                  "width" : 168,
-                  "height" : 13
-               }
-            }
-         },
-         {
-            "objectId" : "215",
-            "name" : "Group_12_11",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 38,
-               "y" : 372,
-               "width" : 142,
-               "height" : 13
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/215.png",
-               "frame" : {
-                  "x" : 38,
-                  "y" : 372,
-                  "width" : 142,
-                  "height" : 13
-               }
-            }
-         },
-         {
-            "objectId" : "214",
-            "name" : "Group_13_11",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 39,
-               "y" : 290,
-               "width" : 59,
-               "height" : 12
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/214.png",
-               "frame" : {
-                  "x" : 39,
-                  "y" : 290,
-                  "width" : 59,
-                  "height" : 12
-               }
-            }
-         },
-         {
-            "objectId" : "213",
-            "name" : "Group_14_10",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 38,
-               "y" : 207,
-               "width" : 59,
-               "height" : 12
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/213.png",
-               "frame" : {
-                  "x" : 38,
-                  "y" : 207,
-                  "width" : 59,
-                  "height" : 12
-               }
-            }
-         },
-         {
-            "objectId" : "212",
-            "name" : "Group_15_8",
+            "objectId" : "223",
+            "name" : "Topline_11",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -4951,7 +5327,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/212.png",
+               "path" : "images/223.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -4961,220 +5337,441 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "211",
-            "name" : "Group_16_3",
+            "objectId" : "222",
+            "name" : "GW_zu",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
-               "x" : 135,
-               "y" : 49,
-               "width" : 104,
-               "height" : 13
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/211.png",
-               "frame" : {
-                  "x" : 135,
-                  "y" : 49,
-                  "width" : 104,
-                  "height" : 13
-               }
-            }
-         },
-         {
-            "objectId" : "210",
-            "name" : "Group_17_2",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 288,
-               "y" : 542,
-               "width" : 50,
-               "height" : 9
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/210.png",
-               "frame" : {
-                  "x" : 288,
-                  "y" : 542,
-                  "width" : 50,
-                  "height" : 9
-               }
-            }
-         },
-         {
-            "objectId" : "209",
-            "name" : "Group_18_2",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 288,
-               "y" : 459,
-               "width" : 50,
-               "height" : 9
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/209.png",
-               "frame" : {
-                  "x" : 288,
-                  "y" : 459,
-                  "width" : 50,
-                  "height" : 9
-               }
-            }
-         },
-         {
-            "objectId" : "208",
-            "name" : "Group_19_2",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 288,
-               "y" : 373,
-               "width" : 50,
-               "height" : 9
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/208.png",
-               "frame" : {
-                  "x" : 288,
-                  "y" : 373,
-                  "width" : 50,
-                  "height" : 9
-               }
-            }
-         },
-         {
-            "objectId" : "207",
-            "name" : "Group_20_2",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 288,
-               "y" : 291,
-               "width" : 50,
-               "height" : 9
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/207.png",
-               "frame" : {
-                  "x" : 288,
-                  "y" : 291,
-                  "width" : 50,
-                  "height" : 9
-               }
-            }
-         },
-         {
-            "objectId" : "206",
-            "name" : "Group_21_2",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 288,
-               "y" : 209,
-               "width" : 50,
-               "height" : 9
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/206.png",
-               "frame" : {
-                  "x" : 288,
-                  "y" : 209,
-                  "width" : 50,
-                  "height" : 9
-               }
-            }
-         },
-         {
-            "objectId" : "205",
-            "name" : "Group_22_2",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 288,
-               "y" : 124,
-               "width" : 50,
-               "height" : 9
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/205.png",
-               "frame" : {
-                  "x" : 288,
-                  "y" : 124,
-                  "width" : 50,
-                  "height" : 9
-               }
-            }
-         },
-         {
-            "objectId" : "204",
-            "name" : "Group_23_2",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 39,
+               "x" : 38,
                "y" : 122,
-               "width" : 229,
-               "height" : 13
+               "width" : 300,
+               "height" : 430
             },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/204.png",
-               "frame" : {
-                  "x" : 39,
-                  "y" : 122,
-                  "width" : 229,
-                  "height" : 13
+            "children" : [
+               {
+                  "objectId" : "221",
+                  "name" : "CM_def",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 38,
+                     "y" : 457,
+                     "width" : 300,
+                     "height" : 13
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "220",
+                        "name" : "Group_11_10",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 38,
+                           "y" : 457,
+                           "width" : 168,
+                           "height" : 13
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/220.png",
+                           "frame" : {
+                              "x" : 38,
+                              "y" : 457,
+                              "width" : 168,
+                              "height" : 13
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "219",
+                        "name" : "Group_18_2",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 288,
+                           "y" : 459,
+                           "width" : 50,
+                           "height" : 9
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/219.png",
+                           "frame" : {
+                              "x" : 288,
+                              "y" : 459,
+                              "width" : 50,
+                              "height" : 9
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
+               },
+               {
+                  "objectId" : "218",
+                  "name" : "SD_def",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 38,
+                     "y" : 372,
+                     "width" : 300,
+                     "height" : 13
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "217",
+                        "name" : "Group_12_9",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 38,
+                           "y" : 372,
+                           "width" : 142,
+                           "height" : 13
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/217.png",
+                           "frame" : {
+                              "x" : 38,
+                              "y" : 372,
+                              "width" : 142,
+                              "height" : 13
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "216",
+                        "name" : "Group_19_2",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 288,
+                           "y" : 373,
+                           "width" : 50,
+                           "height" : 9
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/216.png",
+                           "frame" : {
+                              "x" : 288,
+                              "y" : 373,
+                              "width" : 50,
+                              "height" : 9
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
+               },
+               {
+                  "objectId" : "215",
+                  "name" : "radon_def",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 39,
+                     "y" : 290,
+                     "width" : 299,
+                     "height" : 12
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "214",
+                        "name" : "Group_13_6",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 39,
+                           "y" : 290,
+                           "width" : 59,
+                           "height" : 12
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/214.png",
+                           "frame" : {
+                              "x" : 39,
+                              "y" : 290,
+                              "width" : 59,
+                              "height" : 12
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "213",
+                        "name" : "Group_20_2",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 288,
+                           "y" : 291,
+                           "width" : 50,
+                           "height" : 9
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/213.png",
+                           "frame" : {
+                              "x" : 288,
+                              "y" : 291,
+                              "width" : 50,
+                              "height" : 9
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
+               },
+               {
+                  "objectId" : "212",
+                  "name" : "ND_def",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 39,
+                     "y" : 539,
+                     "width" : 299,
+                     "height" : 13
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "211",
+                        "name" : "Group_10_11",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 39,
+                           "y" : 539,
+                           "width" : 163,
+                           "height" : 13
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/211.png",
+                           "frame" : {
+                              "x" : 39,
+                              "y" : 539,
+                              "width" : 163,
+                              "height" : 13
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/212.png",
+                     "frame" : {
+                        "x" : 39,
+                        "y" : 539,
+                        "width" : 299,
+                        "height" : 13
+                     }
+                  }
+               },
+               {
+                  "objectId" : "210",
+                  "name" : "ozon_def",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 38,
+                     "y" : 207,
+                     "width" : 300,
+                     "height" : 12
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "209",
+                        "name" : "Group_14_7",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 38,
+                           "y" : 207,
+                           "width" : 59,
+                           "height" : 12
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/209.png",
+                           "frame" : {
+                              "x" : 38,
+                              "y" : 207,
+                              "width" : 59,
+                              "height" : 12
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/210.png",
+                     "frame" : {
+                        "x" : 38,
+                        "y" : 207,
+                        "width" : 300,
+                        "height" : 12
+                     }
+                  }
+               },
+               {
+                  "objectId" : "208",
+                  "name" : "PM_def",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 39,
+                     "y" : 122,
+                     "width" : 299,
+                     "height" : 13
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "207",
+                        "name" : "Group_22_2",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 288,
+                           "y" : 124,
+                           "width" : 50,
+                           "height" : 9
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/207.png",
+                           "frame" : {
+                              "x" : 288,
+                              "y" : 124,
+                              "width" : 50,
+                              "height" : 9
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "206",
+                        "name" : "Group_23_2",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 39,
+                           "y" : 122,
+                           "width" : 229,
+                           "height" : 13
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/206.png",
+                           "frame" : {
+                              "x" : 39,
+                              "y" : 122,
+                              "width" : 229,
+                              "height" : 13
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
                }
-            }
+            ],
+            "kind" : "group"
          }
       ],
       "kind" : "artboard",
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "232",
+      "objectId" : "259",
       "name" : "Sensoreinstellungen",
       "visible" : true,
       "maskFrame" : {
-         "x" : 6287,
+         "x" : 6811,
          "y" : 27358,
          "width" : 375,
          "height" : 667
       },
       "layerFrame" : {
-         "x" : 6287,
+         "x" : 6811,
          "y" : 27358,
          "width" : 375,
          "height" : 667
       },
       "children" : [
          {
-            "objectId" : "231",
+            "objectId" : "258",
+            "name" : "Topline_12",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/258.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
+            "objectId" : "257",
+            "name" : "Sensorset",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 109,
+               "y" : 49,
+               "width" : 152,
+               "height" : 13
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/257.png",
+               "frame" : {
+                  "x" : 109,
+                  "y" : 49,
+                  "width" : 152,
+                  "height" : 13
+               }
+            }
+         },
+         {
+            "objectId" : "256",
             "name" : "Kreuz_7",
             "visible" : true,
             "maskFrame" : null,
@@ -5188,7 +5785,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/231.png",
+               "path" : "images/256.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -5198,8 +5795,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "230",
-            "name" : "Group_10_13",
+            "objectId" : "255",
+            "name" : "Group_10_12",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -5212,7 +5809,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/230.png",
+               "path" : "images/255.png",
                "frame" : {
                   "x" : 126,
                   "y" : 457,
@@ -5222,7 +5819,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "229",
+            "objectId" : "254",
             "name" : "Group_11_12",
             "visible" : true,
             "maskFrame" : null,
@@ -5236,7 +5833,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/229.png",
+               "path" : "images/254.png",
                "frame" : {
                   "x" : 37,
                   "y" : 372,
@@ -5246,8 +5843,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "228",
-            "name" : "Group_12_12",
+            "objectId" : "253",
+            "name" : "Group_12_11",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -5260,7 +5857,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/228.png",
+               "path" : "images/253.png",
                "frame" : {
                   "x" : 39,
                   "y" : 290,
@@ -5270,8 +5867,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "227",
-            "name" : "Group_13_12",
+            "objectId" : "252",
+            "name" : "Group_13_8",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -5284,7 +5881,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/227.png",
+               "path" : "images/252.png",
                "frame" : {
                   "x" : 39,
                   "y" : 207,
@@ -5294,56 +5891,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "226",
-            "name" : "Group_14_11",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/226.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "225",
-            "name" : "Group_15_9",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 111,
-               "y" : 49,
-               "width" : 152,
-               "height" : 13
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/225.png",
-               "frame" : {
-                  "x" : 111,
-                  "y" : 49,
-                  "width" : 152,
-                  "height" : 13
-               }
-            }
-         },
-         {
-            "objectId" : "224",
-            "name" : "Group_16_4",
+            "objectId" : "251",
+            "name" : "Group_16_5",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -5356,7 +5905,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/224.png",
+               "path" : "images/251.png",
                "frame" : {
                   "x" : 284,
                   "y" : 373,
@@ -5366,8 +5915,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "223",
-            "name" : "Group_17_3",
+            "objectId" : "250",
+            "name" : "Group_17_2",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -5380,7 +5929,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/223.png",
+               "path" : "images/250.png",
                "frame" : {
                   "x" : 284,
                   "y" : 291,
@@ -5390,8 +5939,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "222",
-            "name" : "Group_18_3",
+            "objectId" : "249",
+            "name" : "Group_18_4",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -5404,7 +5953,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/222.png",
+               "path" : "images/249.png",
                "frame" : {
                   "x" : 284,
                   "y" : 209,
@@ -5414,7 +5963,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "221",
+            "objectId" : "248",
             "name" : "Group_19_3",
             "visible" : true,
             "maskFrame" : null,
@@ -5428,7 +5977,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/221.png",
+               "path" : "images/248.png",
                "frame" : {
                   "x" : 269,
                   "y" : 124,
@@ -5438,7 +5987,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "220",
+            "objectId" : "247",
             "name" : "Group_20_3",
             "visible" : true,
             "maskFrame" : null,
@@ -5452,7 +6001,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/220.png",
+               "path" : "images/247.png",
                "frame" : {
                   "x" : 37,
                   "y" : 122,
@@ -5466,24 +6015,24 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "239",
-      "name" : "Sensor_hinzufügen",
+      "objectId" : "292",
+      "name" : "Notif_Alarme",
       "visible" : true,
       "maskFrame" : {
-         "x" : 6744,
+         "x" : 6315,
          "y" : 27358,
          "width" : 375,
          "height" : 667
       },
       "layerFrame" : {
-         "x" : 6744,
+         "x" : 6315,
          "y" : 27358,
          "width" : 375,
          "height" : 667
       },
       "children" : [
          {
-            "objectId" : "238",
+            "objectId" : "291",
             "name" : "Kreuz_8",
             "visible" : true,
             "maskFrame" : null,
@@ -5497,7 +6046,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/238.png",
+               "path" : "images/291.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -5507,148 +6056,378 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "237",
-            "name" : "Group_10_14",
+            "objectId" : "290",
+            "name" : "Maske_Kreuz_2",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
-               "x" : 15,
-               "y" : 165,
-               "width" : 345,
-               "height" : 2
+               "x" : -5,
+               "y" : 596,
+               "width" : 382,
+               "height" : 80
             },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/237.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 165,
-                  "width" : 345,
-                  "height" : 2
+            "children" : [
+               {
+                  "objectId" : "289",
+                  "name" : "mask_Rectangle_2",
+                  "visible" : true,
+                  "maskFrame" : {
+                     "x" : -18,
+                     "y" : 596,
+                     "width" : 421,
+                     "height" : 80
+                  },
+                  "layerFrame" : {
+                     "x" : -18,
+                     "y" : 596,
+                     "width" : 421,
+                     "height" : 80
+                  },
+                  "children" : [
+                     {
+                        "objectId" : "288",
+                        "name" : "Group_16_6",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : -5,
+                           "y" : -15,
+                           "width" : 382,
+                           "height" : 698
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/288.png",
+                           "frame" : {
+                              "x" : -5,
+                              "y" : -15,
+                              "width" : 382,
+                              "height" : 698
+                           }
+                        }
+                     }
+                  ],
+                  "kind" : "group"
                }
-            }
+            ],
+            "kind" : "group"
          },
          {
-            "objectId" : "236",
-            "name" : "Group_11_13",
+            "objectId" : "287",
+            "name" : "Slide_9",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
-               "x" : 87,
-               "y" : 132,
-               "width" : 201,
-               "height" : 13
+               "x" : 287,
+               "y" : 185,
+               "width" : 51,
+               "height" : 32
             },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/236.png",
-               "frame" : {
-                  "x" : 87,
-                  "y" : 132,
-                  "width" : 201,
-                  "height" : 13
+            "children" : [
+               {
+                  "objectId" : "286",
+                  "name" : "Slide_8",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 287,
+                     "y" : 185,
+                     "width" : 51,
+                     "height" : 32
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/286.png",
+                     "frame" : {
+                        "x" : 287,
+                        "y" : 185,
+                        "width" : 51,
+                        "height" : 32
+                     }
+                  }
                }
-            }
+            ],
+            "kind" : "group"
          },
          {
-            "objectId" : "235",
-            "name" : "Group_12_13",
+            "objectId" : "285",
+            "name" : "SlideND",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
-               "x" : 38,
-               "y" : 328,
-               "width" : 66,
-               "height" : 13
+               "x" : 287,
+               "y" : 528,
+               "width" : 51,
+               "height" : 32
             },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/235.png",
-               "frame" : {
-                  "x" : 38,
-                  "y" : 328,
-                  "width" : 66,
-                  "height" : 13
+            "children" : [
+               {
+                  "objectId" : "284",
+                  "name" : "Slide_7",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 287,
+                     "y" : 528,
+                     "width" : 51,
+                     "height" : 32
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/284.png",
+                     "frame" : {
+                        "x" : 287,
+                        "y" : 528,
+                        "width" : 51,
+                        "height" : 32
+                     }
+                  }
                }
-            }
+            ],
+            "kind" : "group"
          },
          {
-            "objectId" : "234",
-            "name" : "Group_13_13",
+            "objectId" : "283",
+            "name" : "SlideRV",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
-               "x" : 183,
-               "y" : 328,
-               "width" : 153,
-               "height" : 13
+               "x" : 287,
+               "y" : 871,
+               "width" : 51,
+               "height" : 32
             },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/234.png",
-               "frame" : {
-                  "x" : 183,
-                  "y" : 328,
-                  "width" : 153,
-                  "height" : 13
+            "children" : [
+               {
+                  "objectId" : "282",
+                  "name" : "Slide_6",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 287,
+                     "y" : 871,
+                     "width" : 51,
+                     "height" : 32
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/282.png",
+                     "frame" : {
+                        "x" : 287,
+                        "y" : 871,
+                        "width" : 51,
+                        "height" : 32
+                     }
+                  }
                }
-            }
+            ],
+            "kind" : "group"
          },
          {
-            "objectId" : "233",
-            "name" : "Group_14_12",
+            "objectId" : "281",
+            "name" : "SlideAI",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
-               "x" : 102,
-               "y" : 243,
-               "width" : 164,
-               "height" : 16
+               "x" : 287,
+               "y" : 702,
+               "width" : 51,
+               "height" : 32
             },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/233.png",
-               "frame" : {
-                  "x" : 102,
-                  "y" : 243,
-                  "width" : 164,
-                  "height" : 16
+            "children" : [
+               {
+                  "objectId" : "280",
+                  "name" : "Slide_5",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 287,
+                     "y" : 702,
+                     "width" : 51,
+                     "height" : 32
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/280.png",
+                     "frame" : {
+                        "x" : 287,
+                        "y" : 702,
+                        "width" : 51,
+                        "height" : 32
+                     }
+                  }
                }
-            }
-         }
-      ],
-      "kind" : "artboard",
-      "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
-   },
-   {
-      "objectId" : "269",
-      "name" : "Notifications_Alarme_aus",
-      "visible" : true,
-      "maskFrame" : {
-         "x" : 5351,
-         "y" : 27358,
-         "width" : 375,
-         "height" : 996
-      },
-      "layerFrame" : {
-         "x" : 5351,
-         "y" : 27358,
-         "width" : 375,
-         "height" : 996
-      },
-      "children" : [
+            ],
+            "kind" : "group"
+         },
          {
-            "objectId" : "268",
+            "objectId" : "279",
+            "name" : "SlideR",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 287,
+               "y" : 616,
+               "width" : 51,
+               "height" : 32
+            },
+            "children" : [
+               {
+                  "objectId" : "278",
+                  "name" : "Slide_4",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 287,
+                     "y" : 616,
+                     "width" : 51,
+                     "height" : 32
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/278.png",
+                     "frame" : {
+                        "x" : 287,
+                        "y" : 616,
+                        "width" : 51,
+                        "height" : 32
+                     }
+                  }
+               }
+            ],
+            "kind" : "group"
+         },
+         {
+            "objectId" : "277",
+            "name" : "SlideCM",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 287,
+               "y" : 441,
+               "width" : 51,
+               "height" : 32
+            },
+            "children" : [
+               {
+                  "objectId" : "276",
+                  "name" : "Slide_3",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 287,
+                     "y" : 441,
+                     "width" : 51,
+                     "height" : 32
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/276.png",
+                     "frame" : {
+                        "x" : 287,
+                        "y" : 441,
+                        "width" : 51,
+                        "height" : 32
+                     }
+                  }
+               }
+            ],
+            "kind" : "group"
+         },
+         {
+            "objectId" : "275",
+            "name" : "SlideO",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 287,
+               "y" : 266,
+               "width" : 51,
+               "height" : 32
+            },
+            "children" : [
+               {
+                  "objectId" : "274",
+                  "name" : "Slide_2",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 287,
+                     "y" : 266,
+                     "width" : 51,
+                     "height" : 32
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/274.png",
+                     "frame" : {
+                        "x" : 287,
+                        "y" : 266,
+                        "width" : 51,
+                        "height" : 32
+                     }
+                  }
+               }
+            ],
+            "kind" : "group"
+         },
+         {
+            "objectId" : "273",
+            "name" : "SlideSD",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 287,
+               "y" : 354,
+               "width" : 51,
+               "height" : 32
+            },
+            "children" : [
+               {
+                  "objectId" : "272",
+                  "name" : "Slide",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 287,
+                     "y" : 354,
+                     "width" : 51,
+                     "height" : 32
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/272.png",
+                     "frame" : {
+                        "x" : 287,
+                        "y" : 354,
+                        "width" : 51,
+                        "height" : 32
+                     }
+                  }
+               }
+            ],
+            "kind" : "group"
+         },
+         {
+            "objectId" : "271",
             "name" : "Group_24",
             "visible" : true,
             "maskFrame" : null,
@@ -5662,7 +6441,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/268.png",
+               "path" : "images/271.png",
                "frame" : {
                   "x" : 38,
                   "y" : 801,
@@ -5672,8 +6451,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "267",
-            "name" : "Group_2_14",
+            "objectId" : "270",
+            "name" : "Group_2.9",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -5686,7 +6465,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/267.png",
+               "path" : "images/270.png",
                "frame" : {
                   "x" : 37,
                   "y" : 882,
@@ -5696,392 +6475,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "266",
-            "name" : "Kreuz_9",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 174,
-               "y" : 933,
-               "width" : 23,
-               "height" : 23
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/266.png",
-               "frame" : {
-                  "x" : 174,
-                  "y" : 933,
-                  "width" : 23,
-                  "height" : 23
-               }
-            }
-         },
-         {
-            "objectId" : "265",
-            "name" : "Slide_16",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 286,
-               "y" : 872,
-               "width" : 52,
-               "height" : 34
-            },
-            "children" : [
-               {
-                  "objectId" : "264",
-                  "name" : "Slide_15",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 286,
-                     "y" : 872,
-                     "width" : 52,
-                     "height" : 34
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/264.png",
-                     "frame" : {
-                        "x" : 286,
-                        "y" : 872,
-                        "width" : 52,
-                        "height" : 34
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "263",
-            "name" : "Slide_14",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 286,
-               "y" : 702,
-               "width" : 52,
-               "height" : 34
-            },
-            "children" : [
-               {
-                  "objectId" : "262",
-                  "name" : "Slide_13",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 286,
-                     "y" : 702,
-                     "width" : 52,
-                     "height" : 34
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/262.png",
-                     "frame" : {
-                        "x" : 286,
-                        "y" : 702,
-                        "width" : 52,
-                        "height" : 34
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "261",
-            "name" : "Slide_12",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 286,
-               "y" : 615,
-               "width" : 52,
-               "height" : 34
-            },
-            "children" : [
-               {
-                  "objectId" : "260",
-                  "name" : "Slide_11",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 286,
-                     "y" : 615,
-                     "width" : 52,
-                     "height" : 34
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/260.png",
-                     "frame" : {
-                        "x" : 286,
-                        "y" : 615,
-                        "width" : 52,
-                        "height" : 34
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "259",
-            "name" : "Slide_10",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 286,
-               "y" : 528,
-               "width" : 52,
-               "height" : 34
-            },
-            "children" : [
-               {
-                  "objectId" : "258",
-                  "name" : "Slide_9",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 286,
-                     "y" : 528,
-                     "width" : 52,
-                     "height" : 34
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/258.png",
-                     "frame" : {
-                        "x" : 286,
-                        "y" : 528,
-                        "width" : 52,
-                        "height" : 34
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "257",
-            "name" : "Slide_8",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 286,
-               "y" : 441,
-               "width" : 52,
-               "height" : 34
-            },
-            "children" : [
-               {
-                  "objectId" : "256",
-                  "name" : "Slide_7",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 286,
-                     "y" : 441,
-                     "width" : 52,
-                     "height" : 34
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/256.png",
-                     "frame" : {
-                        "x" : 286,
-                        "y" : 441,
-                        "width" : 52,
-                        "height" : 34
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "255",
-            "name" : "Slide_6",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 286,
-               "y" : 354,
-               "width" : 52,
-               "height" : 34
-            },
-            "children" : [
-               {
-                  "objectId" : "254",
-                  "name" : "Slide_5",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 286,
-                     "y" : 354,
-                     "width" : 52,
-                     "height" : 34
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/254.png",
-                     "frame" : {
-                        "x" : 286,
-                        "y" : 354,
-                        "width" : 52,
-                        "height" : 34
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "253",
-            "name" : "Slide_4",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 286,
-               "y" : 267,
-               "width" : 52,
-               "height" : 34
-            },
-            "children" : [
-               {
-                  "objectId" : "252",
-                  "name" : "Slide_3",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 286,
-                     "y" : 267,
-                     "width" : 52,
-                     "height" : 34
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/252.png",
-                     "frame" : {
-                        "x" : 286,
-                        "y" : 267,
-                        "width" : 52,
-                        "height" : 34
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "251",
-            "name" : "Slide_2",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 286,
-               "y" : 185,
-               "width" : 52,
-               "height" : 34
-            },
-            "children" : [
-               {
-                  "objectId" : "250",
-                  "name" : "Slide",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 286,
-                     "y" : 185,
-                     "width" : 52,
-                     "height" : 34
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/250.png",
-                     "frame" : {
-                        "x" : 286,
-                        "y" : 185,
-                        "width" : 52,
-                        "height" : 34
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "249",
-            "name" : "Group_2_13",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 122,
-               "y" : 49,
-               "width" : 131,
-               "height" : 13
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/249.png",
-               "frame" : {
-                  "x" : 122,
-                  "y" : 49,
-                  "width" : 131,
-                  "height" : 13
-               }
-            }
-         },
-         {
-            "objectId" : "248",
-            "name" : "Group_2_12",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/248.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "247",
-            "name" : "Group_2_11",
+            "objectId" : "269",
+            "name" : "Group_2.8",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -6094,7 +6489,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/247.png",
+               "path" : "images/269.png",
                "frame" : {
                   "x" : 36,
                   "y" : 713,
@@ -6104,8 +6499,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "246",
-            "name" : "Group_2_10",
+            "objectId" : "268",
+            "name" : "Group_2.7",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -6118,7 +6513,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/246.png",
+               "path" : "images/268.png",
                "frame" : {
                   "x" : 37,
                   "y" : 539,
@@ -6128,8 +6523,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "245",
-            "name" : "Group_2_9",
+            "objectId" : "267",
+            "name" : "Group_2.6",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -6142,7 +6537,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/245.png",
+               "path" : "images/267.png",
                "frame" : {
                   "x" : 37,
                   "y" : 452,
@@ -6152,8 +6547,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "244",
-            "name" : "Group_2_8",
+            "objectId" : "266",
+            "name" : "Group_2.5",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -6166,7 +6561,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/244.png",
+               "path" : "images/266.png",
                "frame" : {
                   "x" : 37,
                   "y" : 365,
@@ -6176,8 +6571,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "243",
-            "name" : "Group_2_7",
+            "objectId" : "265",
+            "name" : "Group_2.4",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -6190,7 +6585,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/243.png",
+               "path" : "images/265.png",
                "frame" : {
                   "x" : 37,
                   "y" : 626,
@@ -6200,8 +6595,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "242",
-            "name" : "Group_2_6",
+            "objectId" : "264",
+            "name" : "Group_2.3",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -6214,7 +6609,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/242.png",
+               "path" : "images/264.png",
                "frame" : {
                   "x" : 37,
                   "y" : 278,
@@ -6224,8 +6619,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "241",
-            "name" : "Group_2_5",
+            "objectId" : "263",
+            "name" : "Group_2.2",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -6238,7 +6633,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/241.png",
+               "path" : "images/263.png",
                "frame" : {
                   "x" : 37,
                   "y" : 112,
@@ -6248,13 +6643,13 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "240",
-            "name" : "Group_2_4",
+            "objectId" : "262",
+            "name" : "Group_2.1",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
                "x" : 37,
-               "y" : 195,
+               "y" : 196,
                "width" : 163,
                "height" : 10
             },
@@ -6262,12 +6657,60 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/240.png",
+               "path" : "images/262.png",
                "frame" : {
                   "x" : 37,
-                  "y" : 195,
+                  "y" : 196,
                   "width" : 163,
                   "height" : 10
+               }
+            }
+         },
+         {
+            "objectId" : "261",
+            "name" : "head_Notif",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 123,
+               "y" : 49,
+               "width" : 130,
+               "height" : 13
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/261.png",
+               "frame" : {
+                  "x" : 123,
+                  "y" : 49,
+                  "width" : 130,
+                  "height" : 13
+               }
+            }
+         },
+         {
+            "objectId" : "260",
+            "name" : "Topline_13",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/260.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
                }
             }
          }
@@ -6277,7 +6720,172 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
    },
    {
       "objectId" : "299",
-      "name" : "Notifications_Alarme_an",
+      "name" : "Sensor_hinzufügen",
+      "visible" : true,
+      "maskFrame" : {
+         "x" : 7268,
+         "y" : 27358,
+         "width" : 375,
+         "height" : 667
+      },
+      "layerFrame" : {
+         "x" : 7268,
+         "y" : 27358,
+         "width" : 375,
+         "height" : 667
+      },
+      "children" : [
+         {
+            "objectId" : "298",
+            "name" : "Topline_14",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 165,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/298.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 165,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
+            "objectId" : "297",
+            "name" : "Kreuz_9",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 176,
+               "y" : 616,
+               "width" : 23,
+               "height" : 23
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/297.png",
+               "frame" : {
+                  "x" : 176,
+                  "y" : 616,
+                  "width" : 23,
+                  "height" : 23
+               }
+            }
+         },
+         {
+            "objectId" : "296",
+            "name" : "Group_11_13",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 87,
+               "y" : 132,
+               "width" : 201,
+               "height" : 13
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/296.png",
+               "frame" : {
+                  "x" : 87,
+                  "y" : 132,
+                  "width" : 201,
+                  "height" : 13
+               }
+            }
+         },
+         {
+            "objectId" : "295",
+            "name" : "Group_12_12",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 38,
+               "y" : 328,
+               "width" : 66,
+               "height" : 13
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/295.png",
+               "frame" : {
+                  "x" : 38,
+                  "y" : 328,
+                  "width" : 66,
+                  "height" : 13
+               }
+            }
+         },
+         {
+            "objectId" : "294",
+            "name" : "Group_13_9",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 183,
+               "y" : 328,
+               "width" : 153,
+               "height" : 13
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/294.png",
+               "frame" : {
+                  "x" : 183,
+                  "y" : 328,
+                  "width" : 153,
+                  "height" : 13
+               }
+            }
+         },
+         {
+            "objectId" : "293",
+            "name" : "Group_14_9",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 102,
+               "y" : 243,
+               "width" : 164,
+               "height" : 16
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/293.png",
+               "frame" : {
+                  "x" : 102,
+                  "y" : 243,
+                  "width" : 164,
+                  "height" : 16
+               }
+            }
+         }
+      ],
+      "kind" : "artboard",
+      "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
+   },
+   {
+      "objectId" : "301",
+      "name" : "Test",
       "visible" : true,
       "maskFrame" : {
          "x" : 5819,
@@ -6293,559 +6901,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "298",
-            "name" : "Slide_32",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 287,
-               "y" : 528,
-               "width" : 51,
-               "height" : 32
-            },
-            "children" : [
-               {
-                  "objectId" : "297",
-                  "name" : "Slide_31",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 287,
-                     "y" : 528,
-                     "width" : 51,
-                     "height" : 32
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/297.png",
-                     "frame" : {
-                        "x" : 287,
-                        "y" : 528,
-                        "width" : 51,
-                        "height" : 32
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "296",
-            "name" : "Slide_30",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 287,
-               "y" : 871,
-               "width" : 51,
-               "height" : 32
-            },
-            "children" : [
-               {
-                  "objectId" : "295",
-                  "name" : "Slide_29",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 287,
-                     "y" : 871,
-                     "width" : 51,
-                     "height" : 32
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/295.png",
-                     "frame" : {
-                        "x" : 287,
-                        "y" : 871,
-                        "width" : 51,
-                        "height" : 32
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "294",
-            "name" : "Slide_28",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 287,
-               "y" : 702,
-               "width" : 51,
-               "height" : 32
-            },
-            "children" : [
-               {
-                  "objectId" : "293",
-                  "name" : "Slide_27",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 287,
-                     "y" : 702,
-                     "width" : 51,
-                     "height" : 32
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/293.png",
-                     "frame" : {
-                        "x" : 287,
-                        "y" : 702,
-                        "width" : 51,
-                        "height" : 32
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "292",
-            "name" : "Slide_26",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 287,
-               "y" : 616,
-               "width" : 51,
-               "height" : 32
-            },
-            "children" : [
-               {
-                  "objectId" : "291",
-                  "name" : "Slide_25",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 287,
-                     "y" : 616,
-                     "width" : 51,
-                     "height" : 32
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/291.png",
-                     "frame" : {
-                        "x" : 287,
-                        "y" : 616,
-                        "width" : 51,
-                        "height" : 32
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "290",
-            "name" : "Slide_24",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 287,
-               "y" : 441,
-               "width" : 51,
-               "height" : 32
-            },
-            "children" : [
-               {
-                  "objectId" : "289",
-                  "name" : "Slide_23",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 287,
-                     "y" : 441,
-                     "width" : 51,
-                     "height" : 32
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/289.png",
-                     "frame" : {
-                        "x" : 287,
-                        "y" : 441,
-                        "width" : 51,
-                        "height" : 32
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "288",
-            "name" : "Slide_22",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 287,
-               "y" : 185,
-               "width" : 51,
-               "height" : 32
-            },
-            "children" : [
-               {
-                  "objectId" : "287",
-                  "name" : "Slide_21",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 287,
-                     "y" : 185,
-                     "width" : 51,
-                     "height" : 32
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/287.png",
-                     "frame" : {
-                        "x" : 287,
-                        "y" : 185,
-                        "width" : 51,
-                        "height" : 32
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "286",
-            "name" : "Slide_20",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 287,
-               "y" : 266,
-               "width" : 51,
-               "height" : 32
-            },
-            "children" : [
-               {
-                  "objectId" : "285",
-                  "name" : "Slide_19",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 287,
-                     "y" : 266,
-                     "width" : 51,
-                     "height" : 32
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/285.png",
-                     "frame" : {
-                        "x" : 287,
-                        "y" : 266,
-                        "width" : 51,
-                        "height" : 32
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "284",
-            "name" : "Slide_18",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 287,
-               "y" : 354,
-               "width" : 51,
-               "height" : 32
-            },
-            "children" : [
-               {
-                  "objectId" : "283",
-                  "name" : "Slide_17",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 287,
-                     "y" : 354,
-                     "width" : 51,
-                     "height" : 32
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/283.png",
-                     "frame" : {
-                        "x" : 287,
-                        "y" : 354,
-                        "width" : 51,
-                        "height" : 32
-                     }
-                  }
-               }
-            ],
-            "kind" : "group"
-         },
-         {
-            "objectId" : "282",
-            "name" : "Group_25",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 38,
-               "y" : 801,
-               "width" : 88,
-               "height" : 11
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/282.png",
-               "frame" : {
-                  "x" : 38,
-                  "y" : 801,
-                  "width" : 88,
-                  "height" : 11
-               }
-            }
-         },
-         {
-            "objectId" : "281",
-            "name" : "Group_2_25",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 37,
-               "y" : 882,
-               "width" : 131,
-               "height" : 10
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/281.png",
-               "frame" : {
-                  "x" : 37,
-                  "y" : 882,
-                  "width" : 131,
-                  "height" : 10
-               }
-            }
-         },
-         {
-            "objectId" : "280",
-            "name" : "Group_2_24",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 36,
-               "y" : 713,
-               "width" : 122,
-               "height" : 11
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/280.png",
-               "frame" : {
-                  "x" : 36,
-                  "y" : 713,
-                  "width" : 122,
-                  "height" : 11
-               }
-            }
-         },
-         {
-            "objectId" : "279",
-            "name" : "Group_2_23",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 37,
-               "y" : 539,
-               "width" : 127,
-               "height" : 10
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/279.png",
-               "frame" : {
-                  "x" : 37,
-                  "y" : 539,
-                  "width" : 127,
-                  "height" : 10
-               }
-            }
-         },
-         {
-            "objectId" : "278",
-            "name" : "Group_2_22",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 37,
-               "y" : 452,
-               "width" : 131,
-               "height" : 10
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/278.png",
-               "frame" : {
-                  "x" : 37,
-                  "y" : 452,
-                  "width" : 131,
-                  "height" : 10
-               }
-            }
-         },
-         {
-            "objectId" : "277",
-            "name" : "Group_2_21",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 37,
-               "y" : 365,
-               "width" : 110,
-               "height" : 10
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/277.png",
-               "frame" : {
-                  "x" : 37,
-                  "y" : 365,
-                  "width" : 110,
-                  "height" : 10
-               }
-            }
-         },
-         {
-            "objectId" : "276",
-            "name" : "Group_2_20",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 37,
-               "y" : 626,
-               "width" : 47,
-               "height" : 10
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/276.png",
-               "frame" : {
-                  "x" : 37,
-                  "y" : 626,
-                  "width" : 47,
-                  "height" : 10
-               }
-            }
-         },
-         {
-            "objectId" : "275",
-            "name" : "Group_2_19",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 37,
-               "y" : 278,
-               "width" : 46,
-               "height" : 10
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/275.png",
-               "frame" : {
-                  "x" : 37,
-                  "y" : 278,
-                  "width" : 46,
-                  "height" : 10
-               }
-            }
-         },
-         {
-            "objectId" : "274",
-            "name" : "Group_2_18",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 37,
-               "y" : 112,
-               "width" : 161,
-               "height" : 13
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/274.png",
-               "frame" : {
-                  "x" : 37,
-                  "y" : 112,
-                  "width" : 161,
-                  "height" : 13
-               }
-            }
-         },
-         {
-            "objectId" : "273",
-            "name" : "Group_2_17",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 37,
-               "y" : 196,
-               "width" : 163,
-               "height" : 10
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/273.png",
-               "frame" : {
-                  "x" : 37,
-                  "y" : 196,
-                  "width" : 163,
-                  "height" : 10
-               }
-            }
-         },
-         {
-            "objectId" : "272",
+            "objectId" : "300",
             "name" : "Kreuz_10",
             "visible" : true,
             "maskFrame" : null,
@@ -6859,60 +6915,12 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/272.png",
+               "path" : "images/300.png",
                "frame" : {
                   "x" : 174,
                   "y" : 933,
                   "width" : 23,
                   "height" : 23
-               }
-            }
-         },
-         {
-            "objectId" : "271",
-            "name" : "Group_2_16",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 122,
-               "y" : 49,
-               "width" : 131,
-               "height" : 13
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/271.png",
-               "frame" : {
-                  "x" : 122,
-                  "y" : 49,
-                  "width" : 131,
-                  "height" : 13
-               }
-            }
-         },
-         {
-            "objectId" : "270",
-            "name" : "Group_2_15",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/270.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
                }
             }
          }
@@ -6921,7 +6929,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "316",
+      "objectId" : "322",
       "name" : "Grenzwerte_2_standard",
       "visible" : true,
       "maskFrame" : {
@@ -6938,7 +6946,55 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "315",
+            "objectId" : "321",
+            "name" : "head_thresh_2",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 134,
+               "y" : 49,
+               "width" : 103,
+               "height" : 13
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/321.png",
+               "frame" : {
+                  "x" : 134,
+                  "y" : 49,
+                  "width" : 103,
+                  "height" : 13
+               }
+            }
+         },
+         {
+            "objectId" : "320",
+            "name" : "Topline_15",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/320.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
+            "objectId" : "319",
             "name" : "Kreuz_11",
             "visible" : true,
             "maskFrame" : null,
@@ -6952,7 +7008,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/315.png",
+               "path" : "images/319.png",
                "frame" : {
                   "x" : 176,
                   "y" : 1064,
@@ -6962,367 +7018,376 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "314",
-            "name" : "Group_25_2",
+            "objectId" : "318",
+            "name" : "GW_offen_2",
             "visible" : true,
-            "maskFrame" : {
-               "x" : 15,
-               "y" : 108,
-               "width" : 345,
-               "height" : 906
-            },
+            "maskFrame" : null,
             "layerFrame" : {
                "x" : 15,
-               "y" : 108,
+               "y" : 111,
                "width" : 345,
-               "height" : 906
+               "height" : 903
             },
             "children" : [
                {
-                  "objectId" : "313",
-                  "name" : "Group_22_3",
+                  "objectId" : "317",
+                  "name" : "ND_Gruppe_2",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
                      "x" : 15,
-                     "y" : 978,
+                     "y" : 923,
                      "width" : 345,
-                     "height" : 36
+                     "height" : 91
                   },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/313.png",
-                     "frame" : {
-                        "x" : 15,
-                        "y" : 978,
-                        "width" : 345,
-                        "height" : 36
+                  "children" : [
+                     {
+                        "objectId" : "316",
+                        "name" : "Group_22_4",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 15,
+                           "y" : 978,
+                           "width" : 345,
+                           "height" : 36
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/316.png",
+                           "frame" : {
+                              "x" : 15,
+                              "y" : 978,
+                              "width" : 345,
+                              "height" : 36
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "315",
+                        "name" : "Group_11_14",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 45,
+                           "y" : 923,
+                           "width" : 299,
+                           "height" : 19
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/315.png",
+                           "frame" : {
+                              "x" : 45,
+                              "y" : 923,
+                              "width" : 299,
+                              "height" : 19
+                           }
+                        }
                      }
-                  }
+                  ],
+                  "kind" : "group"
                },
                {
-                  "objectId" : "312",
-                  "name" : "Group_21_3",
+                  "objectId" : "314",
+                  "name" : "CM_Gruppe_2",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
                      "x" : 15,
-                     "y" : 816,
+                     "y" : 760,
                      "width" : 345,
-                     "height" : 36
+                     "height" : 92
                   },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/312.png",
-                     "frame" : {
-                        "x" : 15,
-                        "y" : 816,
-                        "width" : 345,
-                        "height" : 36
+                  "children" : [
+                     {
+                        "objectId" : "313",
+                        "name" : "Group_21_3",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 15,
+                           "y" : 816,
+                           "width" : 345,
+                           "height" : 36
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/313.png",
+                           "frame" : {
+                              "x" : 15,
+                              "y" : 816,
+                              "width" : 345,
+                              "height" : 36
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "312",
+                        "name" : "Group_13_10",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 38,
+                           "y" : 760,
+                           "width" : 300,
+                           "height" : 19
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/312.png",
+                           "frame" : {
+                              "x" : 38,
+                              "y" : 760,
+                              "width" : 300,
+                              "height" : 19
+                           }
+                        }
                      }
-                  }
+                  ],
+                  "kind" : "group"
                },
                {
                   "objectId" : "311",
-                  "name" : "Group_20_4",
+                  "name" : "SD_Gruppe_2",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
                      "x" : 15,
-                     "y" : 654,
+                     "y" : 597,
                      "width" : 345,
-                     "height" : 36
+                     "height" : 93
                   },
-                  "children" : [],
+                  "children" : [
+                     {
+                        "objectId" : "310",
+                        "name" : "Group_14_10",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 38,
+                           "y" : 597,
+                           "width" : 300,
+                           "height" : 19
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/310.png",
+                           "frame" : {
+                              "x" : 38,
+                              "y" : 597,
+                              "width" : 300,
+                              "height" : 19
+                           }
+                        }
+                     }
+                  ],
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
                      "path" : "images/311.png",
                      "frame" : {
                         "x" : 15,
-                        "y" : 654,
+                        "y" : 597,
                         "width" : 345,
-                        "height" : 36
-                     }
-                  }
-               },
-               {
-                  "objectId" : "310",
-                  "name" : "Group_19_4",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 15,
-                     "y" : 491,
-                     "width" : 345,
-                     "height" : 36
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/310.png",
-                     "frame" : {
-                        "x" : 15,
-                        "y" : 491,
-                        "width" : 345,
-                        "height" : 36
+                        "height" : 93
                      }
                   }
                },
                {
                   "objectId" : "309",
-                  "name" : "Group_18.1",
+                  "name" : "Radon_Gruppe_2",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
                      "x" : 15,
-                     "y" : 165,
+                     "y" : 435,
                      "width" : 345,
-                     "height" : 36
+                     "height" : 92
                   },
-                  "children" : [],
+                  "children" : [
+                     {
+                        "objectId" : "308",
+                        "name" : "Group_15_9",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 39,
+                           "y" : 435,
+                           "width" : 299,
+                           "height" : 18
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/308.png",
+                           "frame" : {
+                              "x" : 39,
+                              "y" : 435,
+                              "width" : 299,
+                              "height" : 18
+                           }
+                        }
+                     }
+                  ],
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
                      "path" : "images/309.png",
                      "frame" : {
                         "x" : 15,
-                        "y" : 165,
+                        "y" : 435,
                         "width" : 345,
-                        "height" : 36
-                     }
-                  }
-               },
-               {
-                  "objectId" : "308",
-                  "name" : "Group_18_4",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 15,
-                     "y" : 329,
-                     "width" : 345,
-                     "height" : 36
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/308.png",
-                     "frame" : {
-                        "x" : 15,
-                        "y" : 329,
-                        "width" : 345,
-                        "height" : 36
+                        "height" : 92
                      }
                   }
                },
                {
                   "objectId" : "307",
-                  "name" : "Group_11_14",
+                  "name" : "PM_Gruppe_2",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
-                     "x" : 45,
-                     "y" : 923,
-                     "width" : 299,
-                     "height" : 19
+                     "x" : 15,
+                     "y" : 111,
+                     "width" : 345,
+                     "height" : 90
                   },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/307.png",
-                     "frame" : {
-                        "x" : 45,
-                        "y" : 923,
-                        "width" : 299,
-                        "height" : 19
+                  "children" : [
+                     {
+                        "objectId" : "306",
+                        "name" : "Group_18.1_2",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 15,
+                           "y" : 165,
+                           "width" : 345,
+                           "height" : 36
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/306.png",
+                           "frame" : {
+                              "x" : 15,
+                              "y" : 165,
+                              "width" : 345,
+                              "height" : 36
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "305",
+                        "name" : "Group_12_13",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 39,
+                           "y" : 111,
+                           "width" : 299,
+                           "height" : 19
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/305.png",
+                           "frame" : {
+                              "x" : 39,
+                              "y" : 111,
+                              "width" : 299,
+                              "height" : 19
+                           }
+                        }
                      }
-                  }
-               },
-               {
-                  "objectId" : "306",
-                  "name" : "Group_13_14",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 38,
-                     "y" : 760,
-                     "width" : 300,
-                     "height" : 19
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/306.png",
-                     "frame" : {
-                        "x" : 38,
-                        "y" : 760,
-                        "width" : 300,
-                        "height" : 19
-                     }
-                  }
-               },
-               {
-                  "objectId" : "305",
-                  "name" : "Group_14_13",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 38,
-                     "y" : 597,
-                     "width" : 300,
-                     "height" : 19
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/305.png",
-                     "frame" : {
-                        "x" : 38,
-                        "y" : 597,
-                        "width" : 300,
-                        "height" : 19
-                     }
-                  }
+                  ],
+                  "kind" : "group"
                },
                {
                   "objectId" : "304",
-                  "name" : "Group_15_10",
+                  "name" : "Ozon_Gruppe_2",
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
-                     "x" : 39,
-                     "y" : 435,
-                     "width" : 299,
-                     "height" : 18
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/304.png",
-                     "frame" : {
-                        "x" : 39,
-                        "y" : 435,
-                        "width" : 299,
-                        "height" : 18
-                     }
-                  }
-               },
-               {
-                  "objectId" : "303",
-                  "name" : "Group_16_5",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 38,
+                     "x" : 15,
                      "y" : 274,
-                     "width" : 300,
-                     "height" : 18
+                     "width" : 345,
+                     "height" : 91
                   },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/303.png",
-                     "frame" : {
-                        "x" : 38,
-                        "y" : 274,
-                        "width" : 300,
-                        "height" : 18
+                  "children" : [
+                     {
+                        "objectId" : "303",
+                        "name" : "Group_18_5",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 15,
+                           "y" : 329,
+                           "width" : 345,
+                           "height" : 36
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/303.png",
+                           "frame" : {
+                              "x" : 15,
+                              "y" : 329,
+                              "width" : 345,
+                              "height" : 36
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "302",
+                        "name" : "Group_16_7",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 38,
+                           "y" : 274,
+                           "width" : 300,
+                           "height" : 18
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/302.png",
+                           "frame" : {
+                              "x" : 38,
+                              "y" : 274,
+                              "width" : 300,
+                              "height" : 18
+                           }
+                        }
                      }
-                  }
-               },
-               {
-                  "objectId" : "302",
-                  "name" : "Group_12_14",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 39,
-                     "y" : 111,
-                     "width" : 299,
-                     "height" : 19
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/302.png",
-                     "frame" : {
-                        "x" : 39,
-                        "y" : 111,
-                        "width" : 299,
-                        "height" : 19
-                     }
-                  }
+                  ],
+                  "kind" : "group"
                }
             ],
             "kind" : "group"
-         },
-         {
-            "objectId" : "301",
-            "name" : "Group_23_3",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/301.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "300",
-            "name" : "Group_24_2",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 135,
-               "y" : 49,
-               "width" : 104,
-               "height" : 13
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/300.png",
-               "frame" : {
-                  "x" : 135,
-                  "y" : 49,
-                  "width" : 104,
-                  "height" : 13
-               }
-            }
          }
       ],
       "kind" : "artboard",
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "332",
+      "objectId" : "338",
       "name" : "Grenzwerte_2_persönlicher_Wert",
       "visible" : true,
       "maskFrame" : {
@@ -7339,7 +7404,55 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "331",
+            "objectId" : "337",
+            "name" : "head_thresh_3",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 134,
+               "y" : 49,
+               "width" : 103,
+               "height" : 13
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/337.png",
+               "frame" : {
+                  "x" : 134,
+                  "y" : 49,
+                  "width" : 103,
+                  "height" : 13
+               }
+            }
+         },
+         {
+            "objectId" : "336",
+            "name" : "Topline_16",
+            "visible" : true,
+            "maskFrame" : null,
+            "layerFrame" : {
+               "x" : 15,
+               "y" : 82,
+               "width" : 345,
+               "height" : 2
+            },
+            "children" : [],
+            "kind" : "group",
+            "imageType" : "png",
+            "image" : {
+               "path" : "images/336.png",
+               "frame" : {
+                  "x" : 15,
+                  "y" : 82,
+                  "width" : 345,
+                  "height" : 2
+               }
+            }
+         },
+         {
+            "objectId" : "335",
             "name" : "Kreuz_12",
             "visible" : true,
             "maskFrame" : null,
@@ -7353,7 +7466,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/331.png",
+               "path" : "images/335.png",
                "frame" : {
                   "x" : 176,
                   "y" : 1064,
@@ -7363,8 +7476,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "330",
-            "name" : "Group_17_4",
+            "objectId" : "334",
+            "name" : "Group_17_3",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7377,7 +7490,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/330.png",
+               "path" : "images/334.png",
                "frame" : {
                   "x" : 15,
                   "y" : 978,
@@ -7387,8 +7500,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "329",
-            "name" : "Group_18_5",
+            "objectId" : "333",
+            "name" : "Group_18_6",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7401,7 +7514,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/329.png",
+               "path" : "images/333.png",
                "frame" : {
                   "x" : 15,
                   "y" : 816,
@@ -7411,8 +7524,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "328",
-            "name" : "Group_19_5",
+            "objectId" : "332",
+            "name" : "Group_19_4",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7425,7 +7538,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/328.png",
+               "path" : "images/332.png",
                "frame" : {
                   "x" : 15,
                   "y" : 654,
@@ -7435,8 +7548,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "327",
-            "name" : "Group_20_5",
+            "objectId" : "331",
+            "name" : "Group_20_4",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7449,7 +7562,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/327.png",
+               "path" : "images/331.png",
                "frame" : {
                   "x" : 15,
                   "y" : 491,
@@ -7459,7 +7572,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "326",
+            "objectId" : "330",
             "name" : "Group_21_4",
             "visible" : true,
             "maskFrame" : null,
@@ -7473,7 +7586,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/326.png",
+               "path" : "images/330.png",
                "frame" : {
                   "x" : 15,
                   "y" : 329,
@@ -7483,8 +7596,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "325",
-            "name" : "Group_22_4",
+            "objectId" : "329",
+            "name" : "Group_22_5",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7497,7 +7610,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/325.png",
+               "path" : "images/329.png",
                "frame" : {
                   "x" : 15,
                   "y" : 165,
@@ -7507,55 +7620,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "324",
-            "name" : "Group_23_4",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 15,
-               "y" : 82,
-               "width" : 345,
-               "height" : 2
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/324.png",
-               "frame" : {
-                  "x" : 15,
-                  "y" : 82,
-                  "width" : 345,
-                  "height" : 2
-               }
-            }
-         },
-         {
-            "objectId" : "323",
-            "name" : "Group_24_3",
-            "visible" : true,
-            "maskFrame" : null,
-            "layerFrame" : {
-               "x" : 135,
-               "y" : 49,
-               "width" : 104,
-               "height" : 13
-            },
-            "children" : [],
-            "kind" : "group",
-            "imageType" : "png",
-            "image" : {
-               "path" : "images/323.png",
-               "frame" : {
-                  "x" : 135,
-                  "y" : 49,
-                  "width" : 104,
-                  "height" : 13
-               }
-            }
-         },
-         {
-            "objectId" : "322",
+            "objectId" : "328",
             "name" : "Group_11_15",
             "visible" : true,
             "maskFrame" : null,
@@ -7569,7 +7634,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/322.png",
+               "path" : "images/328.png",
                "frame" : {
                   "x" : 45,
                   "y" : 923,
@@ -7579,8 +7644,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "321",
-            "name" : "Group_13_15",
+            "objectId" : "327",
+            "name" : "Group_13_11",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7593,7 +7658,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/321.png",
+               "path" : "images/327.png",
                "frame" : {
                   "x" : 38,
                   "y" : 760,
@@ -7603,8 +7668,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "320",
-            "name" : "Group_14_14",
+            "objectId" : "326",
+            "name" : "Group_14_11",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7617,7 +7682,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/320.png",
+               "path" : "images/326.png",
                "frame" : {
                   "x" : 38,
                   "y" : 597,
@@ -7627,8 +7692,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "319",
-            "name" : "Group_15_11",
+            "objectId" : "325",
+            "name" : "Group_15_10",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7641,7 +7706,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/319.png",
+               "path" : "images/325.png",
                "frame" : {
                   "x" : 39,
                   "y" : 435,
@@ -7651,8 +7716,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "318",
-            "name" : "Group_16_6",
+            "objectId" : "324",
+            "name" : "Group_16_8",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7665,7 +7730,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/318.png",
+               "path" : "images/324.png",
                "frame" : {
                   "x" : 38,
                   "y" : 274,
@@ -7675,8 +7740,8 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "317",
-            "name" : "Group_12_15",
+            "objectId" : "323",
+            "name" : "Group_12_14",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
@@ -7689,7 +7754,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/317.png",
+               "path" : "images/323.png",
                "frame" : {
                   "x" : 39,
                   "y" : 111,
@@ -7705,9 +7770,9 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
 ];
 
 if (DeviceComponent) {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-8-gold","contentScale":2,"hideBezel":true,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-8-gold","contentScale":1,"hideBezel":true,"orientation":0};
 }
-if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-8-gold","contentScale":2,"hideBezel":true,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"","deviceType":"apple-iphone-8-gold","contentScale":1,"hideBezel":true,"orientation":0};
 }
 window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"berlinerluft_light.framer"};
 
