@@ -370,10 +370,81 @@ figma.Group_7.onClick (event, layer) ->
 		opacity: 0
 	figma.detail.animate
 		opacity: 1
+		
+figma.plot.opacity = 0.4
 
 
 
 
+w = figma.plot.width
+h = figma.plot.height
+
+d3Layer = new Layer(
+	x: 0
+	y: figma.plot.y
+	backgroundColor: "transparent"
+	width: w
+	height: h)
+d3Layer.html = '<div id="d3"></div>'
+d3Layer.parent = figma.radon
+
+
+#Add links between nodes, this matrix creates a K_6 graph. The line color and thickness is defined in style.css
+
+adjacencyMatrix = {
+	1: [2,3,4,5,6]
+	2: [1,3,4,5,6]
+	3: [1,2,4,5,6]
+	4: [1,2,3,5,6]
+	5: [1,2,3,4,6]
+	6: [1,2,3,4,5]
+}
+
+
+nodes = d3.values(adjacencyMatrix)
+
+links = d3.merge(nodes.map((source) ->
+	source.map (target) ->
+		source: source
+		target: adjacencyMatrix[target]
+))
+
+vis = d3.select(document.getElementById("d3")).append('svg:svg')
+	.attr('width', w)
+	.attr('height', h)
+
+force = d3.layout.force()
+	.nodes(nodes)
+	.links(links)
+	.size([w,h])
+	#Controls how interacting with the graph feels
+	.linkStrength(.1)
+	.linkDistance(190)
+	.charge(-20)
+	.gravity(.3)
+	.start()
+
+link = vis.selectAll('line.link')
+	.data(links)
+	.enter().append('svg:line')
+  
+node = vis.selectAll('circle.node')
+	.data(nodes)
+	.enter().append('svg:circle')
+	#Controls radius of nodes
+	.attr('r', 20)
+	.call(force.drag)
+	#Fills with random color
+	.style('fill', -> 
+		d3.hsl Math.random() * 360, 1, .5)
+
+force.on 'tick', ->
+	link.attr('x1', (d) -> d.source.x)
+		.attr('y1', (d) -> d.source.y)
+		.attr('x2', (d) -> d.target.x)
+		.attr('y2', (d) -> d.target.y)
+	node.attr('cx', (d) -> d.x)
+		.attr( 'cy', (d) -> d.y)
 
 
 
