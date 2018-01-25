@@ -346,6 +346,18 @@ for xx, i in values
 			unless scroll.isMoving
 				gotodetail(layer)
 
+figma.radon.pinchable.enabled = true
+figma.radon.pinchable.threshold = 10
+figma.radon.pinchable.centerOrigin = false
+figma.radon.pinchable.minScale = 0.8
+figma.radon.pinchable.maxScale = 1
+figma.radon.pinchable.scaleFactor = 1
+figma.radon.pinchable.rotate = false
+figma.radon.onPinchEnd (event, layer) ->
+	if layer.scale < 0.9
+		flow.showPrevious()
+	else
+		scaleback(layer,1,0.3)
 
 #button = true
 #scroll.onMove (event, layer) ->
