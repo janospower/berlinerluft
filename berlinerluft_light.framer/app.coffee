@@ -400,22 +400,22 @@ height = h - (margin.top) - (margin.bottom)
 # Parse the date / time
 parseDate = d3.time.format('%d-%b-%y').parse
 # Set the ranges
-x = d3.time.scale().range([
+xd3 = d3.time.scale().range([
   0
   width
 ])
-y = d3.scale.linear().range([
+yd3 = d3.scale.linear().range([
   height
   0
 ])
 # Define the axes
-xAxis = d3.svg.axis().scale(x).orient('bottom').ticks(2)
-yAxis = d3.svg.axis().scale(y).orient('right').ticks(3)
+xAxis = d3.svg.axis().scale(xd3).orient('bottom').ticks(2)
+yAxis = d3.svg.axis().scale(yd3).orient('right').ticks(3)
 # Define the line
 valueline = d3.svg.line().x((d) ->
-  x d.date
+  xd3 d.date
 ).y((d) ->
-  y d.close
+  yd3 d.close
 )
 # Adds the svg canvas
 svg = d3.select(document.getElementById('d3')).append('svg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
@@ -427,10 +427,10 @@ d3.csv 'data.csv', (error, data) ->
     return
   # Scale the range of the data
   
-  x.domain d3.extent(data, (d) ->
+  xd3.domain d3.extent(data, (d) ->
     d.date
   )
-  y.domain [
+  yd3.domain [
     0
     d3.max(data, (d) ->
       d.close
@@ -1219,13 +1219,13 @@ figma.Notif.onClick (event, layer) ->
 			figma.Notif_Alarme.visible=true				
 		KreuzOS(figma.Kreuz_9)				
 
-scroll = ScrollComponent.wrap(figma.Alarmgruppe)
-scroll.scrollHorizontal = false
-scroll.mouseWheelEnabled = true	
+scroll2 = ScrollComponent.wrap(figma.Alarmgruppe)
+scroll2.scrollHorizontal = false
+scroll2.mouseWheelEnabled = true	
 
 #figma.Alarmgruppe=scroll.content
 #inset unten ?
-scroll.contentInset=
+scroll2.contentInset=
 	bottom: 100
 
 
