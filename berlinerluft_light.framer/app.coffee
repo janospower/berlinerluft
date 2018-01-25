@@ -1,8 +1,9 @@
+# Import file "Framer Light Janos (Page 1)"
+figma = Framer.Importer.load("imported/Framer%20Light%20Janos%20(Page%201)@2x", scale: 1)
+
 Framer.Extras.Preloader.enable()
 {TextLayer, convertTextLayers} = require 'TextLayer'
 
-# Import file "Framer Light Janos (Page 1)"
-figma = Framer.Importer.load("imported/Framer%20Light%20Janos%20(Page%201)@2x", scale: 1)
 convertTextLayers(figma, true)
 Framer.Device.deviceType = "apple-iphone-8-gold"
 
@@ -1012,50 +1013,39 @@ figma.Loading.states=
 			time: 2
 			curve: Bezier.ease
 #animation loading icon
-Kreisa_1 = new Animation figma.Kreis,
+Kreisa_1 = null
+Kreisa_2 = null
+Kreisa_3 = null
+Kreisa_4 = null
+Kreisr_1 = null
+Kreisr_2 = null
+Kreisr_3 = null
+Kreisr_4 = null
+kreise = [
+	[Kreisa_1,Kreisr_1,figma.Kreis]
+	[Kreisa_2,Kreisr_2,figma.Kreis_2]
+	[Kreisa_3,Kreisr_3,figma.Kreis_3]
+	[Kreisa_4,Kreisr_4,figma.Kreis_4]
+]	
+for xx,i in kreise
+	kreise[i][0] = new Animation kreise[i][2],
 	scale:1.5
 	options: 
-		time: 0.6
+		time: 1.3
 		curve: Bezier.ease
-		#delay:0.2
-		repeat: 2
-Kreisa_2 = new Animation figma.Kreis_2,
-	scale:1.5
-	options: 
-		time: 1.2
-		curve: Bezier.ease
-		#delay: 0.4
-		repeat: 2
-Kreisa_3 = new Animation figma.Kreis_3,
-	scale:1.5
-	options: 
-		time: 1.8
-		curve: Bezier.ease
-		#delay: 0.6
-		repeat: 2
-Kreisa_4 = new Animation figma.Kreis_4,
-	scale:1.5
-	options: 
-		time: 2.4
-		curve: Bezier.ease
-		#delay: 0.8
-		repeat: 2
-						
+		delay: i*0.3			
 #sensor suchen
 figma.Group_10_12.onClick ->
 	flow.showNext(figma.Loading, animate: false)
 	flow.on Events.TransitionEnd, ->
-		Kreisa_1.start()
-		Kreisa_2.start()
-		Kreisa_3.start()
-		Kreisa_4.start()
-		figma.Kreis_4.onAnimationEnd ->
+		for xx,i in kreise
+			kreise[i][1] = kreise[i][0].reverse()
+			kreise[i][1].on Events.AnimationEnd, kreise[i][0].start
+			kreise[i][0].on Events.AnimationEnd, kreise[i][1].start
+			kreise[i][0].start()
+		
+		Utils.delay 3, ->
 			flow.showNext(figma.Sensor_hinzufügen,keybtransition)
-			flow.on Events.TransitionEnd, ->
-				Kreisa_1.reset()
-				Kreisa_2.reset()
-				Kreisa_3.reset()
-				Kreisa_4.reset()
 #zu Threshold
 figma.ThreshLinie.onClick (event, layer) ->
 	animt.start()
@@ -1079,6 +1069,7 @@ figma.ThreshLinie.onClick (event, layer) ->
 		figma.GW_zu.animate("GWzuinvisible")
 					
 #Threshold states
+
 
 figma.GW_offen.states =
 	GWinvisible:
@@ -1209,6 +1200,57 @@ scroll2.contentInset=
 	bottom: 100
 
 
+
+	
+#Kswitch states
+knobs = [
+	figma.knob_8
+	figma.knob_7
+	figma.knob_6
+	figma.knob_5
+	figma.knob_4
+	figma.knob_3
+	figma.knob_2
+	figma.knob
+]
+for xx,i in knobs
+	knobs[i].states = 
+		on: 
+			x: 21
+			options: 
+				curve: Bezier.ease
+				time: 0.2	 
+		off:
+			x: 1
+			options: 
+				curve: Bezier.ease
+				time: 0.2
+
+fillb = [
+	figma.fillb_8
+	figma.fillb_7
+	figma.fillb_6
+	figma.fillb_5
+	figma.fillb_4
+	figma.fillb_3
+	figma.fillb_2
+	figma.fillb
+]
+for xx,i in fillb
+	fillb[i].states = 
+		on: 
+			#width: 50
+			opacity: 1
+			options: 
+				curve: Bezier.ease
+				time: 0.2	 
+		off:
+			#width: 0
+			opacity: 0
+			options: 
+				curve: Bezier.ease
+				time: 0.2
+
 #switch on off	
 figma.Slide.onClick ->
 	figma.knob_8.stateCycle("off", "on")
@@ -1234,152 +1276,8 @@ figma.SlideO.onClick ->
 figma.SlideSD.onClick ->
 	figma.knob.stateCycle("off", "on")
 	figma.fillb.stateCycle("off", "on")	
-	
-#Kswitch states
-figma.knob_8.states = 
-	on: 
-		x: 21
-		options: 
-			curve: Bezier.ease
-			time: 0.5
-	off:
-		x: 1
-		options: 
-			curve: Bezier.ease
-			time: 0.5
-figma.knob_7.states = 
-	on: 
-		x: 21
-		options: 
-			curve: Bezier.ease
-			time: 0.5	 
-	off:
-		x: 1
-		options: 
-			curve: Bezier.ease
-			time: 0.5
-figma.knob_6.states = 
-	on: 
-		x: 21
-		options: 
-			curve: Bezier.ease
-			time: 0.5	 
-	off:
-		x: 1
-		options: 
-			curve: Bezier.ease
-			time: 0.5
-figma.knob_5.states = 
-	on: 
-		x: 21
-		options: 
-			curve: Bezier.ease
-			time: 0.5	 
-	off:
-		x: 1
-		options: 
-			curve: Bezier.ease
-			time: 0.5
-figma.knob_4.states = 
-	on: 
-		x: 21
-		options: 
-			curve: Bezier.ease
-			time: 0.5	 
-	off:
-		x: 1
-		options: 
-			curve: Bezier.ease
-			time: 0.5
-figma.knob_3.states = 
-	on: 
-		x: 21
-		options: 
-			curve: Bezier.ease
-			time: 0.5	 
-	off:
-		x: 1
-		options: 
-			curve: Bezier.ease
-			time: 0.5
-figma.knob_2.states = 
-	on: 
-		x: 21
-		options: 
-			curve: Bezier.ease
-			time: 0.5	 
-	off:
-		x: 1
-		options: 
-			curve: Bezier.ease
-			time: 0.5
-figma.knob.states = 
-	on: 
-		x: 21
-		options: 
-			curve: Bezier.ease
-			time: 0.5	 
-	off:
-		x: 1
-		options: 
-			curve: Bezier.ease
-			time: 0.5
-			
-figma.fillb.states = 
-	on: 
-		opacity: 100
-		options:
-			time:0.5
-			curve: Bezier.ease	
-	off:
-		opacity: 0
-		options:
-			time:0.5
-			curve: Bezier.ease	
-figma.fillb_2.states = 
-	on: 
-		opacity: 100
-	off:
-		opacity: 0
-figma.fillb_3.states = 
-	on: 
-		opacity: 100
-	off:
-		opacity: 0
-figma.fillb_4.states = 
-	on: 
-		opacity: 100
-	off:
-		opacity: 0
-figma.fillb_5.states = 
-	on: 
-		opacity: 100
-	off:
-		opacity: 0
-figma.fillb_6.states = 
-	on: 
-		opacity: 100
-	off:
-		opacity: 0
-figma.fillb_7.states = 
-	on: 
-		opacity: 100
-	off:
-		opacity: 0
-figma.fillb_8.states = 
-	on: 
-		opacity: 100
-		options: 
-			#delay: 0.3
-			time: 1
-			curve: Bezier.ease
-	off:
-		opacity: 0
-		options: 
-			#delay: 0.3
-			time: 1
-			curve: Bezier.ease
-			
+
+
 		
 #Kreuz Spring anim
 Kreuzsprung = (a) ->
