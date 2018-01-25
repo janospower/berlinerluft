@@ -355,7 +355,7 @@ for xx, i in values
 # Radon detailansicht
 figma.info_2.opacity = 0
 figma.overview.onClick (event, layer) ->
-	flow.showPrevious(overdet)
+	flow.showPrevious()
 
 figma.Grafik_Skala.onClick (event, layer) ->
 	flow.transition(figma.Einstellungen, closex)
@@ -492,9 +492,6 @@ screens = [
 	figma.Loading
 	]
 
-for x,i in screens
-	screens[i].backgroundColor = 'transparent'
-
 back = new BackgroundLayer
 	#backgroundColor: 'red'
 	image: 'images/bgred.png'
@@ -505,7 +502,7 @@ backblue = new BackgroundLayer
 	image: 'images/bgblue.png'
 	parent: flow
 	opacity: 0
-
+###
 unless critical
 	backblue.animate
 		opacity: 1
@@ -522,164 +519,176 @@ unless critical
 		options:
 			time: 1
 			curve: Bezier.ease
+###
+
+for x,i in screens
+	screens[i].image = 'images/bgred.png'
 
 
+
+animationSpeed = 0.2
 #Transitions
 #Xschließen
 closex = (nav, layerA, layerB, overlay) ->
-	layerB.x = 0
-	layerB.y = 0
+	#layerB.x = 0
+	#layerB.y = 0
 	#options = {time: 1}
 	return transition =
 		layerA:
 			show:
 				opacity: 1
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 			hide:
 				opacity: 0
 				options:
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 		layerB:
 			show:
 				opacity: 1
+				x: 0
+				y: 0
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
-					delay: 1
+					delay: animationSpeed
 			hide:
 				opacity: 0
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 
 #transition einfache screens
 screenchange = (nav, layerA, layerB, overlay) ->
-	layerB.x = 0
-	layerB.y = 0
+	#layerB.x = 0
+	#layerB.y = 0
 	#options = {curve: Bezier.ease}
 	return transition =
 		layerA:
 			show:
 				opacity: 1
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 			hide:
 				opacity: 0
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 		layerB:
 			show:
 				opacity: 1
+				x: 0
+				y: 0
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 			hide:
 				opacity: 0
+				x: 0
+				y: 0
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 					
 #transition mit delay für keyboard
 keybtransition = (nav, layerA, layerB, overlay) ->
-	layerB.x = 0
-	layerB.y = 0
+	#layerB.x = 0
+	#layerB.y = 0
 	#options = {curve: Bezier.ease}
 	return transition =
 		layerA:
 			show:
 				opacity: 1
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 					delay: 1.3
 			hide:
 				opacity: 0
 				options: 
-					time: 1
+					time: animationSpeed
 					
 		layerB:
 			show:
 				opacity: 1
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
-					delay: 1.3
+					delay: animationSpeed+0.3
 			hide:
 				opacity: 0
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 					
 #transition mit delay für female/male button
 sexbutton = (nav, layerA, layerB, overlay) ->
-	layerB.x = 0
-	layerB.y = 0
+	#layerB.x = 0
+	#layerB.y = 0
 	#options = {curve: Bezier.ease}
 	return transition =
 		layerA:
 			show:
 				opacity: 1
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
-					delay: 2
+					delay: animationSpeed*2
 			hide:
 				opacity: 0
 				options: 
 					time: 1
-					delay: 1
+					delay: animationSpeed
 					curve: Bezier.ease
 					
 		layerB:
 			show:
 				opacity: 1
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 					delay: 2
 			hide:
 				opacity: 0
 				options: 
-					time: 1
-					delay: 1
+					time: animationSpeed
+					delay: animationSpeed
 					curve: Bezier.ease
 #loading icon
 loadingtrans = (nav, layerA, layerB, overlay) ->
-	layerB.x = 0
-	layerB.y = 0
+	#layerB.x = 0
+	#layerB.y = 0
 	#options = {curve: Bezier.ease}
 	return transition =
 		layerA:
 			show:
 				opacity: 1
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 					delay: 5
 			hide:
 				opacity: 0
 				options: 
-					time: 1
-					delay: 1
+					time: animationSpeed
+					delay: animationSpeed
 					curve: Bezier.ease
 					
 		layerB:
 			show:
 				opacity: 1
 				options: 
-					time: 1
+					time: animationSpeed
 					curve: Bezier.ease
 					delay: 5
 			hide:
 				opacity: 0
 				options: 
-					time: 1
-					delay: 1
+					time: animationSpeed
+					delay: animationSpeed
 					curve: Bezier.ease														
 #Animationen
 #Einstellungen on Top
@@ -687,44 +696,44 @@ loadingtrans = (nav, layerA, layerB, overlay) ->
 anim = new Animation figma.SensorLinie,
 	y: 49
 	options:
-		time: 1
+		time: animationSpeed
 		curve: Bezier.ease
 #Linie on Top
 linie = new Animation figma.Topline_2,
 	y: 33
 	options:
-		time: 1
+		time: animationSpeed
 		curve: Bezier.ease
 		
 #für Profil
 animp = new Animation figma.ProfilLinie,
 	y: 49
 	options:
-		time: 1
+		time: animationSpeed
 		curve: Bezier.ease
 #Linie on Top
 liniep = new Animation figma.Topline,
 	y: 33
 	options:
-		time: 1
+		time: animationSpeed
 		
 #für Threshold
 animt = new Animation figma.ThreshLinie,
 	y: 49
 	options:
-		time: 1
+		time: animationSpeed
 		curve: Bezier.ease
 #Linie on Top
 liniet = new Animation figma.Topline_3,
 	y: 33
 	options:
-		time: 1	
+		time: animationSpeed
 
 #für Alarme
 animn = new Animation figma.Notif,
 	y: 49
 	options:
-		time: 1
+		time: animationSpeed
 		curve: Bezier.ease
 
 								
@@ -732,27 +741,27 @@ animn = new Animation figma.Notif,
 fadeoutp = new Animation figma.ProfilLinie,
 	opacity: 0
 	options:
-		time: 0.5
+		time: animationSpeed/2
 		curve: Bezier.easeOut
 fadeoutt = new Animation figma.ThreshLinie,
 	opacity: 0
 	options:
-		time: 0.5
+		time: animationSpeed/2
 		curve: Bezier.easeOut
 fadeoutn = new Animation figma.Notif,
 	opacity: 0
 	options:
-		time: 0.5
+		time: animationSpeed/2
 		curve: Bezier.easeOut
 fadeouts = new Animation figma.SensorLinie,
 	opacity: 0
 	options:
-		time: 0.5
+		time: animationSpeed/2
 		curve: Bezier.easeOut
 fadeoutub = new Animation figma.Übersbutton,
 	opacity: 0
 	options:
-		time: 0.5
+		time: animationSpeed/2
 		curve: Bezier.easeOut
 
 #berlina animation
@@ -760,7 +769,7 @@ Berlina = figma.Berlina
 BerlinaA = Berlina.animate
 		opacity: 0
 		options:
-			time: 1.7
+			time: animationSpeed*2
 			curve: Bezier.ease
 BerlinaB = BerlinaA.reverse()
 
@@ -768,7 +777,7 @@ BerlinaB = BerlinaA.reverse()
 alteroff = figma.alter_32.animate
 	opacity: 0
 	options: 
-		time: 2
+		time: animationSpeed*2
 		curve: Bezier.ease
 alterin = alteroff.reverse()
 alteroff.start()	
@@ -787,7 +796,7 @@ KreuzOS = (b) ->
 	b.animate
 		scale: 1
 		options: 
-			time: 1
+			time: animationSpeed
 			curve: Spring (damping: 0.2)
 
 #Keyboard Namenseingabe states
@@ -795,24 +804,24 @@ figma.Keyboard_Dark_Email.states =
 	keyin:
 		y: 0
 	options: 
-		time:1.5
+		time: animationSpeed*1.5
 		curve: Bezier.ease
 	keyoff:
 		y: 220
 	options: 
-		time:1.2
+		time: animationSpeed*1.2
 		curve: Bezier.ease
 #Keyboard Alterseingabe states
 figma.Keyb_nummern.states =
 	keyin:
 		y: 451
 	options: 
-		time:1.5
+		time: animationSpeed*1.5
 		curve: Bezier.ease
 	keyoff:
 		y: 700
 	options: 
-		time:1.2
+		time: animationSpeed*1.2
 		curve: Bezier.ease
 
 #anim female auswahl
@@ -820,26 +829,26 @@ femalein=figma.Group_10_9.animate
 	opacity: 1
 	scale: 1.05
 	options:
-		time: 0.3
+		time: animationSpeed*0.3
 		curve: Bezier.easeOut
 femaleout=figma.Group_10_9.animate
 	opacity:0.6
 	scale: 1
 	options:
-		time: 0.3
+		time: animationSpeed*0.3
 		curve: Bezier.easeOut
 #anim male auswahl
 malein=figma.Group_11_8.animate
 	opacity: 1
 	scale: 1.05
 	options:
-		time: 0.3
+		time: animationSpeed*0.3
 		curve: Bezier.easeOut
 maleout=figma.Group_11_8.animate
-	opacity: 0.6
+	opacity: 0.6 
 	scale: 1
 	options:
-		time: 0.3
+		time: animationSpeed*0.3
 		curve: Bezier.ease
 							
 #navigation
@@ -862,8 +871,6 @@ figma.ProfilLinie.onClick (event, layer) ->
 			fadeoutt.reset()
 			fadeoutub.reset()
 			liniep.reset()
-			figma.Profil.visible=true
-			figma.Sensoreinstellungen.visible=false
 			
 		KreuzOS(figma.Kreuz)
 		
@@ -1006,9 +1013,8 @@ figma.SensorLinie.onClick (event, layer) ->
 			fadeoutt.reset()
 			fadeoutub.reset()
 			linie.reset()
-			figma.Profil.visible=false
-			figma.Sensoreinstellungen.visible=true	
 		KreuzOS(figma.Kreuz_7)
+		
 		
 			
 #states loading icon		
@@ -1099,6 +1105,7 @@ figma.ThreshLinie.onClick (event, layer) ->
 		figma.GW_zu.animate("GWzuinvisible")
 					
 #Threshold states
+
 figma.GW_offen.states =
 	GWinvisible:
 		visible: false
@@ -1110,6 +1117,8 @@ figma.GW_zu.states =
 		visible: false
 	GWzuvisible:
 		visible: true
+
+
 
 figma.ND_Gruppe.states =
 	invisible:
@@ -1426,34 +1435,44 @@ Kreuzsprung(figma.Kreuz_11)
 #Kreuz schließen zum Screen Einstellungen	
 figma.Kreuz.onClick (event, layer) ->
 	#Kreuzsprung(figma.Kreuz)
-	flow.transition(figma.Einstellungen,closex)	
+	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()	
 figma.Kreuz_2.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()
 figma.Kreuz_3.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()
 figma.Kreuz_5.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()
 figma.Kreuz_6.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()
 figma.Kreuz_7.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()
 figma.Kreuz_8.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()
 figma.Kreuz_9.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()
 figma.Kreuz_10.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()
 figma.Kreuz_11.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)	
+	flow.transition(figma.Einstellungen,closex)
+	#flow.showPrevious()	
 #figma.Kreuz_12.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.transition(figma.Einstellungen,closex)	
