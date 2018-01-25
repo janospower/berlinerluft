@@ -502,24 +502,7 @@ backblue = new BackgroundLayer
 	image: 'images/bgblue.png'
 	parent: flow
 	opacity: 0
-###
-unless critical
-	backblue.animate
-		opacity: 1
-		options:
-			time: 1
-			curve: Bezier.ease
-	back.animate
-		opacity: 0
-		options:
-			time: 1
-			curve: Bezier.ease
-	bag.animate
-		opacity: 0
-		options:
-			time: 1
-			curve: Bezier.ease
-###
+
 
 for x,i in screens
 	screens[i].image = 'images/bgred.png'
@@ -863,7 +846,7 @@ figma.ProfilLinie.onClick (event, layer) ->
 	liniep.start()
 	
 	figma.ProfilLinie.onAnimationEnd (event, layer) ->
-		flow.transition(figma.Profil,screenchange)
+		flow.showNext(figma.Profil, animate: false)
 		flow.on Events.TransitionEnd, ->
 			animp.reset()
 			fadeouts.reset()
@@ -879,25 +862,25 @@ figma.Keyb_nummern.animate("keyoff")
 
 #von leer zu namen eingabe
 figma.Group_15_4.onClick (event, layer) ->
-	flow.transition(figma.Profil_Eingabe_name,screenchange)
+	flow.showNext(figma.Profil_Eingabe_name, animate: false)
 	flow.on Events.TransitionEnd, ->
 		figma.Keyboard_Dark_Email.animate("keyin")
 		BerlinaA.start()
 #von mit namen zur namens eingabe
 figma.Berlina_2.onClick (event, layer) ->
-	flow.transition(figma.Profil_Eingabe_name,screenchange)
+	flow.showNext(figma.Profil_Eingabe_name, animate: false)
 	flow.on Events.TransitionEnd, ->
 		figma.Keyboard_Dark_Email.animate("keyin")
 		BerlinaA.start()
 #von mit name und alter zur Namenseingabe
 figma.Group_10_7.onClick (event, layer) ->
-	flow.transition(figma.Profil_Eingabe_name,screenchange)
+	flow.showNext(figma.Profil_Eingabe_name, animate: false)
 	flow.on Events.TransitionEnd, ->
 		figma.Keyboard_Dark_Email.animate("keyin")
 		BerlinaA.start()
 #von voll zur Namenseingabe	
 figma.Group_12_8.onClick (event, layer) ->
-	flow.transition(figma.Profil_Eingabe_name,screenchange)
+	flow.showNext(figma.Profil_Eingabe_name, animate: false)
 	flow.on Events.TransitionEnd, ->
 		figma.Keyboard_Dark_Email.animate("keyin")
 		BerlinaA.start()
@@ -909,34 +892,34 @@ figma.Keyboard_Dark_Email.onClick (event, layer) ->
 #done zu profil mit name
 figma.Group_10_6.onClick ->
 	figma.Keyboard_Dark_Email.animate("keyoff")
-	flow.transition(figma.Profil_mit_name,keybtransition)	
+	flow.showNext(figma.Profil_mit_name,keybtransition)	
 #cancel zu leer
 figma.Group_11_4.onClick ->
 	figma.Keyboard_Dark_Email.animate("keyoff")
-	flow.transition(figma.Profil,keybtransition)
+	flow.showNext(figma.Profil,keybtransition)
 	
 #zur Alterseingabe
 #print figma.Keyb_nummern.y
 #zu alterseingabe von ohne namen
 figma.Group_12_3.onClick ->
-	flow.transition(figma.Profil_Eingabe_age,screenchange)
+	flow.showNext(figma.Profil_Eingabe_age, animate: false)
 	flow.on Events.TransitionEnd, ->
 		figma.Keyb_nummern.animate("keyin")
 		alteroff.start()
 #zu alterseingabe von mit namen
 figma.Group_13_3.onClick (event, layer)->
-	flow.transition(figma.Profil_Eingabe_age,screenchange)
+	flow.showNext(figma.Profil_Eingabe_age, animate: false)
 	flow.on Events.TransitionEnd, ->
 		figma.Keyb_nummern.animate("keyin")
 		alteroff.start()
 #zu alterseingabe von mit name und alter
 figma.alter_32_2.onClick (event, layer)->
-	flow.transition(figma.Profil_Eingabe_age,screenchange)
+	flow.showNext(figma.Profil_Eingabe_age, animate: false)
 	flow.on Events.TransitionEnd, ->
 		alteroff.start()
 #zu alterseingabe von voll
 figma.Group_11_9.onClick (event, layer)->
-	flow.transition(figma.Profil_Eingabe_age,screenchange)
+	flow.showNext(figma.Profil_Eingabe_age, animate: false)
 	flow.on Events.TransitionEnd, ->
 		alteroff.start()
 				
@@ -946,11 +929,11 @@ figma.Keyb_nummern.onClick ->
 #done
 figma.Group_10_8.onClick ->
 	figma.Keyb_nummern.animate("keyoff")
-	flow.transition(figma.Profil_mit_name_2,keybtransition)
+	flow.showNext(figma.Profil_mit_name_2,keybtransition)
 #cancel
 figma.Group_11_7.onClick ->
 	figma.Keyb_nummern.animate("keyoff")
-	flow.transition(figma.Profil_mit_name,keybtransition)
+	flow.showNext(figma.Profil_mit_name,keybtransition)
 	
 #zu eingabe sex	
 #von Profil leer zu eingabe sex
@@ -958,40 +941,40 @@ figma.Group_11_3.onClick ->
 	femaleout.start()
 	maleout.start()
 	KreuzOS(figma.Kreuz_4)
-	flow.transition(figma.Profil_Eingabe_sex,screenchange)
+	flow.showNext(figma.Profil_Eingabe_sex, animate: false)
 #von Profil name zu eingabe sex
 figma.Group_12_5.onClick ->
 	femaleout.start()
 	maleout.start()
 	KreuzOS(figma.Kreuz_4)
-	flow.transition(figma.Profil_Eingabe_sex,screenchange)
+	flow.showNext(figma.Profil_Eingabe_sex, animate: false)
 #von profil mit name und alter zu sex eingabe
 figma.Group_12_6.onClick ->
 	femaleout.start()
 	maleout.start()
 	KreuzOS(figma.Kreuz_4)
-	flow.transition(figma.Profil_Eingabe_sex,screenchange)
+	flow.showNext(figma.Profil_Eingabe_sex, animate: false)
 #von profil voll zu eingabe sex
 figma.Group_10_10.onClick ->
 	femaleout.start()
 	maleout.start()
 	KreuzOS(figma.Kreuz_4)
-	flow.transition(figma.Profil_Eingabe_sex,screenchange)
+	flow.showNext(figma.Profil_Eingabe_sex, animate: false)
 	
 #von eingabe sex
 #female
 figma.Group_10_9.onClick ->
 	femalein.start()
 	maleout.start()
-	flow.transition(figma.Profil_voll,sexbutton)
+	flow.showNext(figma.Profil_voll,sexbutton)
 #male
 figma.Group_11_8.onClick ->
 	malein.start()
 	femaleout.start()
-	flow.transition(figma.Profil_voll,sexbutton)
+	flow.showNext(figma.Profil_voll,sexbutton)
 #cancel
 figma.Kreuz_4.onClick ->
-	flow.transition(figma.Profil_mit_name_2,screenchange)
+	flow.showNext(figma.Profil_mit_name_2, animate: false)
 
 	
 #zumSensor
@@ -1005,7 +988,7 @@ figma.SensorLinie.onClick (event, layer) ->
 	
 	figma.SensorLinie.onAnimationEnd (event, layer) ->
 		
-		flow.transition(figma.Sensoreinstellungen,screenchange)
+		flow.showNext(figma.Sensoreinstellungen, animate: false)
 		flow.on Events.TransitionEnd, ->
 			anim.reset()
 			fadeoutp.reset()
@@ -1061,14 +1044,14 @@ Kreisa_4 = new Animation figma.Kreis_4,
 						
 #sensor suchen
 figma.Group_10_12.onClick ->
-	flow.transition(figma.Loading,screenchange)
+	flow.showNext(figma.Loading, animate: false)
 	flow.on Events.TransitionEnd, ->
 		Kreisa_1.start()
 		Kreisa_2.start()
 		Kreisa_3.start()
 		Kreisa_4.start()
 		figma.Kreis_4.onAnimationEnd ->
-			flow.transition(figma.Sensor_hinzufügen,keybtransition)
+			flow.showNext(figma.Sensor_hinzufügen,keybtransition)
 			flow.on Events.TransitionEnd, ->
 				Kreisa_1.reset()
 				Kreisa_2.reset()
@@ -1084,7 +1067,7 @@ figma.ThreshLinie.onClick (event, layer) ->
 	liniet.start()
 	
 	figma.ThreshLinie.onAnimationEnd (event, layer) ->
-		flow.transition(figma.Grenzwerte,screenchange)
+		flow.showNext(figma.Grenzwerte, animate: false)
 		flow.on Events.TransitionEnd, ->
 			animt.reset()
 			fadeouts.reset()
@@ -1092,14 +1075,6 @@ figma.ThreshLinie.onClick (event, layer) ->
 			fadeoutp.reset()
 			fadeoutub.reset()
 			liniet.reset()
-			figma.Profil.visible=false
-			figma.Grenzwerte.visible=true
-			figma.ND_offen.visible = false
-			figma.CM_offen.visible = false
-			figma.SD_offen_2.visible = false
-			figma.Radon_offen.visible = false
-			figma.PM_offen.visible = false
-			figma.Ozon_offen.visible = false
 		KreuzOS(figma.Kreuz_6)
 		figma.GW_offen.animate("GWvisible")
 		figma.GW_zu.animate("GWzuinvisible")
@@ -1216,16 +1191,13 @@ figma.Notif.onClick (event, layer) ->
 	fadeoutub.start()
 
 	figma.Notif.onAnimationEnd (event, layer) ->
-		flow.transition(figma.Notif_Alarme,screenchange)
+		flow.showNext(figma.Notif_Alarme, animate: false)
 		flow.on Events.TransitionEnd, ->
 			animn.reset()
 			fadeouts.reset()
 			fadeoutt.reset()
 			fadeoutp.reset()
-			fadeoutub.reset()
-			figma.Profil.visible=false
-			figma.Grenzwerte.visible=false
-			figma.Notif_Alarme.visible=true				
+			fadeoutub.reset()			
 		KreuzOS(figma.Kreuz_9)				
 
 scroll2 = ScrollComponent.wrap(figma.Alarmgruppe)
@@ -1435,47 +1407,47 @@ Kreuzsprung(figma.Kreuz_11)
 #Kreuz schließen zum Screen Einstellungen	
 figma.Kreuz.onClick (event, layer) ->
 	#Kreuzsprung(figma.Kreuz)
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()	
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()	
 figma.Kreuz_2.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()
 figma.Kreuz_3.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()
 figma.Kreuz_5.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()
 figma.Kreuz_6.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()
 figma.Kreuz_7.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()
 figma.Kreuz_8.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()
 figma.Kreuz_9.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()
 figma.Kreuz_10.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()
 figma.Kreuz_11.onClick (event, layer) ->
 	#flow.showPrevious()
-	flow.transition(figma.Einstellungen,closex)
-	#flow.showPrevious()	
+	#flow.showNext(figma.Einstellungen, animate: false)
+	flow.showPrevious()	
 #figma.Kreuz_12.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.transition(figma.Einstellungen,closex)	
+	#flow.showNext(figma.Einstellungen,closex)	
 
 figma.Übersbutton.onClick ->
 	flow.transition(figma.Übersichtsscreen_Grafik_komplett, closex)
