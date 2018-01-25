@@ -845,15 +845,15 @@ figma.ProfilLinie.onClick (event, layer) ->
 	fadeoutub.start()
 	liniep.start()
 	
-	figma.ProfilLinie.onAnimationEnd (event, layer) ->
+	Utils.delay animationSpeed, ->
 		flow.showNext(figma.Profil, animate: false)
-		flow.on Events.TransitionEnd, ->
-			animp.reset()
-			fadeouts.reset()
-			fadeoutn.reset()
-			fadeoutt.reset()
-			fadeoutub.reset()
-			liniep.reset()
+		#flow.on Events.TransitionEnd, ->
+		animp.reset()
+		fadeouts.reset()
+		fadeoutn.reset()
+		fadeoutt.reset()
+		fadeoutub.reset()
+		liniep.reset()
 			
 		KreuzOS(figma.Kreuz)
 		
@@ -986,8 +986,7 @@ figma.SensorLinie.onClick (event, layer) ->
 	fadeoutub.start()
 	linie.start()
 	
-	figma.SensorLinie.onAnimationEnd (event, layer) ->
-		
+	Utils.delay animationSpeed, ->		
 		flow.showNext(figma.Sensoreinstellungen, animate: false)
 		flow.on Events.TransitionEnd, ->
 			anim.reset()
@@ -1066,7 +1065,7 @@ figma.ThreshLinie.onClick (event, layer) ->
 	fadeoutub.start()
 	liniet.start()
 	
-	figma.ThreshLinie.onAnimationEnd (event, layer) ->
+	Utils.delay animationSpeed, ->
 		flow.showNext(figma.Grenzwerte, animate: false)
 		flow.on Events.TransitionEnd, ->
 			animt.reset()
@@ -1190,7 +1189,7 @@ figma.Notif.onClick (event, layer) ->
 	fadeoutt.start()
 	fadeoutub.start()
 
-	figma.Notif.onAnimationEnd (event, layer) ->
+	Utils.delay animationSpeed, ->
 		flow.showNext(figma.Notif_Alarme, animate: false)
 		flow.on Events.TransitionEnd, ->
 			animn.reset()
@@ -1407,44 +1406,55 @@ Kreuzsprung(figma.Kreuz_11)
 #Kreuz schließen zum Screen Einstellungen	
 figma.Kreuz.onClick (event, layer) ->
 	#Kreuzsprung(figma.Kreuz)
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()	
+	animp.reset()
+	flow.showNext(figma.Einstellungen, animate: false)
+	#flow.showPrevious()	
+	figma.Einstellungen.bringToFront()
 figma.Kreuz_2.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen, animate: false)
 	flow.showPrevious()
+	figma.Einstellungen.bringToFront()
 figma.Kreuz_3.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen, animate: false)
 	flow.showPrevious()
+	figma.Einstellungen.bringToFront()
 figma.Kreuz_5.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen, animate: false)
 	flow.showPrevious()
+	figma.Einstellungen.bringToFront()
 figma.Kreuz_6.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen, animate: false)
 	flow.showPrevious()
+	figma.Einstellungen.bringToFront()
 figma.Kreuz_7.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen, animate: false)
 	flow.showPrevious()
+	figma.Einstellungen.bringToFront()
 figma.Kreuz_8.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen, animate: false)
 	flow.showPrevious()
+	figma.Einstellungen.bringToFront()
 figma.Kreuz_9.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen, animate: false)
 	flow.showPrevious()
+	figma.Einstellungen.bringToFront()
 figma.Kreuz_10.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen, animate: false)
 	flow.showPrevious()
+	figma.Einstellungen.bringToFront()
 figma.Kreuz_11.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen, animate: false)
 	flow.showPrevious()	
+	figma.Einstellungen.bringToFront()
 #figma.Kreuz_12.onClick (event, layer) ->
 	#flow.showPrevious()
 	#flow.showNext(figma.Einstellungen,closex)	
