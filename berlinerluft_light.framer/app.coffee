@@ -1069,7 +1069,37 @@ figma.ThreshLinie.onClick (event, layer) ->
 		figma.GW_zu.animate("GWzuinvisible")
 					
 #Threshold states
+customdraggable = (l) ->
+	l.draggable = true
+	l.draggable.speedY = 0
+	# Disable overdrag
+	l.draggable.overdrag = false
+	
+	# Disable bounce
+	l.draggable.bounce = false
+	
+	# Disable momentum
+	l.draggable.momentum = false
+	l.draggable.constraints = {
+		x: 15-20
+		y: 0
+		width: 345+20
+		height: 93
+	}
 
+customdraggable(figma.reglerPM)
+
+pm = new TextLayer
+	text: Math.round(figma.reglerPM.x*0.827 + 5)	
+	color: 'white'
+	y: 0
+	x: 300
+	fontSize: '18'
+	paddingLeft: 0
+pm.parent = figma.PM_offen
+figma.reglerPM.onMove ->
+	pm.text = Math.round(figma.reglerPM.x*0.827 + 5)
+	#pm.text = figma.reglerPM.x
 
 figma.GW_offen.states =
 	GWinvisible:
