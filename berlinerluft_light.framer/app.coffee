@@ -111,7 +111,8 @@ figma.plus.onClick (event, layer) ->
 			y: 20
 		curve: "ease"
 		time: 0.3
-
+	Utils.delay 0.4, ->
+		flow.showNext(figma.ort_hinzufügen, animate:false)
 
 gesternval = 100
 heuteval = 100
@@ -504,6 +505,7 @@ screens = [
 	figma.Profil_Eingabe_age
 	figma.Profil_mit_name_2
 	figma.Loading
+	figma.ort_hinzufügen
 	]
 
 back = new BackgroundLayer
@@ -793,7 +795,21 @@ figma.Kreuz_7.states =
 		scale: 0.5
 	Xbig:
 		scale: 0.8
-		
+figma.Kreuz.states = 
+	Xklein: 
+		scale: 0.5
+	Xbig:
+		scale: 0.8		
+figma.Kreuz_2.states = 
+	Xklein: 
+		scale: 0.5
+	Xbig:
+		scale: 0.8		
+figma.Kreuz_3.states = 
+	Xklein: 
+		scale: 0.5
+	Xbig:
+		scale: 0.8		
 figma.Kreuz_7.animate("Xbig")
 
 #Kreuz auf Originalgröße
@@ -801,7 +817,7 @@ KreuzOS = (b) ->
 	b.animate
 		scale: 1
 		options: 
-			time: animationSpeed
+			time: 1
 			curve: Spring (damping: 0.2)
 
 #Keyboard Namenseingabe states
@@ -844,7 +860,82 @@ abgewählt = (h) ->
 		options:
 			time: 0.2
 			curve: Bezier.easeOut
-							
+
+#states für Grenzwerte
+figma.GW_offen.states =
+	GWinvisible:
+		visible: false
+	GWvisible:
+		visible: true
+		
+figma.GW_zu.states =
+	GWzuinvisible:
+		visible: false
+	GWzuvisible:
+		visible: true
+
+#thresholds states bearbeiten oder nicht bearbeiten Modus
+figma.ND_Gruppe.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+figma.ND_offen.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+figma.CM_Gruppe.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+figma.CM_offen.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+figma.SD_Gruppe.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+figma.SD_offen_2.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true	
+figma.Radon_Gruppe.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+figma.Radon_offen.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+figma.PM_Gruppe.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+figma.PM_offen.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true	
+figma.Ozon_Gruppe.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+figma.Ozon_offen.states =
+	invisible:
+		visible: false
+	visible:
+		visible: true
+									
 #navigation
 #von Einstellungen
 #zum Profil
@@ -863,8 +954,7 @@ figma.ProfilLinie.onClick (event, layer) ->
 		fadeoutn.reset()
 		fadeoutt.reset()
 		fadeoutub.reset()
-		liniep.reset()
-			
+		liniep.reset()	
 		KreuzOS(figma.Kreuz)
 		
 figma.Keyboard_Dark_Email.animate("keyoff")
@@ -903,12 +993,14 @@ figma.Keyboard_Dark_Email.onClick (event, layer) ->
 figma.Group_10_6.onClick ->
 	figma.Keyboard_Dark_Email.animate("keyoff")
 	Utils.delay animationSpeed*1.5, ->
-		flow.showNext(figma.Profil_mit_name,animate: false)	
+		flow.showNext(figma.Profil_mit_name,animate: false)
+		KreuzOS(figma.Kreuz_2)
 #cancel zu leer
-figma.Group_11_4.onClick ->
+figma.Group_11_3.onClick ->
 	figma.Keyboard_Dark_Email.animate("keyoff")
 	Utils.delay animationSpeed*1.5, ->
 		flow.showNext(figma.Profil,animate: false)
+		KreuzOS(figma.Kreuz)
 			
 #zur Alterseingabe
 #zu alterseingabe von ohne namen
@@ -942,11 +1034,13 @@ figma.Group_10_8.onTapStart ->
 	figma.Keyb_nummern.animate("keyoff")
 	Utils.delay animationSpeed*1.5, ->
 		flow.showNext(figma.Profil_mit_name_2,animate: false)
+		KreuzOS(figma.Kreuz_3)
 #cancel
-figma.Group_11_7.onTapStart ->
+figma.Group_11_6.onTapStart ->
 	figma.Keyb_nummern.animate("keyoff")
 	Utils.delay animationSpeed*1.5, ->
 		flow.showNext(figma.Profil_mit_name,animate: false)
+		KreuzOS(figma.Kreuz_2)
 	
 #genderbutton
 #default
@@ -997,8 +1091,8 @@ figma.SensorLinie.onClick (event, layer) ->
 	
 	Utils.delay animationSpeed, ->		
 		flow.showNext(figma.Sensoreinstellungen, animate: false)
-		figma.Group_19_3_2.animate("off")
 		figma.Group_19_2_2.animate("off")
+		figma.Group_19_3_2.animate("off")
 		figma.Group_19_3.animate("off")
 		figma.Group_19_1.animate("off")
 		flow.on Events.TransitionEnd, ->
@@ -1110,7 +1204,7 @@ figma.Group_10_12.onClick ->
 			flow.showNext(figma.Sensor_hinzufügen,animate:false)
 
 #cancel sensor hinzufügen
-figma.Group_12_14.onClick ->
+figma.Group_12_12.onClick ->
 	flow.showNext(figma.Sensoreinstellungen,animate:false)
 	
 #sensor hinzufügen
@@ -1136,8 +1230,14 @@ figma.ThreshLinie.onClick (event, layer) ->
 			fadeoutub.reset()
 			liniet.reset()
 		KreuzOS(figma.Kreuz_6)
-		figma.GW_offen.animate("GWvisible")
+		#figma.GW_offen.animate("GWvisible")
 		figma.GW_zu.animate("GWzuinvisible")
+		figma.PM_offen.animate("invisible")
+		figma.Radon_offen.animate("invisible")
+		figma.Ozon_offen.animate("invisible")
+		figma.SD_offen_2.animate("invisible")
+		figma.CM_offen.animate("invisible")
+		figma.ND_offen.animate("invisible")
 					
 #Threshold states
 customdraggable = (l) ->
@@ -1159,12 +1259,18 @@ customdraggable = (l) ->
 	}
 
 customdraggable(figma.reglerPM)
+customdraggable(figma.reglerND)
+customdraggable(figma.reglerCM)
+customdraggable(figma.reglerSD)
+customdraggable(figma.reglerRadon)
+customdraggable(figma.reglerOzon)
 
+#PM Skale
 pm = new TextLayer
 	text: Math.round(figma.reglerPM.x*0.827 + 5)	
 	color: 'white'
 	y: 0
-	x: 300
+	x: 238
 	fontSize: '18'
 	paddingLeft: 0
 pm.parent = figma.PM_offen
@@ -1172,104 +1278,89 @@ figma.reglerPM.onMove ->
 	pm.text = Math.round(figma.reglerPM.x*0.827 + 5)
 	#pm.text = figma.reglerPM.x
 
-figma.GW_offen.states =
-	GWinvisible:
-		visible: false
-	GWvisible:
-		visible: true
-		
-figma.GW_zu.states =
-	GWzuinvisible:
-		visible: false
-	GWzuvisible:
-		visible: true
+oz = new TextLayer
+	text: Math.round(figma.reglerOzon.x*1.159 + 5)	
+	color: 'white'
+	y: 0
+	x: 238
+	fontSize: '18'
+	paddingLeft: 0
+oz.parent = figma.Ozon_offen
+figma.reglerOzon.onMove ->
+	oz.text = Math.round(figma.reglerOzon.x*1.159 + 5)
+	#pm.text = figma.reglerPM.x
+	
+rd = new TextLayer
+	text: Math.round(figma.reglerRadon.x*0.629 + 5)	
+	color: 'white'
+	y: 0
+	x: 230
+	fontSize: '18'
+	paddingLeft: 0
+rd.parent = figma.Radon_offen
+figma.reglerRadon.onMove ->
+	rd.text = Math.round(figma.reglerRadon.x*0.629 + 5)
+	#pm.text = figma.reglerPM.x
 
+sd = new TextLayer
+	text: Math.round(figma.reglerSD.x*2.285 + 5)	
+	color: 'white'
+	y: 0
+	x: 238
+	fontSize: '18'
+	paddingLeft: 0
+sd.parent = figma.SD_offen_2
+figma.reglerSD.onMove ->
+	sd.text = Math.round(figma.reglerSD.x*2.285 + 5)
+	#pm.text = figma.reglerPM.x
 
+cm = new TextLayer
+	text: Math.round(figma.reglerCM.x*0.033 + 5)	
+	color: 'white'
+	y: 0
+	x: 240
+	fontSize: '18'
+	paddingLeft: 0
+cm.parent = figma.CM_offen
+figma.reglerCM.onMove ->
+	cm.text = Math.round(figma.reglerCM.x*0.033 + 5)
+	#pm.text = figma.reglerPM.x
 
-figma.ND_Gruppe.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
-figma.ND_offen.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
-figma.CM_Gruppe.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
-figma.CM_offen.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
-figma.SD_Gruppe.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
-figma.SD_offen_2.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true	
-figma.Radon_Gruppe.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
-figma.Radon_offen.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
-figma.PM_Gruppe.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
-figma.PM_offen.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true	
-figma.Ozon_Gruppe.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
-figma.Ozon_offen.states =
-	invisible:
-		visible: false
-	visible:
-		visible: true
+nd = new TextLayer
+	text: Math.round(figma.reglerND.x*1.291 + 5)	
+	color: 'white'
+	y: 0
+	x: 240
+	fontSize: '18'
+	paddingLeft: 0
+nd.parent = figma.ND_offen
+figma.reglerND.onMove ->
+	nd.text = Math.round(figma.reglerND.x*1.291 + 5)
+	#pm.text = figma.reglerPM.x
 								
-scroll_1 = ScrollComponent.wrap(figma.GW_offen)
+scroll_1 = ScrollComponent.wrap(figma.scrollgruppe)
 scroll_1.scrollHorizontal = false
 scroll_1.mouseWheelEnabled = true	
 
 #figma.GW_offen.parent=scroll.content
 
 #click zum bearbeiten des grenzwertes
-figma.ND_Gruppe.onClick ->
+figma.NDU.onClick ->
 	figma.ND_Gruppe.stateCycle("invisible", "visible")
 	figma.ND_offen.stateCycle("visible", "invisible")
-figma.CM_Gruppe.onClick ->
+figma.CMU.onClick ->
 	figma.CM_Gruppe.stateCycle("invisible", "visible")
 	figma.CM_offen.stateCycle("visible", "invisible")
-figma.SD_Gruppe.onClick ->
+figma.SDU.onClick ->
 	figma.SD_Gruppe.stateCycle("invisible", "visible")
 	figma.SD_offen_2.stateCycle("visible", "invisible")
-figma.Radon_Gruppe.onClick ->
+figma.RU.onClick ->
 	figma.Radon_Gruppe.stateCycle("invisible", "visible")
 	figma.Radon_offen.stateCycle("visible", "invisible")
-figma.PM_Gruppe.onClick ->
+figma.PMU.onClick ->
 	figma.PM_Gruppe.stateCycle("invisible", "visible")
 	figma.PM_offen.stateCycle("visible", "invisible")
-figma.Ozon_Gruppe.onClick ->
+figma.OU.onClick ->
 	figma.Ozon_Gruppe.stateCycle("invisible", "visible")
 	figma.Ozon_offen.stateCycle("visible", "invisible")
 	
@@ -1377,6 +1468,7 @@ figma.SlideSD.onClick ->
 	figma.fillb.stateCycle("off", "on")	
 
 
+#ort hinzufügen
 		
 #Kreuz Spring anim
 Kreuzsprung = (a) ->
@@ -1409,13 +1501,15 @@ figma.Kreuz.onClick (event, layer) ->
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_2.onClick (event, layer) ->
 	#flow.showPrevious()
+	animp.reset()
 	flow.showNext(figma.Einstellungen, animate: false)
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_3.onClick (event, layer) ->
 	#flow.showPrevious()
+	animp.reset()
 	flow.showNext(figma.Einstellungen, animate: false)
-	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
+	#flow.showPrevious()
 figma.Kreuz_5.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.showNext(figma.Einstellungen, animate: false)
