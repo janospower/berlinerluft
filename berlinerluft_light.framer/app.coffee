@@ -493,6 +493,7 @@ screens = [
 	figma.Einstellungen
 	figma.Profil
 	figma.Sensoreinstellungen
+	figma.Sensoreinstellungen_plus
 	figma.Sensor_hinzufügen
 	figma.Notif_Alarme
 	figma.Grenzwerte
@@ -522,7 +523,7 @@ for x,i in screens
 
 
 
-animationSpeed = 0.2
+animationSpeed = 0.4
 #Transitions
 #Xschließen
 closex = (nav, layerA, layerB, overlay) ->
@@ -566,12 +567,12 @@ screenchange = (nav, layerA, layerB, overlay) ->
 			show:
 				opacity: 1
 				options: 
-					time: animationSpeed
+					time: 0.3
 					curve: Bezier.ease
 			hide:
 				opacity: 0
 				options: 
-					time: animationSpeed
+					time: 0.3
 					curve: Bezier.ease
 		layerB:
 			show:
@@ -579,14 +580,14 @@ screenchange = (nav, layerA, layerB, overlay) ->
 				x: 0
 				y: 0
 				options: 
-					time: animationSpeed
+					time: 0.3
 					curve: Bezier.ease
 			hide:
 				opacity: 0
 				x: 0
 				y: 0
 				options: 
-					time: animationSpeed
+					time: 0.3
 					curve: Bezier.ease
 					
 #transition mit delay für keyboard
@@ -599,25 +600,25 @@ keybtransition = (nav, layerA, layerB, overlay) ->
 			show:
 				opacity: 1
 				options: 
-					time: animationSpeed
+					time: 0.5
 					curve: Bezier.ease
 					delay: 1.3
 			hide:
 				opacity: 0
 				options: 
-					time: animationSpeed
+					time: 0.5
 					
 		layerB:
 			show:
 				opacity: 1
 				options: 
-					time: animationSpeed
+					time: 0.5
 					curve: Bezier.ease
-					delay: animationSpeed+0.3
+					delay: 1.3
 			hide:
 				opacity: 0
 				options: 
-					time: animationSpeed
+					time: 0.5
 					curve: Bezier.ease
 					
 #transition mit delay für female/male button
@@ -717,7 +718,7 @@ liniep = new Animation figma.Topline,
 animt = new Animation figma.ThreshLinie,
 	y: 49
 	options:
-		time: animationSpeed
+		time: 0.6
 		curve: Bezier.ease
 #Linie on Top
 liniet = new Animation figma.Topline_3,
@@ -729,7 +730,7 @@ liniet = new Animation figma.Topline_3,
 animn = new Animation figma.Notif,
 	y: 49
 	options:
-		time: animationSpeed
+		time: 0.6
 		curve: Bezier.ease
 
 								
@@ -759,7 +760,15 @@ fadeoutub = new Animation figma.Übersbutton,
 	options:
 		time: animationSpeed/2
 		curve: Bezier.easeOut
-
+		
+#fadeout aller screens
+Verschwinden = (d) ->
+	d.animate
+		opacity: 0
+		options:
+			time: 0.4
+			curve: Bezier.easeOut
+				
 #berlina animation
 Berlina = figma.Berlina
 BerlinaA = Berlina.animate
@@ -820,32 +829,21 @@ figma.Keyb_nummern.states =
 		time: animationSpeed*1.2
 		curve: Bezier.ease
 
-#anim female auswahl
-femalein=figma.Group_10_9.animate
-	opacity: 1
-	scale: 1.05
-	options:
-		time: animationSpeed*0.3
-		curve: Bezier.easeOut
-femaleout=figma.Group_10_9.animate
-	opacity:0.6
-	scale: 1
-	options:
-		time: animationSpeed*0.3
-		curve: Bezier.easeOut
-#anim male auswahl
-malein=figma.Group_11_8.animate
-	opacity: 1
-	scale: 1.05
-	options:
-		time: animationSpeed*0.3
-		curve: Bezier.easeOut
-maleout=figma.Group_11_8.animate
-	opacity: 0.6 
-	scale: 1
-	options:
-		time: animationSpeed*0.3
-		curve: Bezier.ease
+#anim female/male auswahl
+ausgewählt = (f) ->
+	f.animate
+		opacity: 1
+		scale: 1.05
+		options:
+			time: 0.2
+			curve: Bezier.easeOut
+abgewählt = (h) ->
+	h.animate
+		opacity:0.6
+		scale: 1
+		options:
+			time: 0.2
+			curve: Bezier.easeOut
 							
 #navigation
 #von Einstellungen
@@ -860,7 +858,6 @@ figma.ProfilLinie.onClick (event, layer) ->
 	
 	Utils.delay animationSpeed, ->
 		flow.showNext(figma.Profil, animate: false)
-		#flow.on Events.TransitionEnd, ->
 		animp.reset()
 		fadeouts.reset()
 		fadeoutn.reset()
@@ -872,7 +869,7 @@ figma.ProfilLinie.onClick (event, layer) ->
 		
 figma.Keyboard_Dark_Email.animate("keyoff")
 figma.Keyb_nummern.animate("keyoff")
-
+		
 #von leer zu namen eingabe
 figma.Group_15_4.onClick (event, layer) ->
 	flow.showNext(figma.Profil_Eingabe_name, animate: false)
@@ -905,14 +902,15 @@ figma.Keyboard_Dark_Email.onClick (event, layer) ->
 #done zu profil mit name
 figma.Group_10_6.onClick ->
 	figma.Keyboard_Dark_Email.animate("keyoff")
-	flow.showNext(figma.Profil_mit_name,keybtransition)	
+	Utils.delay animationSpeed*1.5, ->
+		flow.showNext(figma.Profil_mit_name,animate: false)	
 #cancel zu leer
 figma.Group_11_4.onClick ->
 	figma.Keyboard_Dark_Email.animate("keyoff")
-	flow.showNext(figma.Profil,keybtransition)
-	
+	Utils.delay animationSpeed*1.5, ->
+		flow.showNext(figma.Profil,animate: false)
+			
 #zur Alterseingabe
-#print figma.Keyb_nummern.y
 #zu alterseingabe von ohne namen
 figma.Group_12_3.onClick ->
 	flow.showNext(figma.Profil_Eingabe_age, animate: false)
@@ -940,55 +938,53 @@ figma.Keyb_nummern.onClick ->
 	alterin.start()
 
 #done
-figma.Group_10_8.onClick ->
+figma.Group_10_8.onTapStart ->
 	figma.Keyb_nummern.animate("keyoff")
-	flow.showNext(figma.Profil_mit_name_2,keybtransition)
+	Utils.delay animationSpeed*1.5, ->
+		flow.showNext(figma.Profil_mit_name_2,animate: false)
 #cancel
-figma.Group_11_7.onClick ->
+figma.Group_11_7.onTapStart ->
 	figma.Keyb_nummern.animate("keyoff")
-	flow.showNext(figma.Profil_mit_name,keybtransition)
+	Utils.delay animationSpeed*1.5, ->
+		flow.showNext(figma.Profil_mit_name,animate: false)
 	
-#zu eingabe sex	
-#von Profil leer zu eingabe sex
-figma.Group_11_3.onClick ->
-	femaleout.start()
-	maleout.start()
-	KreuzOS(figma.Kreuz_4)
-	flow.showNext(figma.Profil_Eingabe_sex, animate: false)
-#von Profil name zu eingabe sex
-figma.Group_12_5.onClick ->
-	femaleout.start()
-	maleout.start()
-	KreuzOS(figma.Kreuz_4)
-	flow.showNext(figma.Profil_Eingabe_sex, animate: false)
-#von profil mit name und alter zu sex eingabe
-figma.Group_12_6.onClick ->
-	femaleout.start()
-	maleout.start()
-	KreuzOS(figma.Kreuz_4)
-	flow.showNext(figma.Profil_Eingabe_sex, animate: false)
-#von profil voll zu eingabe sex
-figma.Group_10_10.onClick ->
-	femaleout.start()
-	maleout.start()
-	KreuzOS(figma.Kreuz_4)
-	flow.showNext(figma.Profil_Eingabe_sex, animate: false)
-	
-#von eingabe sex
+#genderbutton
+#default
+abgewählt(figma.malebutton)
+abgewählt(figma.malebutton_2)
+abgewählt(figma.malebutton_3)
+abgewählt(figma.femalebutton)
+abgewählt(figma.femalebutton_2)
+abgewählt(figma.femalebutton_3)
+#auf leer
 #female
-figma.Group_10_9.onClick ->
-	femalein.start()
-	maleout.start()
-	flow.showNext(figma.Profil_voll,sexbutton)
+figma.femalebutton.onClick ->
+	ausgewählt(figma.femalebutton)
+	abgewählt(figma.malebutton)
 #male
-figma.Group_11_8.onClick ->
-	malein.start()
-	femaleout.start()
-	flow.showNext(figma.Profil_voll,sexbutton)
-#cancel
-figma.Kreuz_4.onClick ->
-	flow.showNext(figma.Profil_mit_name_2, animate: false)
+figma.malebutton.onClick ->
+	ausgewählt(figma.malebutton)
+	abgewählt(figma.femalebutton)
+	
+#auf nur name
+#female
+figma.femalebutton_2.onClick ->
+	ausgewählt(figma.femalebutton_2)
+	abgewählt(figma.malebutton_2)
+#male
+figma.malebutton_2.onClick ->
+	ausgewählt(figma.malebutton_2)
+	abgewählt(figma.femalebutton_2)
 
+#auf name undalter
+#female
+figma.femalebutton_3.onClick ->
+	ausgewählt(figma.femalebutton_3)
+	abgewählt(figma.malebutton_3)
+#male
+figma.malebutton_3.onClick ->
+	ausgewählt(figma.malebutton_3)
+	abgewählt(figma.femalebutton_3)
 	
 #zumSensor
 figma.SensorLinie.onClick (event, layer) ->
@@ -1001,6 +997,10 @@ figma.SensorLinie.onClick (event, layer) ->
 	
 	Utils.delay animationSpeed, ->		
 		flow.showNext(figma.Sensoreinstellungen, animate: false)
+		figma.Group_19_3_2.animate("off")
+		figma.Group_19_2_2.animate("off")
+		figma.Group_19_3.animate("off")
+		figma.Group_19_1.animate("off")
 		flow.on Events.TransitionEnd, ->
 			anim.reset()
 			fadeoutp.reset()
@@ -1010,8 +1010,58 @@ figma.SensorLinie.onClick (event, layer) ->
 			linie.reset()
 		KreuzOS(figma.Kreuz_7)
 		
-		
-			
+#connect
+connecting = [
+	figma.Group_16_6
+	figma.Group_17_2
+	figma.Group_18_1
+	figma.Group_18_5
+	figma.Group_19_3_2
+	figma.Group_19_2_2
+	figma.Group_19_1
+	figma.Group_19_3
+]
+for xx,i in connecting
+	connecting[i].states = 
+		on: 
+			#width: 50
+			opacity: 1
+			options: 
+				curve: Bezier.ease
+				time: 0.2	 
+		off:
+			#width: 0
+			opacity: 0
+			options: 
+				curve: Bezier.ease
+				time: 0.2
+#von connect zu connected
+figma.Group_16_6.onClick ->
+	figma.Group_19_3_2.animate("on")
+	figma.Group_16_6.animate("off")
+figma.Group_17_2.onClick ->
+	figma.Group_19_2_2.animate("on")
+	figma.Group_17_2.animate("off")
+figma.Group_18_5.onClick ->
+	figma.Group_19_1.animate("on")
+	figma.Group_18_5.animate("off")
+figma.Group_18_1.onClick ->
+	figma.Group_19_3.animate("on")
+	figma.Group_18_1.animate("off")
+#von connected zu connect					
+figma.Group_16_6.onClick ->
+	figma.Group_19_3_2.animate("off")
+	figma.Group_16_6.animate("on")
+figma.Group_17_2.onClick ->
+	figma.Group_19_2_2.animate("off")
+	figma.Group_17_2.animate("on")
+figma.Group_18_5.onClick ->
+	figma.Group_19_1.animate("off")
+	figma.Group_18_5.animate("on")
+figma.Group_18_1.onClick ->
+	figma.Group_19_3.animate("off")
+	figma.Group_18_1.animate("on")
+					
 #states loading icon		
 figma.Loading.states=
 	visible:
@@ -1057,7 +1107,16 @@ figma.Group_10_12.onClick ->
 			kreise[i][0].start()
 		
 		Utils.delay 3, ->
-			flow.showNext(figma.Sensor_hinzufügen,keybtransition)
+			flow.showNext(figma.Sensor_hinzufügen,animate:false)
+
+#cancel sensor hinzufügen
+figma.Group_12_14.onClick ->
+	flow.showNext(figma.Sensoreinstellungen,animate:false)
+	
+#sensor hinzufügen
+figma.Group_13_11.onClick ->
+	flow.showNext(figma.Sensoreinstellungen_plus,animate:false)
+	
 #zu Threshold
 figma.ThreshLinie.onClick (event, layer) ->
 	animt.start()
@@ -1067,7 +1126,7 @@ figma.ThreshLinie.onClick (event, layer) ->
 	fadeoutub.start()
 	liniet.start()
 	
-	Utils.delay animationSpeed, ->
+	Utils.delay 0.5, ->
 		flow.showNext(figma.Grenzwerte, animate: false)
 		flow.on Events.TransitionEnd, ->
 			animt.reset()
@@ -1222,7 +1281,7 @@ figma.Notif.onClick (event, layer) ->
 	fadeoutt.start()
 	fadeoutub.start()
 
-	Utils.delay animationSpeed, ->
+	Utils.delay 0.5, ->
 		flow.showNext(figma.Notif_Alarme, animate: false)
 		flow.on Events.TransitionEnd, ->
 			animn.reset()
@@ -1240,8 +1299,6 @@ scroll2.mouseWheelEnabled = true
 #inset unten ?
 scroll2.contentInset=
 	bottom: 100
-
-
 
 	
 #Kswitch states
@@ -1327,7 +1384,7 @@ Kreuzsprung = (a) ->
 		a.animate
 			scale: 0.6
 			options:
-				time: 1 
+				time: 0.4 
 				curve: Bezier.ease
 		
 Kreuzsprung(figma.Kreuz)
@@ -1345,55 +1402,56 @@ Kreuzsprung(figma.Kreuz_11)
 		
 #Kreuz schließen zum Screen Einstellungen	
 figma.Kreuz.onClick (event, layer) ->
-	#Kreuzsprung(figma.Kreuz)
+	#Verschwinden(figma.Profil)
+	#Utils.delay 0.4, ->
 	animp.reset()
-	flow.showNext(figma.Einstellungen, animate: false)
-	#flow.showPrevious()	
+	flow.showNext(figma.Einstellungen, animate: false)	
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_2.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()
+	flow.showNext(figma.Einstellungen, animate: false)
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_3.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()
+	flow.showNext(figma.Einstellungen, animate: false)
+	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_5.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()
+	flow.showNext(figma.Einstellungen, animate: false)
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_6.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()
+	animt.reset()
+	flow.showNext(figma.Einstellungen, animate: false)
+	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_7.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()
+	anim.reset()
+	flow.showNext(figma.Einstellungen, animate: false)
+	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_8.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()
+	flow.showNext(figma.Einstellungen, animate: false)
+	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_9.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()
+	animn.reset()
+	flow.showNext(figma.Einstellungen, animate: false)
+	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_10.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()
+	flow.showNext(figma.Einstellungen, animate: false)
+	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_11.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen, animate: false)
-	flow.showPrevious()	
+	flow.showNext(figma.Einstellungen, animate: false)
+	#flow.showPrevious()	
 	figma.Einstellungen.bringToFront()
 #figma.Kreuz_12.onClick (event, layer) ->
 	#flow.showPrevious()
