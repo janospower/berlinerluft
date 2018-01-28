@@ -368,7 +368,7 @@ figma.radon.onPinchEnd (event, layer) ->
 
 # Radon detailansicht
 figma.info_2.opacity = 0
-figma.overview.onClick (event, layer) ->
+figma.over.onClick (event, layer) ->
 	flow.showPrevious()
 
 figma.Grafik_Skala.onClick (event, layer) ->
@@ -461,6 +461,9 @@ yd3 = d3.scaleLinear().range([
 
 xAxis = d3.axisBottom(xd3).ticks(3)
 yAxis = d3.axisLeft(yd3)
+
+#figma.overview.bringToFront()
+figma.detail.bringToFront()
 
 # Extra
 x2 = d3.scaleTime().range([

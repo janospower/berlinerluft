@@ -10504,11 +10504,35 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                "x" : -92,
                "y" : 43,
                "width" : 615,
-               "height" : 587
+               "height" : 608
             },
             "children" : [
                {
                   "objectId" : "78",
+                  "name" : "over",
+                  "visible" : true,
+                  "maskFrame" : null,
+                  "layerFrame" : {
+                     "x" : 0,
+                     "y" : 589,
+                     "width" : 75,
+                     "height" : 62
+                  },
+                  "children" : [],
+                  "kind" : "group",
+                  "imageType" : "png",
+                  "image" : {
+                     "path" : "images/78.png",
+                     "frame" : {
+                        "x" : 0,
+                        "y" : 589,
+                        "width" : 75,
+                        "height" : 62
+                     }
+                  }
+               },
+               {
+                  "objectId" : "77",
                   "name" : "stoff_slider",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10520,7 +10544,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "77",
+                        "objectId" : "76",
                         "name" : "Group_15_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10534,7 +10558,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/77.png",
+                           "path" : "images/76.png",
                            "frame" : {
                               "x" : 149,
                               "y" : 111,
@@ -10544,7 +10568,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "76",
+                        "objectId" : "75",
                         "name" : "Group_27",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10558,7 +10582,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/76.png",
+                           "path" : "images/75.png",
                            "frame" : {
                               "x" : -15,
                               "y" : 114,
@@ -10568,7 +10592,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "75",
+                        "objectId" : "74",
                         "name" : "Group_28",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10582,7 +10606,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/75.png",
+                           "path" : "images/74.png",
                            "frame" : {
                               "x" : 338,
                               "y" : 113,
@@ -10595,7 +10619,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group"
                },
                {
-                  "objectId" : "74",
+                  "objectId" : "73",
                   "name" : "info",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10609,7 +10633,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/74.png",
+                     "path" : "images/73.png",
                      "frame" : {
                         "x" : 33,
                         "y" : 422,
@@ -10619,7 +10643,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "73",
+                  "objectId" : "72",
                   "name" : "bottom_div",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10633,36 +10657,12 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/73.png",
+                     "path" : "images/72.png",
                      "frame" : {
                         "x" : 25,
                         "y" : 148,
                         "width" : 326,
                         "height" : 2
-                     }
-                  }
-               },
-               {
-                  "objectId" : "72",
-                  "name" : "overview",
-                  "visible" : true,
-                  "maskFrame" : null,
-                  "layerFrame" : {
-                     "x" : 24,
-                     "y" : 598,
-                     "width" : 26,
-                     "height" : 31
-                  },
-                  "children" : [],
-                  "kind" : "group",
-                  "imageType" : "png",
-                  "image" : {
-                     "path" : "images/72.png",
-                     "frame" : {
-                        "x" : 24,
-                        "y" : 598,
-                        "width" : 26,
-                        "height" : 31
                      }
                   }
                },
