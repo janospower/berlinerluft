@@ -391,7 +391,7 @@ figma.plotdet.opacity = 1
 
 
 w = 375
-h = figma.Group_29.height
+h = figma.Group_29.height-30
 
 d3Layer = new Layer(
 	x: 0
@@ -459,7 +459,7 @@ yd3 = d3.scaleLinear().range([
   0
 ])
 
-xAxis = d3.axisBottom(xd3)
+xAxis = d3.axisBottom(xd3).ticks(3)
 yAxis = d3.axisLeft(yd3)
 
 # Extra
