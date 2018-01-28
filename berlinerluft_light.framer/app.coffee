@@ -390,7 +390,7 @@ figma.plotdet.opacity = 1
 
 
 
-w = 375
+w = 1000#375
 h = figma.plot.height-35
 
 d3Layer = new Layer(
@@ -472,6 +472,23 @@ drag = d3.behavior.drag().origin((d) ->
 
 # Adds the svg canvas
 svg = d3.select(document.getElementById('d3')).append('svg').attr('id', 'd3svg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+
+d3Layer.draggable = true
+d3Layer.draggable.speedY = 0
+# Disable overdrag
+d3Layer.draggable.overdrag = false
+
+# Disable bounce
+d3Layer.draggable.bounce = false
+
+# Disable momentum
+d3Layer.draggable.momentum = true
+d3Layer.draggable.constraints = {
+	x: -w+375
+	y: 0
+	width: (2*w)-375
+	height: 1000
+}
 
 defs = svg.append("defs")
 grad = defs.append("linearGradient").attr("id", "MyGradient").attr('x1','0%').attr('y1','0%').attr('x2','0%').attr('y2','100%')
