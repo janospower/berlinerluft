@@ -53,7 +53,7 @@ body {
 	  fill: none;
 }
 
-.area {
+.area1 {
   fill: url(#MyGradient);
 }
 #d3svg{

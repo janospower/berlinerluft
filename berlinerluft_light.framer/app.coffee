@@ -422,6 +422,21 @@ grad = defs.append("linearGradient").attr("id", "MyGradient").attr('x1','0%').at
 stop1 = grad.append("stop").attr('offset','0').attr('stop-color','white').attr('stop-opacity','0.5')
 stop2 = grad.append("stop").attr('offset','100').attr('stop-color','white').attr('stop-opacity','0')
 
+zoomed = ->
+  if d3.event.sourceEvent and d3.event.sourceEvent.type == 'brush'
+    return
+  # ignore zoom-by-brush
+  t = d3.event.transform
+  # console.log(et)
+  xd3.domain t.rescaleX(x2).domain()
+  focus.select('.area1').attr 'd', area
+  focus.select('.line').attr 'd', valuelineInterpol
+  focus.select('.line1').attr 'd', valueline
+  focus.select('.axis--x').call xAxis
+  context.select('.brush').call brush.move, xd3.range().map(t.invertX, t)
+  return
+
+
 margin = 
   top: 20
   right: 20
@@ -432,17 +447,49 @@ margin2 =
   right: 20
   bottom: 30
   left: 40
+height2 = +svg.attr('height') - (margin2.top) - (margin2.bottom)
 parseDate = d3.timeParse('%b %Y')
 xd3 = d3.scaleTime().range([
   0
   width
 ])
+
 yd3 = d3.scaleLinear().range([
   height
   0
 ])
+
 xAxis = d3.axisBottom(xd3)
 yAxis = d3.axisLeft(yd3)
+
+# Extra
+x2 = d3.scaleTime().range([
+  0
+  width
+])
+y2 = d3.scaleLinear().range([
+  height2
+  0
+])
+xAxis2 = d3.axisBottom(x2)
+brush = d3.brushX().extent([
+  [
+    0
+    0
+  ]
+  [
+    width
+    height2
+  ]
+]).on('brush end', brushed)
+
+area2 = d3.area().curve(d3.curveMonotoneX).x((d) ->
+  x2 d.date
+).y0(height2).y1((d) ->
+  y2 d.price
+)
+
+
 
 zoom = d3.zoom().scaleExtent([
   1
@@ -489,24 +536,13 @@ brushed = ->
   if d3.event.sourceEvent and d3.event.sourceEvent.type == 'zoom'
     return
   # ignore brush-by-zoom
-  s = d3.event.selection or xd32.range()
-  xd3.domain s.map(xd32.invert, xd32)
+  s = d3.event.selection or x2.range()
+  xd3.domain s.map(x2.invert, x2)
   focus.select('.area').attr 'd', area
   focus.select('.axis--x').call xAxis
   svg.select('.zoom').call zoom.transform, d3.zoomIdentity.scale(width / (s[1] - (s[0]))).translate(-s[0], 0)
   return
 
-zoomed = ->
-  if d3.event.sourceEvent and d3.event.sourceEvent.type == 'brush'
-    return
-  # ignore zoom-by-brush
-  t = d3.event.transform
-  console.log t.rescaleX(xd32).domain()
-  xd3.domain t.rescaleX(xd32).domain()
-  focus.select('.area').attr 'd', area
-  focus.select('.axis--x').call xAxis
-  context.select('.brush').call brush.move, xd3.range().map(t.invertX, t)
-  return
 
 type = (d) ->
   d.date = parseDate(d.date)
@@ -528,7 +564,9 @@ d3.csv 'sp500.csv', type, (error, data) ->
       d.price
     )
   ]
-  focus.append('path').datum(data).attr('class', 'area').attr 'd', area
+  x2.domain xd3.domain()
+  y2.domain yd3.domain()
+  focus.append('path').datum(data).attr('class', 'area1').attr 'd', area
   focus.append('path').datum(data).attr('class', 'line1').attr 'd', valueline
   focus.append('path').datum(data).attr('class', 'line').attr 'd', valuelineInterpol
   focus.append('g').attr('class', 'axis axis--x').attr('transform', 'translate(0,' + height + ')').call xAxis
