@@ -517,7 +517,7 @@ zoom = d3.zoom().scaleExtent([
   ]
 ]).on('zoom', zoomed)
 
-area = d3.area().curve(d3.curveMonotoneX).x((d) ->
+area = d3.area().curve(d3.curveBasis).x((d) ->
   xd3 d.date
 ).y0(height).y1((d) ->
   yd3 d.price
@@ -528,7 +528,7 @@ valueline = d3.line().curve(d3.curveLinear).x((d) ->
 ).y((d) ->
   yd3 d.price
 )
-valuelineInterpol = d3.line().curve(d3.curveMonotoneX).x((d) ->
+valuelineInterpol = d3.line().curve(d3.curveBasis).x((d) ->
   xd3 d.date
 ).y((d) ->
   yd3 d.price
