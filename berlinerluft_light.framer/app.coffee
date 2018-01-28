@@ -443,6 +443,33 @@ area = d3.svg.area().interpolate("bundle").x((d) ->
   yd3 d.close
 )
 
+#pan & zoom
+zoomed = ->
+  container.attr 'transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')'
+  return
+
+dragstarted = (d) ->
+  d3.event.sourceEvent.stopPropagation()
+  d3.select(this).classed 'dragging', true
+  return
+
+dragged = (d) ->
+  d3.select(this).attr('cx', d.x = d3.event.x).attr 'cy', d.y = d3.event.y
+  return
+
+dragended = (d) ->
+  d3.select(this).classed 'dragging', false
+  return
+
+
+zoom = d3.behavior.zoom().scaleExtent([
+  1
+  10
+]).on('zoom', zoomed)
+drag = d3.behavior.drag().origin((d) ->
+  d
+).on('dragstart', dragstarted).on('drag', dragged).on('dragend', dragended)
+
 # Adds the svg canvas
 svg = d3.select(document.getElementById('d3')).append('svg').attr('id', 'd3svg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 
