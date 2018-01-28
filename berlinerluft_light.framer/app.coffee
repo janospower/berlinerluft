@@ -390,7 +390,7 @@ figma.plotdet.opacity = 1
 
 
 
-w = 1000#375
+w = 375
 h = figma.plot.height-35
 
 d3Layer = new Layer(
@@ -411,126 +411,134 @@ margin =
   left: 0
 width = w - (margin.left) - (margin.right)
 height = h - (margin.top) - (margin.bottom)
-# Parse the date / time
-parseDate = d3.time.format('%d-%b-%y').parse
-# Set the ranges
-xd3 = d3.time.scale().range([
-  0
-  width
-])
-yd3 = d3.scale.linear().range([
-  height
-  0
-])
-# Define the axes
-xAxis = d3.svg.axis().scale(xd3).orient('bottom').ticks(2)
-yAxis = d3.svg.axis().scale(yd3).orient('left').ticks(3)
-# Define the line
-valueline = d3.svg.line().x((d) ->
-  xd3 d.date
-).y((d) ->
-  yd3 d.close
-)
-valuelineInterpol = d3.svg.line().interpolate("bundle").x((d) ->
-  xd3 d.date
-).y((d) ->
-  yd3 d.close
-)
-# define the area
-area = d3.svg.area().interpolate("bundle").x((d) ->
-  xd3 d.date
-).y0(height).y1((d) ->
-  yd3 d.close
-)
 
-#pan & zoom
-zoomed = ->
-  container.attr 'transform', 'translate(' + d3.event.translate + ')scale(' + d3.event.scale + ')'
-  return
-
-dragstarted = (d) ->
-  d3.event.sourceEvent.stopPropagation()
-  d3.select(this).classed 'dragging', true
-  return
-
-dragged = (d) ->
-  d3.select(this).attr('cx', d.x = d3.event.x).attr 'cy', d.y = d3.event.y
-  return
-
-dragended = (d) ->
-  d3.select(this).classed 'dragging', false
-  return
-
-
-zoom = d3.behavior.zoom().scaleExtent([
-  1
-  10
-]).on('zoom', zoomed)
-drag = d3.behavior.drag().origin((d) ->
-  d
-).on('dragstart', dragstarted).on('drag', dragged).on('dragend', dragended)
 
 # Adds the svg canvas
-svg = d3.select(document.getElementById('d3')).append('svg').attr('id', 'd3svg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+d3.select(document.getElementById('d3')).append('svg').attr('id', 'd3svg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 
-d3Layer.draggable = true
-d3Layer.draggable.speedY = 0
-# Disable overdrag
-d3Layer.draggable.overdrag = false
-
-# Disable bounce
-d3Layer.draggable.bounce = false
-
-# Disable momentum
-d3Layer.draggable.momentum = true
-d3Layer.draggable.constraints = {
-	x: -w+375
-	y: 0
-	width: (2*w)-375
-	height: 1000
-}
-
+svg = d3.select('svg')
 defs = svg.append("defs")
 grad = defs.append("linearGradient").attr("id", "MyGradient").attr('x1','0%').attr('y1','0%').attr('x2','0%').attr('y2','100%')
 stop1 = grad.append("stop").attr('offset','0').attr('stop-color','white').attr('stop-opacity','0.5')
 stop2 = grad.append("stop").attr('offset','100').attr('stop-color','white').attr('stop-opacity','0')
 
-# Get the data
-d3.csv 'data.csv', (error, data) ->
-  data.forEach (d) ->
-    d.date = parseDate(d.date)
-    d.close = +d.close
+margin = 
+  top: 20
+  right: 20
+  bottom: 110
+  left: 0
+margin2 = 
+  top: 430
+  right: 20
+  bottom: 30
+  left: 40
+parseDate = d3.timeParse('%b %Y')
+xd3 = d3.scaleTime().range([
+  0
+  width
+])
+yd3 = d3.scaleLinear().range([
+  height
+  0
+])
+xAxis = d3.axisBottom(xd3)
+yAxis = d3.axisLeft(yd3)
+
+zoom = d3.zoom().scaleExtent([
+  1
+  Infinity
+]).translateExtent([
+  [
+    0
+    0
+  ]
+  [
+    width
+    height
+  ]
+]).extent([
+  [
+    0
+    0
+  ]
+  [
+    width
+    height
+  ]
+]).on('zoom', zoomed)
+
+area = d3.area().curve(d3.curveMonotoneX).x((d) ->
+  xd3 d.date
+).y0(height).y1((d) ->
+  yd3 d.price
+)
+
+valueline = d3.line().curve(d3.curveLinear).x((d) ->
+  xd3 d.date
+).y((d) ->
+  yd3 d.price
+)
+valuelineInterpol = d3.line().curve(d3.curveMonotoneX).x((d) ->
+  xd3 d.date
+).y((d) ->
+  yd3 d.price
+)
+
+
+brushed = ->
+  if d3.event.sourceEvent and d3.event.sourceEvent.type == 'zoom'
     return
-  # Scale the range of the data
-  
+  # ignore brush-by-zoom
+  s = d3.event.selection or xd32.range()
+  xd3.domain s.map(xd32.invert, xd32)
+  focus.select('.area').attr 'd', area
+  focus.select('.axis--x').call xAxis
+  svg.select('.zoom').call zoom.transform, d3.zoomIdentity.scale(width / (s[1] - (s[0]))).translate(-s[0], 0)
+  return
+
+zoomed = ->
+  if d3.event.sourceEvent and d3.event.sourceEvent.type == 'brush'
+    return
+  # ignore zoom-by-brush
+  t = d3.event.transform
+  console.log t.rescaleX(xd32).domain()
+  xd3.domain t.rescaleX(xd32).domain()
+  focus.select('.area').attr 'd', area
+  focus.select('.axis--x').call xAxis
+  context.select('.brush').call brush.move, xd3.range().map(t.invertX, t)
+  return
+
+type = (d) ->
+  d.date = parseDate(d.date)
+  d.price = +d.price
+  d
+
+svg.append('defs').append('clipPath').attr('id', 'clip').append('rect').attr('width', width).attr 'height', height
+focus = svg.append('g').attr('class', 'focus').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+context = svg.append('g').attr('class', 'context').attr('transform', 'translate(' + margin2.left + ',' + margin2.top + ')')
+d3.csv 'sp500.csv', type, (error, data) ->
+  if error
+    throw error
   xd3.domain d3.extent(data, (d) ->
     d.date
   )
   yd3.domain [
     0
     d3.max(data, (d) ->
-      d.close
+      d.price
     )
   ]
-  
-  # Add the valueline path.
-  svg.append('path').data([ data ]).attr('class', 'area').attr 'd', area
-  svg.append('path').attr('class', 'line1').attr 'd', valueline(data)
-  svg.append('path').attr('class', 'line').attr 'd', valuelineInterpol(data)
-  # Add the X Axis
-  svg.append('g').attr('class', 'x axis').attr('transform', 'translate(0,' + height + ')').call xAxis
-  # Add the Y Axis
-  svg.append('g').attr('class', 'y axis').attr("transform", "translate(" + w + ",0)").call yAxis
+  focus.append('path').datum(data).attr('class', 'area').attr 'd', area
+  focus.append('path').datum(data).attr('class', 'line1').attr 'd', valueline
+  focus.append('path').datum(data).attr('class', 'line').attr 'd', valuelineInterpol
+  focus.append('g').attr('class', 'axis axis--x').attr('transform', 'translate(0,' + height + ')').call xAxis
+  #focus.append('g').attr('class', 'axis axis--y').call yAxis
+  svg.append('rect').attr('class', 'zoom').attr('width', width).attr('height', height).attr('transform', 'translate(' + margin.left + ',' + margin.top + ')').call zoom
   return
 
 
-
-
-
-
-
-
-
+d3Layer.onClick (event, layer) ->
+	print 'yay'
 
 
 
@@ -555,7 +563,7 @@ hidden = [
 	figma.UI_Bars___Status_Bars___White___Base_2
 	]
 
-for x,i in hidden
+for xx,i in hidden
 	if hidden[i]
 		hidden[i].visible = false
 
@@ -590,7 +598,7 @@ backblue = new BackgroundLayer
 	opacity: 0
 
 
-for x,i in screens
+for xx,i in screens
 	screens[i].image = 'images/bgred.png'
 
 

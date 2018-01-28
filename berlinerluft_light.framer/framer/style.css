@@ -56,6 +56,9 @@ body {
 .area {
   fill: url(#MyGradient);
 }
+#d3svg{
+	pointer-events: all;
+}
 
 
 a {
