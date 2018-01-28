@@ -20,7 +20,8 @@ figma.radon.backgroundColor = 'transparent'
 
 # Set-up FlowComponent
 flow = new FlowComponent
-flow.showNext(figma.Übersichtsscreen_Grafik_komplett)
+#flow.showNext(figma.Übersichtsscreen_Grafik_komplett)
+flow.showNext(figma.radon)
 #flow.header = figma.Locations
 #figma.Übersichtsscreen_Grafik_komplett.opacity = 0.5
 
@@ -111,8 +112,7 @@ figma.plus.onClick (event, layer) ->
 			y: 20
 		curve: "ease"
 		time: 0.3
-	Utils.delay 0.4, ->
-		flow.showNext(figma.ort_hinzufügen, animate:false)
+
 
 gesternval = 100
 heuteval = 100
@@ -385,13 +385,13 @@ figma.Group_7.onClick (event, layer) ->
 	figma.detail.animate
 		opacity: 1
 		
-figma.plot.opacity = 0.4
+figma.plot.opacity = 0
+figma.plotdet.opacity = 1
 
 
 
-
-w = figma.plot.width
-h = figma.plot.height
+w = 375
+h = figma.plot.height-35
 
 d3Layer = new Layer(
 	x: 0
@@ -405,10 +405,10 @@ d3Layer.parent = figma.radon
 
 # Set the dimensions of the canvas / graph
 margin = 
-  top: 30
-  right: 20
-  bottom: 30
-  left: 50
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
 width = w - (margin.left) - (margin.right)
 height = h - (margin.top) - (margin.bottom)
 # Parse the date / time
@@ -424,15 +424,33 @@ yd3 = d3.scale.linear().range([
 ])
 # Define the axes
 xAxis = d3.svg.axis().scale(xd3).orient('bottom').ticks(2)
-yAxis = d3.svg.axis().scale(yd3).orient('right').ticks(3)
+yAxis = d3.svg.axis().scale(yd3).orient('left').ticks(3)
 # Define the line
 valueline = d3.svg.line().x((d) ->
   xd3 d.date
 ).y((d) ->
   yd3 d.close
 )
+valuelineInterpol = d3.svg.line().interpolate("bundle").x((d) ->
+  xd3 d.date
+).y((d) ->
+  yd3 d.close
+)
+# define the area
+area = d3.svg.area().interpolate("bundle").x((d) ->
+  xd3 d.date
+).y0(height).y1((d) ->
+  yd3 d.close
+)
+
 # Adds the svg canvas
-svg = d3.select(document.getElementById('d3')).append('svg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+svg = d3.select(document.getElementById('d3')).append('svg').attr('id', 'd3svg').attr('width', width + margin.left + margin.right).attr('height', height + margin.top + margin.bottom).append('g').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+
+defs = svg.append("defs")
+grad = defs.append("linearGradient").attr("id", "MyGradient").attr('x1','0%').attr('y1','0%').attr('x2','0%').attr('y2','100%')
+stop1 = grad.append("stop").attr('offset','0').attr('stop-color','white').attr('stop-opacity','0.5')
+stop2 = grad.append("stop").attr('offset','100').attr('stop-color','white').attr('stop-opacity','0')
+
 # Get the data
 d3.csv 'data.csv', (error, data) ->
   data.forEach (d) ->
@@ -452,12 +470,20 @@ d3.csv 'data.csv', (error, data) ->
   ]
   
   # Add the valueline path.
-  svg.append('path').attr('class', 'line').attr 'd', valueline(data)
+  svg.append('path').data([ data ]).attr('class', 'area').attr 'd', area
+  svg.append('path').attr('class', 'line1').attr 'd', valueline(data)
+  svg.append('path').attr('class', 'line').attr 'd', valuelineInterpol(data)
   # Add the X Axis
   svg.append('g').attr('class', 'x axis').attr('transform', 'translate(0,' + height + ')').call xAxis
   # Add the Y Axis
-  svg.append('g').attr('class', 'y axis').call yAxis
+  svg.append('g').attr('class', 'y axis').attr("transform", "translate(" + w + ",0)").call yAxis
   return
+
+
+
+
+
+
 
 
 
