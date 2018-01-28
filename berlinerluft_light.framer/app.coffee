@@ -391,11 +391,11 @@ figma.plotdet.opacity = 1
 
 
 w = 375
-h = figma.plot.height-35
+h = figma.Group_29.height
 
 d3Layer = new Layer(
 	x: 0
-	y: figma.plot.y
+	y: 258
 	backgroundColor: "transparent"
 	width: w
 	height: h)
