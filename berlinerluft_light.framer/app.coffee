@@ -448,7 +448,7 @@ margin2 =
   bottom: 30
   left: 40
 height2 = +svg.attr('height') - (margin2.top) - (margin2.bottom)
-parseDate = d3.timeParse('%b %Y')
+parseDate = d3.timeParse('%Y-%m-%d %H:%M:%S')
 xd3 = d3.scaleTime().range([
   0
   width
