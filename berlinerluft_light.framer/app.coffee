@@ -607,7 +607,11 @@ d3.csv 'sp500.csv', type, (error, data) ->
     #print 'yd3(d.date) = ' + yd3(d.date)
     centerval = d.price
     val.text = centerval
-    figma.Group_20.y = 315-centerval
+    cy = 315-centerval
+    figma.Group_20.animate
+      y: cy
+      options:
+        time: 0.3
     #print 'height - yd3(d.value) = ' + yd3(d.price)
     return
   bisectDate = d3.bisector((d) ->
