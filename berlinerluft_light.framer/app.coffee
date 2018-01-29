@@ -607,7 +607,8 @@ d3.csv 'sp500.csv', type, (error, data) ->
     #print 'yd3(d.date) = ' + yd3(d.date)
     centerval = d.price
     val.text = centerval
-    cy = 315-centerval
+    if centerval
+      cy = 315-centerval
     figma.Group_20.animate
       y: cy
       options:
