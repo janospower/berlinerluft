@@ -567,6 +567,10 @@ val = new TextLayer
 	textAlign: 'center'
 val.parent = figma.detail
 
+figma.Group_20.parent = d3Layer
+figma.Group_20.x = 188-(figma.Group_20.width/2)
+figma.Group_20.y = 315
+
 
 d3.csv 'sp500.csv', type, (error, data) ->
   if error
@@ -599,6 +603,7 @@ d3.csv 'sp500.csv', type, (error, data) ->
     #print 'yd3(d.date) = ' + yd3(d.date)
     centerval = d.price
     val.text = centerval
+    figma.Group_20.y = 315-centerval
     #print 'height - yd3(d.value) = ' + yd3(d.price)
     return
   bisectDate = d3.bisector((d) ->
