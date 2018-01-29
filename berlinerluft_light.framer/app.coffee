@@ -20,8 +20,8 @@ figma.radon.backgroundColor = 'transparent'
 
 # Set-up FlowComponent
 flow = new FlowComponent
-#flow.showNext(figma.Übersichtsscreen_Grafik_komplett)
-flow.showNext(figma.radon)
+flow.showNext(figma.Übersichtsscreen_Grafik_komplett)
+#flow.showNext(figma.radon)
 #flow.header = figma.Locations
 #figma.Übersichtsscreen_Grafik_komplett.opacity = 0.5
 
