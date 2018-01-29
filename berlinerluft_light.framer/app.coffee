@@ -555,6 +555,19 @@ type = (d) ->
 svg.append('defs').append('clipPath').attr('id', 'clip').append('rect').attr('width', width).attr 'height', height
 focus = svg.append('g').attr('class', 'focus').attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 context = svg.append('g').attr('class', 'context').attr('transform', 'translate(' + margin2.left + ',' + margin2.top + ')')
+
+centerval = 0
+
+val = new TextLayer
+	text: centerval	
+	color: 'white'
+	y: 155
+	x: 180
+	fontSize: '50'
+	textAlign: 'center'
+val.parent = figma.detail
+
+
 d3.csv 'sp500.csv', type, (error, data) ->
   if error
     throw error
@@ -570,16 +583,39 @@ d3.csv 'sp500.csv', type, (error, data) ->
   x2.domain xd3.domain()
   y2.domain yd3.domain()
   focus.append('path').datum(data).attr('class', 'area1').attr 'd', area
-  focus.append('path').datum(data).attr('class', 'line1').attr 'd', valueline
+  focus.append('path').datum(data).attr('class', 'line1').attr("id", "myline").attr 'd', valueline
   focus.append('path').datum(data).attr('class', 'line').attr 'd', valuelineInterpol
   focus.append('g').attr('class', 'axis axis--x').attr('transform', 'translate(0,' + height + ')').call xAxis
   #focus.append('g').attr('class', 'axis axis--y').call yAxis
   svg.append('rect').attr('class', 'zoom').attr('width', width).attr('height', height).attr('transform', 'translate(' + margin.left + ',' + margin.top + ')').call zoom
+  
+  cent = ->
+    x0 = xd3.invert(188)#188 event.point.x
+    i = bisectDate(data, x0, 1)
+    d0 = data[i - 1]
+    d1 = data[i]
+    d = if x0 - (d0.date) > d1.date - x0 then d1 else d0
+    #print 'xd3(d.date) = ' + xd3(d.date)
+    #print 'yd3(d.date) = ' + yd3(d.date)
+    centerval = d.price
+    val.text = centerval
+    #print 'height - yd3(d.value) = ' + yd3(d.price)
+    return
+  bisectDate = d3.bisector((d) ->
+    d.date
+  ).left
+  d3Layer.onMouseMove (event, layer) ->
+    cent()
   return
 
 
-d3Layer.onClick (event, layer) ->
-	print 'yay'
+
+
+
+
+
+
+
 
 
 

@@ -10339,7 +10339,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
-                     "x" : 223,
+                     "x" : 253,
                      "y" : 233,
                      "width" : 38,
                      "height" : 14
@@ -10350,7 +10350,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "image" : {
                      "path" : "images/86.png",
                      "frame" : {
-                        "x" : 223,
+                        "x" : 253,
                         "y" : 233,
                         "width" : 38,
                         "height" : 14

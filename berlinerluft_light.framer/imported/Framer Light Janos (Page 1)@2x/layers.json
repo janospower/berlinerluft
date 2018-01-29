@@ -1245,7 +1245,7 @@
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
-                     "x" : 223,
+                     "x" : 253,
                      "y" : 233,
                      "width" : 38,
                      "height" : 14
@@ -1256,7 +1256,7 @@
                   "image" : {
                      "path" : "images/86.png",
                      "frame" : {
-                        "x" : 223,
+                        "x" : 253,
                         "y" : 233,
                         "width" : 38,
                         "height" : 14
