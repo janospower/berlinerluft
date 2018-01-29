@@ -422,6 +422,8 @@ grad = defs.append("linearGradient").attr("id", "MyGradient").attr('x1','0%').at
 stop1 = grad.append("stop").attr('offset','0').attr('stop-color','white').attr('stop-opacity','0.5')
 stop2 = grad.append("stop").attr('offset','100').attr('stop-color','white').attr('stop-opacity','0')
 
+cent = null
+
 zoomed = ->
   if d3.event.sourceEvent and d3.event.sourceEvent.type == 'brush'
     return
@@ -429,6 +431,7 @@ zoomed = ->
   t = d3.event.transform
   # console.log(et)
   xd3.domain t.rescaleX(x2).domain()
+  cent()
   focus.select('.area1').attr 'd', area
   focus.select('.line').attr 'd', valuelineInterpol
   focus.select('.line1').attr 'd', valueline
@@ -543,6 +546,7 @@ brushed = ->
   xd3.domain s.map(x2.invert, x2)
   focus.select('.area').attr 'd', area
   focus.select('.axis--x').call xAxis
+  cent()
   svg.select('.zoom').call zoom.transform, d3.zoomIdentity.scale(width / (s[1] - (s[0]))).translate(-s[0], 0)
   return
 
@@ -609,8 +613,6 @@ d3.csv 'sp500.csv', type, (error, data) ->
   bisectDate = d3.bisector((d) ->
     d.date
   ).left
-  d3Layer.onMouseMove (event, layer) ->
-    cent()
   return
 
 
