@@ -1648,7 +1648,7 @@ figma.reglerOzon.onMove ->
 rd = new TextLayer
 	text: Math.round(figma.reglerRadon.x*0.629 + 5)
 	color: 'white'
-	y: 0
+	y: -2
 	x: 230
 	fontSize: '18'
 	paddingLeft: 0
@@ -1863,56 +1863,56 @@ Kreuzsprung(figma.Kreuz_11)
 #Kreuzsprung(figma.Kreuz_12)
 
 #Kreuz schließen zum Screen Einstellungen
-figma.Kreuz.onClick (event, layer) ->
+figma.Kreuz.onTouchStart (event, layer) ->
 	#Verschwinden(figma.Profil)
 	#Utils.delay 0.4, ->
 	animp.reset()
 	flow.showNext(figma.Einstellungen, animate: false)
 	figma.Einstellungen.bringToFront()
-figma.Kreuz_2.onClick (event, layer) ->
+figma.Kreuz_2.onTouchStart (event, layer) ->
 	#flow.showPrevious()
 	animp.reset()
 	flow.showNext(figma.Einstellungen, animate: false)
 	figma.Einstellungen.bringToFront()
-figma.Kreuz_3.onClick (event, layer) ->
+figma.Kreuz_3.onTouchStart (event, layer) ->
 	#flow.showPrevious()
 	animp.reset()
 	flow.showNext(figma.Einstellungen, animate: false)
 	figma.Einstellungen.bringToFront()
 	#flow.showPrevious()
-figma.Kreuz_5.onClick (event, layer) ->
+figma.Kreuz_5.onTouchStart (event, layer) ->
 	#flow.showPrevious()
 	flow.showNext(figma.Einstellungen, animate: false)
 	figma.Einstellungen.bringToFront()
-figma.Kreuz_6.onClick (event, layer) ->
+figma.Kreuz_6.onTouchStart (event, layer) ->
 	#flow.showPrevious()
 	animt.reset()
 	flow.showNext(figma.Einstellungen, animate: false)
 	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
-figma.Kreuz_7.onClick (event, layer) ->
+figma.Kreuz_7.onTouchStart (event, layer) ->
 	#flow.showPrevious()
 	anim.reset()
 	flow.showNext(figma.Einstellungen, animate: false)
 	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
-figma.Kreuz_8.onClick (event, layer) ->
+figma.Kreuz_8.onTouchStart (event, layer) ->
 	#flow.showPrevious()
 	flow.showNext(figma.Einstellungen, animate: false)
 	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
-figma.Kreuz_9.onClick (event, layer) ->
+figma.Kreuz_9.onTouchStart (event, layer) ->
 	#flow.showPrevious()
 	animn.reset()
 	flow.showNext(figma.Einstellungen, animate: false)
 	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
-figma.Kreuz_10.onClick (event, layer) ->
+figma.Kreuz_10.onTouchStart (event, layer) ->
 	#flow.showPrevious()
 	flow.showNext(figma.Einstellungen, animate: false)
 	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
-figma.Kreuz_11.onClick (event, layer) ->
+figma.Kreuz_11.onTouchStart (event, layer) ->
 	#flow.showPrevious()
 	flow.showNext(figma.Einstellungen, animate: false)
 	#flow.showPrevious()
