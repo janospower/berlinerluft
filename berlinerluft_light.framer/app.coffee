@@ -1548,7 +1548,7 @@ for xx,i in kreise
 #sensor suchen
 figma.Group_10_12.onClick ->
 	flow.showNext(figma.Loading, animate: false)
-	flow.on Events.TransitionEnd, ->
+	Utils.delay 0.2, ->
 		for xx,i in kreise
 			kreise[i][1] = kreise[i][0].reverse()
 			kreise[i][1].on Events.AnimationEnd, kreise[i][0].start
@@ -1574,7 +1574,6 @@ figma.ThreshLinie.onClick (event, layer) ->
 	fadeoutn.start()
 	fadeoutub.start()
 	liniet.start()
-
 	Utils.delay 0.5, ->
 		flow.showNext(figma.Grenzwerte, animate: false)
 		flow.on Events.TransitionEnd, ->
