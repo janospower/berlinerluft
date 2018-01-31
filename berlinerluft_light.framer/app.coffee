@@ -178,14 +178,14 @@ for xx,i in ortelement
 figma.eingort.states =
 	on:
 		y: 451
-	options:
-		time: 1
-		curve: Bezier.ease
+		options:
+			time: 0.3
+			curve: Bezier.easeOut
 	off:
 		y: 700
-	options:
-		time: 0.8
-		curve: Bezier.ease
+		options:
+			time: 0.3
+			curve: Bezier.easeOut
 
 figma.eingort.animate("off")
 
@@ -1098,26 +1098,26 @@ KreuzOS = (b) ->
 figma.Keyboard_Dark_Email.states =
 	keyin:
 		y: 0
-	options:
-		time: animationSpeed*1.5
-		curve: Bezier.ease
+		options:
+			time: 0.3
+			curve: Bezier.easeOut
 	keyoff:
 		y: 220
-	options:
-		time: animationSpeed*1.2
-		curve: Bezier.ease
+		options:
+			time: 0.3
+			curve: Bezier.easeOut
 #Keyboard Alterseingabe states
 figma.Keyb_nummern.states =
 	keyin:
 		y: 451
-	options:
-		time: animationSpeed*1.5
-		curve: Bezier.ease
+		options:
+			time: 0.3
+			curve: Bezier.easeOut
 	keyoff:
 		y: 700
-	options:
-		time: animationSpeed*1.2
-		curve: Bezier.ease
+		options:
+			time: 0.3
+			curve: Bezier.easeOut
 
 #anim female/male auswahl
 ausgewählt = (f) ->
