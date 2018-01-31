@@ -1,6 +1,7 @@
 # Import file "Framer Light Janos (Page 1)"
 figma = Framer.Importer.load("imported/Framer%20Light%20Janos%20(Page%201)@2x", scale: 1)
 
+Framer.Extras.Hints.disable()
 Framer.Extras.Preloader.enable()
 {TextLayer, convertTextLayers} = require 'TextLayer'
 

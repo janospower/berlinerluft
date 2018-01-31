@@ -19,12 +19,34 @@
 text {
 	fill: white!important;
 }
-
+.DevicePhone{
+	/* background-image: url(http://i.imgur.com/tDCFf.jpg)!important; */
+	background-image: none!important;
+	/* border: 1px black solid; */
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1), 0 8px 24px 0 rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.03), inset 0 -2px 2px 2px rgba(0, 0, 0, 0.05)!important;
+	border-radius: 80px!important;
+	background-color: white!important;
+	width: 811px!important;
+	height: 1596px!important;
+	margin-left: 30px!important;
+	margin-top: 90px!important;
+}
 .zoom {
   fill: none;
   pointer-events: all;
 }
-
+.live{
+	z-index: 10000;
+	/* display: block; */
+	position: absolute;
+	color: black;
+	text-transform: uppercase;
+	margin-left: 80px;
+	margin-top: 30px;
+	font-size: 80px;
+	overflow: visible;
+	line-height: 2;
+}
 body {
 	background-color: #fff;
 	font: 28px/1em "Texta-Black";
