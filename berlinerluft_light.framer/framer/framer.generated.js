@@ -20242,10 +20242,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : -410,
-                                 "y" : 122,
-                                 "width" : 1309,
-                                 "height" : 700
+                                 "x" : -502,
+                                 "y" : 61,
+                                 "width" : 1396,
+                                 "height" : 812
                               },
                               "children" : [],
                               "kind" : "group",
@@ -20253,10 +20253,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "image" : {
                                  "path" : "images/523.png",
                                  "frame" : {
-                                    "x" : -410,
-                                    "y" : 122,
-                                    "width" : 1309,
-                                    "height" : 700
+                                    "x" : -502,
+                                    "y" : 61,
+                                    "width" : 1396,
+                                    "height" : 812
                                  }
                               }
                            }
@@ -20272,10 +20272,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "visible" : true,
                   "maskFrame" : null,
                   "layerFrame" : {
-                     "x" : 291,
-                     "y" : 203,
-                     "width" : 46,
-                     "height" : 13
+                     "x" : 323,
+                     "y" : 207,
+                     "width" : 14,
+                     "height" : 9
                   },
                   "children" : [],
                   "kind" : "group",
@@ -20283,10 +20283,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "image" : {
                      "path" : "images/522.png",
                      "frame" : {
-                        "x" : 291,
-                        "y" : 203,
-                        "width" : 46,
-                        "height" : 13
+                        "x" : 323,
+                        "y" : 207,
+                        "width" : 14,
+                        "height" : 9
                      }
                   }
                },
