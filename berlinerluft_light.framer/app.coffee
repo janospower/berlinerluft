@@ -92,10 +92,7 @@ figma.Locations.on Events.DragEnd, ->
 			curve: "ease"
 			time: 0.3
 
-###
-Numbers = new Layer
-Numbers.html = figma.Locations.x
-###
+
 
 figma.Group.onClick (event, layer) ->
 	figma.Locations.animate
@@ -128,7 +125,7 @@ inv = new Layer
 inv.animate
 	properties: {x: 1}
 	curve: "ease"
-	delay: 2
+	delay: 7
 	time: 2
 
 inv.on "change:x", ->
