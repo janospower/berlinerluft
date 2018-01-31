@@ -91,8 +91,46 @@ figma.Locations.on Events.DragEnd, ->
 				y: 20
 			curve: "ease"
 			time: 0.3
+ortelement = [
+	figma.keybuttons
+	figma.univ
+	figma.linename
+	figma.allesort
+	figma.safe
+	figma.safe_changes
+	figma.eingort
+	figma.nametext
+	figma.Pfalz
+]
+for xx,i in ortelement
+	ortelement[i].states =
+		on:
+			opacity: 1
+			#visible: true
+			options:
+				curve: Bezier.ease
+				time: 0.3
+		off:
+			opacity: 0
+			#visible: false
+			options:
+				curve: Bezier.ease
+				time: 0.3
 
+#Keyboard ortsseingabe states
+figma.eingort.states =
+	on:
+		y: 451
+	options:
+		time: 1
+		curve: Bezier.ease
+	off:
+		y: 700
+	options:
+		time: 0.8
+		curve: Bezier.ease
 
+figma.eingort.animate("off")
 
 figma.Group.onClick (event, layer) ->
 	figma.Locations.animate
@@ -109,6 +147,30 @@ figma.plus.onClick (event, layer) ->
 			y: 20
 		curve: "ease"
 		time: 0.3
+	figma.keybuttons.animate("off")
+	figma.eingort.animate("off")
+	figma.univ.animate("off")
+	figma.linename.animate("off")
+	figma.safe_changes.animate("off")
+	figma.Pfalz.animate("off")
+	figma.nametext.animate("on")
+	figma.safe.animate("on")
+	Utils.delay 0.4, ->
+		flow.showNext(figma.ort_hinzufügen, animate:false)
+
+#ort bearbeiten
+figma.Group_2_2.onClick ->
+	flow.transition(figma.ort_hinzufügen,screenchange)
+	figma.keybuttons.animate("off")
+	figma.eingort.animate("off")
+	#figma.allesort.animate("on")
+	figma.univ.animate("off")
+	figma.Pfalz.animate("on")
+	figma.nametext.animate("off")
+	figma.linename.animate("off")
+	figma.safe_changes.animate("on")
+	figma.safe.animate("off")
+	figma.univ.animate("off")
 
 
 gesternval = 100
@@ -381,7 +443,7 @@ figma.Group_7.onClick (event, layer) ->
 		opacity: 0
 	figma.detail.animate
 		opacity: 1
-		
+
 figma.plot.opacity = 0
 figma.plotdet.opacity = 1
 
@@ -401,7 +463,7 @@ d3Layer.parent = figma.radon
 
 
 # Set the dimensions of the canvas / graph
-margin = 
+margin =
   top: 0
   right: 0
   bottom: 0
@@ -437,12 +499,12 @@ zoomed = ->
   return
 
 
-margin = 
+margin =
   top: 20
   right: 20
   bottom: 110
   left: 0
-margin2 = 
+margin2 =
   top: 430
   right: 20
   bottom: 30
@@ -560,7 +622,7 @@ context = svg.append('g').attr('class', 'context').attr('transform', 'translate(
 centerval = 0
 
 val = new TextLayer
-	text: centerval	
+	text: centerval
 	color: 'white'
 	y: 155
 	x: 180
@@ -593,7 +655,7 @@ d3.csv 'sp500.csv', type, (error, data) ->
   focus.append('g').attr('class', 'axis axis--x').attr('transform', 'translate(0,' + height + ')').call xAxis
   #focus.append('g').attr('class', 'axis axis--y').call yAxis
   svg.append('rect').attr('class', 'zoom').attr('width', width).attr('height', height).attr('transform', 'translate(' + margin.left + ',' + margin.top + ')').call zoom
-  
+
   cent = ->
     x0 = xd3.invert(188)#188 event.point.x
     i = bisectDate(data, x0, 1)
@@ -616,15 +678,6 @@ d3.csv 'sp500.csv', type, (error, data) ->
     d.date
   ).left
   return
-
-
-
-
-
-
-
-
-
 
 
 
@@ -700,7 +753,7 @@ closex = (nav, layerA, layerB, overlay) ->
 		layerA:
 			show:
 				opacity: 1
-				options: 
+				options:
 					time: animationSpeed
 					curve: Bezier.ease
 			hide:
@@ -713,13 +766,13 @@ closex = (nav, layerA, layerB, overlay) ->
 				opacity: 1
 				x: 0
 				y: 0
-				options: 
+				options:
 					time: animationSpeed
 					curve: Bezier.ease
 					delay: animationSpeed
 			hide:
 				opacity: 0
-				options: 
+				options:
 					time: animationSpeed
 					curve: Bezier.ease
 
@@ -732,12 +785,12 @@ screenchange = (nav, layerA, layerB, overlay) ->
 		layerA:
 			show:
 				opacity: 1
-				options: 
+				options:
 					time: 0.3
 					curve: Bezier.ease
 			hide:
 				opacity: 0
-				options: 
+				options:
 					time: 0.3
 					curve: Bezier.ease
 		layerB:
@@ -745,17 +798,17 @@ screenchange = (nav, layerA, layerB, overlay) ->
 				opacity: 1
 				x: 0
 				y: 0
-				options: 
+				options:
 					time: 0.3
 					curve: Bezier.ease
 			hide:
 				opacity: 0
 				x: 0
 				y: 0
-				options: 
+				options:
 					time: 0.3
 					curve: Bezier.ease
-					
+
 #transition mit delay für keyboard
 keybtransition = (nav, layerA, layerB, overlay) ->
 	#layerB.x = 0
@@ -765,28 +818,28 @@ keybtransition = (nav, layerA, layerB, overlay) ->
 		layerA:
 			show:
 				opacity: 1
-				options: 
+				options:
 					time: 0.5
 					curve: Bezier.ease
 					delay: 1.3
 			hide:
 				opacity: 0
-				options: 
+				options:
 					time: 0.5
-					
+
 		layerB:
 			show:
 				opacity: 1
-				options: 
+				options:
 					time: 0.5
 					curve: Bezier.ease
 					delay: 1.3
 			hide:
 				opacity: 0
-				options: 
+				options:
 					time: 0.5
 					curve: Bezier.ease
-					
+
 #transition mit delay für female/male button
 sexbutton = (nav, layerA, layerB, overlay) ->
 	#layerB.x = 0
@@ -796,27 +849,27 @@ sexbutton = (nav, layerA, layerB, overlay) ->
 		layerA:
 			show:
 				opacity: 1
-				options: 
+				options:
 					time: animationSpeed
 					curve: Bezier.ease
 					delay: animationSpeed*2
 			hide:
 				opacity: 0
-				options: 
+				options:
 					time: 1
 					delay: animationSpeed
 					curve: Bezier.ease
-					
+
 		layerB:
 			show:
 				opacity: 1
-				options: 
+				options:
 					time: animationSpeed
 					curve: Bezier.ease
 					delay: 2
 			hide:
 				opacity: 0
-				options: 
+				options:
 					time: animationSpeed
 					delay: animationSpeed
 					curve: Bezier.ease
@@ -829,30 +882,30 @@ loadingtrans = (nav, layerA, layerB, overlay) ->
 		layerA:
 			show:
 				opacity: 1
-				options: 
+				options:
 					time: animationSpeed
 					curve: Bezier.ease
 					delay: 5
 			hide:
 				opacity: 0
-				options: 
+				options:
 					time: animationSpeed
 					delay: animationSpeed
 					curve: Bezier.ease
-					
+
 		layerB:
 			show:
 				opacity: 1
-				options: 
+				options:
 					time: animationSpeed
 					curve: Bezier.ease
 					delay: 5
 			hide:
 				opacity: 0
-				options: 
+				options:
 					time: animationSpeed
 					delay: animationSpeed
-					curve: Bezier.ease														
+					curve: Bezier.ease
 #Animationen
 #Einstellungen on Top
 #für Sensoreinstellungen
@@ -867,7 +920,7 @@ linie = new Animation figma.Topline_2,
 	options:
 		time: animationSpeed
 		curve: Bezier.ease
-		
+
 #für Profil
 animp = new Animation figma.ProfilLinie,
 	y: 49
@@ -879,7 +932,7 @@ liniep = new Animation figma.Topline,
 	y: 33
 	options:
 		time: animationSpeed
-		
+
 #für Threshold
 animt = new Animation figma.ThreshLinie,
 	y: 49
@@ -899,7 +952,7 @@ animn = new Animation figma.Notif,
 		time: 0.6
 		curve: Bezier.ease
 
-								
+
 #settings verschwinden
 fadeoutp = new Animation figma.ProfilLinie,
 	opacity: 0
@@ -926,7 +979,7 @@ fadeoutub = new Animation figma.Übersbutton,
 	options:
 		time: animationSpeed/2
 		curve: Bezier.easeOut
-		
+
 #fadeout aller screens
 Verschwinden = (d) ->
 	d.animate
@@ -934,7 +987,7 @@ Verschwinden = (d) ->
 		options:
 			time: 0.4
 			curve: Bezier.easeOut
-				
+
 #berlina animation
 Berlina = figma.Berlina
 BerlinaA = Berlina.animate
@@ -947,40 +1000,40 @@ BerlinaB = BerlinaA.reverse()
 #alter 32 animation
 alteroff = figma.alter_32.animate
 	opacity: 0
-	options: 
+	options:
 		time: animationSpeed*2
 		curve: Bezier.ease
 alterin = alteroff.reverse()
-alteroff.start()	
-				
+alteroff.start()
+
 #Kreuzgrößen states
-figma.Kreuz_7.states = 
-	Xklein: 
+figma.Kreuz_7.states =
+	Xklein:
 		scale: 0.5
 	Xbig:
 		scale: 0.8
-figma.Kreuz.states = 
-	Xklein: 
+figma.Kreuz.states =
+	Xklein:
 		scale: 0.5
 	Xbig:
-		scale: 0.8		
-figma.Kreuz_2.states = 
-	Xklein: 
+		scale: 0.8
+figma.Kreuz_2.states =
+	Xklein:
 		scale: 0.5
 	Xbig:
-		scale: 0.8		
-figma.Kreuz_3.states = 
-	Xklein: 
+		scale: 0.8
+figma.Kreuz_3.states =
+	Xklein:
 		scale: 0.5
 	Xbig:
-		scale: 0.8		
+		scale: 0.8
 figma.Kreuz_7.animate("Xbig")
 
 #Kreuz auf Originalgröße
 KreuzOS = (b) ->
 	b.animate
 		scale: 1
-		options: 
+		options:
 			time: 1
 			curve: Spring (damping: 0.2)
 
@@ -988,24 +1041,24 @@ KreuzOS = (b) ->
 figma.Keyboard_Dark_Email.states =
 	keyin:
 		y: 0
-	options: 
+	options:
 		time: animationSpeed*1.5
 		curve: Bezier.ease
 	keyoff:
 		y: 220
-	options: 
+	options:
 		time: animationSpeed*1.2
 		curve: Bezier.ease
 #Keyboard Alterseingabe states
 figma.Keyb_nummern.states =
 	keyin:
 		y: 451
-	options: 
+	options:
 		time: animationSpeed*1.5
 		curve: Bezier.ease
 	keyoff:
 		y: 700
-	options: 
+	options:
 		time: animationSpeed*1.2
 		curve: Bezier.ease
 
@@ -1031,7 +1084,7 @@ figma.GW_offen.states =
 		visible: false
 	GWvisible:
 		visible: true
-		
+
 figma.GW_zu.states =
 	GWzuinvisible:
 		visible: false
@@ -1068,7 +1121,7 @@ figma.SD_offen_2.states =
 	invisible:
 		visible: false
 	visible:
-		visible: true	
+		visible: true
 figma.Radon_Gruppe.states =
 	invisible:
 		visible: false
@@ -1088,7 +1141,7 @@ figma.PM_offen.states =
 	invisible:
 		visible: false
 	visible:
-		visible: true	
+		visible: true
 figma.Ozon_Gruppe.states =
 	invisible:
 		visible: false
@@ -1099,7 +1152,77 @@ figma.Ozon_offen.states =
 		visible: false
 	visible:
 		visible: true
-									
+
+#Kswitch states
+knobs = [
+	figma.knob_8
+	figma.knob_7
+	figma.knob_6
+	figma.knob_5
+	figma.knob_4
+	figma.knob_3
+	figma.knob_2
+	figma.knob
+]
+for xx,i in knobs
+	knobs[i].states =
+		on:
+			x: 21
+			options:
+				curve: Bezier.ease
+				time: 0.2
+		off:
+			x: 1
+			options:
+				curve: Bezier.ease
+				time: 0.2
+
+fillb = [
+	figma.fillb_8
+	figma.fillb_7
+	figma.fillb_6
+	figma.fillb_5
+	figma.fillb_4
+	figma.fillb_3
+	figma.fillb_2
+	figma.fillb
+	figma.fillbapple
+	figma.fillbapple_2
+	figma.fillbapple_3
+]
+for xx,i in fillb
+	fillb[i].states =
+		on:
+			#width: 50
+			opacity: 1
+			options:
+				curve: Bezier.ease
+				time: 0.2
+		off:
+			#width: 0
+			opacity: 0
+			options:
+				curve: Bezier.ease
+				time: 0.2
+#nur apple health switch knob
+knobs = [
+	figma.knobapple
+	figma.knobapple_2
+	figma.knobapple_3
+	]
+for xx,i in knobs
+	knobs[i].states =
+		on:
+			x: 16
+			options:
+				curve: Bezier.ease
+				time: 0.2
+		off:
+			x: 1
+			options:
+				curve: Bezier.ease
+				time: 0.2
+
 #navigation
 #von Einstellungen
 #zum Profil
@@ -1110,7 +1233,7 @@ figma.ProfilLinie.onClick (event, layer) ->
 	fadeoutt.start()
 	fadeoutub.start()
 	liniep.start()
-	
+
 	Utils.delay animationSpeed, ->
 		flow.showNext(figma.Profil, animate: false)
 		animp.reset()
@@ -1118,12 +1241,12 @@ figma.ProfilLinie.onClick (event, layer) ->
 		fadeoutn.reset()
 		fadeoutt.reset()
 		fadeoutub.reset()
-		liniep.reset()	
+		liniep.reset()
 		KreuzOS(figma.Kreuz)
-		
+
 figma.Keyboard_Dark_Email.animate("keyoff")
 figma.Keyb_nummern.animate("keyoff")
-		
+
 #von leer zu namen eingabe
 figma.Group_15_4.onClick (event, layer) ->
 	flow.showNext(figma.Profil_Eingabe_name, animate: false)
@@ -1142,13 +1265,13 @@ figma.Group_10_7.onClick (event, layer) ->
 	flow.on Events.TransitionEnd, ->
 		figma.Keyboard_Dark_Email.animate("keyin")
 		BerlinaA.start()
-#von voll zur Namenseingabe	
+#von voll zur Namenseingabe
 figma.Group_12_8.onClick (event, layer) ->
 	flow.showNext(figma.Profil_Eingabe_name, animate: false)
 	flow.on Events.TransitionEnd, ->
 		figma.Keyboard_Dark_Email.animate("keyin")
 		BerlinaA.start()
-		
+
 #keyboard to name
 figma.Keyboard_Dark_Email.onClick (event, layer) ->
 	BerlinaB.start()
@@ -1165,7 +1288,7 @@ figma.Group_11_3.onClick ->
 	Utils.delay animationSpeed*1.5, ->
 		flow.showNext(figma.Profil,animate: false)
 		KreuzOS(figma.Kreuz)
-			
+
 #zur Alterseingabe
 #zu alterseingabe von ohne namen
 figma.Group_12_3.onClick ->
@@ -1189,7 +1312,7 @@ figma.Group_11_9.onClick (event, layer)->
 	flow.showNext(figma.Profil_Eingabe_age, animate: false)
 	flow.on Events.TransitionEnd, ->
 		alteroff.start()
-				
+
 figma.Keyb_nummern.onClick ->
 	alterin.start()
 
@@ -1205,7 +1328,7 @@ figma.Group_11_6.onTapStart ->
 	Utils.delay animationSpeed*1.5, ->
 		flow.showNext(figma.Profil_mit_name,animate: false)
 		KreuzOS(figma.Kreuz_2)
-	
+
 #genderbutton
 #default
 abgewählt(figma.malebutton)
@@ -1223,7 +1346,7 @@ figma.femalebutton.onClick ->
 figma.malebutton.onClick ->
 	ausgewählt(figma.malebutton)
 	abgewählt(figma.femalebutton)
-	
+
 #auf nur name
 #female
 figma.femalebutton_2.onClick ->
@@ -1243,7 +1366,18 @@ figma.femalebutton_3.onClick ->
 figma.malebutton_3.onClick ->
 	ausgewählt(figma.malebutton_3)
 	abgewählt(figma.femalebutton_3)
-	
+
+#connect to applehealth
+figma.knobapple.onClick ->
+	figma.knobapple.stateCycle("off","on")
+	figma.fillbapple.stateCycle("off","on")
+figma.knobapple_2.onClick ->
+	figma.knobapple_2.stateCycle("off","on")
+	figma.fillbapple_2.stateCycle("off","on")
+figma.knobapple_3.onClick ->
+	figma.knobapple_3.stateCycle("off","on")
+	figma.fillbapple_3.stateCycle("off","on")
+
 #zumSensor
 figma.SensorLinie.onClick (event, layer) ->
 	anim.start()
@@ -1252,8 +1386,8 @@ figma.SensorLinie.onClick (event, layer) ->
 	fadeoutt.start()
 	fadeoutub.start()
 	linie.start()
-	
-	Utils.delay animationSpeed, ->		
+
+	Utils.delay animationSpeed, ->
 		flow.showNext(figma.Sensoreinstellungen, animate: false)
 		figma.Group_19_2_2.animate("off")
 		figma.Group_19_3_2.animate("off")
@@ -1267,7 +1401,7 @@ figma.SensorLinie.onClick (event, layer) ->
 			fadeoutub.reset()
 			linie.reset()
 		KreuzOS(figma.Kreuz_7)
-		
+
 #connect
 connecting = [
 	figma.Group_16_6
@@ -1280,17 +1414,17 @@ connecting = [
 	figma.Group_19_3
 ]
 for xx,i in connecting
-	connecting[i].states = 
-		on: 
+	connecting[i].states =
+		on:
 			#width: 50
 			opacity: 1
-			options: 
+			options:
 				curve: Bezier.ease
-				time: 0.2	 
+				time: 0.2
 		off:
 			#width: 0
 			opacity: 0
-			options: 
+			options:
 				curve: Bezier.ease
 				time: 0.2
 #von connect zu connected
@@ -1306,7 +1440,7 @@ figma.Group_18_5.onClick ->
 figma.Group_18_1.onClick ->
 	figma.Group_19_3.animate("on")
 	figma.Group_18_1.animate("off")
-#von connected zu connect					
+#von connected zu connect
 figma.Group_16_6.onClick ->
 	figma.Group_19_3_2.animate("off")
 	figma.Group_16_6.animate("on")
@@ -1319,8 +1453,8 @@ figma.Group_18_5.onClick ->
 figma.Group_18_1.onClick ->
 	figma.Group_19_3.animate("off")
 	figma.Group_18_1.animate("on")
-					
-#states loading icon		
+
+#states loading icon
 figma.Loading.states=
 	visible:
 		visible:true
@@ -1346,14 +1480,14 @@ kreise = [
 	[Kreisa_2,Kreisr_2,figma.Kreis_2]
 	[Kreisa_3,Kreisr_3,figma.Kreis_3]
 	[Kreisa_4,Kreisr_4,figma.Kreis_4]
-]	
+]
 for xx,i in kreise
 	kreise[i][0] = new Animation kreise[i][2],
 	scale:1.5
-	options: 
+	options:
 		time: 1.3
 		curve: Bezier.ease
-		delay: i*0.3			
+		delay: i*0.3
 #sensor suchen
 figma.Group_10_12.onClick ->
 	flow.showNext(figma.Loading, animate: false)
@@ -1363,18 +1497,18 @@ figma.Group_10_12.onClick ->
 			kreise[i][1].on Events.AnimationEnd, kreise[i][0].start
 			kreise[i][0].on Events.AnimationEnd, kreise[i][1].start
 			kreise[i][0].start()
-		
+
 		Utils.delay 3, ->
 			flow.showNext(figma.Sensor_hinzufügen,animate:false)
 
 #cancel sensor hinzufügen
 figma.Group_12_12.onClick ->
 	flow.showNext(figma.Sensoreinstellungen,animate:false)
-	
+
 #sensor hinzufügen
 figma.Group_13_11.onClick ->
 	flow.showNext(figma.Sensoreinstellungen_plus,animate:false)
-	
+
 #zu Threshold
 figma.ThreshLinie.onClick (event, layer) ->
 	animt.start()
@@ -1383,7 +1517,7 @@ figma.ThreshLinie.onClick (event, layer) ->
 	fadeoutn.start()
 	fadeoutub.start()
 	liniet.start()
-	
+
 	Utils.delay 0.5, ->
 		flow.showNext(figma.Grenzwerte, animate: false)
 		flow.on Events.TransitionEnd, ->
@@ -1402,17 +1536,17 @@ figma.ThreshLinie.onClick (event, layer) ->
 		figma.SD_offen_2.animate("invisible")
 		figma.CM_offen.animate("invisible")
 		figma.ND_offen.animate("invisible")
-					
+
 #Threshold states
 customdraggable = (l) ->
 	l.draggable = true
 	l.draggable.speedY = 0
 	# Disable overdrag
 	l.draggable.overdrag = false
-	
+
 	# Disable bounce
 	l.draggable.bounce = false
-	
+
 	# Disable momentum
 	l.draggable.momentum = false
 	l.draggable.constraints = {
@@ -1431,7 +1565,7 @@ customdraggable(figma.reglerOzon)
 
 #PM Skale
 pm = new TextLayer
-	text: Math.round(figma.reglerPM.x*0.827 + 5)	
+	text: Math.round(figma.reglerPM.x*0.827 + 5)
 	color: 'white'
 	y: 0
 	x: 238
@@ -1443,7 +1577,7 @@ figma.reglerPM.onMove ->
 	#pm.text = figma.reglerPM.x
 
 oz = new TextLayer
-	text: Math.round(figma.reglerOzon.x*1.159 + 5)	
+	text: Math.round(figma.reglerOzon.x*1.159 + 5)
 	color: 'white'
 	y: 0
 	x: 238
@@ -1453,9 +1587,9 @@ oz.parent = figma.Ozon_offen
 figma.reglerOzon.onMove ->
 	oz.text = Math.round(figma.reglerOzon.x*1.159 + 5)
 	#pm.text = figma.reglerPM.x
-	
+
 rd = new TextLayer
-	text: Math.round(figma.reglerRadon.x*0.629 + 5)	
+	text: Math.round(figma.reglerRadon.x*0.629 + 5)
 	color: 'white'
 	y: 0
 	x: 230
@@ -1467,7 +1601,7 @@ figma.reglerRadon.onMove ->
 	#pm.text = figma.reglerPM.x
 
 sd = new TextLayer
-	text: Math.round(figma.reglerSD.x*2.285 + 5)	
+	text: Math.round(figma.reglerSD.x*2.285 + 5)
 	color: 'white'
 	y: 0
 	x: 238
@@ -1479,7 +1613,7 @@ figma.reglerSD.onMove ->
 	#pm.text = figma.reglerPM.x
 
 cm = new TextLayer
-	text: Math.round(figma.reglerCM.x*0.033 + 5)	
+	text: Math.round(figma.reglerCM.x*0.033 + 5)
 	color: 'white'
 	y: 0
 	x: 240
@@ -1491,7 +1625,7 @@ figma.reglerCM.onMove ->
 	#pm.text = figma.reglerPM.x
 
 nd = new TextLayer
-	text: Math.round(figma.reglerND.x*1.291 + 5)	
+	text: Math.round(figma.reglerND.x*1.291 + 5)
 	color: 'white'
 	y: 0
 	x: 240
@@ -1501,10 +1635,10 @@ nd.parent = figma.ND_offen
 figma.reglerND.onMove ->
 	nd.text = Math.round(figma.reglerND.x*1.291 + 5)
 	#pm.text = figma.reglerPM.x
-								
+
 scroll_1 = ScrollComponent.wrap(figma.scrollgruppe)
 scroll_1.scrollHorizontal = false
-scroll_1.mouseWheelEnabled = true	
+scroll_1.mouseWheelEnabled = true
 
 #figma.GW_offen.parent=scroll.content
 
@@ -1527,7 +1661,7 @@ figma.PMU.onClick ->
 figma.OU.onClick ->
 	figma.Ozon_Gruppe.stateCycle("invisible", "visible")
 	figma.Ozon_offen.stateCycle("visible", "invisible")
-	
+
 #zu Alarme
 figma.Notif.onClick (event, layer) ->
 	animn.start()
@@ -1543,69 +1677,20 @@ figma.Notif.onClick (event, layer) ->
 			fadeouts.reset()
 			fadeoutt.reset()
 			fadeoutp.reset()
-			fadeoutub.reset()			
-		KreuzOS(figma.Kreuz_9)				
+			fadeoutub.reset()
+		KreuzOS(figma.Kreuz_9)
 
 scroll2 = ScrollComponent.wrap(figma.Alarmgruppe)
 scroll2.scrollHorizontal = false
-scroll2.mouseWheelEnabled = true	
+scroll2.mouseWheelEnabled = true
 
 #figma.Alarmgruppe=scroll.content
 #inset unten ?
 scroll2.contentInset=
 	bottom: 100
 
-	
-#Kswitch states
-knobs = [
-	figma.knob_8
-	figma.knob_7
-	figma.knob_6
-	figma.knob_5
-	figma.knob_4
-	figma.knob_3
-	figma.knob_2
-	figma.knob
-]
-for xx,i in knobs
-	knobs[i].states = 
-		on: 
-			x: 21
-			options: 
-				curve: Bezier.ease
-				time: 0.2	 
-		off:
-			x: 1
-			options: 
-				curve: Bezier.ease
-				time: 0.2
 
-fillb = [
-	figma.fillb_8
-	figma.fillb_7
-	figma.fillb_6
-	figma.fillb_5
-	figma.fillb_4
-	figma.fillb_3
-	figma.fillb_2
-	figma.fillb
-]
-for xx,i in fillb
-	fillb[i].states = 
-		on: 
-			#width: 50
-			opacity: 1
-			options: 
-				curve: Bezier.ease
-				time: 0.2	 
-		off:
-			#width: 0
-			opacity: 0
-			options: 
-				curve: Bezier.ease
-				time: 0.2
-
-#switch on off	
+#switch on off
 figma.Slide.onClick ->
 	figma.knob_8.stateCycle("off", "on")
 	figma.fillb_8.stateCycle("off", "on")
@@ -1629,20 +1714,84 @@ figma.SlideO.onClick ->
 	figma.fillb_2.stateCycle("off", "on")
 figma.SlideSD.onClick ->
 	figma.knob.stateCycle("off", "on")
-	figma.fillb.stateCycle("off", "on")	
+	figma.fillb.stateCycle("off", "on")
 
 
 #ort hinzufügen
-		
+figma.nametext.onClick ->
+	figma.keybuttons.animate("on")
+	figma.linename.animate("on")
+	figma.allesort.animate("off")
+	figma.eingort.animate("on")
+
+figma.eingort.onClick ->
+	figma.univ.animate("on")
+	figma.Pfalz.animate("off")
+
+figma.cancelkeyb.onClick ->
+	figma.eingort.animate("off")
+	Utils.delay 0.8,->
+		figma.keybuttons.animate("off")
+		figma.linename.animate("off")
+		figma.allesort.animate("on")
+		figma.univ.animate("off")
+
+figma.donekeyb.onClick ->
+	figma.eingort.animate("off")
+	Utils.delay 0.8,->
+		figma.keybuttons.animate("off")
+		figma.linename.animate("on")
+		figma.allesort.animate("on")
+		figma.univ.animate("on")
+		figma.nametext.animate("off")
+		figma.Pfalz.animate("off")
+
+figma.safe_changes.onClick ->
+	flow.transition(figma.Übersichtsscreen_Grafik_komplett, screenchange)
+	figma.Locations.animate
+		properties:
+			x: -84
+			y: 20
+		curve: "ease"
+		time: 0.3
+
+figma.canceloh.onClick ->
+	flow.transition(figma.Übersichtsscreen_Grafik_komplett, screenchange)
+	figma.Locations.animate
+		properties:
+			x: -84
+			y: 20
+		curve: "ease"
+		time: 0.3
+
+#pinch karte
+figma.Foto.pinchable.enable=true
+figma.Foto.pinchable.centerOrigin = false
+figma.Foto.pinchable.minScale = 0.5
+figma.Foto.pinchable.maxScale = 2.5
+figma.Foto.pinchable.rotate = false
+
+radi = new TextLayer
+	text: Math.round(figma.Foto.scale*100)
+	color: 'white'
+	y: 75
+	x: 282
+	fontSize: '18'
+	paddingLeft: 0
+radi.parent = figma.allesort
+figma.Foto.onPinch ->
+	radi.text = Math.round(figma.Foto.scale*100)
+
+
 #Kreuz Spring anim
 Kreuzsprung = (a) ->
 	a.onTouchStart ->
 		a.animate
 			scale: 0.6
 			options:
-				time: 0.4 
+				time: 0.4
 				curve: Bezier.ease
-		
+
 Kreuzsprung(figma.Kreuz)
 Kreuzsprung(figma.Kreuz_2)
 Kreuzsprung(figma.Kreuz_3)
@@ -1655,13 +1804,13 @@ Kreuzsprung(figma.Kreuz_9)
 Kreuzsprung(figma.Kreuz_10)
 Kreuzsprung(figma.Kreuz_11)
 #Kreuzsprung(figma.Kreuz_12)
-		
-#Kreuz schließen zum Screen Einstellungen	
+
+#Kreuz schließen zum Screen Einstellungen
 figma.Kreuz.onClick (event, layer) ->
 	#Verschwinden(figma.Profil)
 	#Utils.delay 0.4, ->
 	animp.reset()
-	flow.showNext(figma.Einstellungen, animate: false)	
+	flow.showNext(figma.Einstellungen, animate: false)
 	figma.Einstellungen.bringToFront()
 figma.Kreuz_2.onClick (event, layer) ->
 	#flow.showPrevious()
@@ -1709,14 +1858,13 @@ figma.Kreuz_10.onClick (event, layer) ->
 figma.Kreuz_11.onClick (event, layer) ->
 	#flow.showPrevious()
 	flow.showNext(figma.Einstellungen, animate: false)
-	#flow.showPrevious()	
+	#flow.showPrevious()
 	figma.Einstellungen.bringToFront()
 #figma.Kreuz_12.onClick (event, layer) ->
 	#flow.showPrevious()
-	#flow.showNext(figma.Einstellungen,closex)	
+	#flow.showNext(figma.Einstellungen,closex)
 
 figma.Übersbutton.onClick ->
 	flow.transition(figma.Übersichtsscreen_Grafik_komplett, closex)
 	#document.location = "http://127.0.0.1:8000/1a4fe2/berlinerluft_light.framer/"
 	#window.open("http://127.0.0.1:8000/1a4fe2/berlinerluft_light.framer/","_self")
-
