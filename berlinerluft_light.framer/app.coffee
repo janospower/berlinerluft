@@ -41,6 +41,8 @@ values = [
 
 total = 190
 
+figma.Group.opacity = 0.5
+
 figma.skale_s.opacity = 0
 hidden = [figma.Group_10_2,figma.Group_15,figma.Group_13,figma.Group_12,figma.Group_11]
 for xx, i in hidden
@@ -69,6 +71,7 @@ originX = figma.Locations.x
 pluspos = -235
 fhpos = 130
 
+
 figma.Locations.on Events.DragEnd, ->
 	if figma.Locations.x < (originX - 100)
 		figma.Locations.animate
@@ -77,6 +80,17 @@ figma.Locations.on Events.DragEnd, ->
 				y: 20
 			curve: "ease"
 			time: 0.3
+		Utils.delay 0.4, ->
+			figma.keybuttons.animate("off")
+			figma.eingort.animate("off")
+			figma.univ.animate("off")
+			figma.linename.animate("off")
+			figma.safe_changes.animate("off")
+			figma.Pfalz.animate("off")
+			figma.nametext.animate("on")
+			figma.safe.animate("on")
+			Utils.delay 0.4, ->
+				flow.showNext(figma.ort_hinzufügen, animate:false)
 	else if figma.Locations.x > (originX + 100)
 		figma.Locations.animate
 			properties:
@@ -84,6 +98,27 @@ figma.Locations.on Events.DragEnd, ->
 				y: 20
 			curve: "ease"
 			time: 0.3
+		figma.Group.opacity = 1
+		figma.Group_2_2.opacity = 0.5
+		values = [
+			[figma.Particulate_Matter,190]
+			[figma.Radon,13]
+			[figma.Carbon,2]
+			[figma.Sulfur,377]
+			[figma.Nitrogen,283]
+		]
+		figma.Nitrogen.children[0].destroy()
+		figma.Nitrogen.children[0].destroy()
+		figma.Carbon.children[0].destroy()
+		figma.Carbon.children[0].destroy()
+		figma.Sulfur.children[0].destroy()
+		figma.Sulfur.children[0].destroy()
+		figma.Radon.children[0].destroy()
+		figma.Radon.children[0].destroy()
+		figma.Particulate_Matter.children[0].destroy()
+		figma.Particulate_Matter.children[0].destroy()
+		#figma.Nitrogen.t.destroy()
+		spawnparts(values)
 	else
 		figma.Locations.animate
 			properties:
@@ -91,6 +126,28 @@ figma.Locations.on Events.DragEnd, ->
 				y: 20
 			curve: "ease"
 			time: 0.3
+		figma.Group.opacity = 0.5
+		figma.Group_2_2.opacity = 1
+		values = [
+			[figma.Particulate_Matter,300]
+			[figma.Radon,55]
+			[figma.Carbon,4]
+			[figma.Sulfur,360]
+			[figma.Nitrogen,190]
+		]
+		figma.Nitrogen.children[0].destroy()
+		figma.Nitrogen.children[0].destroy()
+		figma.Carbon.children[0].destroy()
+		figma.Carbon.children[0].destroy()
+		figma.Sulfur.children[0].destroy()
+		figma.Sulfur.children[0].destroy()
+		figma.Radon.children[0].destroy()
+		figma.Radon.children[0].destroy()
+		figma.Particulate_Matter.children[0].destroy()
+		figma.Particulate_Matter.children[0].destroy()
+		#figma.Nitrogen.t.destroy()
+		spawnparts(values)
+
 ortelement = [
 	figma.keybuttons
 	figma.univ
@@ -1772,7 +1829,7 @@ figma.Foto.pinchable.maxScale = 2.5
 figma.Foto.pinchable.rotate = false
 
 radi = new TextLayer
-	text: Math.round(figma.Foto.scale*100)
+	text: Math.round(100/figma.Foto.scale)
 	color: 'white'
 	y: 75
 	x: 282
@@ -1780,7 +1837,7 @@ radi = new TextLayer
 	paddingLeft: 0
 radi.parent = figma.allesort
 figma.Foto.onPinch ->
-	radi.text = Math.round(figma.Foto.scale*100)
+	radi.text = Math.round(100/figma.Foto.scale)
 
 
 #Kreuz Spring anim
