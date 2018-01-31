@@ -242,18 +242,19 @@ inv = new Layer
 	backgroundColor: "transparent"
 	parent: figma.Übersichtsscreen_Grafik_komplett
 
-inv.animate
-	properties: {x: 1}
-	curve: "ease"
-	delay: 7
-	time: 2
 
-inv.on "change:x", ->
-	gesternval = 100 - (98 * inv.x)
-	figma.Gestern.style.webkitClipPath = "polygon(50% 50%, 0% "+gesternval+"%, 1% 100%, 100% 100%)"
-	heuteval = 100 - (45 * inv.x)
-	figma.Heute.style.webkitClipPath = "polygon(50% 50%, 0% "+heuteval+"%, 1% 100%, 100% 100%)"
-#	print figma.Gestern.style.webkitClipPath
+figma.Group_6_2.onClick (event, layer) -> # for presentation only
+	inv.animate
+		properties: {x: 1}
+		curve: "ease"
+		delay: 1#7
+		time: 2
+	inv.on "change:x", ->
+		gesternval = 100 - (98 * inv.x)
+		figma.Gestern.style.webkitClipPath = "polygon(50% 50%, 0% "+gesternval+"%, 1% 100%, 100% 100%)"
+		heuteval = 100 - (45 * inv.x)
+		figma.Heute.style.webkitClipPath = "polygon(50% 50%, 0% "+heuteval+"%, 1% 100%, 100% 100%)"
+	#	print figma.Gestern.style.webkitClipPath
 
 
 
@@ -348,6 +349,14 @@ partball = (parentLayer, partcount) ->
 	init()
 	initParticles()
 	setTimeout animate, 0
+
+# for presentation only
+figma.Nitrogen.onClick (event, layer) ->
+	figma.criticalbg.animate
+		opacity: 1
+	Utils.delay 3, ->
+		figma.criticalbg.animate
+			opacity: 0
 
 
 
