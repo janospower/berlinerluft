@@ -9094,7 +9094,7 @@ window.__imported__['Framer Light Janos (Page 1)@1x/layers.json.js'] = [
 window.__imported__ = window.__imported__ || {};
 window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
    {
-      "objectId" : "50",
+      "objectId" : "48",
       "name" : "Übersichtsscreen_Grafik_komplett",
       "visible" : true,
       "maskFrame" : {
@@ -9111,7 +9111,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "49",
+            "objectId" : "47",
             "name" : "skale_s",
             "visible" : true,
             "maskFrame" : null,
@@ -9125,7 +9125,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/49.png",
+               "path" : "images/47.png",
                "frame" : {
                   "x" : 20,
                   "y" : 106,
@@ -9135,7 +9135,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "48",
+            "objectId" : "46",
             "name" : "Skale",
             "visible" : true,
             "maskFrame" : null,
@@ -9147,7 +9147,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "47",
+                  "objectId" : "45",
                   "name" : "Group_6_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9161,7 +9161,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/47.png",
+                     "path" : "images/45.png",
                      "frame" : {
                         "x" : 55,
                         "y" : 158,
@@ -9171,7 +9171,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "46",
+                  "objectId" : "44",
                   "name" : "Settings_icon",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9183,7 +9183,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "45",
+                        "objectId" : "43",
                         "name" : "Group_11.1",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9197,7 +9197,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/45.png",
+                           "path" : "images/43.png",
                            "frame" : {
                               "x" : 129,
                               "y" : 211,
@@ -9210,7 +9210,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/46.png",
+                     "path" : "images/44.png",
                      "frame" : {
                         "x" : 129,
                         "y" : 211,
@@ -9220,7 +9220,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "44",
+                  "objectId" : "42",
                   "name" : "Group_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9234,7 +9234,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/44.png",
+                     "path" : "images/42.png",
                      "frame" : {
                         "x" : 149,
                         "y" : 281,
@@ -9244,7 +9244,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "43",
+                  "objectId" : "41",
                   "name" : "Group_4",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9258,7 +9258,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/43.png",
+                     "path" : "images/41.png",
                      "frame" : {
                         "x" : 149,
                         "y" : 301,
@@ -9268,7 +9268,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "42",
+                  "objectId" : "40",
                   "name" : "Group_5",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9282,7 +9282,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/42.png",
+                     "path" : "images/40.png",
                      "frame" : {
                         "x" : 150,
                         "y" : 321,
@@ -9292,7 +9292,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "41",
+                  "objectId" : "39",
                   "name" : "i",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9306,7 +9306,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/41.png",
+                     "path" : "images/39.png",
                      "frame" : {
                         "x" : 268,
                         "y" : 256,
@@ -9316,7 +9316,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "40",
+                  "objectId" : "38",
                   "name" : "Werte_Luftquali",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9328,7 +9328,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "39",
+                        "objectId" : "37",
                         "name" : "wert_gestern",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9342,7 +9342,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/39.png",
+                           "path" : "images/37.png",
                            "frame" : {
                               "x" : 108,
                               "y" : 144,
@@ -9352,7 +9352,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "38",
+                        "objectId" : "36",
                         "name" : "wert_heute",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9366,7 +9366,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/38.png",
+                           "path" : "images/36.png",
                            "frame" : {
                               "x" : 26,
                               "y" : 211,
@@ -9379,7 +9379,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group"
                },
                {
-                  "objectId" : "37",
+                  "objectId" : "35",
                   "name" : "Grafik_Skala",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9391,7 +9391,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "36",
+                        "objectId" : "34",
                         "name" : "Heute",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9405,7 +9405,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/36.png",
+                           "path" : "images/34.png",
                            "frame" : {
                               "x" : 38,
                               "y" : 116,
@@ -9415,7 +9415,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "35",
+                        "objectId" : "33",
                         "name" : "Gestern",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9429,7 +9429,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/35.png",
+                           "path" : "images/33.png",
                            "frame" : {
                               "x" : 60,
                               "y" : 140,
@@ -9445,7 +9445,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "34",
+            "objectId" : "32",
             "name" : "Locations",
             "visible" : true,
             "maskFrame" : {
@@ -9462,7 +9462,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "33",
+                  "objectId" : "31",
                   "name" : "Group",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9476,7 +9476,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/33.png",
+                     "path" : "images/31.png",
                      "frame" : {
                         "x" : -84,
                         "y" : 44,
@@ -9486,7 +9486,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "32",
+                  "objectId" : "30",
                   "name" : "Group_2_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9500,7 +9500,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/32.png",
+                     "path" : "images/30.png",
                      "frame" : {
                         "x" : 109,
                         "y" : 43,
@@ -9510,7 +9510,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "31",
+                  "objectId" : "29",
                   "name" : "plus",
                   "visible" : true,
                   "maskFrame" : {
@@ -9529,7 +9529,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/31.png",
+                     "path" : "images/29.png",
                      "frame" : {
                         "x" : 324,
                         "y" : 31,
@@ -9542,7 +9542,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "30",
+            "objectId" : "28",
             "name" : "Group_2",
             "visible" : true,
             "maskFrame" : null,
@@ -9556,7 +9556,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/30.png",
+               "path" : "images/28.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -9566,7 +9566,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "29",
+            "objectId" : "27",
             "name" : "content",
             "visible" : true,
             "maskFrame" : {
@@ -9583,7 +9583,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "28",
+                  "objectId" : "26",
                   "name" : "Wertegruppe",
                   "visible" : true,
                   "maskFrame" : null,
@@ -9595,7 +9595,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "27",
+                        "objectId" : "25",
                         "name" : "Group_9.2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9609,7 +9609,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/27.png",
+                           "path" : "images/25.png",
                            "frame" : {
                               "x" : 193,
                               "y" : 936,
@@ -9619,7 +9619,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "26",
+                        "objectId" : "24",
                         "name" : "Group_15",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9633,7 +9633,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/26.png",
+                           "path" : "images/24.png",
                            "frame" : {
                               "x" : 192,
                               "y" : 900,
@@ -9643,7 +9643,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "25",
+                        "objectId" : "23",
                         "name" : "Union_3",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9657,7 +9657,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/25.png",
+                           "path" : "images/23.png",
                            "frame" : {
                               "x" : 246,
                               "y" : 905,
@@ -9667,7 +9667,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "24",
+                        "objectId" : "22",
                         "name" : "Group_13",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9681,7 +9681,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/24.png",
+                           "path" : "images/22.png",
                            "frame" : {
                               "x" : 33,
                               "y" : 576,
@@ -9691,7 +9691,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "23",
+                        "objectId" : "21",
                         "name" : "Group_14",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9705,7 +9705,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/23.png",
+                           "path" : "images/21.png",
                            "frame" : {
                               "x" : 34,
                               "y" : 609,
@@ -9715,7 +9715,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "22",
+                        "objectId" : "20",
                         "name" : "Group_9.1",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9729,7 +9729,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/22.png",
+                           "path" : "images/20.png",
                            "frame" : {
                               "x" : 192,
                               "y" : 726,
@@ -9739,7 +9739,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "21",
+                        "objectId" : "19",
                         "name" : "Group_12",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9753,7 +9753,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/21.png",
+                           "path" : "images/19.png",
                            "frame" : {
                               "x" : 190,
                               "y" : 690,
@@ -9763,7 +9763,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "20",
+                        "objectId" : "18",
                         "name" : "Group_11",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9777,7 +9777,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/20.png",
+                           "path" : "images/18.png",
                            "frame" : {
                               "x" : 31,
                               "y" : 789,
@@ -9787,7 +9787,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "19",
+                        "objectId" : "17",
                         "name" : "Group_6.2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9801,7 +9801,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/19.png",
+                           "path" : "images/17.png",
                            "frame" : {
                               "x" : 32,
                               "y" : 824,
@@ -9811,7 +9811,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "18",
+                        "objectId" : "16",
                         "name" : "Group_10_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9825,7 +9825,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/18.png",
+                           "path" : "images/16.png",
                            "frame" : {
                               "x" : 191,
                               "y" : 476,
@@ -9835,7 +9835,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "17",
+                        "objectId" : "15",
                         "name" : "Group_6",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9849,7 +9849,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/17.png",
+                           "path" : "images/15.png",
                            "frame" : {
                               "x" : 192,
                               "y" : 510,
@@ -9859,61 +9859,13 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "16",
-                        "name" : "Pfeil_2",
-                        "visible" : true,
-                        "maskFrame" : null,
-                        "layerFrame" : {
-                           "x" : 91,
-                           "y" : 792,
-                           "width" : 15,
-                           "height" : 17
-                        },
-                        "children" : [],
-                        "kind" : "group",
-                        "imageType" : "png",
-                        "image" : {
-                           "path" : "images/16.png",
-                           "frame" : {
-                              "x" : 91,
-                              "y" : 792,
-                              "width" : 15,
-                              "height" : 17
-                           }
-                        }
-                     },
-                     {
-                        "objectId" : "15",
-                        "name" : "Pfeil2_2",
-                        "visible" : true,
-                        "maskFrame" : null,
-                        "layerFrame" : {
-                           "x" : 218,
-                           "y" : 692,
-                           "width" : 14,
-                           "height" : 16
-                        },
-                        "children" : [],
-                        "kind" : "group",
-                        "imageType" : "png",
-                        "image" : {
-                           "path" : "images/15.png",
-                           "frame" : {
-                              "x" : 218,
-                              "y" : 692,
-                              "width" : 14,
-                              "height" : 16
-                           }
-                        }
-                     },
-                     {
                         "objectId" : "14",
-                        "name" : "Pfeil",
+                        "name" : "Pfeil_unten",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
                            "x" : 91,
-                           "y" : 577,
+                           "y" : 751,
                            "width" : 15,
                            "height" : 17
                         },
@@ -9924,7 +9876,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                            "path" : "images/14.png",
                            "frame" : {
                               "x" : 91,
-                              "y" : 577,
+                              "y" : 751,
                               "width" : 15,
                               "height" : 17
                            }
@@ -9932,6 +9884,30 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                      },
                      {
                         "objectId" : "13",
+                        "name" : "Pfeil_oben",
+                        "visible" : true,
+                        "maskFrame" : null,
+                        "layerFrame" : {
+                           "x" : 218,
+                           "y" : 651,
+                           "width" : 14,
+                           "height" : 16
+                        },
+                        "children" : [],
+                        "kind" : "group",
+                        "imageType" : "png",
+                        "image" : {
+                           "path" : "images/13.png",
+                           "frame" : {
+                              "x" : 218,
+                              "y" : 651,
+                              "width" : 14,
+                              "height" : 16
+                           }
+                        }
+                     },
+                     {
+                        "objectId" : "12",
                         "name" : "Union_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -9945,36 +9921,12 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/13.png",
+                           "path" : "images/12.png",
                            "frame" : {
                               "x" : 91,
                               "y" : 577,
                               "width" : 15,
                               "height" : 17
-                           }
-                        }
-                     },
-                     {
-                        "objectId" : "12",
-                        "name" : "Pfeil2",
-                        "visible" : true,
-                        "maskFrame" : null,
-                        "layerFrame" : {
-                           "x" : 228,
-                           "y" : 477,
-                           "width" : 14,
-                           "height" : 16
-                        },
-                        "children" : [],
-                        "kind" : "group",
-                        "imageType" : "png",
-                        "image" : {
-                           "path" : "images/12.png",
-                           "frame" : {
-                              "x" : 228,
-                              "y" : 477,
-                              "width" : 14,
-                              "height" : 16
                            }
                         }
                      },
@@ -10281,7 +10233,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "97",
+      "objectId" : "95",
       "name" : "radon",
       "visible" : true,
       "maskFrame" : {
@@ -10298,7 +10250,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "96",
+            "objectId" : "94",
             "name" : "plotdet",
             "visible" : true,
             "maskFrame" : null,
@@ -10310,7 +10262,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "95",
+                  "objectId" : "93",
                   "name" : "Group_19",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10324,7 +10276,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/95.png",
+                     "path" : "images/93.png",
                      "frame" : {
                         "x" : 339,
                         "y" : 448,
@@ -10334,7 +10286,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "94",
+                  "objectId" : "92",
                   "name" : "Group_30",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10348,7 +10300,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/94.png",
+                     "path" : "images/92.png",
                      "frame" : {
                         "x" : 339,
                         "y" : 532,
@@ -10358,7 +10310,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "93",
+                  "objectId" : "91",
                   "name" : "Group_31",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10372,7 +10324,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/93.png",
+                     "path" : "images/91.png",
                      "frame" : {
                         "x" : 339,
                         "y" : 363,
@@ -10382,7 +10334,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "92",
+                  "objectId" : "90",
                   "name" : "Group_32",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10396,7 +10348,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/92.png",
+                     "path" : "images/90.png",
                      "frame" : {
                         "x" : 339,
                         "y" : 279,
@@ -10406,7 +10358,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "91",
+                  "objectId" : "89",
                   "name" : "Group_21",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10420,7 +10372,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/91.png",
+                     "path" : "images/89.png",
                      "frame" : {
                         "x" : 0,
                         "y" : 452,
@@ -10430,7 +10382,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "90",
+                  "objectId" : "88",
                   "name" : "Group_26",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10444,7 +10396,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/90.png",
+                     "path" : "images/88.png",
                      "frame" : {
                         "x" : 253,
                         "y" : 233,
@@ -10454,7 +10406,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "89",
+                  "objectId" : "87",
                   "name" : "Group_29",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10468,7 +10420,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/89.png",
+                     "path" : "images/87.png",
                      "frame" : {
                         "x" : 188,
                         "y" : 258,
@@ -10481,7 +10433,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "88",
+            "objectId" : "86",
             "name" : "info_2",
             "visible" : true,
             "maskFrame" : null,
@@ -10493,7 +10445,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "87",
+                  "objectId" : "85",
                   "name" : "Group_7",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10507,7 +10459,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/87.png",
+                     "path" : "images/85.png",
                      "frame" : {
                         "x" : 174,
                         "y" : 615,
@@ -10517,7 +10469,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "86",
+                  "objectId" : "84",
                   "name" : "Group_2_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10531,7 +10483,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/86.png",
+                     "path" : "images/84.png",
                      "frame" : {
                         "x" : 174,
                         "y" : 615,
@@ -10541,7 +10493,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "85",
+                  "objectId" : "83",
                   "name" : "body",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10555,7 +10507,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/85.png",
+                     "path" : "images/83.png",
                      "frame" : {
                         "x" : 36,
                         "y" : 125,
@@ -10565,7 +10517,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "84",
+                  "objectId" : "82",
                   "name" : "title",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10579,7 +10531,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/84.png",
+                     "path" : "images/82.png",
                      "frame" : {
                         "x" : 149,
                         "y" : 48,
@@ -10592,7 +10544,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "83",
+            "objectId" : "81",
             "name" : "detail",
             "visible" : true,
             "maskFrame" : null,
@@ -10604,7 +10556,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "82",
+                  "objectId" : "80",
                   "name" : "over",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10618,7 +10570,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/82.png",
+                     "path" : "images/80.png",
                      "frame" : {
                         "x" : 0,
                         "y" : 589,
@@ -10628,7 +10580,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "81",
+                  "objectId" : "79",
                   "name" : "stoff_slider",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10640,7 +10592,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "80",
+                        "objectId" : "78",
                         "name" : "Group_15_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10654,7 +10606,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/80.png",
+                           "path" : "images/78.png",
                            "frame" : {
                               "x" : 149,
                               "y" : 111,
@@ -10664,7 +10616,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "79",
+                        "objectId" : "77",
                         "name" : "Group_27",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10678,7 +10630,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/79.png",
+                           "path" : "images/77.png",
                            "frame" : {
                               "x" : -15,
                               "y" : 114,
@@ -10688,7 +10640,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "78",
+                        "objectId" : "76",
                         "name" : "Group_28",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10702,7 +10654,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/78.png",
+                           "path" : "images/76.png",
                            "frame" : {
                               "x" : 338,
                               "y" : 113,
@@ -10715,7 +10667,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group"
                },
                {
-                  "objectId" : "77",
+                  "objectId" : "75",
                   "name" : "info",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10729,7 +10681,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/77.png",
+                     "path" : "images/75.png",
                      "frame" : {
                         "x" : 33,
                         "y" : 422,
@@ -10739,7 +10691,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "76",
+                  "objectId" : "74",
                   "name" : "bottom_div",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10753,7 +10705,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/76.png",
+                     "path" : "images/74.png",
                      "frame" : {
                         "x" : 25,
                         "y" : 148,
@@ -10763,7 +10715,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "75",
+                  "objectId" : "73",
                   "name" : "locations",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10775,7 +10727,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "74",
+                        "objectId" : "72",
                         "name" : "Group_16",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10789,7 +10741,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/74.png",
+                           "path" : "images/72.png",
                            "frame" : {
                               "x" : 109,
                               "y" : 43,
@@ -10799,7 +10751,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "73",
+                        "objectId" : "71",
                         "name" : "Group_17",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10813,7 +10765,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/73.png",
+                           "path" : "images/71.png",
                            "frame" : {
                               "x" : 339,
                               "y" : 45,
@@ -10823,7 +10775,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "72",
+                        "objectId" : "70",
                         "name" : "Group_18",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10837,7 +10789,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/72.png",
+                           "path" : "images/70.png",
                            "frame" : {
                               "x" : -92,
                               "y" : 43,
@@ -10850,7 +10802,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group"
                },
                {
-                  "objectId" : "71",
+                  "objectId" : "69",
                   "name" : "plot",
                   "visible" : true,
                   "maskFrame" : null,
@@ -10862,7 +10814,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "70",
+                        "objectId" : "68",
                         "name" : "Group_20",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10876,7 +10828,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/70.png",
+                           "path" : "images/68.png",
                            "frame" : {
                               "x" : 171,
                               "y" : 477,
@@ -10886,7 +10838,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "69",
+                        "objectId" : "67",
                         "name" : "Group_22",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10900,7 +10852,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/69.png",
+                           "path" : "images/67.png",
                            "frame" : {
                               "x" : -88,
                               "y" : 439,
@@ -10910,7 +10862,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "68",
+                        "objectId" : "66",
                         "name" : "Group_23",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10924,7 +10876,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/68.png",
+                           "path" : "images/66.png",
                            "frame" : {
                               "x" : -71,
                               "y" : 426,
@@ -10934,7 +10886,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "67",
+                        "objectId" : "65",
                         "name" : "Group_9",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10948,7 +10900,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/67.png",
+                           "path" : "images/65.png",
                            "frame" : {
                               "x" : 330,
                               "y" : 599,
@@ -10958,7 +10910,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "66",
+                        "objectId" : "64",
                         "name" : "Group_10_4",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10972,7 +10924,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/66.png",
+                           "path" : "images/64.png",
                            "frame" : {
                               "x" : 281,
                               "y" : 599,
@@ -10982,7 +10934,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "65",
+                        "objectId" : "63",
                         "name" : "Group_11_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -10996,7 +10948,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/65.png",
+                           "path" : "images/63.png",
                            "frame" : {
                               "x" : 229,
                               "y" : 600,
@@ -11006,7 +10958,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "64",
+                        "objectId" : "62",
                         "name" : "Group_12_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -11020,7 +10972,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/64.png",
+                           "path" : "images/62.png",
                            "frame" : {
                               "x" : 178,
                               "y" : 600,
@@ -11030,7 +10982,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "63",
+                        "objectId" : "61",
                         "name" : "Group_14_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -11044,7 +10996,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/63.png",
+                           "path" : "images/61.png",
                            "frame" : {
                               "x" : 81,
                               "y" : 600,
@@ -11054,7 +11006,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "62",
+                        "objectId" : "60",
                         "name" : "Group_13_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -11068,7 +11020,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/62.png",
+                           "path" : "images/60.png",
                            "frame" : {
                               "x" : 128,
                               "y" : 599,
@@ -11078,7 +11030,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "61",
+                        "objectId" : "59",
                         "name" : "Group_8",
                         "visible" : true,
                         "maskFrame" : null,
@@ -11092,7 +11044,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/61.png",
+                           "path" : "images/59.png",
                            "frame" : {
                               "x" : 163,
                               "y" : 214,
@@ -11108,7 +11060,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "60",
+            "objectId" : "58",
             "name" : "div",
             "visible" : true,
             "maskFrame" : null,
@@ -11122,7 +11074,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/60.png",
+               "path" : "images/58.png",
                "frame" : {
                   "x" : 25,
                   "y" : 82,
@@ -11132,7 +11084,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "59",
+            "objectId" : "57",
             "name" : "criticalbg_2",
             "visible" : true,
             "maskFrame" : null,
@@ -11144,7 +11096,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "58",
+                  "objectId" : "56",
                   "name" : "Group_10_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11156,7 +11108,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "57",
+                        "objectId" : "55",
                         "name" : "UI_Bars___Status_Bars___White___Base_3",
                         "visible" : true,
                         "maskFrame" : null,
@@ -11168,7 +11120,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         },
                         "children" : [
                            {
-                              "objectId" : "56",
+                              "objectId" : "54",
                               "name" : "Battery_6",
                               "visible" : true,
                               "maskFrame" : null,
@@ -11180,7 +11132,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               },
                               "children" : [
                                  {
-                                    "objectId" : "55",
+                                    "objectId" : "53",
                                     "name" : "Battery_5",
                                     "visible" : true,
                                     "maskFrame" : null,
@@ -11194,7 +11146,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                                     "kind" : "group",
                                     "imageType" : "png",
                                     "image" : {
-                                       "path" : "images/55.png",
+                                       "path" : "images/53.png",
                                        "frame" : {
                                           "x" : 346,
                                           "y" : 5,
@@ -11207,7 +11159,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/56.png",
+                                 "path" : "images/54.png",
                                  "frame" : {
                                     "x" : 313,
                                     "y" : 5,
@@ -11220,7 +11172,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/57.png",
+                           "path" : "images/55.png",
                            "frame" : {
                               "x" : 0,
                               "y" : 0,
@@ -11233,7 +11185,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/58.png",
+                     "path" : "images/56.png",
                      "frame" : {
                         "x" : -167,
                         "y" : -471,
@@ -11246,7 +11198,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/59.png",
+               "path" : "images/57.png",
                "frame" : {
                   "x" : -167,
                   "y" : -471,
@@ -11256,7 +11208,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "54",
+            "objectId" : "52",
             "name" : "BG_2",
             "visible" : true,
             "maskFrame" : null,
@@ -11268,7 +11220,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "53",
+                  "objectId" : "51",
                   "name" : "UI_Bars___Status_Bars___White___Base_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11280,7 +11232,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "52",
+                        "objectId" : "50",
                         "name" : "Battery_4",
                         "visible" : true,
                         "maskFrame" : null,
@@ -11292,7 +11244,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         },
                         "children" : [
                            {
-                              "objectId" : "51",
+                              "objectId" : "49",
                               "name" : "Battery_3",
                               "visible" : true,
                               "maskFrame" : null,
@@ -11306,7 +11258,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/51.png",
+                                 "path" : "images/49.png",
                                  "frame" : {
                                     "x" : 346,
                                     "y" : 5,
@@ -11319,7 +11271,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/52.png",
+                           "path" : "images/50.png",
                            "frame" : {
                               "x" : 313,
                               "y" : 5,
@@ -11332,7 +11284,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/53.png",
+                     "path" : "images/51.png",
                      "frame" : {
                         "x" : 0,
                         "y" : 0,
@@ -11345,7 +11297,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/54.png",
+               "path" : "images/52.png",
                "frame" : {
                   "x" : -155,
                   "y" : -406,
@@ -11359,7 +11311,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "109",
+      "objectId" : "107",
       "name" : "Einstellungen",
       "visible" : true,
       "maskFrame" : {
@@ -11376,7 +11328,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "108",
+            "objectId" : "106",
             "name" : "Übersbutton",
             "visible" : true,
             "maskFrame" : null,
@@ -11390,7 +11342,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/108.png",
+               "path" : "images/106.png",
                "frame" : {
                   "x" : 176,
                   "y" : 607,
@@ -11400,7 +11352,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "107",
+            "objectId" : "105",
             "name" : "Notif",
             "visible" : true,
             "maskFrame" : null,
@@ -11414,7 +11366,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/107.png",
+               "path" : "images/105.png",
                "frame" : {
                   "x" : 123,
                   "y" : 374,
@@ -11424,7 +11376,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "106",
+            "objectId" : "104",
             "name" : "ThreshLinie",
             "visible" : true,
             "maskFrame" : null,
@@ -11436,7 +11388,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "105",
+                  "objectId" : "103",
                   "name" : "Topline_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11450,7 +11402,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/105.png",
+                     "path" : "images/103.png",
                      "frame" : {
                         "x" : 15,
                         "y" : 334,
@@ -11460,7 +11412,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "104",
+                  "objectId" : "102",
                   "name" : "Group_16_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11474,7 +11426,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/104.png",
+                     "path" : "images/102.png",
                      "frame" : {
                         "x" : 134,
                         "y" : 289,
@@ -11487,7 +11439,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "103",
+            "objectId" : "101",
             "name" : "SensorLinie",
             "visible" : true,
             "maskFrame" : null,
@@ -11499,7 +11451,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "102",
+                  "objectId" : "100",
                   "name" : "Topline_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11513,7 +11465,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/102.png",
+                     "path" : "images/100.png",
                      "frame" : {
                         "x" : 15,
                         "y" : 249,
@@ -11523,7 +11475,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "101",
+                  "objectId" : "99",
                   "name" : "Group_14_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11537,7 +11489,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/101.png",
+                     "path" : "images/99.png",
                      "frame" : {
                         "x" : 109,
                         "y" : 205,
@@ -11550,7 +11502,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "100",
+            "objectId" : "98",
             "name" : "ProfilLinie",
             "visible" : true,
             "maskFrame" : null,
@@ -11562,7 +11514,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "99",
+                  "objectId" : "97",
                   "name" : "Topline",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11576,7 +11528,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/99.png",
+                     "path" : "images/97.png",
                      "frame" : {
                         "x" : 15,
                         "y" : 166,
@@ -11586,7 +11538,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "98",
+                  "objectId" : "96",
                   "name" : "Group_15_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11600,7 +11552,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/98.png",
+                     "path" : "images/96.png",
                      "frame" : {
                         "x" : 157,
                         "y" : 123,
@@ -11617,7 +11569,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "121",
+      "objectId" : "119",
       "name" : "Profil",
       "visible" : true,
       "maskFrame" : {
@@ -11634,7 +11586,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "120",
+            "objectId" : "118",
             "name" : "Slideapple",
             "visible" : true,
             "maskFrame" : null,
@@ -11646,7 +11598,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "119",
+                  "objectId" : "117",
                   "name" : "knobapple",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11660,7 +11612,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/119.png",
+                     "path" : "images/117.png",
                      "frame" : {
                         "x" : 315,
                         "y" : 376,
@@ -11670,7 +11622,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "118",
+                  "objectId" : "116",
                   "name" : "fillbapple",
                   "visible" : true,
                   "maskFrame" : null,
@@ -11684,7 +11636,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/118.png",
+                     "path" : "images/116.png",
                      "frame" : {
                         "x" : 299,
                         "y" : 375,
@@ -11697,7 +11649,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/120.png",
+               "path" : "images/118.png",
                "frame" : {
                   "x" : 299,
                   "y" : 375,
@@ -11707,7 +11659,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "117",
+            "objectId" : "115",
             "name" : "femalebutton",
             "visible" : true,
             "maskFrame" : null,
@@ -11721,7 +11673,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/117.png",
+               "path" : "images/115.png",
                "frame" : {
                   "x" : 272,
                   "y" : 295,
@@ -11731,7 +11683,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "116",
+            "objectId" : "114",
             "name" : "malebutton",
             "visible" : true,
             "maskFrame" : null,
@@ -11745,7 +11697,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/116.png",
+               "path" : "images/114.png",
                "frame" : {
                   "x" : 40,
                   "y" : 294,
@@ -11755,7 +11707,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "115",
+            "objectId" : "113",
             "name" : "Topline_4",
             "visible" : true,
             "maskFrame" : null,
@@ -11769,7 +11721,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/115.png",
+               "path" : "images/113.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -11779,7 +11731,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "114",
+            "objectId" : "112",
             "name" : "Kreuz",
             "visible" : true,
             "maskFrame" : null,
@@ -11793,7 +11745,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/114.png",
+               "path" : "images/112.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -11803,7 +11755,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "113",
+            "objectId" : "111",
             "name" : "Group_10_5",
             "visible" : true,
             "maskFrame" : null,
@@ -11817,7 +11769,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/113.png",
+               "path" : "images/111.png",
                "frame" : {
                   "x" : 39,
                   "y" : 381,
@@ -11827,7 +11779,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "112",
+            "objectId" : "110",
             "name" : "Group_12_3",
             "visible" : true,
             "maskFrame" : null,
@@ -11841,7 +11793,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/112.png",
+               "path" : "images/110.png",
                "frame" : {
                   "x" : 38,
                   "y" : 209,
@@ -11851,7 +11803,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "111",
+            "objectId" : "109",
             "name" : "Group_14_4",
             "visible" : true,
             "maskFrame" : null,
@@ -11865,7 +11817,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/111.png",
+               "path" : "images/109.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -11875,7 +11827,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "110",
+            "objectId" : "108",
             "name" : "Group_15_4",
             "visible" : true,
             "maskFrame" : null,
@@ -11889,7 +11841,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/110.png",
+               "path" : "images/108.png",
                "frame" : {
                   "x" : 40,
                   "y" : 125,
@@ -11903,7 +11855,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "167",
+      "objectId" : "165",
       "name" : "Profil_Eingabe_name",
       "visible" : true,
       "maskFrame" : {
@@ -11920,7 +11872,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "166",
+            "objectId" : "164",
             "name" : "Topline_5",
             "visible" : true,
             "maskFrame" : null,
@@ -11934,7 +11886,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/166.png",
+               "path" : "images/164.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -11944,7 +11896,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "165",
+            "objectId" : "163",
             "name" : "Berlina",
             "visible" : true,
             "maskFrame" : null,
@@ -11958,7 +11910,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/165.png",
+               "path" : "images/163.png",
                "frame" : {
                   "x" : 40,
                   "y" : 125,
@@ -11968,7 +11920,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "164",
+            "objectId" : "162",
             "name" : "Group_10_6",
             "visible" : true,
             "maskFrame" : null,
@@ -11982,7 +11934,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/164.png",
+               "path" : "images/162.png",
                "frame" : {
                   "x" : 294,
                   "y" : 394,
@@ -11992,7 +11944,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "163",
+            "objectId" : "161",
             "name" : "Group_11_3",
             "visible" : true,
             "maskFrame" : null,
@@ -12006,7 +11958,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/163.png",
+               "path" : "images/161.png",
                "frame" : {
                   "x" : 36,
                   "y" : 394,
@@ -12016,7 +11968,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "162",
+            "objectId" : "160",
             "name" : "Extensions___Keyboards___Dark___Email",
             "visible" : true,
             "maskFrame" : null,
@@ -12028,7 +11980,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "161",
+                  "objectId" : "159",
                   "name" : "Keyboard_Dark_Email",
                   "visible" : true,
                   "maskFrame" : null,
@@ -12040,7 +11992,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "160",
+                        "objectId" : "158",
                         "name" : "q",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12054,7 +12006,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/160.png",
+                           "path" : "images/158.png",
                            "frame" : {
                               "x" : 3,
                               "y" : 461,
@@ -12064,7 +12016,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "159",
+                        "objectId" : "157",
                         "name" : "w",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12078,7 +12030,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/159.png",
+                           "path" : "images/157.png",
                            "frame" : {
                               "x" : 40,
                               "y" : 461,
@@ -12088,7 +12040,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "158",
+                        "objectId" : "156",
                         "name" : "e",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12102,7 +12054,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/158.png",
+                           "path" : "images/156.png",
                            "frame" : {
                               "x" : 77,
                               "y" : 461,
@@ -12112,7 +12064,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "157",
+                        "objectId" : "155",
                         "name" : "r",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12126,7 +12078,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/157.png",
+                           "path" : "images/155.png",
                            "frame" : {
                               "x" : 115,
                               "y" : 461,
@@ -12136,7 +12088,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "156",
+                        "objectId" : "154",
                         "name" : "t",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12150,7 +12102,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/156.png",
+                           "path" : "images/154.png",
                            "frame" : {
                               "x" : 152,
                               "y" : 461,
@@ -12160,7 +12112,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "155",
+                        "objectId" : "153",
                         "name" : "y",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12174,7 +12126,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/155.png",
+                           "path" : "images/153.png",
                            "frame" : {
                               "x" : 190,
                               "y" : 461,
@@ -12184,7 +12136,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "154",
+                        "objectId" : "152",
                         "name" : "u",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12198,7 +12150,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/154.png",
+                           "path" : "images/152.png",
                            "frame" : {
                               "x" : 227,
                               "y" : 461,
@@ -12208,7 +12160,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "153",
+                        "objectId" : "151",
                         "name" : "i_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12222,7 +12174,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/153.png",
+                           "path" : "images/151.png",
                            "frame" : {
                               "x" : 265,
                               "y" : 461,
@@ -12232,7 +12184,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "152",
+                        "objectId" : "150",
                         "name" : "o",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12246,7 +12198,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/152.png",
+                           "path" : "images/150.png",
                            "frame" : {
                               "x" : 302,
                               "y" : 461,
@@ -12256,7 +12208,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "151",
+                        "objectId" : "149",
                         "name" : "p",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12270,7 +12222,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/151.png",
+                           "path" : "images/149.png",
                            "frame" : {
                               "x" : 340,
                               "y" : 461,
@@ -12280,7 +12232,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "150",
+                        "objectId" : "148",
                         "name" : "a",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12294,7 +12246,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/150.png",
+                           "path" : "images/148.png",
                            "frame" : {
                               "x" : 22,
                               "y" : 515,
@@ -12304,7 +12256,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "149",
+                        "objectId" : "147",
                         "name" : "s",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12318,7 +12270,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/149.png",
+                           "path" : "images/147.png",
                            "frame" : {
                               "x" : 59,
                               "y" : 515,
@@ -12328,7 +12280,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "148",
+                        "objectId" : "146",
                         "name" : "d",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12342,7 +12294,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/148.png",
+                           "path" : "images/146.png",
                            "frame" : {
                               "x" : 96,
                               "y" : 515,
@@ -12352,7 +12304,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "147",
+                        "objectId" : "145",
                         "name" : "f",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12366,7 +12318,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/147.png",
+                           "path" : "images/145.png",
                            "frame" : {
                               "x" : 134,
                               "y" : 515,
@@ -12376,7 +12328,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "146",
+                        "objectId" : "144",
                         "name" : "g",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12390,7 +12342,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/146.png",
+                           "path" : "images/144.png",
                            "frame" : {
                               "x" : 171,
                               "y" : 515,
@@ -12400,7 +12352,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "145",
+                        "objectId" : "143",
                         "name" : "h",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12414,7 +12366,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/145.png",
+                           "path" : "images/143.png",
                            "frame" : {
                               "x" : 209,
                               "y" : 515,
@@ -12424,7 +12376,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "144",
+                        "objectId" : "142",
                         "name" : "j",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12438,7 +12390,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/144.png",
+                           "path" : "images/142.png",
                            "frame" : {
                               "x" : 246,
                               "y" : 515,
@@ -12448,7 +12400,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "143",
+                        "objectId" : "141",
                         "name" : "k",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12462,7 +12414,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/143.png",
+                           "path" : "images/141.png",
                            "frame" : {
                               "x" : 284,
                               "y" : 515,
@@ -12472,7 +12424,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "142",
+                        "objectId" : "140",
                         "name" : "l",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12486,7 +12438,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/142.png",
+                           "path" : "images/140.png",
                            "frame" : {
                               "x" : 321,
                               "y" : 515,
@@ -12496,7 +12448,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "141",
+                        "objectId" : "139",
                         "name" : "Shift",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12510,7 +12462,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/141.png",
+                           "path" : "images/139.png",
                            "frame" : {
                               "x" : 3,
                               "y" : 569,
@@ -12520,7 +12472,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "140",
+                        "objectId" : "138",
                         "name" : "z",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12534,7 +12486,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/140.png",
+                           "path" : "images/138.png",
                            "frame" : {
                               "x" : 59,
                               "y" : 569,
@@ -12544,7 +12496,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "139",
+                        "objectId" : "137",
                         "name" : "x",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12558,7 +12510,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/139.png",
+                           "path" : "images/137.png",
                            "frame" : {
                               "x" : 96,
                               "y" : 569,
@@ -12568,7 +12520,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "138",
+                        "objectId" : "136",
                         "name" : "c",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12582,7 +12534,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/138.png",
+                           "path" : "images/136.png",
                            "frame" : {
                               "x" : 134,
                               "y" : 569,
@@ -12592,7 +12544,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "137",
+                        "objectId" : "135",
                         "name" : "v",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12606,7 +12558,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/137.png",
+                           "path" : "images/135.png",
                            "frame" : {
                               "x" : 171,
                               "y" : 569,
@@ -12616,7 +12568,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "136",
+                        "objectId" : "134",
                         "name" : "b",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12630,7 +12582,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/136.png",
+                           "path" : "images/134.png",
                            "frame" : {
                               "x" : 209,
                               "y" : 569,
@@ -12640,7 +12592,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "135",
+                        "objectId" : "133",
                         "name" : "n",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12654,7 +12606,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/135.png",
+                           "path" : "images/133.png",
                            "frame" : {
                               "x" : 246,
                               "y" : 569,
@@ -12664,7 +12616,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "134",
+                        "objectId" : "132",
                         "name" : "m",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12678,7 +12630,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/134.png",
+                           "path" : "images/132.png",
                            "frame" : {
                               "x" : 284,
                               "y" : 569,
@@ -12688,7 +12640,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "133",
+                        "objectId" : "131",
                         "name" : "Backspace",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12702,7 +12654,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/133.png",
+                           "path" : "images/131.png",
                            "frame" : {
                               "x" : 330,
                               "y" : 569,
@@ -12712,7 +12664,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "132",
+                        "objectId" : "130",
                         "name" : "layer-123",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12726,7 +12678,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/132.png",
+                           "path" : "images/130.png",
                            "frame" : {
                               "x" : 3,
                               "y" : 621,
@@ -12736,7 +12688,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "131",
+                        "objectId" : "129",
                         "name" : "Language",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12750,7 +12702,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/131.png",
+                           "path" : "images/129.png",
                            "frame" : {
                               "x" : 49,
                               "y" : 621,
@@ -12760,7 +12712,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "130",
+                        "objectId" : "128",
                         "name" : "Space",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12774,7 +12726,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/130.png",
+                           "path" : "images/128.png",
                            "frame" : {
                               "x" : 96,
                               "y" : 621,
@@ -12784,7 +12736,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "129",
+                        "objectId" : "127",
                         "name" : "@",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12798,7 +12750,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/129.png",
+                           "path" : "images/127.png",
                            "frame" : {
                               "x" : 190,
                               "y" : 621,
@@ -12808,7 +12760,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "128",
+                        "objectId" : "126",
                         "name" : ".",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12822,7 +12774,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/128.png",
+                           "path" : "images/126.png",
                            "frame" : {
                               "x" : 237,
                               "y" : 621,
@@ -12832,7 +12784,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "127",
+                        "objectId" : "125",
                         "name" : "Return",
                         "visible" : true,
                         "maskFrame" : null,
@@ -12846,7 +12798,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/127.png",
+                           "path" : "images/125.png",
                            "frame" : {
                               "x" : 284,
                               "y" : 621,
@@ -12859,7 +12811,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/161.png",
+                     "path" : "images/159.png",
                      "frame" : {
                         "x" : 0,
                         "y" : 451,
@@ -12872,7 +12824,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "126",
+            "objectId" : "124",
             "name" : "Group_12_4",
             "visible" : true,
             "maskFrame" : null,
@@ -12886,7 +12838,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/126.png",
+               "path" : "images/124.png",
                "frame" : {
                   "x" : 40,
                   "y" : 140,
@@ -12896,7 +12848,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "125",
+            "objectId" : "123",
             "name" : "Group_7.4",
             "visible" : true,
             "maskFrame" : null,
@@ -12908,7 +12860,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "124",
+                  "objectId" : "122",
                   "name" : "Group_6_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -12922,7 +12874,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/124.png",
+                     "path" : "images/122.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 813,
@@ -12935,7 +12887,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/125.png",
+               "path" : "images/123.png",
                "frame" : {
                   "x" : 38,
                   "y" : 780,
@@ -12945,7 +12897,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "123",
+            "objectId" : "121",
             "name" : "Group_9.1_2",
             "visible" : true,
             "maskFrame" : null,
@@ -12959,7 +12911,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/123.png",
+               "path" : "images/121.png",
                "frame" : {
                   "x" : 195,
                   "y" : 676,
@@ -12969,7 +12921,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "122",
+            "objectId" : "120",
             "name" : "Group_14_5",
             "visible" : true,
             "maskFrame" : null,
@@ -12983,7 +12935,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/122.png",
+               "path" : "images/120.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -12997,7 +12949,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "179",
+      "objectId" : "177",
       "name" : "Profil_mit_name",
       "visible" : true,
       "maskFrame" : {
@@ -13014,7 +12966,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "178",
+            "objectId" : "176",
             "name" : "Slideapple_2",
             "visible" : true,
             "maskFrame" : null,
@@ -13026,7 +12978,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "177",
+                  "objectId" : "175",
                   "name" : "knobapple_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13040,7 +12992,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/177.png",
+                     "path" : "images/175.png",
                      "frame" : {
                         "x" : 315,
                         "y" : 376,
@@ -13050,7 +13002,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "176",
+                  "objectId" : "174",
                   "name" : "fillbapple_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13064,7 +13016,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/176.png",
+                     "path" : "images/174.png",
                      "frame" : {
                         "x" : 299,
                         "y" : 375,
@@ -13077,7 +13029,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/178.png",
+               "path" : "images/176.png",
                "frame" : {
                   "x" : 299,
                   "y" : 375,
@@ -13087,7 +13039,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "175",
+            "objectId" : "173",
             "name" : "femalebutton_2",
             "visible" : true,
             "maskFrame" : null,
@@ -13101,7 +13053,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/175.png",
+               "path" : "images/173.png",
                "frame" : {
                   "x" : 272,
                   "y" : 295,
@@ -13111,7 +13063,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "174",
+            "objectId" : "172",
             "name" : "malebutton_2",
             "visible" : true,
             "maskFrame" : null,
@@ -13125,7 +13077,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/174.png",
+               "path" : "images/172.png",
                "frame" : {
                   "x" : 40,
                   "y" : 294,
@@ -13135,7 +13087,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "173",
+            "objectId" : "171",
             "name" : "Topline_6",
             "visible" : true,
             "maskFrame" : null,
@@ -13149,7 +13101,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/173.png",
+               "path" : "images/171.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -13159,7 +13111,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "172",
+            "objectId" : "170",
             "name" : "Berlina_2",
             "visible" : true,
             "maskFrame" : null,
@@ -13173,7 +13125,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/172.png",
+               "path" : "images/170.png",
                "frame" : {
                   "x" : 40,
                   "y" : 125,
@@ -13183,7 +13135,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "171",
+            "objectId" : "169",
             "name" : "Kreuz_2",
             "visible" : true,
             "maskFrame" : null,
@@ -13197,7 +13149,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/171.png",
+               "path" : "images/169.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -13207,7 +13159,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "170",
+            "objectId" : "168",
             "name" : "Group_11_4",
             "visible" : true,
             "maskFrame" : null,
@@ -13221,7 +13173,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/170.png",
+               "path" : "images/168.png",
                "frame" : {
                   "x" : 39,
                   "y" : 381,
@@ -13231,7 +13183,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "169",
+            "objectId" : "167",
             "name" : "Group_13_3",
             "visible" : true,
             "maskFrame" : null,
@@ -13245,7 +13197,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/169.png",
+               "path" : "images/167.png",
                "frame" : {
                   "x" : 38,
                   "y" : 209,
@@ -13255,7 +13207,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "168",
+            "objectId" : "166",
             "name" : "Group_15_5",
             "visible" : true,
             "maskFrame" : null,
@@ -13269,7 +13221,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/168.png",
+               "path" : "images/166.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -13283,7 +13235,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "191",
+      "objectId" : "189",
       "name" : "Profil_mit_name_2",
       "visible" : true,
       "maskFrame" : {
@@ -13300,7 +13252,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "190",
+            "objectId" : "188",
             "name" : "Slideapple_3",
             "visible" : true,
             "maskFrame" : null,
@@ -13312,7 +13264,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "189",
+                  "objectId" : "187",
                   "name" : "knobapple_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13326,7 +13278,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/189.png",
+                     "path" : "images/187.png",
                      "frame" : {
                         "x" : 315,
                         "y" : 376,
@@ -13336,7 +13288,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "188",
+                  "objectId" : "186",
                   "name" : "fillbapple_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13350,7 +13302,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/188.png",
+                     "path" : "images/186.png",
                      "frame" : {
                         "x" : 299,
                         "y" : 375,
@@ -13363,7 +13315,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/190.png",
+               "path" : "images/188.png",
                "frame" : {
                   "x" : 299,
                   "y" : 375,
@@ -13373,7 +13325,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "187",
+            "objectId" : "185",
             "name" : "femalebutton_3",
             "visible" : true,
             "maskFrame" : null,
@@ -13387,7 +13339,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/187.png",
+               "path" : "images/185.png",
                "frame" : {
                   "x" : 272,
                   "y" : 295,
@@ -13397,7 +13349,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "186",
+            "objectId" : "184",
             "name" : "malebutton_3",
             "visible" : true,
             "maskFrame" : null,
@@ -13411,7 +13363,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/186.png",
+               "path" : "images/184.png",
                "frame" : {
                   "x" : 40,
                   "y" : 294,
@@ -13421,7 +13373,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "185",
+            "objectId" : "183",
             "name" : "Topline_7",
             "visible" : true,
             "maskFrame" : null,
@@ -13435,7 +13387,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/185.png",
+               "path" : "images/183.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -13445,7 +13397,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "184",
+            "objectId" : "182",
             "name" : "Group_10_7",
             "visible" : true,
             "maskFrame" : null,
@@ -13459,7 +13411,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/184.png",
+               "path" : "images/182.png",
                "frame" : {
                   "x" : 40,
                   "y" : 125,
@@ -13469,7 +13421,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "183",
+            "objectId" : "181",
             "name" : "Kreuz_3",
             "visible" : true,
             "maskFrame" : null,
@@ -13483,7 +13435,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/183.png",
+               "path" : "images/181.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -13493,7 +13445,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "182",
+            "objectId" : "180",
             "name" : "Group_11_5",
             "visible" : true,
             "maskFrame" : null,
@@ -13507,7 +13459,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/182.png",
+               "path" : "images/180.png",
                "frame" : {
                   "x" : 39,
                   "y" : 381,
@@ -13517,7 +13469,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "181",
+            "objectId" : "179",
             "name" : "alter_32_2",
             "visible" : true,
             "maskFrame" : null,
@@ -13531,7 +13483,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/181.png",
+               "path" : "images/179.png",
                "frame" : {
                   "x" : 39,
                   "y" : 209,
@@ -13541,7 +13493,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "180",
+            "objectId" : "178",
             "name" : "Group_15_6",
             "visible" : true,
             "maskFrame" : null,
@@ -13555,7 +13507,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/180.png",
+               "path" : "images/178.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -13569,7 +13521,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "209",
+      "objectId" : "207",
       "name" : "Profil_Eingabe_age",
       "visible" : true,
       "maskFrame" : {
@@ -13586,7 +13538,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "208",
+            "objectId" : "206",
             "name" : "Topline_8",
             "visible" : true,
             "maskFrame" : null,
@@ -13600,7 +13552,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/208.png",
+               "path" : "images/206.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -13610,7 +13562,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "207",
+            "objectId" : "205",
             "name" : "alter_32",
             "visible" : true,
             "maskFrame" : null,
@@ -13624,7 +13576,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/207.png",
+               "path" : "images/205.png",
                "frame" : {
                   "x" : 39,
                   "y" : 209,
@@ -13634,7 +13586,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "206",
+            "objectId" : "204",
             "name" : "Group_10_8",
             "visible" : true,
             "maskFrame" : null,
@@ -13648,7 +13600,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/206.png",
+               "path" : "images/204.png",
                "frame" : {
                   "x" : 294,
                   "y" : 394,
@@ -13658,7 +13610,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "205",
+            "objectId" : "203",
             "name" : "Group_11_6",
             "visible" : true,
             "maskFrame" : null,
@@ -13672,7 +13624,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/205.png",
+               "path" : "images/203.png",
                "frame" : {
                   "x" : 36,
                   "y" : 394,
@@ -13682,7 +13634,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "204",
+            "objectId" : "202",
             "name" : "Group_12_5",
             "visible" : true,
             "maskFrame" : null,
@@ -13696,7 +13648,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/204.png",
+               "path" : "images/202.png",
                "frame" : {
                   "x" : 40,
                   "y" : 223,
@@ -13706,7 +13658,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "203",
+            "objectId" : "201",
             "name" : "Keyb_nummern",
             "visible" : true,
             "maskFrame" : null,
@@ -13718,7 +13670,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "202",
+                  "objectId" : "200",
                   "name" : "layer-1",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13732,7 +13684,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/202.png",
+                     "path" : "images/200.png",
                      "frame" : {
                         "x" : 7,
                         "y" : 457,
@@ -13742,7 +13694,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "201",
+                  "objectId" : "199",
                   "name" : "layer-2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13756,7 +13708,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/201.png",
+                     "path" : "images/199.png",
                      "frame" : {
                         "x" : 130,
                         "y" : 457,
@@ -13766,7 +13718,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "200",
+                  "objectId" : "198",
                   "name" : "layer-3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13780,7 +13732,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/200.png",
+                     "path" : "images/198.png",
                      "frame" : {
                         "x" : 253,
                         "y" : 457,
@@ -13790,7 +13742,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "199",
+                  "objectId" : "197",
                   "name" : "layer-4",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13804,7 +13756,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/199.png",
+                     "path" : "images/197.png",
                      "frame" : {
                         "x" : 7,
                         "y" : 510,
@@ -13814,7 +13766,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "198",
+                  "objectId" : "196",
                   "name" : "layer-5",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13828,7 +13780,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/198.png",
+                     "path" : "images/196.png",
                      "frame" : {
                         "x" : 130,
                         "y" : 510,
@@ -13838,7 +13790,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "197",
+                  "objectId" : "195",
                   "name" : "layer-6",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13852,7 +13804,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/197.png",
+                     "path" : "images/195.png",
                      "frame" : {
                         "x" : 253,
                         "y" : 510,
@@ -13862,7 +13814,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "196",
+                  "objectId" : "194",
                   "name" : "layer-7",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13876,7 +13828,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/196.png",
+                     "path" : "images/194.png",
                      "frame" : {
                         "x" : 7,
                         "y" : 564,
@@ -13886,7 +13838,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "195",
+                  "objectId" : "193",
                   "name" : "layer-8",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13900,7 +13852,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/195.png",
+                     "path" : "images/193.png",
                      "frame" : {
                         "x" : 130,
                         "y" : 564,
@@ -13910,7 +13862,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "194",
+                  "objectId" : "192",
                   "name" : "layer-9",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13924,7 +13876,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/194.png",
+                     "path" : "images/192.png",
                      "frame" : {
                         "x" : 253,
                         "y" : 564,
@@ -13934,7 +13886,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "193",
+                  "objectId" : "191",
                   "name" : "layer-0",
                   "visible" : true,
                   "maskFrame" : null,
@@ -13948,7 +13900,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/193.png",
+                     "path" : "images/191.png",
                      "frame" : {
                         "x" : 130,
                         "y" : 618,
@@ -13961,7 +13913,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/203.png",
+               "path" : "images/201.png",
                "frame" : {
                   "x" : 1,
                   "y" : 451,
@@ -13971,7 +13923,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "192",
+            "objectId" : "190",
             "name" : "Group_14_6",
             "visible" : true,
             "maskFrame" : null,
@@ -13985,7 +13937,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/192.png",
+               "path" : "images/190.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -13999,7 +13951,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "215",
+      "objectId" : "213",
       "name" : "Profil_Eingabe_sex",
       "visible" : true,
       "maskFrame" : {
@@ -14016,7 +13968,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "214",
+            "objectId" : "212",
             "name" : "Topline_9",
             "visible" : true,
             "maskFrame" : null,
@@ -14030,7 +13982,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/214.png",
+               "path" : "images/212.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -14040,7 +13992,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "213",
+            "objectId" : "211",
             "name" : "Kreuz_4",
             "visible" : true,
             "maskFrame" : null,
@@ -14054,7 +14006,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/213.png",
+               "path" : "images/211.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -14064,7 +14016,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "212",
+            "objectId" : "210",
             "name" : "Group_10_9",
             "visible" : true,
             "maskFrame" : null,
@@ -14078,7 +14030,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/212.png",
+               "path" : "images/210.png",
                "frame" : {
                   "x" : 272,
                   "y" : 295,
@@ -14088,7 +14040,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "211",
+            "objectId" : "209",
             "name" : "Group_11_7",
             "visible" : true,
             "maskFrame" : null,
@@ -14102,7 +14054,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/211.png",
+               "path" : "images/209.png",
                "frame" : {
                   "x" : 40,
                   "y" : 294,
@@ -14112,7 +14064,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "210",
+            "objectId" : "208",
             "name" : "Group_13_4",
             "visible" : true,
             "maskFrame" : null,
@@ -14126,7 +14078,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/210.png",
+               "path" : "images/208.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -14140,7 +14092,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "223",
+      "objectId" : "221",
       "name" : "Profil_voll",
       "visible" : true,
       "maskFrame" : {
@@ -14157,7 +14109,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "222",
+            "objectId" : "220",
             "name" : "Topline_10",
             "visible" : true,
             "maskFrame" : null,
@@ -14171,7 +14123,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/222.png",
+               "path" : "images/220.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -14181,7 +14133,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "221",
+            "objectId" : "219",
             "name" : "Kreuz_5",
             "visible" : true,
             "maskFrame" : null,
@@ -14195,7 +14147,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/221.png",
+               "path" : "images/219.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -14205,7 +14157,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "220",
+            "objectId" : "218",
             "name" : "Group_10_10",
             "visible" : true,
             "maskFrame" : null,
@@ -14219,7 +14171,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/220.png",
+               "path" : "images/218.png",
                "frame" : {
                   "x" : 40,
                   "y" : 292,
@@ -14229,7 +14181,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "219",
+            "objectId" : "217",
             "name" : "Group_11_8",
             "visible" : true,
             "maskFrame" : null,
@@ -14243,7 +14195,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/219.png",
+               "path" : "images/217.png",
                "frame" : {
                   "x" : 39,
                   "y" : 206,
@@ -14253,7 +14205,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "218",
+            "objectId" : "216",
             "name" : "Group_12_6",
             "visible" : true,
             "maskFrame" : null,
@@ -14267,7 +14219,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/218.png",
+               "path" : "images/216.png",
                "frame" : {
                   "x" : 40,
                   "y" : 125,
@@ -14277,7 +14229,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "217",
+            "objectId" : "215",
             "name" : "Group_13_5",
             "visible" : true,
             "maskFrame" : null,
@@ -14291,7 +14243,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/217.png",
+               "path" : "images/215.png",
                "frame" : {
                   "x" : 39,
                   "y" : 381,
@@ -14301,7 +14253,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "216",
+            "objectId" : "214",
             "name" : "Group_15_7",
             "visible" : true,
             "maskFrame" : null,
@@ -14315,7 +14267,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/216.png",
+               "path" : "images/214.png",
                "frame" : {
                   "x" : 157,
                   "y" : 49,
@@ -14329,7 +14281,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "295",
+      "objectId" : "294",
       "name" : "Grenzwerte",
       "visible" : true,
       "maskFrame" : {
@@ -14346,7 +14298,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "294",
+            "objectId" : "293",
             "name" : "Kreuz_6",
             "visible" : true,
             "maskFrame" : null,
@@ -14360,7 +14312,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/294.png",
+               "path" : "images/293.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -14370,7 +14322,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "293",
+            "objectId" : "292",
             "name" : "Maske_Kreuz",
             "visible" : true,
             "maskFrame" : null,
@@ -14382,7 +14334,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "292",
+                  "objectId" : "291",
                   "name" : "mask_Rectangle",
                   "visible" : true,
                   "maskFrame" : {
@@ -14399,7 +14351,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "291",
+                        "objectId" : "290",
                         "name" : "Group_16_5",
                         "visible" : true,
                         "maskFrame" : null,
@@ -14413,7 +14365,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/291.png",
+                           "path" : "images/290.png",
                            "frame" : {
                               "x" : -5,
                               "y" : -15,
@@ -14429,7 +14381,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "290",
+            "objectId" : "289",
             "name" : "Topline_11",
             "visible" : true,
             "maskFrame" : null,
@@ -14443,7 +14395,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/290.png",
+               "path" : "images/289.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -14453,7 +14405,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "289",
+            "objectId" : "288",
             "name" : "head_thresh",
             "visible" : true,
             "maskFrame" : null,
@@ -14467,7 +14419,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/289.png",
+               "path" : "images/288.png",
                "frame" : {
                   "x" : 134,
                   "y" : 49,
@@ -14477,19 +14429,19 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "288",
+            "objectId" : "287",
             "name" : "scrollgruppe",
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
                "x" : 15,
-               "y" : 116,
-               "width" : 346,
-               "height" : 1019
+               "y" : 119,
+               "width" : 345,
+               "height" : 1022
             },
             "children" : [
                {
-                  "objectId" : "287",
+                  "objectId" : "286",
                   "name" : "CMU",
                   "visible" : true,
                   "maskFrame" : null,
@@ -14503,7 +14455,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/287.png",
+                     "path" : "images/286.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 771,
@@ -14513,7 +14465,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "286",
+                  "objectId" : "285",
                   "name" : "NDU",
                   "visible" : true,
                   "maskFrame" : null,
@@ -14527,7 +14479,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/286.png",
+                     "path" : "images/285.png",
                      "frame" : {
                         "x" : 45,
                         "y" : 933,
@@ -14537,7 +14489,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "285",
+                  "objectId" : "284",
                   "name" : "RU",
                   "visible" : true,
                   "maskFrame" : null,
@@ -14551,7 +14503,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/285.png",
+                     "path" : "images/284.png",
                      "frame" : {
                         "x" : 39,
                         "y" : 446,
@@ -14561,7 +14513,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "284",
+                  "objectId" : "283",
                   "name" : "SDU",
                   "visible" : true,
                   "maskFrame" : null,
@@ -14575,7 +14527,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/284.png",
+                     "path" : "images/283.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 609,
@@ -14585,7 +14537,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "283",
+                  "objectId" : "282",
                   "name" : "OU",
                   "visible" : true,
                   "maskFrame" : null,
@@ -14599,7 +14551,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/283.png",
+                     "path" : "images/282.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 284,
@@ -14609,7 +14561,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "282",
+                  "objectId" : "281",
                   "name" : "PMU",
                   "visible" : true,
                   "maskFrame" : null,
@@ -14623,7 +14575,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/282.png",
+                     "path" : "images/281.png",
                      "frame" : {
                         "x" : 39,
                         "y" : 122,
@@ -14633,42 +14585,56 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "281",
+                  "objectId" : "280",
                   "name" : "GW_offen",
                   "visible" : true,
-                  "maskFrame" : {
-                     "x" : 15,
-                     "y" : 116,
-                     "width" : 345,
-                     "height" : 1019
-                  },
+                  "maskFrame" : null,
                   "layerFrame" : {
                      "x" : 15,
-                     "y" : 116,
-                     "width" : 346,
-                     "height" : 1019
+                     "y" : 119,
+                     "width" : 345,
+                     "height" : 1022
                   },
                   "children" : [
                      {
-                        "objectId" : "280",
+                        "objectId" : "279",
+                        "name" : "Whitespace",
+                        "visible" : true,
+                        "maskFrame" : {
+                           "x" : 15,
+                           "y" : 1047,
+                           "width" : 345,
+                           "height" : 94
+                        },
+                        "layerFrame" : {
+                           "x" : 15,
+                           "y" : 1046,
+                           "width" : 345,
+                           "height" : 95
+                        },
+                        "children" : [],
+                        "kind" : "group"
+                     },
+                     {
+                        "objectId" : "278",
                         "name" : "ND_Gruppe",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 1047,
+                           "x" : 15,
+                           "y" : 931,
                            "width" : 345,
                            "height" : 91
                         },
                         "children" : [
                            {
-                              "objectId" : "279",
+                              "objectId" : "277",
                               "name" : "Group_22_3",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 1102,
+                                 "x" : 15,
+                                 "y" : 986,
                                  "width" : 345,
                                  "height" : 36
                               },
@@ -14676,23 +14642,23 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/279.png",
+                                 "path" : "images/277.png",
                                  "frame" : {
-                                    "x" : 30,
-                                    "y" : 1102,
+                                    "x" : 15,
+                                    "y" : 986,
                                     "width" : 345,
                                     "height" : 36
                                  }
                               }
                            },
                            {
-                              "objectId" : "278",
+                              "objectId" : "276",
                               "name" : "Group_11_11",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 271,
-                                 "y" : 1047,
+                                 "x" : 256,
+                                 "y" : 931,
                                  "width" : 88,
                                  "height" : 19
                               },
@@ -14700,10 +14666,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/278.png",
+                                 "path" : "images/276.png",
                                  "frame" : {
-                                    "x" : 271,
-                                    "y" : 1047,
+                                    "x" : 256,
+                                    "y" : 931,
                                     "width" : 88,
                                     "height" : 19
                                  }
@@ -14713,80 +14679,32 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "277",
+                        "objectId" : "275",
                         "name" : "ND_offen",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 1047,
+                           "x" : 15,
+                           "y" : 931,
                            "width" : 345,
                            "height" : 91
                         },
                         "children" : [
                            {
-                              "objectId" : "276",
+                              "objectId" : "274",
                               "name" : "reglerND",
                               "visible" : true,
                               "maskFrame" : {
-                                 "x" : 166,
-                                 "y" : 1102,
+                                 "x" : 151,
+                                 "y" : 986,
                                  "width" : 44,
                                  "height" : 36
                               },
                               "layerFrame" : {
-                                 "x" : 166,
-                                 "y" : 1102,
+                                 "x" : 151,
+                                 "y" : 986,
                                  "width" : 44,
                                  "height" : 36
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/276.png",
-                                 "frame" : {
-                                    "x" : 166,
-                                    "y" : 1102,
-                                    "width" : 44,
-                                    "height" : 36
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "275",
-                              "name" : "Group_11_10",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 60,
-                                 "y" : 1047,
-                                 "width" : 299,
-                                 "height" : 19
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/275.png",
-                                 "frame" : {
-                                    "x" : 60,
-                                    "y" : 1047,
-                                    "width" : 299,
-                                    "height" : 19
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "274",
-                              "name" : "Reglerlinie_5",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 1108,
-                                 "width" : 345,
-                                 "height" : 23
                               },
                               "children" : [],
                               "kind" : "group",
@@ -14794,8 +14712,56 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "image" : {
                                  "path" : "images/274.png",
                                  "frame" : {
-                                    "x" : 30,
-                                    "y" : 1108,
+                                    "x" : 151,
+                                    "y" : 986,
+                                    "width" : 44,
+                                    "height" : 36
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "273",
+                              "name" : "Group_11_10",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 45,
+                                 "y" : 931,
+                                 "width" : 299,
+                                 "height" : 19
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/273.png",
+                                 "frame" : {
+                                    "x" : 45,
+                                    "y" : 931,
+                                    "width" : 299,
+                                    "height" : 19
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "272",
+                              "name" : "Reglerlinie_5",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 15,
+                                 "y" : 992,
+                                 "width" : 345,
+                                 "height" : 23
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/272.png",
+                                 "frame" : {
+                                    "x" : 15,
+                                    "y" : 992,
                                     "width" : 345,
                                     "height" : 23
                                  }
@@ -14805,25 +14771,25 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "273",
+                        "objectId" : "271",
                         "name" : "CM_Gruppe",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 884,
+                           "x" : 15,
+                           "y" : 768,
                            "width" : 345,
                            "height" : 92
                         },
                         "children" : [
                            {
-                              "objectId" : "272",
+                              "objectId" : "270",
                               "name" : "Group_21_2",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 940,
+                                 "x" : 15,
+                                 "y" : 824,
                                  "width" : 345,
                                  "height" : 36
                               },
@@ -14831,23 +14797,23 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/272.png",
+                                 "path" : "images/270.png",
                                  "frame" : {
-                                    "x" : 30,
-                                    "y" : 940,
+                                    "x" : 15,
+                                    "y" : 824,
                                     "width" : 345,
                                     "height" : 36
                                  }
                               }
                            },
                            {
-                              "objectId" : "271",
+                              "objectId" : "269",
                               "name" : "Group_13_8",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 275,
-                                 "y" : 884,
+                                 "x" : 260,
+                                 "y" : 768,
                                  "width" : 78,
                                  "height" : 19
                               },
@@ -14855,10 +14821,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/271.png",
+                                 "path" : "images/269.png",
                                  "frame" : {
-                                    "x" : 275,
-                                    "y" : 884,
+                                    "x" : 260,
+                                    "y" : 768,
                                     "width" : 78,
                                     "height" : 19
                                  }
@@ -14868,80 +14834,32 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "270",
+                        "objectId" : "268",
                         "name" : "CM_offen",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 884,
+                           "x" : 15,
+                           "y" : 768,
                            "width" : 345,
                            "height" : 92
                         },
                         "children" : [
                            {
-                              "objectId" : "269",
+                              "objectId" : "267",
                               "name" : "reglerCM",
                               "visible" : true,
                               "maskFrame" : {
-                                 "x" : 166,
-                                 "y" : 940,
+                                 "x" : 151,
+                                 "y" : 824,
                                  "width" : 44,
                                  "height" : 36
                               },
                               "layerFrame" : {
-                                 "x" : 166,
-                                 "y" : 940,
+                                 "x" : 151,
+                                 "y" : 824,
                                  "width" : 44,
                                  "height" : 36
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/269.png",
-                                 "frame" : {
-                                    "x" : 166,
-                                    "y" : 940,
-                                    "width" : 44,
-                                    "height" : 36
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "268",
-                              "name" : "Reglerlinie_4",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 946,
-                                 "width" : 345,
-                                 "height" : 23
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/268.png",
-                                 "frame" : {
-                                    "x" : 30,
-                                    "y" : 946,
-                                    "width" : 345,
-                                    "height" : 23
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "267",
-                              "name" : "Group_13_7",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 53,
-                                 "y" : 884,
-                                 "width" : 300,
-                                 "height" : 19
                               },
                               "children" : [],
                               "kind" : "group",
@@ -14949,8 +14867,56 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "image" : {
                                  "path" : "images/267.png",
                                  "frame" : {
-                                    "x" : 53,
-                                    "y" : 884,
+                                    "x" : 151,
+                                    "y" : 824,
+                                    "width" : 44,
+                                    "height" : 36
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "266",
+                              "name" : "Reglerlinie_4",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 15,
+                                 "y" : 830,
+                                 "width" : 345,
+                                 "height" : 23
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/266.png",
+                                 "frame" : {
+                                    "x" : 15,
+                                    "y" : 830,
+                                    "width" : 345,
+                                    "height" : 23
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "265",
+                              "name" : "Group_13_7",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 38,
+                                 "y" : 768,
+                                 "width" : 300,
+                                 "height" : 19
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/265.png",
+                                 "frame" : {
+                                    "x" : 38,
+                                    "y" : 768,
                                     "width" : 300,
                                     "height" : 19
                                  }
@@ -14960,25 +14926,25 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "266",
+                        "objectId" : "264",
                         "name" : "SD_Gruppe",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 721,
+                           "x" : 15,
+                           "y" : 605,
                            "width" : 345,
                            "height" : 93
                         },
                         "children" : [
                            {
-                              "objectId" : "265",
+                              "objectId" : "263",
                               "name" : "Group_14_9",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 267,
-                                 "y" : 721,
+                                 "x" : 252,
+                                 "y" : 605,
                                  "width" : 86,
                                  "height" : 19
                               },
@@ -14986,10 +14952,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/265.png",
+                                 "path" : "images/263.png",
                                  "frame" : {
-                                    "x" : 267,
-                                    "y" : 721,
+                                    "x" : 252,
+                                    "y" : 605,
                                     "width" : 86,
                                     "height" : 19
                                  }
@@ -14999,90 +14965,42 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/266.png",
+                           "path" : "images/264.png",
                            "frame" : {
-                              "x" : 30,
-                              "y" : 721,
+                              "x" : 15,
+                              "y" : 605,
                               "width" : 345,
                               "height" : 93
                            }
                         }
                      },
                      {
-                        "objectId" : "264",
+                        "objectId" : "262",
                         "name" : "SD_offen_2",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 721,
+                           "x" : 15,
+                           "y" : 605,
                            "width" : 345,
                            "height" : 93
                         },
                         "children" : [
                            {
-                              "objectId" : "263",
+                              "objectId" : "261",
                               "name" : "reglerSD",
                               "visible" : true,
                               "maskFrame" : {
-                                 "x" : 166,
-                                 "y" : 778,
+                                 "x" : 151,
+                                 "y" : 662,
                                  "width" : 44,
                                  "height" : 36
                               },
                               "layerFrame" : {
-                                 "x" : 166,
-                                 "y" : 778,
+                                 "x" : 151,
+                                 "y" : 662,
                                  "width" : 44,
                                  "height" : 36
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/263.png",
-                                 "frame" : {
-                                    "x" : 166,
-                                    "y" : 778,
-                                    "width" : 44,
-                                    "height" : 36
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "262",
-                              "name" : "SD_offen",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 784,
-                                 "width" : 345,
-                                 "height" : 23
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/262.png",
-                                 "frame" : {
-                                    "x" : 30,
-                                    "y" : 784,
-                                    "width" : 345,
-                                    "height" : 23
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "261",
-                              "name" : "Group_14_8",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 53,
-                                 "y" : 721,
-                                 "width" : 300,
-                                 "height" : 19
                               },
                               "children" : [],
                               "kind" : "group",
@@ -15090,8 +15008,56 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "image" : {
                                  "path" : "images/261.png",
                                  "frame" : {
-                                    "x" : 53,
-                                    "y" : 721,
+                                    "x" : 151,
+                                    "y" : 662,
+                                    "width" : 44,
+                                    "height" : 36
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "260",
+                              "name" : "SD_offen",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 15,
+                                 "y" : 668,
+                                 "width" : 345,
+                                 "height" : 23
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/260.png",
+                                 "frame" : {
+                                    "x" : 15,
+                                    "y" : 668,
+                                    "width" : 345,
+                                    "height" : 23
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "259",
+                              "name" : "Group_14_8",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 38,
+                                 "y" : 605,
+                                 "width" : 300,
+                                 "height" : 19
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/259.png",
+                                 "frame" : {
+                                    "x" : 38,
+                                    "y" : 605,
                                     "width" : 300,
                                     "height" : 19
                                  }
@@ -15101,25 +15067,25 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "260",
+                        "objectId" : "258",
                         "name" : "Radon_Gruppe",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 559,
+                           "x" : 15,
+                           "y" : 443,
                            "width" : 345,
                            "height" : 92
                         },
                         "children" : [
                            {
-                              "objectId" : "259",
+                              "objectId" : "257",
                               "name" : "Group_15_9",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 262,
-                                 "y" : 559,
+                                 "x" : 247,
+                                 "y" : 443,
                                  "width" : 91,
                                  "height" : 18
                               },
@@ -15127,10 +15093,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/259.png",
+                                 "path" : "images/257.png",
                                  "frame" : {
-                                    "x" : 262,
-                                    "y" : 559,
+                                    "x" : 247,
+                                    "y" : 443,
                                     "width" : 91,
                                     "height" : 18
                                  }
@@ -15140,90 +15106,42 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/260.png",
+                           "path" : "images/258.png",
                            "frame" : {
-                              "x" : 30,
-                              "y" : 559,
+                              "x" : 15,
+                              "y" : 443,
                               "width" : 345,
                               "height" : 92
                            }
                         }
                      },
                      {
-                        "objectId" : "258",
+                        "objectId" : "256",
                         "name" : "Radon_offen",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 559,
+                           "x" : 15,
+                           "y" : 443,
                            "width" : 345,
                            "height" : 92
                         },
                         "children" : [
                            {
-                              "objectId" : "257",
+                              "objectId" : "255",
                               "name" : "reglerRadon",
                               "visible" : true,
                               "maskFrame" : {
-                                 "x" : 166,
-                                 "y" : 615,
+                                 "x" : 151,
+                                 "y" : 499,
                                  "width" : 44,
                                  "height" : 36
                               },
                               "layerFrame" : {
-                                 "x" : 166,
-                                 "y" : 615,
+                                 "x" : 151,
+                                 "y" : 499,
                                  "width" : 44,
                                  "height" : 36
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/257.png",
-                                 "frame" : {
-                                    "x" : 166,
-                                    "y" : 615,
-                                    "width" : 44,
-                                    "height" : 36
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "256",
-                              "name" : "Reglerlinie_3",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 621,
-                                 "width" : 345,
-                                 "height" : 23
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/256.png",
-                                 "frame" : {
-                                    "x" : 30,
-                                    "y" : 621,
-                                    "width" : 345,
-                                    "height" : 23
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "255",
-                              "name" : "Group_15_8",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 54,
-                                 "y" : 559,
-                                 "width" : 299,
-                                 "height" : 18
                               },
                               "children" : [],
                               "kind" : "group",
@@ -15231,8 +15149,56 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "image" : {
                                  "path" : "images/255.png",
                                  "frame" : {
-                                    "x" : 54,
-                                    "y" : 559,
+                                    "x" : 151,
+                                    "y" : 499,
+                                    "width" : 44,
+                                    "height" : 36
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "254",
+                              "name" : "Reglerlinie_3",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 15,
+                                 "y" : 505,
+                                 "width" : 345,
+                                 "height" : 23
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/254.png",
+                                 "frame" : {
+                                    "x" : 15,
+                                    "y" : 505,
+                                    "width" : 345,
+                                    "height" : 23
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "253",
+                              "name" : "Group_15_8",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 39,
+                                 "y" : 443,
+                                 "width" : 299,
+                                 "height" : 18
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/253.png",
+                                 "frame" : {
+                                    "x" : 39,
+                                    "y" : 443,
                                     "width" : 299,
                                     "height" : 18
                                  }
@@ -15242,25 +15208,25 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "254",
+                        "objectId" : "252",
                         "name" : "PM_Gruppe",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 235,
+                           "x" : 15,
+                           "y" : 119,
                            "width" : 345,
                            "height" : 90
                         },
                         "children" : [
                            {
-                              "objectId" : "253",
+                              "objectId" : "251",
                               "name" : "Group_18.1",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 289,
+                                 "x" : 15,
+                                 "y" : 173,
                                  "width" : 345,
                                  "height" : 36
                               },
@@ -15268,23 +15234,23 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/253.png",
+                                 "path" : "images/251.png",
                                  "frame" : {
-                                    "x" : 30,
-                                    "y" : 289,
+                                    "x" : 15,
+                                    "y" : 173,
                                     "width" : 345,
                                     "height" : 36
                                  }
                               }
                            },
                            {
-                              "objectId" : "252",
+                              "objectId" : "250",
                               "name" : "Group_12_9",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 270,
-                                 "y" : 235,
+                                 "x" : 255,
+                                 "y" : 119,
                                  "width" : 83,
                                  "height" : 19
                               },
@@ -15292,10 +15258,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/252.png",
+                                 "path" : "images/250.png",
                                  "frame" : {
-                                    "x" : 270,
-                                    "y" : 235,
+                                    "x" : 255,
+                                    "y" : 119,
                                     "width" : 83,
                                     "height" : 19
                                  }
@@ -15305,80 +15271,32 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "251",
+                        "objectId" : "249",
                         "name" : "PM_offen",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 235,
+                           "x" : 15,
+                           "y" : 119,
                            "width" : 345,
                            "height" : 90
                         },
                         "children" : [
                            {
-                              "objectId" : "250",
+                              "objectId" : "248",
                               "name" : "reglerPM",
                               "visible" : true,
                               "maskFrame" : {
-                                 "x" : 166,
-                                 "y" : 289,
+                                 "x" : 151,
+                                 "y" : 173,
                                  "width" : 44,
                                  "height" : 36
                               },
                               "layerFrame" : {
-                                 "x" : 166,
-                                 "y" : 289,
+                                 "x" : 151,
+                                 "y" : 173,
                                  "width" : 44,
                                  "height" : 36
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/250.png",
-                                 "frame" : {
-                                    "x" : 166,
-                                    "y" : 289,
-                                    "width" : 44,
-                                    "height" : 36
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "249",
-                              "name" : "Reglerlinie_2",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 295,
-                                 "width" : 345,
-                                 "height" : 23
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/249.png",
-                                 "frame" : {
-                                    "x" : 30,
-                                    "y" : 295,
-                                    "width" : 345,
-                                    "height" : 23
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "248",
-                              "name" : "Group_12_8",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 54,
-                                 "y" : 235,
-                                 "width" : 299,
-                                 "height" : 19
                               },
                               "children" : [],
                               "kind" : "group",
@@ -15386,8 +15304,56 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "image" : {
                                  "path" : "images/248.png",
                                  "frame" : {
-                                    "x" : 54,
-                                    "y" : 235,
+                                    "x" : 151,
+                                    "y" : 173,
+                                    "width" : 44,
+                                    "height" : 36
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "247",
+                              "name" : "Reglerlinie_2",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 15,
+                                 "y" : 179,
+                                 "width" : 345,
+                                 "height" : 23
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/247.png",
+                                 "frame" : {
+                                    "x" : 15,
+                                    "y" : 179,
+                                    "width" : 345,
+                                    "height" : 23
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "246",
+                              "name" : "Group_12_8",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 39,
+                                 "y" : 119,
+                                 "width" : 299,
+                                 "height" : 19
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/246.png",
+                                 "frame" : {
+                                    "x" : 39,
+                                    "y" : 119,
                                     "width" : 299,
                                     "height" : 19
                                  }
@@ -15397,25 +15363,25 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "247",
+                        "objectId" : "245",
                         "name" : "Ozon_Gruppe",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 398,
+                           "x" : 15,
+                           "y" : 282,
                            "width" : 345,
                            "height" : 91
                         },
                         "children" : [
                            {
-                              "objectId" : "246",
+                              "objectId" : "244",
                               "name" : "Group_18_3",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 453,
+                                 "x" : 15,
+                                 "y" : 337,
                                  "width" : 345,
                                  "height" : 36
                               },
@@ -15423,23 +15389,23 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/246.png",
+                                 "path" : "images/244.png",
                                  "frame" : {
-                                    "x" : 30,
-                                    "y" : 453,
+                                    "x" : 15,
+                                    "y" : 337,
                                     "width" : 345,
                                     "height" : 36
                                  }
                               }
                            },
                            {
-                              "objectId" : "245",
+                              "objectId" : "243",
                               "name" : "Group_16_4",
                               "visible" : true,
                               "maskFrame" : null,
                               "layerFrame" : {
-                                 "x" : 269,
-                                 "y" : 398,
+                                 "x" : 254,
+                                 "y" : 282,
                                  "width" : 84,
                                  "height" : 18
                               },
@@ -15447,10 +15413,10 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/245.png",
+                                 "path" : "images/243.png",
                                  "frame" : {
-                                    "x" : 269,
-                                    "y" : 398,
+                                    "x" : 254,
+                                    "y" : 282,
                                     "width" : 84,
                                     "height" : 18
                                  }
@@ -15460,80 +15426,32 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "244",
+                        "objectId" : "242",
                         "name" : "Ozon_offen",
                         "visible" : true,
                         "maskFrame" : null,
                         "layerFrame" : {
-                           "x" : 30,
-                           "y" : 398,
+                           "x" : 15,
+                           "y" : 282,
                            "width" : 345,
                            "height" : 91
                         },
                         "children" : [
                            {
-                              "objectId" : "243",
+                              "objectId" : "241",
                               "name" : "reglerOzon",
                               "visible" : true,
                               "maskFrame" : {
-                                 "x" : 166,
-                                 "y" : 453,
+                                 "x" : 151,
+                                 "y" : 337,
                                  "width" : 44,
                                  "height" : 36
                               },
                               "layerFrame" : {
-                                 "x" : 166,
-                                 "y" : 453,
+                                 "x" : 151,
+                                 "y" : 337,
                                  "width" : 44,
                                  "height" : 36
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/243.png",
-                                 "frame" : {
-                                    "x" : 166,
-                                    "y" : 453,
-                                    "width" : 44,
-                                    "height" : 36
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "242",
-                              "name" : "Group_16_3",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 53,
-                                 "y" : 398,
-                                 "width" : 300,
-                                 "height" : 18
-                              },
-                              "children" : [],
-                              "kind" : "group",
-                              "imageType" : "png",
-                              "image" : {
-                                 "path" : "images/242.png",
-                                 "frame" : {
-                                    "x" : 53,
-                                    "y" : 398,
-                                    "width" : 300,
-                                    "height" : 18
-                                 }
-                              }
-                           },
-                           {
-                              "objectId" : "241",
-                              "name" : "Reglerlinie",
-                              "visible" : true,
-                              "maskFrame" : null,
-                              "layerFrame" : {
-                                 "x" : 30,
-                                 "y" : 459,
-                                 "width" : 345,
-                                 "height" : 23
                               },
                               "children" : [],
                               "kind" : "group",
@@ -15541,8 +15459,56 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "image" : {
                                  "path" : "images/241.png",
                                  "frame" : {
-                                    "x" : 30,
-                                    "y" : 459,
+                                    "x" : 151,
+                                    "y" : 337,
+                                    "width" : 44,
+                                    "height" : 36
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "240",
+                              "name" : "Group_16_3",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 38,
+                                 "y" : 282,
+                                 "width" : 300,
+                                 "height" : 18
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/240.png",
+                                 "frame" : {
+                                    "x" : 38,
+                                    "y" : 282,
+                                    "width" : 300,
+                                    "height" : 18
+                                 }
+                              }
+                           },
+                           {
+                              "objectId" : "239",
+                              "name" : "Reglerlinie",
+                              "visible" : true,
+                              "maskFrame" : null,
+                              "layerFrame" : {
+                                 "x" : 15,
+                                 "y" : 343,
+                                 "width" : 345,
+                                 "height" : 23
+                              },
+                              "children" : [],
+                              "kind" : "group",
+                              "imageType" : "png",
+                              "image" : {
+                                 "path" : "images/239.png",
+                                 "frame" : {
+                                    "x" : 15,
+                                    "y" : 343,
                                     "width" : 345,
                                     "height" : 23
                                  }
@@ -15555,7 +15521,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group"
                },
                {
-                  "objectId" : "240",
+                  "objectId" : "238",
                   "name" : "GW_zu",
                   "visible" : true,
                   "maskFrame" : null,
@@ -15567,7 +15533,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "239",
+                        "objectId" : "237",
                         "name" : "CM_def",
                         "visible" : true,
                         "maskFrame" : null,
@@ -15579,7 +15545,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         },
                         "children" : [
                            {
-                              "objectId" : "238",
+                              "objectId" : "236",
                               "name" : "Group_11_9",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15593,7 +15559,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/238.png",
+                                 "path" : "images/236.png",
                                  "frame" : {
                                     "x" : 38,
                                     "y" : 457,
@@ -15603,7 +15569,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               }
                            },
                            {
-                              "objectId" : "237",
+                              "objectId" : "235",
                               "name" : "Group_18_2",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15617,7 +15583,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/237.png",
+                                 "path" : "images/235.png",
                                  "frame" : {
                                     "x" : 288,
                                     "y" : 459,
@@ -15630,7 +15596,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "236",
+                        "objectId" : "234",
                         "name" : "SD_def",
                         "visible" : true,
                         "maskFrame" : null,
@@ -15642,7 +15608,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         },
                         "children" : [
                            {
-                              "objectId" : "235",
+                              "objectId" : "233",
                               "name" : "Group_12_7",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15656,7 +15622,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/235.png",
+                                 "path" : "images/233.png",
                                  "frame" : {
                                     "x" : 38,
                                     "y" : 372,
@@ -15666,7 +15632,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               }
                            },
                            {
-                              "objectId" : "234",
+                              "objectId" : "232",
                               "name" : "Group_19_2",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15680,7 +15646,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/234.png",
+                                 "path" : "images/232.png",
                                  "frame" : {
                                     "x" : 288,
                                     "y" : 373,
@@ -15693,7 +15659,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "233",
+                        "objectId" : "231",
                         "name" : "radon_def",
                         "visible" : true,
                         "maskFrame" : null,
@@ -15705,7 +15671,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         },
                         "children" : [
                            {
-                              "objectId" : "232",
+                              "objectId" : "230",
                               "name" : "Group_13_6",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15719,7 +15685,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/232.png",
+                                 "path" : "images/230.png",
                                  "frame" : {
                                     "x" : 39,
                                     "y" : 290,
@@ -15729,7 +15695,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               }
                            },
                            {
-                              "objectId" : "231",
+                              "objectId" : "229",
                               "name" : "Group_20_2",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15743,7 +15709,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/231.png",
+                                 "path" : "images/229.png",
                                  "frame" : {
                                     "x" : 288,
                                     "y" : 291,
@@ -15756,7 +15722,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group"
                      },
                      {
-                        "objectId" : "230",
+                        "objectId" : "228",
                         "name" : "ND_def",
                         "visible" : true,
                         "maskFrame" : null,
@@ -15768,7 +15734,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         },
                         "children" : [
                            {
-                              "objectId" : "229",
+                              "objectId" : "227",
                               "name" : "Group_10_11",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15782,7 +15748,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/229.png",
+                                 "path" : "images/227.png",
                                  "frame" : {
                                     "x" : 39,
                                     "y" : 539,
@@ -15795,7 +15761,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/230.png",
+                           "path" : "images/228.png",
                            "frame" : {
                               "x" : 39,
                               "y" : 539,
@@ -15805,7 +15771,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "228",
+                        "objectId" : "226",
                         "name" : "ozon_def",
                         "visible" : true,
                         "maskFrame" : null,
@@ -15817,7 +15783,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         },
                         "children" : [
                            {
-                              "objectId" : "227",
+                              "objectId" : "225",
                               "name" : "Group_14_7",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15831,7 +15797,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/227.png",
+                                 "path" : "images/225.png",
                                  "frame" : {
                                     "x" : 38,
                                     "y" : 207,
@@ -15844,7 +15810,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/228.png",
+                           "path" : "images/226.png",
                            "frame" : {
                               "x" : 38,
                               "y" : 207,
@@ -15854,7 +15820,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "226",
+                        "objectId" : "224",
                         "name" : "PM_def",
                         "visible" : true,
                         "maskFrame" : null,
@@ -15866,7 +15832,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         },
                         "children" : [
                            {
-                              "objectId" : "225",
+                              "objectId" : "223",
                               "name" : "Group_22_2",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15880,7 +15846,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/225.png",
+                                 "path" : "images/223.png",
                                  "frame" : {
                                     "x" : 288,
                                     "y" : 124,
@@ -15890,7 +15856,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               }
                            },
                            {
-                              "objectId" : "224",
+                              "objectId" : "222",
                               "name" : "Group_23_2",
                               "visible" : true,
                               "maskFrame" : null,
@@ -15904,7 +15870,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                               "kind" : "group",
                               "imageType" : "png",
                               "image" : {
-                                 "path" : "images/224.png",
+                                 "path" : "images/222.png",
                                  "frame" : {
                                     "x" : 39,
                                     "y" : 122,
@@ -15927,7 +15893,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "313",
+      "objectId" : "312",
       "name" : "Sensoreinstellungen",
       "visible" : true,
       "maskFrame" : {
@@ -15944,7 +15910,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "312",
+            "objectId" : "311",
             "name" : "Sensor_rest",
             "visible" : true,
             "maskFrame" : null,
@@ -15956,7 +15922,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "311",
+                  "objectId" : "310",
                   "name" : "Topline_12",
                   "visible" : true,
                   "maskFrame" : null,
@@ -15970,7 +15936,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/311.png",
+                     "path" : "images/310.png",
                      "frame" : {
                         "x" : 15,
                         "y" : 82,
@@ -15980,7 +15946,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "310",
+                  "objectId" : "309",
                   "name" : "Sensorset",
                   "visible" : true,
                   "maskFrame" : null,
@@ -15994,7 +15960,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/310.png",
+                     "path" : "images/309.png",
                      "frame" : {
                         "x" : 109,
                         "y" : 49,
@@ -16004,7 +15970,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "309",
+                  "objectId" : "308",
                   "name" : "Kreuz_7",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16018,7 +15984,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/309.png",
+                     "path" : "images/308.png",
                      "frame" : {
                         "x" : 176,
                         "y" : 616,
@@ -16028,7 +15994,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "308",
+                  "objectId" : "307",
                   "name" : "Group_10_12",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16042,7 +16008,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/308.png",
+                     "path" : "images/307.png",
                      "frame" : {
                         "x" : 126,
                         "y" : 457,
@@ -16052,7 +16018,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "307",
+                  "objectId" : "306",
                   "name" : "Group_11_12",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16066,7 +16032,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/307.png",
+                     "path" : "images/306.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 372,
@@ -16076,7 +16042,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "306",
+                  "objectId" : "305",
                   "name" : "Group_12_10",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16090,7 +16056,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/306.png",
+                     "path" : "images/305.png",
                      "frame" : {
                         "x" : 39,
                         "y" : 290,
@@ -16100,7 +16066,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "305",
+                  "objectId" : "304",
                   "name" : "Group_13_9",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16114,7 +16080,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/305.png",
+                     "path" : "images/304.png",
                      "frame" : {
                         "x" : 39,
                         "y" : 207,
@@ -16124,7 +16090,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "304",
+                  "objectId" : "303",
                   "name" : "Group_16_6",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16138,7 +16104,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/304.png",
+                     "path" : "images/303.png",
                      "frame" : {
                         "x" : 284,
                         "y" : 373,
@@ -16148,7 +16114,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "303",
+                  "objectId" : "302",
                   "name" : "Group_17_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16162,7 +16128,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/303.png",
+                     "path" : "images/302.png",
                      "frame" : {
                         "x" : 284,
                         "y" : 291,
@@ -16172,7 +16138,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "302",
+                  "objectId" : "301",
                   "name" : "Group_18_1",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16186,7 +16152,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/302.png",
+                     "path" : "images/301.png",
                      "frame" : {
                         "x" : 284,
                         "y" : 124,
@@ -16196,7 +16162,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "301",
+                  "objectId" : "300",
                   "name" : "Group_18_4",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16210,7 +16176,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/301.png",
+                     "path" : "images/300.png",
                      "frame" : {
                         "x" : 284,
                         "y" : 209,
@@ -16220,7 +16186,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "300",
+                  "objectId" : "299",
                   "name" : "Group_19_3_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16234,7 +16200,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/300.png",
+                     "path" : "images/299.png",
                      "frame" : {
                         "x" : 269,
                         "y" : 373,
@@ -16244,7 +16210,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "299",
+                  "objectId" : "298",
                   "name" : "Group_19_2_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16258,7 +16224,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/299.png",
+                     "path" : "images/298.png",
                      "frame" : {
                         "x" : 269,
                         "y" : 291,
@@ -16268,7 +16234,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "298",
+                  "objectId" : "297",
                   "name" : "Group_19_1",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16282,7 +16248,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/298.png",
+                     "path" : "images/297.png",
                      "frame" : {
                         "x" : 269,
                         "y" : 209,
@@ -16292,7 +16258,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "297",
+                  "objectId" : "296",
                   "name" : "Group_19_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16306,7 +16272,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/297.png",
+                     "path" : "images/296.png",
                      "frame" : {
                         "x" : 269,
                         "y" : 124,
@@ -16316,7 +16282,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "296",
+                  "objectId" : "295",
                   "name" : "Group_20_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16330,7 +16296,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/296.png",
+                     "path" : "images/295.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 122,
@@ -16347,7 +16313,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "319",
+      "objectId" : "318",
       "name" : "Loading",
       "visible" : true,
       "maskFrame" : {
@@ -16364,7 +16330,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "318",
+            "objectId" : "317",
             "name" : "Icon_L",
             "visible" : true,
             "maskFrame" : null,
@@ -16376,7 +16342,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "317",
+                  "objectId" : "316",
                   "name" : "Kreis_4",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16390,7 +16356,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/317.png",
+                     "path" : "images/316.png",
                      "frame" : {
                         "x" : 226,
                         "y" : 249,
@@ -16400,7 +16366,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "316",
+                  "objectId" : "315",
                   "name" : "Kreis_3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16414,7 +16380,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/316.png",
+                     "path" : "images/315.png",
                      "frame" : {
                         "x" : 196,
                         "y" : 249,
@@ -16424,7 +16390,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "315",
+                  "objectId" : "314",
                   "name" : "Kreis_2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16438,7 +16404,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/315.png",
+                     "path" : "images/314.png",
                      "frame" : {
                         "x" : 167,
                         "y" : 249,
@@ -16448,7 +16414,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "314",
+                  "objectId" : "313",
                   "name" : "Kreis",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16462,7 +16428,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/314.png",
+                     "path" : "images/313.png",
                      "frame" : {
                         "x" : 137,
                         "y" : 249,
@@ -16479,7 +16445,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       "backgroundColor" : "rgba(1.00000, 1.00000, 1.00000, 1.00000)"
    },
    {
-      "objectId" : "337",
+      "objectId" : "336",
       "name" : "Sensoreinstellungen_plus",
       "visible" : true,
       "maskFrame" : {
@@ -16496,7 +16462,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
       },
       "children" : [
          {
-            "objectId" : "336",
+            "objectId" : "335",
             "name" : "no_sensor",
             "visible" : true,
             "maskFrame" : null,
@@ -16508,7 +16474,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             },
             "children" : [
                {
-                  "objectId" : "335",
+                  "objectId" : "334",
                   "name" : "Topline_14",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16522,7 +16488,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/335.png",
+                     "path" : "images/334.png",
                      "frame" : {
                         "x" : 15,
                         "y" : 165,
@@ -16532,7 +16498,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "334",
+                  "objectId" : "333",
                   "name" : "Group_11.2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -16546,7 +16512,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/334.png",
+                     "path" : "images/333.png",
                      "frame" : {
                         "x" : 85,
                         "y" : 132,
@@ -16559,7 +16525,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "333",
+            "objectId" : "332",
             "name" : "Topline_13",
             "visible" : true,
             "maskFrame" : null,
@@ -16573,7 +16539,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/333.png",
+               "path" : "images/332.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
@@ -16583,7 +16549,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "332",
+            "objectId" : "331",
             "name" : "Sensorset_2",
             "visible" : true,
             "maskFrame" : null,
@@ -16597,7 +16563,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/332.png",
+               "path" : "images/331.png",
                "frame" : {
                   "x" : 109,
                   "y" : 49,
@@ -16607,7 +16573,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "331",
+            "objectId" : "330",
             "name" : "Kreuz_8",
             "visible" : true,
             "maskFrame" : null,
@@ -16621,7 +16587,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/331.png",
+               "path" : "images/330.png",
                "frame" : {
                   "x" : 176,
                   "y" : 616,
@@ -16631,7 +16597,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "330",
+            "objectId" : "329",
             "name" : "Group_10_13",
             "visible" : true,
             "maskFrame" : null,
@@ -16645,7 +16611,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/330.png",
+               "path" : "images/329.png",
                "frame" : {
                   "x" : 126,
                   "y" : 538,
@@ -16655,7 +16621,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "329",
+            "objectId" : "328",
             "name" : "Group_11.1_2",
             "visible" : true,
             "maskFrame" : null,
@@ -16669,7 +16635,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/329.png",
+               "path" : "images/328.png",
                "frame" : {
                   "x" : 37,
                   "y" : 455,
@@ -16679,7 +16645,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "328",
+            "objectId" : "327",
             "name" : "Group_11_13",
             "visible" : true,
             "maskFrame" : null,
@@ -16693,7 +16659,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/328.png",
+               "path" : "images/327.png",
                "frame" : {
                   "x" : 37,
                   "y" : 372,
@@ -16703,7 +16669,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "327",
+            "objectId" : "326",
             "name" : "Group_12_11",
             "visible" : true,
             "maskFrame" : null,
@@ -16717,7 +16683,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/327.png",
+               "path" : "images/326.png",
                "frame" : {
                   "x" : 39,
                   "y" : 290,
@@ -16727,7 +16693,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "326",
+            "objectId" : "325",
             "name" : "Group_13_10",
             "visible" : true,
             "maskFrame" : null,
@@ -16741,7 +16707,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/326.png",
+               "path" : "images/325.png",
                "frame" : {
                   "x" : 39,
                   "y" : 207,
@@ -16751,7 +16717,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "325",
+            "objectId" : "324",
             "name" : "Group_16_7",
             "visible" : true,
             "maskFrame" : null,
@@ -16765,7 +16731,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/325.png",
+               "path" : "images/324.png",
                "frame" : {
                   "x" : 284,
                   "y" : 373,
@@ -16775,7 +16741,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "324",
+            "objectId" : "323",
             "name" : "Group_17_3",
             "visible" : true,
             "maskFrame" : null,
@@ -16789,7 +16755,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/324.png",
+               "path" : "images/323.png",
                "frame" : {
                   "x" : 284,
                   "y" : 291,
@@ -16799,7 +16765,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "323",
+            "objectId" : "322",
             "name" : "Group_18_1_2",
             "visible" : true,
             "maskFrame" : null,
@@ -16813,7 +16779,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/323.png",
+               "path" : "images/322.png",
                "frame" : {
                   "x" : 284,
                   "y" : 124,
@@ -16823,7 +16789,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "322",
+            "objectId" : "321",
             "name" : "Group_18_5",
             "visible" : true,
             "maskFrame" : null,
@@ -16837,7 +16803,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/322.png",
+               "path" : "images/321.png",
                "frame" : {
                   "x" : 284,
                   "y" : 209,
@@ -16847,7 +16813,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "321",
+            "objectId" : "320",
             "name" : "Group_19_1_2",
             "visible" : true,
             "maskFrame" : null,
@@ -16861,7 +16827,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/321.png",
+               "path" : "images/320.png",
                "frame" : {
                   "x" : 269,
                   "y" : 456,
@@ -16871,7 +16837,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "320",
+            "objectId" : "319",
             "name" : "Group_20_4",
             "visible" : true,
             "maskFrame" : null,
@@ -16885,7 +16851,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/320.png",
+               "path" : "images/319.png",
                "frame" : {
                   "x" : 37,
                   "y" : 122,
@@ -17004,14 +16970,33 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "visible" : true,
             "maskFrame" : null,
             "layerFrame" : {
-               "x" : 36,
+               "x" : 15,
                "y" : 112,
-               "width" : 302,
-               "height" : 791
+               "width" : 345,
+               "height" : 929
             },
             "children" : [
                {
                   "objectId" : "373",
+                  "name" : "Whitespacenotif",
+                  "visible" : true,
+                  "maskFrame" : {
+                     "x" : 15,
+                     "y" : 947,
+                     "width" : 345,
+                     "height" : 94
+                  },
+                  "layerFrame" : {
+                     "x" : 15,
+                     "y" : 946,
+                     "width" : 345,
+                     "height" : 95
+                  },
+                  "children" : [],
+                  "kind" : "group"
+               },
+               {
+                  "objectId" : "372",
                   "name" : "Slide",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17023,7 +17008,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "372",
+                        "objectId" : "371",
                         "name" : "knob_8",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17037,7 +17022,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/372.png",
+                           "path" : "images/371.png",
                            "frame" : {
                               "x" : 308,
                               "y" : 187,
@@ -17047,7 +17032,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "371",
+                        "objectId" : "370",
                         "name" : "fillb_8",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17061,7 +17046,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/371.png",
+                           "path" : "images/370.png",
                            "frame" : {
                               "x" : 288,
                               "y" : 186,
@@ -17074,7 +17059,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/373.png",
+                     "path" : "images/372.png",
                      "frame" : {
                         "x" : 287,
                         "y" : 185,
@@ -17084,7 +17069,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "370",
+                  "objectId" : "369",
                   "name" : "SlideND",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17096,7 +17081,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "369",
+                        "objectId" : "368",
                         "name" : "knob_7",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17110,7 +17095,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/369.png",
+                           "path" : "images/368.png",
                            "frame" : {
                               "x" : 308,
                               "y" : 530,
@@ -17120,7 +17105,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "368",
+                        "objectId" : "367",
                         "name" : "fillb_7",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17134,7 +17119,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/368.png",
+                           "path" : "images/367.png",
                            "frame" : {
                               "x" : 288,
                               "y" : 529,
@@ -17147,7 +17132,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/370.png",
+                     "path" : "images/369.png",
                      "frame" : {
                         "x" : 287,
                         "y" : 528,
@@ -17157,7 +17142,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "367",
+                  "objectId" : "366",
                   "name" : "SlideRV",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17169,7 +17154,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "366",
+                        "objectId" : "365",
                         "name" : "knob_6",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17183,7 +17168,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/366.png",
+                           "path" : "images/365.png",
                            "frame" : {
                               "x" : 308,
                               "y" : 873,
@@ -17193,7 +17178,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "365",
+                        "objectId" : "364",
                         "name" : "fillb_6",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17207,7 +17192,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/365.png",
+                           "path" : "images/364.png",
                            "frame" : {
                               "x" : 288,
                               "y" : 872,
@@ -17220,7 +17205,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/367.png",
+                     "path" : "images/366.png",
                      "frame" : {
                         "x" : 287,
                         "y" : 871,
@@ -17230,7 +17215,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "364",
+                  "objectId" : "363",
                   "name" : "SlideAI",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17242,7 +17227,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "363",
+                        "objectId" : "362",
                         "name" : "knob_5",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17256,7 +17241,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/363.png",
+                           "path" : "images/362.png",
                            "frame" : {
                               "x" : 308,
                               "y" : 704,
@@ -17266,7 +17251,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "362",
+                        "objectId" : "361",
                         "name" : "fillb_5",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17280,7 +17265,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/362.png",
+                           "path" : "images/361.png",
                            "frame" : {
                               "x" : 288,
                               "y" : 703,
@@ -17293,7 +17278,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/364.png",
+                     "path" : "images/363.png",
                      "frame" : {
                         "x" : 287,
                         "y" : 702,
@@ -17303,7 +17288,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "361",
+                  "objectId" : "360",
                   "name" : "SlideR",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17315,7 +17300,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "360",
+                        "objectId" : "359",
                         "name" : "knob_4",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17329,7 +17314,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/360.png",
+                           "path" : "images/359.png",
                            "frame" : {
                               "x" : 308,
                               "y" : 618,
@@ -17339,7 +17324,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "359",
+                        "objectId" : "358",
                         "name" : "fillb_4",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17353,7 +17338,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/359.png",
+                           "path" : "images/358.png",
                            "frame" : {
                               "x" : 288,
                               "y" : 617,
@@ -17366,7 +17351,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/361.png",
+                     "path" : "images/360.png",
                      "frame" : {
                         "x" : 287,
                         "y" : 616,
@@ -17376,7 +17361,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "358",
+                  "objectId" : "357",
                   "name" : "SlideCM",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17388,7 +17373,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "357",
+                        "objectId" : "356",
                         "name" : "knob_3",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17402,7 +17387,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/357.png",
+                           "path" : "images/356.png",
                            "frame" : {
                               "x" : 308,
                               "y" : 443,
@@ -17412,7 +17397,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "356",
+                        "objectId" : "355",
                         "name" : "fillb_3",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17426,7 +17411,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/356.png",
+                           "path" : "images/355.png",
                            "frame" : {
                               "x" : 288,
                               "y" : 442,
@@ -17439,7 +17424,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/358.png",
+                     "path" : "images/357.png",
                      "frame" : {
                         "x" : 287,
                         "y" : 441,
@@ -17449,7 +17434,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "355",
+                  "objectId" : "354",
                   "name" : "SlideO",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17461,7 +17446,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "354",
+                        "objectId" : "353",
                         "name" : "knob_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17475,7 +17460,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/354.png",
+                           "path" : "images/353.png",
                            "frame" : {
                               "x" : 308,
                               "y" : 268,
@@ -17485,7 +17470,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "353",
+                        "objectId" : "352",
                         "name" : "fillb_2",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17499,7 +17484,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/353.png",
+                           "path" : "images/352.png",
                            "frame" : {
                               "x" : 288,
                               "y" : 267,
@@ -17512,7 +17497,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/355.png",
+                     "path" : "images/354.png",
                      "frame" : {
                         "x" : 287,
                         "y" : 266,
@@ -17522,7 +17507,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "352",
+                  "objectId" : "351",
                   "name" : "SlideSD",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17534,7 +17519,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   },
                   "children" : [
                      {
-                        "objectId" : "351",
+                        "objectId" : "350",
                         "name" : "knob",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17548,7 +17533,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/351.png",
+                           "path" : "images/350.png",
                            "frame" : {
                               "x" : 308,
                               "y" : 356,
@@ -17558,7 +17543,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         }
                      },
                      {
-                        "objectId" : "350",
+                        "objectId" : "349",
                         "name" : "fillb",
                         "visible" : true,
                         "maskFrame" : null,
@@ -17572,7 +17557,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                         "kind" : "group",
                         "imageType" : "png",
                         "image" : {
-                           "path" : "images/350.png",
+                           "path" : "images/349.png",
                            "frame" : {
                               "x" : 288,
                               "y" : 355,
@@ -17585,7 +17570,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/352.png",
+                     "path" : "images/351.png",
                      "frame" : {
                         "x" : 287,
                         "y" : 354,
@@ -17595,7 +17580,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "349",
+                  "objectId" : "348",
                   "name" : "Group_24",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17609,7 +17594,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/349.png",
+                     "path" : "images/348.png",
                      "frame" : {
                         "x" : 38,
                         "y" : 801,
@@ -17619,7 +17604,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "348",
+                  "objectId" : "347",
                   "name" : "Group_2.9",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17633,7 +17618,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/348.png",
+                     "path" : "images/347.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 882,
@@ -17643,7 +17628,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "347",
+                  "objectId" : "346",
                   "name" : "Group_2.8",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17657,7 +17642,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/347.png",
+                     "path" : "images/346.png",
                      "frame" : {
                         "x" : 36,
                         "y" : 713,
@@ -17667,7 +17652,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "346",
+                  "objectId" : "345",
                   "name" : "Group_2.7",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17681,7 +17666,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/346.png",
+                     "path" : "images/345.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 539,
@@ -17691,7 +17676,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "345",
+                  "objectId" : "344",
                   "name" : "Group_2.6",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17705,7 +17690,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/345.png",
+                     "path" : "images/344.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 452,
@@ -17715,7 +17700,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "344",
+                  "objectId" : "343",
                   "name" : "Group_2.5",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17729,7 +17714,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/344.png",
+                     "path" : "images/343.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 365,
@@ -17739,7 +17724,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "343",
+                  "objectId" : "342",
                   "name" : "Group_2.4",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17753,7 +17738,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/343.png",
+                     "path" : "images/342.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 626,
@@ -17763,7 +17748,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "342",
+                  "objectId" : "341",
                   "name" : "Group_2.3",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17777,7 +17762,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/342.png",
+                     "path" : "images/341.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 278,
@@ -17787,7 +17772,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "341",
+                  "objectId" : "340",
                   "name" : "Group_2.2",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17801,7 +17786,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/341.png",
+                     "path" : "images/340.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 112,
@@ -17811,7 +17796,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   }
                },
                {
-                  "objectId" : "340",
+                  "objectId" : "339",
                   "name" : "Group_2.1",
                   "visible" : true,
                   "maskFrame" : null,
@@ -17825,7 +17810,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
                   "kind" : "group",
                   "imageType" : "png",
                   "image" : {
-                     "path" : "images/340.png",
+                     "path" : "images/339.png",
                      "frame" : {
                         "x" : 37,
                         "y" : 196,
@@ -17838,7 +17823,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group"
          },
          {
-            "objectId" : "339",
+            "objectId" : "338",
             "name" : "head_Notif",
             "visible" : true,
             "maskFrame" : null,
@@ -17852,7 +17837,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/339.png",
+               "path" : "images/338.png",
                "frame" : {
                   "x" : 123,
                   "y" : 49,
@@ -17862,7 +17847,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             }
          },
          {
-            "objectId" : "338",
+            "objectId" : "337",
             "name" : "Topline_15",
             "visible" : true,
             "maskFrame" : null,
@@ -17876,7 +17861,7 @@ window.__imported__['Framer Light Janos (Page 1)@2x/layers.json.js'] = [
             "kind" : "group",
             "imageType" : "png",
             "image" : {
-               "path" : "images/338.png",
+               "path" : "images/337.png",
                "frame" : {
                   "x" : 15,
                   "y" : 82,
