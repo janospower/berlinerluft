@@ -2,6 +2,16 @@
 
 Value Driven Graphics Prototype
 
+## Design Files
+
+The static designs, wireframes and more can be accessed at
+
+* [Figma project #1](https://www.figma.com/file/VAPQAmvQK9DfR0SLiJCDibYH/Value-Driven-Graphics-%E2%80%93-Hauptprojekt)
+
+and
+
+* [Figma project #2](https://www.figma.com/file/NUeDPYbKkxPZyWnSdh2WOQYO/Framer-Light-Janos)
+
 ## Known Quirks and Issues
 
 Please read before running:
@@ -21,9 +31,9 @@ Please read before running:
 
 ## Contributors
 
-* [**Philine Schell**](mailto:philine@borderstep.net)
+* [**Philine Schell 558968**](mailto:philine@borderstep.net)
 
-* [**Janos Pauer**](mailto:me@janospauer.com)
+* [**Janos Pauer 558011**](mailto:me@janospauer.com)
 
 ## Built With
 
